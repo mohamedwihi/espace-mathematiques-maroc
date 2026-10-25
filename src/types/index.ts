@@ -103,6 +103,8 @@ export interface Lesson {
   reviewed: boolean;
   featured?: boolean;
   keywords: string[];
+  /** Origine du contenu (ex. fiche pédagogique d'un enseignant), affichée sur la page du cours. */
+  source?: Localized;
 }
 
 /* ---------- Exercices ---------- */
@@ -126,6 +128,12 @@ export interface Exercise {
   question: Question;
   hints: Localized[];
   solution: Localized[];
+}
+
+/** Un cours et ses exercices dans un même fichier. */
+export interface LessonModule {
+  lesson: Lesson;
+  exercises: Exercise[];
 }
 
 /* ---------- Devoirs et examens ---------- */

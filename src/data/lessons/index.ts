@@ -1,5 +1,5 @@
 import type { Lesson } from '@/types';
-import { lesson1acRelative } from './1ac-relative-numbers';
+import { modules1ac } from './1ac';
 import { lesson2acPowers } from './2ac-powers';
 import { lesson2acPythagoras } from './2ac-pythagoras';
 import { lesson3acSystems } from './3ac-systems';
@@ -13,7 +13,7 @@ import { lesson2bacIntegrals } from './2bac-integrals';
  * puis ajoutez-le à cette liste. Laissez `reviewed: false` tant qu'un enseignant ne l'a pas relu.
  */
 export const lessons: Lesson[] = [
-  lesson1acRelative,
+  ...modules1ac.map((m) => m.lesson),
   lesson2acPowers,
   lesson2acPythagoras,
   lesson3acSystems,

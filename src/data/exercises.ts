@@ -1,104 +1,13 @@
 import type { Exercise } from '@/types';
+import { modules1ac } from './lessons/1ac';
 
 /**
  * Exercices corrigés. Chaque exercice est rattaché à un cours (lessonId).
  * Types : 'mcq' (QCM, index de la bonne réponse), 'numeric' (réponse numérique avec tolérance), 'open' (auto-évaluation).
  */
 export const exercises: Exercise[] = [
-  /* ---------------- 1AC — Nombres relatifs ---------------- */
-  {
-    id: '1ac-rel-01',
-    lessonId: '1ac-relative-numbers',
-    levelId: '1ac',
-    difficulty: 1,
-    topic: 'arithmetic',
-    title: { ar: 'أكبر عدد', fr: 'Le plus grand nombre' },
-    statement: { ar: 'ما هو أكبر عدد من بين الأعداد التالية؟', fr: 'Quel est le plus grand des nombres suivants ?' },
-    question: {
-      type: 'mcq',
-      options: [{ ar: '$-7$', fr: '$-7$' }, { ar: '$-2{,}5$', fr: '$-2{,}5$' }, { ar: '$-3$', fr: '$-3$' }, { ar: '$-10$', fr: '$-10$' }],
-      correct: 1,
-    },
-    hints: [{ ar: 'كل الأعداد سالبة: الأكبر هو الأقرب إلى الصفر.', fr: 'Tous les nombres sont négatifs : le plus grand est le plus proche de zéro.' }],
-    solution: [
-      { ar: 'المسافات إلى الصفر: $7$ و $2{,}5$ و $3$ و $10$.', fr: 'Distances à zéro : $7$, $2{,}5$, $3$ et $10$.' },
-      { ar: 'أصغر مسافة هي $2{,}5$، إذن أكبر عدد هو $-2{,}5$.', fr: 'La plus petite distance est $2{,}5$, donc le plus grand nombre est $-2{,}5$.' },
-    ],
-  },
-  {
-    id: '1ac-rel-02',
-    lessonId: '1ac-relative-numbers',
-    levelId: '1ac',
-    difficulty: 1,
-    topic: 'arithmetic',
-    title: { ar: 'مجموع جبري', fr: 'Somme algébrique' },
-    statement: { ar: 'احسب $A=(-7)+(+3)-(-5)$.', fr: 'Calculer $A=(-7)+(+3)-(-5)$.' },
-    question: { type: 'numeric', answer: 1 },
-    hints: [
-      { ar: 'طرح $-5$ يعني إضافة $+5$.', fr: 'Soustraire $-5$ revient à ajouter $+5$.' },
-      { ar: '$A=-7+3+5$.', fr: '$A=-7+3+5$.' },
-    ],
-    solution: [
-      { ar: '$A=(-7)+(+3)+(+5)$.', fr: '$A=(-7)+(+3)+(+5)$.' },
-      { ar: 'الأعداد الموجبة: $3+5=8$، إذن $A=-7+8=1$.', fr: 'Termes positifs : $3+5=8$, donc $A=-7+8=1$.' },
-    ],
-  },
-  {
-    id: '1ac-rel-03',
-    lessonId: '1ac-relative-numbers',
-    levelId: '1ac',
-    difficulty: 2,
-    topic: 'arithmetic',
-    title: { ar: 'أعداد عشرية نسبية', fr: 'Décimaux relatifs' },
-    statement: { ar: 'احسب $B=-4{,}5+2{,}3-(-1{,}2)-6$.', fr: 'Calculer $B=-4{,}5+2{,}3-(-1{,}2)-6$.' },
-    question: { type: 'numeric', answer: -7, tolerance: 1e-9 },
-    hints: [{ ar: 'حوّل الطرح إلى جمع المقابل ثم اجمع الموجبة والسالبة على حدة.', fr: 'Transformez les soustractions puis regroupez positifs et négatifs.' }],
-    solution: [
-      { ar: '$B=-4{,}5+2{,}3+1{,}2-6$.', fr: '$B=-4{,}5+2{,}3+1{,}2-6$.' },
-      { ar: 'الموجبة: $2{,}3+1{,}2=3{,}5$. السالبة: $-4{,}5-6=-10{,}5$.', fr: 'Positifs : $2{,}3+1{,}2=3{,}5$. Négatifs : $-4{,}5-6=-10{,}5$.' },
-      { ar: '$B=3{,}5-10{,}5=-7$.', fr: '$B=3{,}5-10{,}5=-7$.' },
-    ],
-  },
-  {
-    id: '1ac-rel-04',
-    lessonId: '1ac-relative-numbers',
-    levelId: '1ac',
-    difficulty: 2,
-    topic: 'arithmetic',
-    title: { ar: 'درجة الحرارة', fr: 'La température' },
-    statement: {
-      ar: 'كانت درجة الحرارة صباحاً $-6^\\circ\\text{C}$ في إفران، ثم ارتفعت بـ $9^\\circ$ عند الظهر، ثم انخفضت بـ $5^\\circ$ مساءً. ما درجة الحرارة مساءً؟ (بـ $^\\circ\\text{C}$)',
-      fr: 'À Ifrane, il faisait $-6^\\circ\\text{C}$ le matin ; la température a augmenté de $9^\\circ$ à midi puis baissé de $5^\\circ$ le soir. Quelle température faisait-il le soir ? (en $^\\circ\\text{C}$)',
-    },
-    question: { type: 'numeric', answer: -2, unit: '°C' },
-    hints: [{ ar: 'ترجم الوضعية إلى $-6+9-5$.', fr: 'Traduisez la situation par $-6+9-5$.' }],
-    solution: [
-      { ar: 'عند الظهر: $-6+9=3$.', fr: 'À midi : $-6+9=3$.' },
-      { ar: 'مساءً: $3-5=-2$. إذن درجة الحرارة $-2^\\circ\\text{C}$.', fr: 'Le soir : $3-5=-2$. Il faisait donc $-2^\\circ\\text{C}$.' },
-    ],
-  },
-  {
-    id: '1ac-rel-05',
-    lessonId: '1ac-relative-numbers',
-    levelId: '1ac',
-    difficulty: 3,
-    topic: 'arithmetic',
-    title: { ar: 'ترتيب أعداد', fr: 'Ranger des nombres' },
-    statement: {
-      ar: 'رتّب ترتيباً تزايدياً الأعداد: $3{,}2$ ؛ $-1{,}5$ ؛ $0$ ؛ $-4$ ؛ $2$ ؛ $-1{,}05$.',
-      fr: 'Ranger dans l’ordre croissant : $3{,}2$ ; $-1{,}5$ ; $0$ ; $-4$ ; $2$ ; $-1{,}05$.',
-    },
-    question: { type: 'open' },
-    hints: [
-      { ar: 'ابدأ بالأعداد السالبة: الأبعد عن الصفر هو الأصغر.', fr: 'Commencez par les négatifs : le plus éloigné de zéro est le plus petit.' },
-      { ar: 'قارن $-1{,}5$ و $-1{,}05$: أيهما أقرب إلى الصفر؟', fr: 'Comparez $-1{,}5$ et $-1{,}05$ : lequel est le plus proche de zéro ?' },
-    ],
-    solution: [
-      { ar: 'الأعداد السالبة: $-4<-1{,}5<-1{,}05$ لأن $1{,}05<1{,}5<4$.', fr: 'Négatifs : $-4<-1{,}5<-1{,}05$ car $1{,}05<1{,}5<4$.' },
-      { ar: 'ثم $0$، ثم الموجبة: $2<3{,}2$.', fr: 'Puis $0$, puis les positifs : $2<3{,}2$.' },
-      { ar: '$-4<-1{,}5<-1{,}05<0<2<3{,}2$.', fr: '$-4<-1{,}5<-1{,}05<0<2<3{,}2$.' },
-    ],
-  },
+  // 1AC : les exercices sont définis avec chaque cours (src/data/lessons/1ac/)
+  ...modules1ac.flatMap((m) => m.exercises),
 
   /* ---------------- 2AC — Puissances ---------------- */
   {

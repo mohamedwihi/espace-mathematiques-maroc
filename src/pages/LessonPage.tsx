@@ -77,6 +77,12 @@ export default function LessonPage() {
       <div className="container-page grid gap-8 py-8 lg:grid-cols-[1fr_280px]">
         <div className="min-w-0 space-y-8">
           <MathText text={L(lesson.summary)} block className="text-lg text-ink-600" />
+          {lesson.source && (
+            <Notice tone="info">
+              <strong>{t.exams.source} : </strong>
+              {L(lesson.source)}
+            </Notice>
+          )}
           {!lesson.reviewed && <Notice tone="warning">{t.common.notReviewedLong}</Notice>}
 
           <section className="card p-5 sm:p-6" aria-labelledby="objectives">

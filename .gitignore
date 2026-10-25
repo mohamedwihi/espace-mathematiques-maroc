@@ -25,6 +25,9 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
+# Configuration locale de l'assistant
+.claude/
+
 # Déploiement
 .netlify/
 .vercel/
