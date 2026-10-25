@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#136754"/>
+  <g transform="translate(32 32)">
+    <rect x="-17" y="-17" width="34" height="34" rx="3" fill="none" stroke="#fcb94d" stroke-width="3"/>
+    <rect x="-17" y="-17" width="34" height="34" rx="3" fill="none" stroke="#fcb94d" stroke-width="3" transform="rotate(45)"/>
+  </g>
+  <text x="32" y="41" font-family="Georgia, serif" font-size="26" font-weight="700" text-anchor="middle" fill="#ffffff">π</text>
+</svg>

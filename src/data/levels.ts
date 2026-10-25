@@ -1,0 +1,175 @@
+import type { Level } from '@/types';
+
+/**
+ * Niveaux du secondaire marocain et unités du programme.
+ * ⚠️ La liste des unités est INDICATIVE : elle sert à organiser le contenu et doit être
+ * confrontée aux orientations pédagogiques officielles avant toute publication définitive.
+ */
+export const levels: Level[] = [
+  {
+    id: '1ac',
+    cycle: 'college',
+    code: '1AC',
+    name: { ar: 'الأولى إعدادي', fr: '1re année du collège' },
+    description: {
+      ar: 'الأعداد والعمليات، الكسور، الأعداد النسبية، وأساسيات الهندسة المستوية.',
+      fr: 'Nombres et opérations, fractions, nombres relatifs et bases de la géométrie plane.',
+    },
+    streams: [],
+    units: [
+      { id: 'numbers', semester: 1, title: { ar: 'الأعداد الصحيحة الطبيعية والأعداد العشرية', fr: 'Nombres entiers et décimaux' } },
+      { id: 'fractions', semester: 1, title: { ar: 'الكسور', fr: 'Fractions' } },
+      { id: 'relative', semester: 1, title: { ar: 'الأعداد العشرية النسبية', fr: 'Nombres décimaux relatifs' } },
+      { id: 'lines', semester: 1, title: { ar: 'المستقيم ونصف المستقيم والقطعة', fr: 'Droites, demi-droites et segments' } },
+      { id: 'proportion', semester: 2, title: { ar: 'التناسبية', fr: 'Proportionnalité' } },
+      { id: 'angles', semester: 2, title: { ar: 'الزوايا', fr: 'Angles' } },
+      { id: 'triangle', semester: 2, title: { ar: 'المثلث', fr: 'Le triangle' } },
+      { id: 'symmetry', semester: 2, title: { ar: 'التماثل المحوري', fr: 'Symétrie axiale' } },
+      { id: 'stats', semester: 2, title: { ar: 'الإحصاء', fr: 'Statistique' } },
+    ],
+  },
+  {
+    id: '2ac',
+    cycle: 'college',
+    code: '2AC',
+    name: { ar: 'الثانية إعدادي', fr: '2e année du collège' },
+    description: {
+      ar: 'الأعداد الجذرية، القوى، الحساب الحرفي، المعادلات ومبرهنة فيثاغورس.',
+      fr: 'Nombres rationnels, puissances, calcul littéral, équations et théorème de Pythagore.',
+    },
+    streams: [],
+    units: [
+      { id: 'relative-ops', semester: 1, title: { ar: 'الأعداد العشرية النسبية: الضرب والقسمة', fr: 'Relatifs : multiplication et division' } },
+      { id: 'rationals', semester: 1, title: { ar: 'الأعداد الجذرية', fr: 'Nombres rationnels' } },
+      { id: 'powers', semester: 1, title: { ar: 'القوى', fr: 'Puissances' } },
+      { id: 'literal', semester: 1, title: { ar: 'الحساب الحرفي', fr: 'Calcul littéral' } },
+      { id: 'equations', semester: 1, title: { ar: 'المعادلات', fr: 'Équations' } },
+      { id: 'pythagoras', semester: 2, title: { ar: 'مبرهنة فيثاغورس', fr: 'Théorème de Pythagore' } },
+      { id: 'remarkable-lines', semester: 2, title: { ar: 'المستقيمات الهامة في مثلث', fr: 'Droites remarquables du triangle' } },
+      { id: 'cosine', semester: 2, title: { ar: 'جيب تمام زاوية حادة', fr: "Cosinus d'un angle aigu" } },
+      { id: 'proportion', semester: 2, title: { ar: 'التناسبية', fr: 'Proportionnalité' } },
+      { id: 'stats', semester: 2, title: { ar: 'الإحصاء', fr: 'Statistique' } },
+    ],
+  },
+  {
+    id: '3ac',
+    cycle: 'college',
+    code: '3AC',
+    name: { ar: 'الثالثة إعدادي', fr: '3e année du collège' },
+    description: {
+      ar: 'المتطابقات الهامة، الجذور، مبرهنة طاليس، النظمات، الدوال الخطية والتآلفية.',
+      fr: 'Identités remarquables, racines carrées, Thalès, systèmes, fonctions linéaires et affines.',
+    },
+    streams: [],
+    units: [
+      { id: 'identities', semester: 1, title: { ar: 'المتطابقات الهامة', fr: 'Identités remarquables' } },
+      { id: 'roots', semester: 1, title: { ar: 'الجذور المربعة', fr: 'Racines carrées' } },
+      { id: 'order', semester: 1, title: { ar: 'الترتيب والعمليات', fr: 'Ordre et opérations' } },
+      { id: 'thales', semester: 1, title: { ar: 'مبرهنة طاليس', fr: 'Théorème de Thalès' } },
+      { id: 'trigo', semester: 1, title: { ar: 'الحساب المثلثي', fr: 'Trigonométrie' } },
+      { id: 'equations', semester: 2, title: { ar: 'المعادلات والمتراجحات', fr: 'Équations et inéquations' } },
+      { id: 'systems', semester: 2, title: { ar: 'النظمات', fr: 'Systèmes de deux équations' } },
+      { id: 'functions', semester: 2, title: { ar: 'الدوال الخطية والدوال التآلفية', fr: 'Fonctions linéaires et affines' } },
+      { id: 'vectors', semester: 2, title: { ar: 'المتجهات والإزاحة', fr: 'Vecteurs et translation' } },
+      { id: 'analytic', semester: 2, title: { ar: 'المعلم في المستوى', fr: 'Repère dans le plan' } },
+      { id: 'stats', semester: 2, title: { ar: 'الإحصاء', fr: 'Statistique' } },
+    ],
+  },
+  {
+    id: 'tc',
+    cycle: 'lycee',
+    code: 'TC',
+    name: { ar: 'الجذع المشترك', fr: 'Tronc commun' },
+    description: {
+      ar: 'المجموعات العددية، الحدوديات، معادلات الدرجة الثانية، الحساب المتجهي والدوال.',
+      fr: 'Ensembles de nombres, polynômes, second degré, calcul vectoriel et fonctions.',
+    },
+    streams: [
+      { id: 'tc-sci', short: 'TCS', name: { ar: 'جذع مشترك علمي', fr: 'Tronc commun scientifique' } },
+      { id: 'tc-tech', short: 'TCT', name: { ar: 'جذع مشترك تكنولوجي', fr: 'Tronc commun technologique' } },
+      { id: 'tc-lsh', short: 'TCL', name: { ar: 'جذع مشترك آداب وعلوم إنسانية', fr: 'Tronc commun lettres et sciences humaines' } },
+    ],
+    units: [
+      { id: 'sets', semester: 1, title: { ar: 'المجموعات العددية N وZ وD وQ وR', fr: 'Ensembles de nombres N, Z, D, Q, R' } },
+      { id: 'arith', semester: 1, streams: ['tc-sci', 'tc-tech'], title: { ar: 'الحسابيات في N', fr: 'Arithmétique dans N' } },
+      { id: 'order', semester: 1, title: { ar: 'الترتيب في R', fr: 'Ordre dans R' } },
+      { id: 'polynomials', semester: 1, streams: ['tc-sci', 'tc-tech'], title: { ar: 'الحدوديات', fr: 'Polynômes' } },
+      { id: 'eq2', semester: 1, title: { ar: 'المعادلات والمتراجحات والنظمات', fr: 'Équations, inéquations et systèmes' } },
+      { id: 'vectors', semester: 1, title: { ar: 'الحساب المتجهي في المستوى', fr: 'Calcul vectoriel dans le plan' } },
+      { id: 'line', semester: 2, title: { ar: 'المستقيم في المستوى', fr: 'La droite dans le plan' } },
+      { id: 'functions', semester: 2, title: { ar: 'عموميات حول الدوال العددية', fr: 'Généralités sur les fonctions' } },
+      { id: 'trigo', semester: 2, title: { ar: 'الحساب المثلثي', fr: 'Calcul trigonométrique' } },
+      { id: 'transformations', semester: 2, streams: ['tc-sci', 'tc-tech'], title: { ar: 'التحويلات في المستوى', fr: 'Transformations du plan' } },
+      { id: 'stats', semester: 2, title: { ar: 'الإحصاء', fr: 'Statistique' } },
+    ],
+  },
+  {
+    id: '1bac',
+    cycle: 'lycee',
+    code: '1BAC',
+    name: { ar: 'الأولى بكالوريا', fr: '1re année du baccalauréat' },
+    description: {
+      ar: 'المتتاليات، النهايات، الاشتقاق ودراسة الدوال، الجداء السلمي والحساب المثلثي.',
+      fr: 'Suites, limites, dérivation et étude de fonctions, produit scalaire et trigonométrie.',
+    },
+    streams: [
+      { id: 'sm', short: 'SM', name: { ar: 'العلوم الرياضية', fr: 'Sciences mathématiques' } },
+      { id: 'sx', short: 'SEx', name: { ar: 'العلوم التجريبية', fr: 'Sciences expérimentales' } },
+      { id: 'ste', short: 'STE/STM', name: { ar: 'العلوم والتكنولوجيات', fr: 'Sciences et technologies' } },
+      { id: 'eco', short: 'SEG', name: { ar: 'العلوم الاقتصادية والتدبير', fr: 'Sciences économiques et gestion' } },
+      { id: 'lsh', short: 'L', name: { ar: 'الآداب والعلوم الإنسانية', fr: 'Lettres et sciences humaines' } },
+    ],
+    units: [
+      { id: 'logic', semester: 1, streams: ['sm'], title: { ar: 'المنطق', fr: 'Logique' } },
+      { id: 'sets-maps', semester: 1, streams: ['sm'], title: { ar: 'المجموعات والتطبيقات', fr: 'Ensembles et applications' } },
+      { id: 'functions', semester: 1, title: { ar: 'عموميات حول الدوال', fr: 'Généralités sur les fonctions' } },
+      { id: 'sequences', semester: 1, title: { ar: 'المتتاليات العددية', fr: 'Suites numériques' } },
+      { id: 'barycentre', semester: 1, streams: ['sm', 'sx', 'ste'], title: { ar: 'المرجح في المستوى', fr: 'Barycentre dans le plan' } },
+      { id: 'scalar', semester: 1, streams: ['sm', 'sx', 'ste'], title: { ar: 'الجداء السلمي', fr: 'Produit scalaire' } },
+      { id: 'trigo', semester: 1, streams: ['sm', 'sx', 'ste'], title: { ar: 'الحساب المثلثي', fr: 'Calcul trigonométrique' } },
+      { id: 'limits', semester: 2, title: { ar: 'نهاية دالة عددية', fr: "Limite d'une fonction" } },
+      { id: 'derivation', semester: 2, title: { ar: 'الاشتقاق', fr: 'Dérivation' } },
+      { id: 'study', semester: 2, title: { ar: 'دراسة الدوال العددية', fr: 'Étude de fonctions' } },
+      { id: 'space', semester: 2, streams: ['sm', 'sx', 'ste'], title: { ar: 'الهندسة الفضائية', fr: "Géométrie dans l'espace" } },
+      { id: 'arith', semester: 2, streams: ['sm'], title: { ar: 'الحسابيات في Z', fr: 'Arithmétique dans Z' } },
+      { id: 'counting', semester: 2, streams: ['eco', 'lsh'], title: { ar: 'التعداد', fr: 'Dénombrement' } },
+    ],
+  },
+  {
+    id: '2bac',
+    cycle: 'lycee',
+    code: '2BAC',
+    name: { ar: 'الثانية بكالوريا', fr: '2e année du baccalauréat' },
+    description: {
+      ar: 'الدوال اللوغاريتمية والأسية، الأعداد العقدية، الحساب التكاملي والاحتمالات.',
+      fr: 'Fonctions logarithme et exponentielle, nombres complexes, calcul intégral et probabilités.',
+    },
+    streams: [
+      { id: 'sm', short: 'SM', name: { ar: 'العلوم الرياضية (أ) و(ب)', fr: 'Sciences mathématiques A et B' } },
+      { id: 'pc', short: 'PC', name: { ar: 'العلوم الفيزيائية', fr: 'Sciences physiques' } },
+      { id: 'svt', short: 'SVT', name: { ar: 'علوم الحياة والأرض', fr: 'Sciences de la vie et de la Terre' } },
+      { id: 'sa', short: 'SA', name: { ar: 'العلوم الزراعية', fr: 'Sciences agronomiques' } },
+      { id: 'ste', short: 'STE/STM', name: { ar: 'العلوم والتكنولوجيات', fr: 'Sciences et technologies' } },
+      { id: 'eco', short: 'SE/SGC', name: { ar: 'العلوم الاقتصادية وعلوم التدبير', fr: 'Sciences économiques et de gestion' } },
+      { id: 'lsh', short: 'L', name: { ar: 'الآداب والعلوم الإنسانية', fr: 'Lettres et sciences humaines' } },
+    ],
+    units: [
+      { id: 'limits', semester: 1, streams: ['sm', 'pc', 'svt', 'sa', 'ste', 'eco'], title: { ar: 'النهايات والاتصال', fr: 'Limites et continuité' } },
+      { id: 'derivation', semester: 1, streams: ['sm', 'pc', 'svt', 'sa', 'ste', 'eco'], title: { ar: 'الاشتقاق ودراسة الدوال', fr: 'Dérivation et étude de fonctions' } },
+      { id: 'sequences', semester: 1, title: { ar: 'المتتاليات العددية', fr: 'Suites numériques' } },
+      { id: 'log', semester: 1, streams: ['sm', 'pc', 'svt', 'sa', 'ste', 'eco'], title: { ar: 'الدوال اللوغاريتمية', fr: 'Fonctions logarithmes' } },
+      { id: 'complex', semester: 1, streams: ['sm', 'pc', 'svt', 'sa', 'ste'], title: { ar: 'الأعداد العقدية', fr: 'Nombres complexes' } },
+      { id: 'space', semester: 1, streams: ['sm', 'pc', 'svt', 'sa', 'ste'], title: { ar: 'الهندسة الفضائية', fr: "Géométrie dans l'espace" } },
+      { id: 'exp', semester: 2, streams: ['sm', 'pc', 'svt', 'sa', 'ste', 'eco'], title: { ar: 'الدوال الأسية', fr: 'Fonctions exponentielles' } },
+      { id: 'diffeq', semester: 2, streams: ['sm', 'pc', 'svt', 'sa', 'ste'], title: { ar: 'المعادلات التفاضلية', fr: 'Équations différentielles' } },
+      { id: 'integral', semester: 2, streams: ['sm', 'pc', 'svt', 'sa', 'ste', 'eco'], title: { ar: 'الحساب التكاملي', fr: 'Calcul intégral' } },
+      { id: 'proba', semester: 2, title: { ar: 'حساب الاحتمالات', fr: 'Calcul des probabilités' } },
+      { id: 'arith', semester: 2, streams: ['sm'], title: { ar: 'الحسابيات', fr: 'Arithmétique' } },
+      { id: 'structures', semester: 2, streams: ['sm'], title: { ar: 'البنيات الجبرية', fr: 'Structures algébriques' } },
+    ],
+  },
+];
+
+export function getLevel(id: string | undefined): Level | undefined {
+  return levels.find((l) => l.id === id);
+}
