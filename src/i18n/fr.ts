@@ -434,5 +434,6 @@ export const fr: Dictionary = {
     platform: 'Plateforme',
     rights: 'Contenus à visée éducative.',
     localData: 'Pas de compte, pas de pistage : vos données restent dans votre navigateur.',
+    follow: 'Suivez-nous',
   },
 };

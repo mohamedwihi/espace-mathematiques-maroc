@@ -1,8 +1,33 @@
 import { Link } from 'react-router-dom';
-import { ShieldCheck } from 'lucide-react';
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Mail,
+  MessageCircle,
+  Music2,
+  Send,
+  ShieldCheck,
+  Twitter,
+  Youtube,
+  type LucideIcon,
+} from 'lucide-react';
 import { LogoMark } from '@/components/brand/Logo';
 import { useI18n } from '@/hooks/useI18n';
 import { levels } from '@/data/levels';
+import { activeSocialLinks, type SocialNetwork } from '@/data/social';
+
+const socialIcons: Record<SocialNetwork, LucideIcon> = {
+  facebook: Facebook,
+  instagram: Instagram,
+  youtube: Youtube,
+  tiktok: Music2,
+  whatsapp: MessageCircle,
+  telegram: Send,
+  linkedin: Linkedin,
+  x: Twitter,
+  email: Mail,
+};
 
 export function Footer() {
   const { t, L } = useI18n();
@@ -33,6 +58,32 @@ export function Footer() {
               </div>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-ink-300">{t.footer.tagline}</p>
+            {activeSocialLinks.length > 0 && (
+              <div className="mt-6">
+                <h2 className="font-display text-sm font-semibold uppercase tracking-wider text-white">
+                  {t.footer.follow}
+                </h2>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {activeSocialLinks.map((s) => {
+                    const Icon = socialIcons[s.network];
+                    return (
+                      <li key={s.network}>
+                        <a
+                          href={s.url}
+                          target={s.network === 'email' ? undefined : '_blank'}
+                          rel="noopener noreferrer"
+                          aria-label={s.label}
+                          title={s.label}
+                          className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-ink-200 transition hover:bg-saffron-400 hover:text-ink-950"
+                        >
+                          <Icon className="h-5 w-5" aria-hidden="true" />
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
           </div>
 
           <FooterCol title={t.footer.explore} links={explore} />
