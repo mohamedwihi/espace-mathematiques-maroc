@@ -1,7 +1,6 @@
 import type { Lesson } from '@/types';
 import { modules1ac } from './1ac';
-import { lesson2acPowers } from './2ac-powers';
-import { lesson2acPythagoras } from './2ac-pythagoras';
+import { modules2ac } from './2ac';
 import { lesson3acSystems } from './3ac-systems';
 import { lessonTcSecondDegree } from './tc-second-degree';
 import { lesson1bacDerivation } from './1bac-derivation';
@@ -14,8 +13,7 @@ import { lesson2bacIntegrals } from './2bac-integrals';
  */
 export const lessons: Lesson[] = [
   ...modules1ac.map((m) => m.lesson),
-  lesson2acPowers,
-  lesson2acPythagoras,
+  ...modules2ac.map((m) => m.lesson),
   lesson3acSystems,
   lessonTcSecondDegree,
   lesson1bacDerivation,
