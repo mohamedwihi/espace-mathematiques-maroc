@@ -1,0 +1,37 @@
+import {
+  Box,
+  Calculator,
+  ChartLine,
+  ChartNoAxesColumn,
+  Divide,
+  Grid3x3,
+  Percent,
+  Puzzle,
+  Radical,
+  Sigma,
+  Sparkles,
+  SquareFunction,
+  Table,
+  TrendingUp,
+  Equal,
+  type LucideIcon,
+} from 'lucide-react';
+import type { ToolId } from '@/data/tools';
+
+export const toolIcons: Record<ToolId, LucideIcon> = {
+  scientific: Calculator,
+  fractions: Divide,
+  simplify: Sparkles,
+  equations: Equal,
+  systems: Grid3x3,
+  factor: Puzzle,
+  powers: Radical,
+  gcd: Sigma,
+  percent: Percent,
+  table: Table,
+  grapher: ChartLine,
+  derivative: TrendingUp,
+  integral: SquareFunction,
+  geometry: Box,
+  stats: ChartNoAxesColumn,
+};
