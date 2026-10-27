@@ -2,6 +2,7 @@ import type { Exercise } from '@/types';
 import { modules1ac } from './lessons/1ac';
 import { modules2ac } from './lessons/2ac';
 import { modules3ac } from './lessons/3ac';
+import { modulesTc } from './lessons/tc';
 
 /**
  * Exercices corrigés. Chaque exercice est rattaché à un cours (lessonId).
@@ -17,107 +18,8 @@ export const exercises: Exercise[] = [
   // 3AC : les exercices sont définis avec chaque cours (src/data/lessons/3ac/)
   ...modules3ac.flatMap((m) => m.exercises),
 
-  /* ---------------- TC — Second degré ---------------- */
-  {
-    id: 'tc-deg2-01',
-    lessonId: 'tc-second-degree',
-    levelId: 'tc',
-    difficulty: 1,
-    topic: 'algebra',
-    title: { ar: 'حساب المميز', fr: 'Calcul du discriminant' },
-    statement: { ar: 'احسب مميز ثلاثية الحدود $3x^2-5x+2$.', fr: 'Calculer le discriminant du trinôme $3x^2-5x+2$.' },
-    question: { type: 'numeric', answer: 1 },
-    hints: [{ ar: '$\\Delta=b^2-4ac$ مع $a=3$ و $b=-5$ و $c=2$.', fr: '$\\Delta=b^2-4ac$ avec $a=3$, $b=-5$, $c=2$.' }],
-    solution: [
-      { ar: '$\\Delta=(-5)^2-4\\times3\\times2=25-24=1$.', fr: '$\\Delta=(-5)^2-4\\times3\\times2=25-24=1$.' },
-    ],
-  },
-  {
-    id: 'tc-deg2-02',
-    lessonId: 'tc-second-degree',
-    levelId: 'tc',
-    difficulty: 1,
-    topic: 'algebra',
-    title: { ar: 'حلول معادلة', fr: "Solutions d'une équation" },
-    statement: { ar: 'ما هي مجموعة حلول المعادلة $x^2-5x+6=0$؟', fr: "Quel est l'ensemble des solutions de $x^2-5x+6=0$ ?" },
-    question: {
-      type: 'mcq',
-      options: [
-        { ar: '$\\{2;3\\}$', fr: '$\\{2;3\\}$' },
-        { ar: '$\\{-2;-3\\}$', fr: '$\\{-2;-3\\}$' },
-        { ar: '$\\{1;6\\}$', fr: '$\\{1;6\\}$' },
-        { ar: '$\\varnothing$', fr: '$\\varnothing$' },
-      ],
-      correct: 0,
-    },
-    hints: [{ ar: '$\\Delta=25-24=1$.', fr: '$\\Delta=25-24=1$.' }],
-    solution: [
-      { ar: '$\\Delta=1>0$ و $\\sqrt\\Delta=1$.', fr: '$\\Delta=1>0$ et $\\sqrt\\Delta=1$.' },
-      { ar: '$x_1=\\dfrac{5-1}{2}=2$ و $x_2=\\dfrac{5+1}{2}=3$. إذن $S=\\{2;3\\}$.', fr: '$x_1=\\dfrac{5-1}{2}=2$ et $x_2=\\dfrac{5+1}{2}=3$. Donc $S=\\{2;3\\}$.' },
-    ],
-  },
-  {
-    id: 'tc-deg2-03',
-    lessonId: 'tc-second-degree',
-    levelId: 'tc',
-    difficulty: 2,
-    topic: 'algebra',
-    title: { ar: 'مميز سالب', fr: 'Discriminant négatif' },
-    statement: { ar: 'حل في $\\mathbb{R}$ المعادلة $x^2+2x+5=0$.', fr: 'Résoudre dans $\\mathbb{R}$ l’équation $x^2+2x+5=0$.' },
-    question: {
-      type: 'mcq',
-      options: [
-        { ar: '$\\{-1\\}$', fr: '$\\{-1\\}$' },
-        { ar: '$\\varnothing$', fr: '$\\varnothing$' },
-        { ar: '$\\{-5;1\\}$', fr: '$\\{-5;1\\}$' },
-        { ar: '$\\{1;5\\}$', fr: '$\\{1;5\\}$' },
-      ],
-      correct: 1,
-    },
-    hints: [{ ar: 'احسب $\\Delta$ وانظر إلى إشارته.', fr: 'Calculez $\\Delta$ et regardez son signe.' }],
-    solution: [
-      { ar: '$\\Delta=2^2-4\\times1\\times5=4-20=-16<0$.', fr: '$\\Delta=2^2-4\\times1\\times5=4-20=-16<0$.' },
-      { ar: 'ليس للمعادلة حل في $\\mathbb{R}$: $S=\\varnothing$.', fr: "L'équation n'a pas de solution réelle : $S=\\varnothing$." },
-    ],
-  },
-  {
-    id: 'tc-deg2-04',
-    lessonId: 'tc-second-degree',
-    levelId: 'tc',
-    difficulty: 2,
-    topic: 'algebra',
-    title: { ar: 'جداء الجذرين', fr: 'Produit des racines' },
-    statement: { ar: 'حل المعادلة $2x^2-7x+3=0$ ثم أعط جداء حلّيها.', fr: 'Résoudre $2x^2-7x+3=0$ puis donner le produit de ses solutions.' },
-    question: { type: 'numeric', answer: 1.5, tolerance: 1e-9 },
-    hints: [
-      { ar: '$\\Delta=49-24=25$.', fr: '$\\Delta=49-24=25$.' },
-      { ar: 'يمكنك التحقق باستعمال $x_1x_2=\\dfrac ca$.', fr: 'Vous pouvez vérifier avec $x_1x_2=\\dfrac ca$.' },
-    ],
-    solution: [
-      { ar: '$\\Delta=25$ و $\\sqrt\\Delta=5$، إذن $x_1=\\dfrac{7-5}{4}=\\dfrac12$ و $x_2=\\dfrac{7+5}{4}=3$.', fr: '$\\Delta=25$ et $\\sqrt\\Delta=5$, donc $x_1=\\dfrac{7-5}{4}=\\dfrac12$ et $x_2=\\dfrac{7+5}{4}=3$.' },
-      { ar: '$x_1\\times x_2=\\dfrac12\\times3=1{,}5$، وهو فعلاً $\\dfrac ca=\\dfrac32$.', fr: '$x_1\\times x_2=\\dfrac12\\times3=1{,}5$, qui vaut bien $\\dfrac ca=\\dfrac32$.' },
-    ],
-  },
-  {
-    id: 'tc-deg2-05',
-    lessonId: 'tc-second-degree',
-    levelId: 'tc',
-    difficulty: 3,
-    topic: 'algebra',
-    title: { ar: 'متراجحة من الدرجة الثانية', fr: 'Inéquation du second degré' },
-    statement: { ar: 'حل في $\\mathbb{R}$ المتراجحة $-x^2+x+6>0$.', fr: 'Résoudre dans $\\mathbb{R}$ l’inéquation $-x^2+x+6>0$.' },
-    question: { type: 'open' },
-    hints: [
-      { ar: 'ابدأ بإيجاد جذري ثلاثية الحدود.', fr: 'Commencez par chercher les racines du trinôme.' },
-      { ar: '$a=-1<0$: ما إشارة ثلاثية الحدود بين الجذرين؟', fr: '$a=-1<0$ : quel est le signe du trinôme entre les racines ?' },
-    ],
-    solution: [
-      { ar: '$\\Delta=1^2-4\\times(-1)\\times6=25$، $\\sqrt\\Delta=5$.', fr: '$\\Delta=1^2-4\\times(-1)\\times6=25$, $\\sqrt\\Delta=5$.' },
-      { ar: '$x_1=\\dfrac{-1-5}{-2}=3$ و $x_2=\\dfrac{-1+5}{-2}=-2$.', fr: '$x_1=\\dfrac{-1-5}{-2}=3$ et $x_2=\\dfrac{-1+5}{-2}=-2$.' },
-      { ar: 'بما أن $a<0$، ثلاثية الحدود موجبة قطعاً بين الجذرين.', fr: 'Comme $a<0$, le trinôme est strictement positif entre les racines.' },
-      { ar: '$S=]-2;3[$.', fr: '$S=]-2;3[$.' },
-    ],
-  },
+  // TC : les exercices sont définis avec chaque cours (src/data/lessons/tc/)
+  ...modulesTc.flatMap((m) => m.exercises),
 
   /* ---------------- 1BAC — Dérivation ---------------- */
   {
