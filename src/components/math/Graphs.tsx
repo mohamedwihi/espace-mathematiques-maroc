@@ -52,7 +52,7 @@ export function FunctionGraph({ block, height = 300 }: { block: GraphBlock; heig
         </Mafs>
       </div>
       <figcaption className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm" dir="ltr">
-        {block.functions.map((f, i) => (
+        {block.functions.map((f, i) => f.label && (
           <span key={i} className="inline-flex items-center gap-1.5">
             <span className="inline-block h-0.5 w-5 rounded" style={{ background: graphColors[f.color ?? 'brand'] }} aria-hidden="true" />
             <Tex tex={f.label} />

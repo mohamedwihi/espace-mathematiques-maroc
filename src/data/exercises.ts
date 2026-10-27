@@ -3,6 +3,7 @@ import { modules1ac } from './lessons/1ac';
 import { modules2ac } from './lessons/2ac';
 import { modules3ac } from './lessons/3ac';
 import { modulesTc } from './lessons/tc';
+import { modules1bac } from './lessons/1bac';
 
 /**
  * Exercices corrigés. Chaque exercice est rattaché à un cours (lessonId).
@@ -21,100 +22,8 @@ export const exercises: Exercise[] = [
   // TC : les exercices sont définis avec chaque cours (src/data/lessons/tc/)
   ...modulesTc.flatMap((m) => m.exercises),
 
-  /* ---------------- 1BAC — Dérivation ---------------- */
-  {
-    id: '1bac-der-01',
-    lessonId: '1bac-derivation',
-    levelId: '1bac',
-    difficulty: 1,
-    topic: 'analysis',
-    title: { ar: 'مشتقة حدودية', fr: "Dérivée d'un polynôme" },
-    statement: { ar: 'ما هي مشتقة الدالة $f(x)=3x^4-2x+1$؟', fr: 'Quelle est la dérivée de $f(x)=3x^4-2x+1$ ?' },
-    question: {
-      type: 'mcq',
-      options: [
-        { ar: "$f'(x)=12x^3-2$", fr: "$f'(x)=12x^3-2$" },
-        { ar: "$f'(x)=12x^3$", fr: "$f'(x)=12x^3$" },
-        { ar: "$f'(x)=3x^3-2$", fr: "$f'(x)=3x^3-2$" },
-        { ar: "$f'(x)=4x^3-2$", fr: "$f'(x)=4x^3-2$" },
-      ],
-      correct: 0,
-    },
-    hints: [{ ar: "$(x^n)'=nx^{n-1}$ و $(k)'=0$.", fr: "$(x^n)'=nx^{n-1}$ et $(k)'=0$." }],
-    solution: [
-      { ar: "$(3x^4)'=3\\times4x^3=12x^3$ ، $(-2x)'=-2$ ، $(1)'=0$.", fr: "$(3x^4)'=3\\times4x^3=12x^3$, $(-2x)'=-2$, $(1)'=0$." },
-      { ar: "$f'(x)=12x^3-2$.", fr: "$f'(x)=12x^3-2$." },
-    ],
-  },
-  {
-    id: '1bac-der-02',
-    lessonId: '1bac-derivation',
-    levelId: '1bac',
-    difficulty: 1,
-    topic: 'analysis',
-    title: { ar: 'عدد مشتق', fr: 'Nombre dérivé' },
-    statement: { ar: "لتكن $f(x)=x^2+3x$. احسب $f'(2)$.", fr: "Soit $f(x)=x^2+3x$. Calculer $f'(2)$." },
-    question: { type: 'numeric', answer: 7 },
-    hints: [{ ar: "احسب أولاً $f'(x)$.", fr: "Calculez d'abord $f'(x)$." }],
-    solution: [
-      { ar: "$f'(x)=2x+3$.", fr: "$f'(x)=2x+3$." },
-      { ar: "$f'(2)=2\\times2+3=7$.", fr: "$f'(2)=2\\times2+3=7$." },
-    ],
-  },
-  {
-    id: '1bac-der-03',
-    lessonId: '1bac-derivation',
-    levelId: '1bac',
-    difficulty: 2,
-    topic: 'analysis',
-    title: { ar: 'معادلة مماس', fr: "Équation d'une tangente" },
-    statement: { ar: 'ما معادلة المماس لمنحنى الدالة $f(x)=x^3$ في النقطة ذات الأفصول $1$؟', fr: "Quelle est l'équation de la tangente à la courbe de $f(x)=x^3$ au point d'abscisse $1$ ?" },
-    question: {
-      type: 'mcq',
-      options: [{ ar: '$y=3x-2$', fr: '$y=3x-2$' }, { ar: '$y=3x+1$', fr: '$y=3x+1$' }, { ar: '$y=x$', fr: '$y=x$' }, { ar: '$y=3x-3$', fr: '$y=3x-3$' }],
-      correct: 0,
-    },
-    hints: [{ ar: "$y=f'(1)(x-1)+f(1)$.", fr: "$y=f'(1)(x-1)+f(1)$." }],
-    solution: [
-      { ar: "$f(1)=1$ و $f'(x)=3x^2$ إذن $f'(1)=3$.", fr: "$f(1)=1$ et $f'(x)=3x^2$ donc $f'(1)=3$." },
-      { ar: '$y=3(x-1)+1=3x-2$.', fr: '$y=3(x-1)+1=3x-2$.' },
-    ],
-  },
-  {
-    id: '1bac-der-04',
-    lessonId: '1bac-derivation',
-    levelId: '1bac',
-    difficulty: 2,
-    topic: 'analysis',
-    title: { ar: 'مشتقة خارج', fr: "Dérivée d'un quotient" },
-    statement: { ar: "لتكن $f(x)=\\dfrac{x+1}{x-2}$ على $]2;+\\infty[$. احسب $f'(3)$.", fr: "Soit $f(x)=\\dfrac{x+1}{x-2}$ sur $]2;+\\infty[$. Calculer $f'(3)$." },
-    question: { type: 'numeric', answer: -3 },
-    hints: [{ ar: "$\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}$.", fr: "$\\left(\\dfrac uv\\right)'=\\dfrac{u'v-uv'}{v^2}$." }],
-    solution: [
-      { ar: "$f'(x)=\\dfrac{1\\times(x-2)-(x+1)\\times1}{(x-2)^2}=\\dfrac{-3}{(x-2)^2}$.", fr: "$f'(x)=\\dfrac{1\\times(x-2)-(x+1)\\times1}{(x-2)^2}=\\dfrac{-3}{(x-2)^2}$." },
-      { ar: "$f'(3)=\\dfrac{-3}{1^2}=-3$.", fr: "$f'(3)=\\dfrac{-3}{1^2}=-3$." },
-    ],
-  },
-  {
-    id: '1bac-der-05',
-    lessonId: '1bac-derivation',
-    levelId: '1bac',
-    difficulty: 3,
-    topic: 'analysis',
-    title: { ar: 'دراسة الرتابة', fr: 'Étude des variations' },
-    statement: { ar: 'ادرس رتابة الدالة $f(x)=\\dfrac{x}{x^2+1}$ على $\\mathbb{R}$.', fr: 'Étudier les variations de $f(x)=\\dfrac{x}{x^2+1}$ sur $\\mathbb{R}$.' },
-    question: { type: 'open' },
-    hints: [
-      { ar: 'استعمل قاعدة مشتقة خارج مع $u(x)=x$ و $v(x)=x^2+1$.', fr: 'Utilisez la dérivée d’un quotient avec $u(x)=x$ et $v(x)=x^2+1$.' },
-      { ar: 'إشارة المشتقة هي إشارة $1-x^2$.', fr: 'Le signe de la dérivée est celui de $1-x^2$.' },
-    ],
-    solution: [
-      { ar: "$f'(x)=\\dfrac{1\\times(x^2+1)-x\\times2x}{(x^2+1)^2}=\\dfrac{1-x^2}{(x^2+1)^2}$.", fr: "$f'(x)=\\dfrac{1\\times(x^2+1)-x\\times2x}{(x^2+1)^2}=\\dfrac{1-x^2}{(x^2+1)^2}$." },
-      { ar: 'المقام موجب قطعاً، إذن إشارة $f\'(x)$ هي إشارة $1-x^2=(1-x)(1+x)$.', fr: 'Le dénominateur est strictement positif, donc $f\'(x)$ a le signe de $1-x^2=(1-x)(1+x)$.' },
-      { ar: "$f'(x)\\ge0$ على $[-1;1]$ و $f'(x)\\le0$ على $]-\\infty;-1]$ وعلى $[1;+\\infty[$.", fr: "$f'(x)\\ge0$ sur $[-1;1]$ et $f'(x)\\le0$ sur $]-\\infty;-1]$ et sur $[1;+\\infty[$." },
-      { ar: '$f$ تناقصية على $]-\\infty;-1]$، تزايدية على $[-1;1]$، تناقصية على $[1;+\\infty[$، مع $f(-1)=-\\frac12$ و $f(1)=\\frac12$.', fr: '$f$ est décroissante sur $]-\\infty;-1]$, croissante sur $[-1;1]$, décroissante sur $[1;+\\infty[$, avec $f(-1)=-\\frac12$ et $f(1)=\\frac12$.' },
-    ],
-  },
+  // 1BAC : les exercices sont définis avec chaque cours (src/data/lessons/1bac/)
+  ...modules1bac.flatMap((m) => m.exercises),
 
   /* ---------------- 2BAC — Logarithme ---------------- */
   {

@@ -1,6 +1,7 @@
 import type { Exam } from '@/types';
 import { devoirs3ac } from './devoirs/3ac';
 import { devoirsTc } from './devoirs/tc';
+import { devoirs1bac } from './devoirs/1bac';
 
 /**
  * Bibliothèque des devoirs et examens.
@@ -33,6 +34,7 @@ export const exams: Exam[] = [
   // Devoirs surveillés modèles (3 par semestre et par niveau)
   ...devoirs3ac,
   ...devoirsTc,
+  ...devoirs1bac,
 
   {
     id: 'practice-3ac-s2-systems',
