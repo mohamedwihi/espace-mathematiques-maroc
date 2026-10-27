@@ -1,6 +1,7 @@
 import type { Exercise } from '@/types';
 import { modules1ac } from './lessons/1ac';
 import { modules2ac } from './lessons/2ac';
+import { modules3ac } from './lessons/3ac';
 
 /**
  * Exercices corrigés. Chaque exercice est rattaché à un cours (lessonId).
@@ -13,82 +14,8 @@ export const exercises: Exercise[] = [
   // 2AC : les exercices sont définis avec chaque cours (src/data/lessons/2ac/)
   ...modules2ac.flatMap((m) => m.exercises),
 
-  /* ---------------- 3AC — Systèmes ---------------- */
-  {
-    id: '3ac-sys-01',
-    lessonId: '3ac-systems',
-    levelId: '3ac',
-    difficulty: 1,
-    topic: 'algebra',
-    title: { ar: 'التحقق من حل', fr: 'Vérifier une solution' },
-    statement: { ar: 'أي زوج حل للنظمة $\\begin{cases} x+2y=7 \\\\ 3x-y=7 \\end{cases}$ ؟', fr: 'Quel couple est solution de $\\begin{cases} x+2y=7 \\\\ 3x-y=7 \\end{cases}$ ?' },
-    question: {
-      type: 'mcq',
-      options: [{ ar: '$(2;3)$', fr: '$(2;3)$' }, { ar: '$(3;2)$', fr: '$(3;2)$' }, { ar: '$(1;3)$', fr: '$(1;3)$' }, { ar: '$(5;1)$', fr: '$(5;1)$' }],
-      correct: 1,
-    },
-    hints: [{ ar: 'عوّض كل زوج في المعادلتين معاً.', fr: 'Remplacez chaque couple dans les deux équations.' }],
-    solution: [
-      { ar: 'من أجل $(3;2)$: $3+2\\times2=7$ و $3\\times3-2=7$. المعادلتان محققتان.', fr: 'Pour $(3;2)$ : $3+2\\times2=7$ et $3\\times3-2=7$. Les deux équations sont vérifiées.' },
-      { ar: '$(1;3)$ و $(5;1)$ يحققان الأولى فقط، و $(2;3)$ لا يحقق الأولى ($8\\ne7$).', fr: '$(1;3)$ et $(5;1)$ ne vérifient que la première ; $(2;3)$ ne vérifie pas la première ($8\\ne7$).' },
-    ],
-  },
-  {
-    id: '3ac-sys-02',
-    lessonId: '3ac-systems',
-    levelId: '3ac',
-    difficulty: 1,
-    topic: 'algebra',
-    title: { ar: 'حل نظمة', fr: 'Résoudre un système' },
-    statement: { ar: 'حل النظمة $\\begin{cases} 2x+y=11 \\\\ x-y=1 \\end{cases}$ ثم أعط قيمة $y$.', fr: 'Résoudre $\\begin{cases} 2x+y=11 \\\\ x-y=1 \\end{cases}$ puis donner la valeur de $y$.' },
-    question: { type: 'numeric', answer: 3 },
-    hints: [{ ar: 'اجمع المعادلتين طرفاً بطرف.', fr: 'Additionnez les deux équations membre à membre.' }],
-    solution: [
-      { ar: 'بالجمع: $3x=12$ ومنه $x=4$.', fr: 'En additionnant : $3x=12$ d’où $x=4$.' },
-      { ar: '$4-y=1$ ومنه $y=3$. الحل $(4;3)$.', fr: '$4-y=1$ d’où $y=3$. Solution : $(4;3)$.' },
-    ],
-  },
-  {
-    id: '3ac-sys-03',
-    lessonId: '3ac-systems',
-    levelId: '3ac',
-    difficulty: 2,
-    topic: 'algebra',
-    title: { ar: 'تلاميذ القسم', fr: 'Les élèves de la classe' },
-    statement: {
-      ar: 'في قسم 32 تلميذاً، عدد الإناث يفوق عدد الذكور بـ 6. ما عدد الإناث؟',
-      fr: 'Une classe compte 32 élèves ; il y a 6 filles de plus que de garçons. Combien y a-t-il de filles ?',
-    },
-    question: { type: 'numeric', answer: 19 },
-    hints: [
-      { ar: 'ضع $f$ عدد الإناث و $g$ عدد الذكور.', fr: 'Notez $f$ le nombre de filles et $g$ celui des garçons.' },
-      { ar: '$f+g=32$ و $f-g=6$.', fr: '$f+g=32$ et $f-g=6$.' },
-    ],
-    solution: [
-      { ar: 'النظمة: $\\begin{cases} f+g=32 \\\\ f-g=6 \\end{cases}$', fr: 'Système : $\\begin{cases} f+g=32 \\\\ f-g=6 \\end{cases}$' },
-      { ar: 'بالجمع: $2f=38$ ومنه $f=19$، ثم $g=13$.', fr: 'En additionnant : $2f=38$, d’où $f=19$, puis $g=13$.' },
-      { ar: 'تحقق: $19+13=32$ و $19-13=6$. في القسم 19 بنتاً.', fr: 'Vérification : $19+13=32$ et $19-13=6$. Il y a 19 filles.' },
-    ],
-  },
-  {
-    id: '3ac-sys-04',
-    lessonId: '3ac-systems',
-    levelId: '3ac',
-    difficulty: 3,
-    topic: 'algebra',
-    title: { ar: 'نظمة خاصة', fr: 'Un système particulier' },
-    statement: { ar: 'حل النظمة $\\begin{cases} 3x-2y=4 \\\\ -6x+4y=1 \\end{cases}$ وأوّل النتيجة مبيانياً.', fr: 'Résoudre $\\begin{cases} 3x-2y=4 \\\\ -6x+4y=1 \\end{cases}$ et interpréter graphiquement.' },
-    question: { type: 'open' },
-    hints: [
-      { ar: 'اضرب المعادلة الأولى في $2$ ثم اجمع.', fr: 'Multipliez la première équation par $2$ puis additionnez.' },
-      { ar: 'ماذا تلاحظ حول معاملي المستقيمين الموجهين؟', fr: 'Que remarquez-vous sur les coefficients directeurs des deux droites ?' },
-    ],
-    solution: [
-      { ar: 'بضرب الأولى في $2$: $6x-4y=8$. بالجمع مع الثانية: $0=9$، وهذا مستحيل.', fr: 'En multipliant la première par $2$ : $6x-4y=8$. En ajoutant la seconde : $0=9$, ce qui est impossible.' },
-      { ar: 'إذن ليس للنظمة حل: $S=\\varnothing$.', fr: "Le système n'a donc pas de solution : $S=\\varnothing$." },
-      { ar: 'مبيانياً: $y=\\frac32x-2$ و $y=\\frac32x+\\frac14$ مستقيمان متوازيان قطعاً (نفس المعامل الموجه وأرتوبان مختلفان في الأصل).', fr: 'Graphiquement : $y=\\frac32x-2$ et $y=\\frac32x+\\frac14$ sont deux droites strictement parallèles (même coefficient directeur, ordonnées à l’origine différentes).' },
-    ],
-  },
+  // 3AC : les exercices sont définis avec chaque cours (src/data/lessons/3ac/)
+  ...modules3ac.flatMap((m) => m.exercises),
 
   /* ---------------- TC — Second degré ---------------- */
   {
