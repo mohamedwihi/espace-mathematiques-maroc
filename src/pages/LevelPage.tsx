@@ -1,7 +1,7 @@
 import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { BookOpen, ClipboardList, PenLine } from 'lucide-react';
+import { BookOpen, ClipboardList, FileDown, PenLine } from 'lucide-react';
 import { getLevel } from '@/data/levels';
-import { appliesToStream, examsForLevel, lessonsForLevel } from '@/services/content';
+import { appliesToStream, examsForLevel, lessonPdfUrl, lessonsForLevel } from '@/services/content';
 import { exercises } from '@/data/exercises';
 import { Arrow } from '@/components/cards/Cards';
 import { PageHeader } from '@/components/ui/PageHeader';
@@ -11,7 +11,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 
 export default function LevelPage() {
   const { levelId } = useParams();
-  const { t, L, fmt } = useI18n();
+  const { t, L, fmt, lang } = useI18n();
   const level = getLevel(levelId);
   const [params, setParams] = useSearchParams();
   const streamParam = params.get('stream') ?? '';
@@ -117,15 +117,24 @@ export default function LevelPage() {
                                 <p className="mt-0.5 text-xs text-ink-400">{t.levels.noLessonsYet}</p>
                               ) : (
                                 <ul className="mt-2 space-y-1">
-                                  {unitLessons.map((l) => (
-                                    <li key={l.id}>
-                                      <Link to={`/lessons/${l.id}`} className="group inline-flex items-center gap-1.5 text-sm font-medium text-brand-700 hover:text-brand-900">
-                                        <BookOpen className="h-3.5 w-3.5" aria-hidden="true" />
-                                        {L(l.title)}
-                                        <Arrow className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
-                                      </Link>
-                                    </li>
-                                  ))}
+                                  {unitLessons.map((l) => {
+                                    const pdf = lessonPdfUrl(l, lang);
+                                    return (
+                                      <li key={l.id} className="flex flex-wrap items-center gap-x-3 gap-y-1">
+                                        <Link to={`/lessons/${l.id}`} className="group inline-flex items-center gap-1.5 text-sm font-medium text-brand-700 hover:text-brand-900">
+                                          <BookOpen className="h-3.5 w-3.5" aria-hidden="true" />
+                                          {L(l.title)}
+                                          <Arrow className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />
+                                        </Link>
+                                        {pdf && (
+                                          <a href={pdf} download className="inline-flex items-center gap-1 rounded-md bg-ink-50 px-2 py-0.5 text-xs font-semibold text-ink-600 hover:bg-ink-100 hover:text-ink-900" aria-label={`${t.lesson.downloadPdf} — ${L(l.title)}`}>
+                                            <FileDown className="h-3.5 w-3.5" aria-hidden="true" />
+                                            PDF
+                                          </a>
+                                        )}
+                                      </li>
+                                    );
+                                  })}
                                 </ul>
                               )}
                             </div>

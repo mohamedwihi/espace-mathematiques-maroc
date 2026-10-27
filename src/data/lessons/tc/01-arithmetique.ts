@@ -35,8 +35,8 @@ export const arithmetique: LessonModule = {
           {
             kind: 'property',
             content: {
-              ar: '• مجموع عددين زوجيين أو فرديين زوجي، ومجموع زوجي وفردي فردي.\n\n• جداء عددين متتابعين $n(n+1)$ زوجي دائماً.\n\n• مصاديق: يقبل القسمة على $2$ إذا كان رقم وحداته $0,2,4,6,8$؛ على $5$ إذا كان رقم وحداته $0$ أو $5$؛ على $3$ (أو $9$) إذا كان مجموع أرقامه يقبل القسمة على $3$ (أو $9$)؛ على $4$ إذا كان العدد المكون من رقميه الأخيرين مضاعفاً لـ $4$.',
-              fr: '• La somme de deux pairs ou de deux impairs est paire ; celle d’un pair et d’un impair est impaire.\n\n• Le produit de deux consécutifs $n(n+1)$ est toujours pair.\n\n• Critères : divisible par $2$ si le chiffre des unités est $0,2,4,6,8$ ; par $5$ s’il est $0$ ou $5$ ; par $3$ (ou $9$) si la somme des chiffres est divisible par $3$ (ou $9$) ; par $4$ si le nombre formé par ses deux derniers chiffres est multiple de $4$.',
+              ar: '• مجموع عددين زوجيين أو فرديين زوجي، ومجموع زوجي وفردي فردي.\n\n• جداء عددين متتابعين $n(n+1)$ زوجي دائماً.\n\n• مصاديق: يقبل القسمة على $2$ إذا كان رقم وحداته $0$ أو $2$ أو $4$ أو $6$ أو $8$؛ على $5$ إذا كان رقم وحداته $0$ أو $5$؛ على $3$ (أو $9$) إذا كان مجموع أرقامه يقبل القسمة على $3$ (أو $9$)؛ على $4$ إذا كان العدد المكون من رقميه الأخيرين مضاعفاً لـ $4$.',
+              fr: '• La somme de deux pairs ou de deux impairs est paire ; celle d’un pair et d’un impair est impaire.\n\n• Le produit de deux consécutifs $n(n+1)$ est toujours pair.\n\n• Critères : divisible par $2$ si le chiffre des unités est $0$, $2$, $4$, $6$ ou $8$ ; par $5$ s’il est $0$ ou $5$ ; par $3$ (ou $9$) si la somme des chiffres est divisible par $3$ (ou $9$) ; par $4$ si le nombre formé par ses deux derniers chiffres est multiple de $4$.',
             },
           },
         ],
@@ -48,8 +48,8 @@ export const arithmetique: LessonModule = {
           {
             kind: 'definition',
             content: {
-              ar: 'العدد الأولي عدد صحيح طبيعي يخالف $1$ ولا يقبل إلا قاسمين: $1$ ونفسه. أمثلة: $2,3,5,7,11,13,\\dots$',
-              fr: 'Un nombre premier est un entier naturel différent de $1$ qui n’a que deux diviseurs : $1$ et lui-même. Exemples : $2,3,5,7,11,13,\\dots$',
+              ar: 'العدد الأولي عدد صحيح طبيعي يخالف $1$ ولا يقبل إلا قاسمين: $1$ ونفسه. أمثلة: $2$ ؛ $3$ ؛ $5$ ؛ $7$ ؛ $11$ ؛ $13$ ؛ …',
+              fr: 'Un nombre premier est un entier naturel différent de $1$ qui n’a que deux diviseurs : $1$ et lui-même. Exemples : $2$ ; $3$ ; $5$ ; $7$ ; $11$ ; $13$ ; …',
             },
           },
           {

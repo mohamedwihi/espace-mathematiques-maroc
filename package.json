@@ -10,7 +10,9 @@
     "build": "tsc --noEmit -p tsconfig.json && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "check:math": "vite-node scripts/check-math.ts",
+    "pdf": "vite-node scripts/build-pdfs.ts"
   },
   "dependencies": {
     "katex": "0.16.11",

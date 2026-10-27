@@ -132,6 +132,7 @@ export const fr: Dictionary = {
     related: 'Exercices liés à ce cours',
     noRelated: "Aucun exercice n'est encore lié à ce cours.",
     print: 'Imprimer le cours',
+    downloadPdf: 'Télécharger le cours (PDF)',
     addFav: 'Ajouter aux favoris',
     removeFav: 'Retirer des favoris',
     startQuiz: 'Me tester',

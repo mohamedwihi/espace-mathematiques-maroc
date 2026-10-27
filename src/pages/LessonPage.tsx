@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
-import { CheckCircle2, Clock, Heart, NotebookPen, Printer, Target } from 'lucide-react';
+import { CheckCircle2, Clock, FileDown, Heart, NotebookPen, Printer, Target } from 'lucide-react';
 import { getLevel } from '@/data/levels';
-import { exercisesForLesson, getLesson, lessonSemester, unitTitle } from '@/services/content';
+import { exercisesForLesson, getLesson, lessonPdfUrl, lessonSemester, unitTitle } from '@/services/content';
 import { LessonBlockView } from '@/components/lesson/LessonBlocks';
 import { ReviewBadge, DifficultyBadge, Arrow } from '@/components/cards/Cards';
 import { MathText } from '@/components/math/MathText';
@@ -13,7 +13,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 
 export default function LessonPage() {
   const { lessonId } = useParams();
-  const { t, L, fmt } = useI18n();
+  const { t, L, fmt, lang } = useI18n();
   const { isFavorite, toggleFavorite } = useProgress();
   const lesson = getLesson(lessonId);
   usePageMeta(lesson ? L(lesson.title) : t.lesson.notFound, lesson ? L(lesson.summary).replace(/\$[^$]*\$/g, '') : undefined);
@@ -37,6 +37,7 @@ export default function LessonPage() {
   const fav = isFavorite(lesson.id);
   const streams = lesson.streams?.map((s) => level.streams.find((x) => x.id === s)?.short).filter(Boolean);
   const hasQuiz = related.some((e) => e.question.type !== 'open');
+  const pdf = lessonPdfUrl(lesson, lang);
 
   return (
     <article>
@@ -62,6 +63,12 @@ export default function LessonPage() {
         }
         actions={
           <>
+            {pdf && (
+              <a href={pdf} download className="btn-primary">
+                <FileDown className="h-4 w-4" aria-hidden="true" />
+                {t.lesson.downloadPdf}
+              </a>
+            )}
             <button type="button" className={fav ? 'btn-secondary border-red-200 text-red-600' : 'btn-secondary'} onClick={() => toggleFavorite(lesson.id)} aria-pressed={fav}>
               <Heart className={`h-4 w-4 ${fav ? 'fill-red-500 text-red-500' : ''}`} aria-hidden="true" />
               {fav ? t.lesson.removeFav : t.lesson.addFav}

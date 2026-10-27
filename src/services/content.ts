@@ -5,6 +5,12 @@ import { exercises } from '@/data/exercises';
 import { exams } from '@/data/exams';
 import { tools } from '@/data/tools';
 import { dictionaries } from '@/i18n';
+import { lessonPdfIds } from '@/data/lessonPdfs.generated';
+
+/** PDF du cours (cours + exercices + corrigés) dans la langue demandée, s'il a été généré. */
+export function lessonPdfUrl(lesson: Lesson, lang: Lang): string | undefined {
+  return lessonPdfIds.has(lesson.id) ? `/pdf/${lesson.levelId}/${lesson.id}-${lang}.pdf` : undefined;
+}
 
 /* ---------- Requêtes ---------- */
 

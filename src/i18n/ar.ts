@@ -133,6 +133,7 @@ export const ar = {
     related: 'تمارين مرتبطة بهذا الدرس',
     noRelated: 'لا توجد تمارين مرتبطة بهذا الدرس بعد.',
     print: 'طباعة الدرس',
+    downloadPdf: 'تحميل الدرس PDF',
     addFav: 'أضف إلى المفضلة',
     removeFav: 'إزالة من المفضلة',
     startQuiz: 'اختبر نفسك',

@@ -68,8 +68,8 @@ export const suites: LessonModule = {
               { fn: (x: number) => x, label: 'y=x', color: 'saffron' },
             ],
             points: [
-              { x: 0, y: 0, label: 'u_0' },
-              { x: Math.SQRT2, y: 0, label: 'u_1' },
+              { x: 0, y: 0, label: 'u₀' },
+              { x: Math.SQRT2, y: 0, label: 'u₁' },
               { x: 2, y: 2, label: 'ℓ' },
             ],
             lines: [
