@@ -4,8 +4,7 @@ import { modules2ac } from './2ac';
 import { modules3ac } from './3ac';
 import { modulesTc } from './tc';
 import { modules1bac } from './1bac';
-import { lesson2bacLogarithm } from './2bac-logarithm';
-import { lesson2bacIntegrals } from './2bac-integrals';
+import { modules2bac } from './2bac';
 
 /**
  * Pour ajouter un cours : créez un fichier dans ce dossier (même structure que les exemples),
@@ -17,6 +16,5 @@ export const lessons: Lesson[] = [
   ...modules3ac.map((m) => m.lesson),
   ...modulesTc.map((m) => m.lesson),
   ...modules1bac.map((m) => m.lesson),
-  lesson2bacLogarithm,
-  lesson2bacIntegrals,
+  ...modules2bac.map((m) => m.lesson),
 ];

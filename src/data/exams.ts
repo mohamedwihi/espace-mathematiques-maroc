@@ -2,6 +2,7 @@ import type { Exam } from '@/types';
 import { devoirs3ac } from './devoirs/3ac';
 import { devoirsTc } from './devoirs/tc';
 import { devoirs1bac } from './devoirs/1bac';
+import { devoirs2bac } from './devoirs/2bac';
 
 /**
  * Bibliothèque des devoirs et examens.
@@ -35,6 +36,7 @@ export const exams: Exam[] = [
   ...devoirs3ac,
   ...devoirsTc,
   ...devoirs1bac,
+  ...devoirs2bac,
 
   {
     id: 'practice-3ac-s2-systems',
