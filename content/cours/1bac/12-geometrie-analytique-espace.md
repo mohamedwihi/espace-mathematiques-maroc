@@ -147,6 +147,17 @@ Déterminer $m$ pour que $\vec u(1;m;1)$, $\vec v(2;1;0)$ et $\vec w(0;1;1)$ soi
 Étudier la position relative des plans $(P):2x-y+z-1=0$ et $(Q):-4x+2y-2z+5=0$, puis des plans $(P)$ et $(R):x+y-z=0$.
 :::
 
+:::exercice Série — représentation paramétrique
+On donne $A(1;0;2)$, $B(3;1;0)$ et $C(0;2;1)$.
+1. Donner une représentation paramétrique de $(AB)$.
+2. Le point $D(5;2;-2)$ appartient-il à $(AB)$ ?
+3. Les points $A$, $B$, $C$ sont-ils alignés ?
+:::
+
+:::exercice Série — équation de plan
+Déterminer une équation cartésienne du plan $(P)$ passant par $A(1;0;2)$ et dirigé par $\vec u(1;1;0)$ et $\vec v(0;1;1)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -169,4 +180,14 @@ $2t-(1+t)-(-1+t)+3=0$ donne $3=0$ : aucune solution. La droite est strictement p
 :::corrige
 - $(-4;2;-2)=-2(2;-1;1)$ mais $5\ne-2\times(-1)$ : $(P)$ et $(Q)$ sont strictement parallèles.
 - $(2;-1;1)$ et $(1;1;-1)$ ne sont pas proportionnels : $(P)$ et $(R)$ sont sécants suivant une droite.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}(2;1;-2)$ : $x=1+2t$, $y=t$, $z=2-2t$ ($t\in\mathbb R$).
+2. $t=2$ donne $(5;2;-2)$ : $D\in(AB)$.
+3. $\overrightarrow{AC}(-1;2;-1)$ n’est pas colinéaire à $\overrightarrow{AB}$ (rapports $-\dfrac12$ et $2$) : non alignés.
+:::
+
+:::corrige
+$M(x;y;z)\in(P)\iff\overrightarrow{AM}=a\vec u+b\vec v$ : $x-1=a$, $y=a+b$, $z-2=b$. Donc $y=(x-1)+(z-2)$, soit $(P):x-y+z-3=0$.
 :::

@@ -138,6 +138,19 @@ Un cône a pour rayon de base $3$ cm et pour génératrice $5$ cm. Calculer sa h
 Une boule de rayon $2$ cm est agrandie pour obtenir une boule de rayon $6$ cm. Par combien sont multipliés son aire et son volume ? Calculer le volume de la grande boule.
 :::
 
+:::exercice Série — pyramide
+$SABCD$ est une pyramide régulière de base le carré $ABCD$ de côté $6$ cm et de hauteur $SO=4$ cm ($O$ centre du carré).
+1. Calculer le volume de la pyramide.
+2. Soit $I$ le milieu de $[BC]$ : calculer $SI$ (on remarquera que $OI=3$ cm).
+3. En déduire l’aire latérale de la pyramide.
+:::
+
+:::exercice Série — section et réduction
+Un cône de révolution a pour hauteur $12$ cm et pour rayon de base $5$ cm. On le coupe par un plan parallèle à la base, à $4$ cm du sommet.
+1. Calculer le volume du grand cône ($\pi\approx3{,}14$).
+2. Le petit cône obtenu est une réduction du grand : donner le coefficient puis son volume.
+:::
+
 # Corrigés
 
 :::corrige
@@ -160,4 +173,15 @@ La hauteur, le rayon et la génératrice forment un triangle rectangle : $h^2=5^
 
 :::corrige
 Rapport $k=3$ : l’aire est multipliée par $9$ et le volume par $27$. Volume de la grande boule : $\dfrac43\pi\times6^3=288\pi\approx904{,}8\ \text{cm}^3$.
+:::
+
+:::corrige
+1. $V=\dfrac{6^2\times4}{3}=48\ \text{cm}^3$.
+2. $SOI$ est rectangle en $O$ : $SI^2=16+9=25$, $SI=5$ cm.
+3. Chaque face est un triangle de base $6$ et de hauteur $SI=5$ : $\mathcal A_\ell=4\times\dfrac{6\times5}{2}=60\ \text{cm}^2$.
+:::
+
+:::corrige
+1. $V=\dfrac{3{,}14\times25\times12}{3}=314\ \text{cm}^3$.
+2. $k=\dfrac4{12}=\dfrac13$ ; $V'=k^3V=\dfrac{314}{27}\approx11{,}6\ \text{cm}^3$.
 :::

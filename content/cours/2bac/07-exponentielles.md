@@ -142,6 +142,17 @@ Soit $f(x)=x-e^{x-1}$.
 2. Étudier les variations de $f$ et en déduire que $e^{x-1}\ge x$ pour tout réel $x$.
 :::
 
+:::exercice Série — inéquations
+Résoudre : $e^{2x}-4e^x+3\le0$ ; $e^{x}>2e^{-x}$.
+:::
+
+:::exercice Série — étude de $xe^{-x}$
+Soit $f(x)=xe^{-x}$ sur $\mathbb R$.
+1. Calculer les limites en $-\infty$ et $+\infty$.
+2. Étudier les variations de $f$ et préciser son maximum.
+3. Déterminer l’équation de la tangente en $0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -168,4 +179,15 @@ $+\infty$ ($\dfrac{e^x}{x^2}\to+\infty$) ; $0$ ; $\dfrac{1-xe^{-x}}{1+e^{-x}}\to
 :::corrige
 1. En $-\infty$ : $e^{x-1}\to0$, donc $f(x)\to-\infty$ et $f(x)-x=-e^{x-1}\to0$ : $y=x$ est asymptote. En $+\infty$ : $f(x)=x\left(1-\dfrac{e^{x-1}}x\right)\to-\infty$.
 2. $f'(x)=1-e^{x-1}$, positif sur $]-\infty;1]$ et négatif sur $[1;+\infty[$ : maximum $f(1)=0$. Donc $f(x)\le0$, soit $e^{x-1}\ge x$.
+:::
+
+:::corrige
+- $X=e^x$ : $(X-1)(X-3)\le0\iff1\le e^x\le3\iff0\le x\le\ln3$.
+- $e^{2x}>2\iff2x>\ln2\iff x>\dfrac{\ln2}{2}$.
+:::
+
+:::corrige
+1. $\lim\limits_{-\infty}f=-\infty$ ; $\lim\limits_{+\infty}\dfrac{x}{e^x}=0$.
+2. $f'(x)=(1-x)e^{-x}$ : croissante sur $]-\infty;1]$, décroissante sur $[1;+\infty[$, maximum $f(1)=\dfrac1e$.
+3. $f(0)=0$, $f'(0)=1$ : $y=x$.
 :::

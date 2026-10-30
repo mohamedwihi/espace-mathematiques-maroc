@@ -96,6 +96,17 @@ $ABC$ est un triangle avec $AB=6$, $AC=9$ et $BC=12$. $M\in[AB]$ avec $AM=2$ ; l
 $ABC$ est un triangle. $E$ et $F$ sont tels que $\overrightarrow{AE}=3\overrightarrow{AB}$ et $\overrightarrow{AF}=3\overrightarrow{AC}$. Montrer que $(EF)\parallel(BC)$ et que $EF=3BC$.
 :::
 
+:::exercice Série — projection et milieux
+$ABC$ est un triangle et $I$ le milieu de $[AB]$. On note $I'$ le projeté de $I$ sur $(BC)$ parallèlement à $(AC)$.
+1. Quel est le projeté de $A$ ? celui de $B$ ?
+2. En déduire que $I'$ est le milieu de $[BC]$.
+:::
+
+:::exercice Série — rapport conservé
+Sur une droite $(D)$, les points $A$, $B$, $C$ vérifient $\overrightarrow{AC}=\dfrac35\overrightarrow{AB}$. Leurs projetés sur une droite $(\Delta)$ parallèlement à une direction donnée sont $A'$, $B'$, $C'$, avec $A'B'=10$ cm.
+Calculer $A'C'$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -116,4 +127,13 @@ D’après le théorème de Thalès : $\dfrac{AM}{AB}=\dfrac{AN}{AC}=\dfrac{MN}{
 
 :::corrige
 $\overrightarrow{EF}=\overrightarrow{EA}+\overrightarrow{AF}=-3\overrightarrow{AB}+3\overrightarrow{AC}=3\left(\overrightarrow{BA}+\overrightarrow{AC}\right)=3\overrightarrow{BC}$. Les vecteurs sont colinéaires : $(EF)\parallel(BC)$, et $EF=3BC$.
+:::
+
+:::corrige
+1. $A\in(AC)$ : son projeté est $C$ (intersection de $(BC)$ et de la parallèle à $(AC)$ passant par $A$, qui est $(AC)$ elle-même). $B\in(BC)$ est son propre projeté.
+2. La projection conserve le milieu : $I'$ est le milieu de $[CB]$.
+:::
+
+:::corrige
+La projection conserve le coefficient de colinéarité : $\overrightarrow{A'C'}=\dfrac35\overrightarrow{A'B'}$, donc $A'C'=\dfrac35\times10=6$ cm.
 :::

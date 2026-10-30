@@ -142,6 +142,16 @@ Soit $x\in[1;3]$. Écrire sans valeur absolue $E=|x-1|+|x-3|+|x+2|$.
 On donne $2\le x\le3$ et $-1\le y\le1$. Encadrer $x+y$, $x-y$, $x^2$, $\dfrac1x$ et $3x-2y$.
 :::
 
+:::exercice Série — valeur absolue
+Résoudre dans $\mathbb R$ : $\lvert x-3\rvert=5$ ; $\lvert 2x+1\rvert\le3$ ; $\lvert x+2\rvert>1$.
+:::
+
+:::exercice Série — encadrement et approximation
+On sait que $2\le x\le3$ et $-1\le y\le1$.
+1. Encadrer $x+2y$, $x^2$ et $\dfrac{1}{x}$.
+2. Encadrer $\dfrac{x-1}{x}=1-\dfrac1x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -166,4 +176,15 @@ Pour $1\le x\le3$ : $x-1\ge0$, $x-3\le0$ et $x+2>0$. Donc $E=(x-1)+(3-x)+(x+2)=x
 
 :::corrige
 $1\le x+y\le4$ ; $-1\le-y\le1$ donc $1\le x-y\le4$ ; $4\le x^2\le9$ ; $\dfrac13\le\dfrac1x\le\dfrac12$ ; $6\le3x\le9$ et $-2\le-2y\le2$ donc $4\le3x-2y\le11$.
+:::
+
+:::corrige
+- $x-3=5$ ou $x-3=-5$ : $S=\{-2;8\}$.
+- $-3\le2x+1\le3\iff-2\le x\le1$ : $S=[-2;1]$.
+- $x+2>1$ ou $x+2<-1$ : $S=]-\infty;-3[\cup]-1;+\infty[$.
+:::
+
+:::corrige
+1. $-2\le2y\le2$, donc $0\le x+2y\le5$ ; $4\le x^2\le9$ ; $\dfrac13\le\dfrac1x\le\dfrac12$.
+2. $-\dfrac12\le-\dfrac1x\le-\dfrac13$, donc $\dfrac12\le\dfrac{x-1}{x}\le\dfrac23$.
 :::

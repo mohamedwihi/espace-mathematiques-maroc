@@ -123,6 +123,14 @@ Dans une salle de cinéma, une place adulte coûte $40$ DH et une place enfant $
 Le périmètre d’un rectangle est $34$ cm. Si l’on augmente sa longueur de $3$ cm et que l’on diminue sa largeur de $2$ cm, son aire ne change pas. Calculer ses dimensions.
 :::
 
+:::exercice Série — résolution
+Résoudre par la méthode de votre choix : $\begin{cases}3x-2y=4\\x+4y=6\end{cases}$ et $\begin{cases}\dfrac x2+\dfrac y3=4\\x-y=3\end{cases}$.
+:::
+
+:::exercice Série — problème
+Dans une ferme, il y a des poules et des lapins : on compte $40$ têtes et $112$ pattes. Combien y a-t-il de poules et de lapins ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -145,4 +153,13 @@ Soient $a$ le nombre de places adultes et $e$ celui de places enfants : $\begin{
 
 :::corrige
 Soient $L$ et $\ell$ les dimensions : $L+\ell=17$ et $(L+3)(\ell-2)=L\ell$. La seconde donne $L\ell-2L+3\ell-6=L\ell$, soit $-2L+3\ell=6$. Avec $L=17-\ell$ : $-34+2\ell+3\ell=6$, $5\ell=40$, $\ell=8$ et $L=9$. Le rectangle mesure $9$ cm sur $8$ cm (vérification : $12\times6=72=9\times8$).
+:::
+
+:::corrige
+- Système 1 : $x=6-4y$, puis $3(6-4y)-2y=4\iff-14y=-14\iff y=1$ et $x=2$. $S=\{(2;1)\}$.
+- Système 2 : la première équation multipliée par $6$ donne $3x+2y=24$ ; avec $x=y+3$ : $5y+9=24$, $y=3$, $x=6$. $S=\{(6;3)\}$.
+:::
+
+:::corrige
+Soit $x$ le nombre de poules et $y$ celui de lapins : $x+y=40$ et $2x+4y=112$. Alors $2y=112-80=32$, $y=16$ et $x=24$ : $24$ poules et $16$ lapins.
 :::

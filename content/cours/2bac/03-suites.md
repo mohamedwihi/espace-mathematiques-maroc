@@ -128,6 +128,18 @@ Soit $u_0=5$ et $u_{n+1}=\dfrac12u_n+1$. On pose $v_n=u_n-2$.
 Soit $u_n=\displaystyle\sum_{k=1}^{n}\frac{1}{\sqrt{k}}=1+\frac1{\sqrt2}+\dots+\frac1{\sqrt n}$. Montrer que $u_n\ge\dfrac{n}{\sqrt n}=\sqrt n$ et en déduire $\lim u_n$.
 :::
 
+:::exercice Série — suite récurrente
+On définit $u_0=1$ et $u_{n+1}=\sqrt{u_n+2}$.
+1. Montrer par récurrence que $0\le u_n\le2$ pour tout $n$.
+2. Montrer que $(u_n)$ est croissante.
+3. En déduire qu’elle converge et déterminer sa limite.
+:::
+
+:::exercice Série — suites adjacentes
+On pose $u_n=\displaystyle\sum_{k=1}^{n}\dfrac{1}{k^2}$ et $v_n=u_n+\dfrac1n$ pour $n\ge1$.
+Montrer que $(u_n)$ et $(v_n)$ sont adjacentes.
+:::
+
 # Corrigés
 
 :::corrige
@@ -147,4 +159,14 @@ $-2$ ; $+\infty$ ; $\left(\dfrac34\right)^n+\left(\dfrac12\right)^n\to0$ ; $\dfr
 
 :::corrige
 Pour $1\le k\le n$, $\sqrt k\le\sqrt n$, donc $\dfrac1{\sqrt k}\ge\dfrac1{\sqrt n}$. En sommant les $n$ termes : $u_n\ge n\times\dfrac1{\sqrt n}=\sqrt n$. Comme $\lim\sqrt n=+\infty$, $\lim u_n=+\infty$.
+:::
+
+:::corrige
+1. $u_0=1\in[0;2]$ ; si $0\le u_n\le2$, alors $2\le u_n+2\le4$ et $\sqrt2\le u_{n+1}\le2$.
+2. $u_{n+1}-u_n=\dfrac{u_n+2-u_n^2}{\sqrt{u_n+2}+u_n}=\dfrac{(2-u_n)(1+u_n)}{\sqrt{u_n+2}+u_n}\ge0$.
+3. Croissante et majorée : elle converge vers $\ell\ge0$ tel que $\ell=\sqrt{\ell+2}$, soit $\ell^2-\ell-2=0$ : $\ell=2$.
+:::
+
+:::corrige
+$u_{n+1}-u_n=\dfrac1{(n+1)^2}>0$ ; $v_{n+1}-v_n=\dfrac1{(n+1)^2}+\dfrac1{n+1}-\dfrac1n=\dfrac{1}{(n+1)^2}-\dfrac{1}{n(n+1)}=\dfrac{n-(n+1)}{n(n+1)^2}<0$ ; et $v_n-u_n=\dfrac1n\to0$ : les suites sont adjacentes.
 :::

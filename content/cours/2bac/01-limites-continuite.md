@@ -176,6 +176,17 @@ Soit $f(x)=\dfrac{2x-1}{x+1}$ sur $I=]-1;+\infty[$.
 3. Calculer $\lim\limits_{x\to+\infty}\left(\sqrt[3]{x^3+1}-x\right)$.
 :::
 
+:::exercice Série — fonction racine n-ième
+Calculer : $\lim\limits_{x\to+\infty}\left(\sqrt[3]{x^3+1}-x\right)$ et $\lim\limits_{x\to1}\dfrac{\sqrt[3]{x}-1}{x-1}$.
+:::
+
+:::exercice Série — théorème des valeurs intermédiaires et bijection
+Soit $f(x)=x^3+3x-2$ sur $\mathbb R$.
+1. Montrer que $f$ réalise une bijection de $\mathbb R$ sur $\mathbb R$.
+2. Montrer que l’équation $f(x)=0$ admet une unique solution $\alpha$ et que $0{,}5<\alpha<1$.
+3. Donner le tableau de variations de $f^{-1}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -199,4 +210,15 @@ $g(x)=x^3+3x-2$ est continue, $g'(x)=3x^2+3>0$ : strictement croissante ; $g(0)=
 1. $A=3^{\frac23}\times3^{\frac16}\times3^{-\frac12}=3^{\frac{4+1-3}{6}}=3^{\frac13}=\sqrt[3]3$ ; $B=2+3=5$.
 2. $x^5=32\iff x=2$ (la fonction $x\mapsto x^5$ est strictement croissante sur $\mathbb R$). $\sqrt[3]{x-1}=2\iff x-1=8\iff x=9$.
 3. Avec $a^3-b^3=(a-b)(a^2+ab+b^2)$, $a=\sqrt[3]{x^3+1}$, $b=x$ : $a-b=\dfrac{1}{a^2+ab+b^2}\to0$.
+:::
+
+:::corrige
+- Avec $a^3-b^3=(a-b)(a^2+ab+b^2)$ et $a=\sqrt[3]{x^3+1}$, $b=x$ : $a-b=\dfrac{1}{a^2+ab+b^2}\to0$.
+- Avec $t=\sqrt[3]x$ : $\dfrac{t-1}{t^3-1}=\dfrac{1}{t^2+t+1}\to\dfrac13$.
+:::
+
+:::corrige
+1. $f'(x)=3x^2+3>0$ : $f$ est continue et strictement croissante, avec $\lim\limits_{-\infty}f=-\infty$ et $\lim\limits_{+\infty}f=+\infty$ : bijection de $\mathbb R$ sur $\mathbb R$.
+2. $0$ a un unique antécédent $\alpha$ ; $f(0{,}5)=-0{,}375<0$ et $f(1)=2>0$, donc $0{,}5<\alpha<1$.
+3. $f^{-1}$ est continue et strictement croissante sur $\mathbb R$, de $-\infty$ à $+\infty$, avec $f^{-1}(0)=\alpha$.
 :::

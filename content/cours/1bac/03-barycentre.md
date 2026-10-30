@@ -114,6 +114,14 @@ $ABC$ est un triangle et $G=\mathrm{Bar}\{(A;1),(B;1),(C;2)\}$. Déterminer l’
 $A(-1;2)$, $B(3;0)$ et $C(1;-4)$. Déterminer les coordonnées de $G=\mathrm{Bar}\{(A;1),(B;2),(C;1)\}$ et du centre de gravité du triangle $ABC$.
 :::
 
+:::exercice Série — construction
+$ABC$ est un triangle. Construire le barycentre $G$ des points pondérés $(A;1)$, $(B;2)$, $(C;1)$ en utilisant le milieu $I$ de $[AC]$ (barycentre partiel).
+:::
+
+:::exercice Série — lieu de points
+$A$ et $B$ sont deux points distincts. Déterminer l’ensemble des points $M$ du plan tels que $\left\lVert\overrightarrow{MA}+3\overrightarrow{MB}\right\rVert=8$, sachant que $AB=4$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -137,4 +145,12 @@ Pour tout $M$ : $\overrightarrow{MA}+\overrightarrow{MB}+2\overrightarrow{MC}=4\
 
 :::corrige
 $x_G=\dfrac{-1+6+1}{4}=\dfrac32$ et $y_G=\dfrac{2+0-4}{4}=-\dfrac12$ : $G\left(\dfrac32;-\dfrac12\right)$. Centre de gravité : $\left(\dfrac{-1+3+1}3;\dfrac{2+0-4}3\right)=\left(1;-\dfrac23\right)$.
+:::
+
+:::corrige
+$I$ est le barycentre de $(A;1)$ et $(C;1)$ ; par associativité, $G$ est le barycentre de $(I;2)$ et $(B;2)$ : $G$ est le milieu de $[IB]$.
+:::
+
+:::corrige
+Soit $G$ le barycentre de $(A;1)$ et $(B;3)$ : $\overrightarrow{MA}+3\overrightarrow{MB}=4\overrightarrow{MG}$. La condition devient $4MG=8$, soit $MG=2$ : l’ensemble est le cercle de centre $G$ et de rayon $2$ (avec $\overrightarrow{AG}=\dfrac34\overrightarrow{AB}$, donc $AG=3$).
 :::

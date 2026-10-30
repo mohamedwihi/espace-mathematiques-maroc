@@ -136,6 +136,14 @@ Soit $f(x)=e^x$ et $g(x)=x+1$. Calculer l’aire du domaine limité par leurs co
 Calculer le volume du solide engendré par la rotation autour de $(Ox)$ de la courbe de $f(x)=e^{-x}$ sur $[0;1]$.
 :::
 
+:::exercice Série — changement d’écriture
+Calculer $I=\displaystyle\int_0^1\frac{x}{x+1}\,dx$ (on écrira $\dfrac{x}{x+1}=1-\dfrac{1}{x+1}$) et $J=\displaystyle\int_1^2\frac{\ln x}{x}\,dx$.
+:::
+
+:::exercice Série — double intégration par parties
+Calculer $K=\displaystyle\int_0^1x^2e^x\,dx$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -158,4 +166,13 @@ $\mathcal A=\displaystyle\int_0^1\left(e^x-x-1\right)dx=\left[e^x-\frac{x^2}2-x\
 
 :::corrige
 $V=\pi\displaystyle\int_0^1e^{-2x}dx=\pi\left[-\frac{e^{-2x}}2\right]_0^1=\frac\pi2\left(1-e^{-2}\right)$ u.v.
+:::
+
+:::corrige
+- $I=\big[x-\ln(x+1)\big]_0^1=1-\ln2$.
+- $\dfrac{\ln x}{x}=u'u$ avec $u=\ln x$ : $J=\left[\dfrac{(\ln x)^2}{2}\right]_1^2=\dfrac{(\ln2)^2}{2}$.
+:::
+
+:::corrige
+$u=x^2$, $v'=e^x$ : $K=\big[x^2e^x\big]_0^1-2\displaystyle\int_0^1xe^x\,dx=e-2\times1=e-2$ (on a vu que $\displaystyle\int_0^1xe^x\,dx=1$).
 :::

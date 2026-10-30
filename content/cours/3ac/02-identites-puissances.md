@@ -207,6 +207,15 @@ Donner l’écriture scientifique de : $20\,000$ ; $2\,500\,000$ ; $0{,}008$ ; $
 Sans calculatrice, calculer $R=1001^2-999^2$ et $S=99^2$.
 :::
 
+:::exercice Série — factoriser avec les identités
+Factoriser : $A=9x^2-12x+4$ ; $B=(2x+1)^2-25$ ; $C=x^2-3-(x-\sqrt3)(2x+1)$.
+:::
+
+:::exercice Série — puissances et écriture scientifique
+1. Simplifier $F=\dfrac{2^{5}\times3^{-2}\times6^{3}}{4^{3}\times3^{2}}$.
+2. Donner l’écriture scientifique de $G=\dfrac{0{,}6\times10^{5}\times2{,}5\times10^{-3}}{5\times10^{-4}}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -247,4 +256,15 @@ $Q=\dfrac{6\times10^{2}}{12\times10^{-2}}=0{,}5\times10^{4}=5\times10^{3}$.
 :::corrige
 - $R=(1001-999)(1001+999)=2\times2000=4000$.
 - $S=(100-1)^2=10\,000-200+1=9801$.
+:::
+
+:::corrige
+- $A=(3x-2)^2$.
+- $B=(2x+1-5)(2x+1+5)=(2x-4)(2x+6)=4(x-2)(x+3)$.
+- $x^2-3=(x-\sqrt3)(x+\sqrt3)$, donc $C=(x-\sqrt3)\left[(x+\sqrt3)-(2x+1)\right]=(x-\sqrt3)\left(-x+\sqrt3-1\right)$.
+:::
+
+:::corrige
+1. $6^3=2^3\times3^3$ et $4^3=2^6$ : $F=\dfrac{2^{8}\times3^{1}}{2^{6}\times3^{2}}=\dfrac{2^2}{3}=\dfrac43$.
+2. $G=\dfrac{0{,}6\times2{,}5}{5}\times10^{5-3+4}=0{,}3\times10^{6}=3\times10^{5}$.
 :::

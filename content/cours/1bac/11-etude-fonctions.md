@@ -155,6 +155,17 @@ Soit $f(x)=x^3-6x^2+9x$. Étudier la concavité de $(C_f)$ et déterminer son po
 Soit $f(x)=x^3-3x$ sur $\mathbb R$. Étudier la parité, les limites, les variations, les branches infinies et la concavité, puis tracer la courbe.
 :::
 
+:::exercice Série — étude complète
+Soit $f(x)=\dfrac{x^2-x+1}{x-1}$ sur $\mathbb R\setminus\{1\}$.
+1. Écrire $f(x)=x+\dfrac{1}{x-1}$ et en déduire l’asymptote oblique.
+2. Calculer $f'(x)$ et dresser le tableau de variations.
+3. Montrer que le point $\Omega(1;1)$ est centre de symétrie de $(C_f)$.
+:::
+
+:::exercice Série — nombre de solutions
+Soit $g(x)=x^3+x-1$. Montrer que l’équation $g(x)=0$ admet une unique solution $\alpha$ dans $\mathbb R$ et que $0{,}6<\alpha<0{,}7$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -180,4 +191,14 @@ $f''(x)=6x-12$ : négatif sur $]-\infty;2[$ (concave), positif sur $]2;+\infty[$
 
 :::corrige
 $f$ est impaire (courbe symétrique par rapport à $O$). $\lim\limits_{x\to\pm\infty}f(x)=\pm\infty$ et $\dfrac{f(x)}x=x^2-3\to+\infty$ : branches paraboliques de direction $(Oy)$. $f'(x)=3(x-1)(x+1)$ : croissante sur $]-\infty;-1]$, décroissante sur $[-1;1]$, croissante sur $[1;+\infty[$ ; maximum local $f(-1)=2$, minimum local $f(1)=-2$. $f''(x)=6x$ : point d’inflexion $O(0;0)$. La courbe coupe l’axe des abscisses en $-\sqrt3$, $0$ et $\sqrt3$.
+:::
+
+:::corrige
+1. $x(x-1)+1=x^2-x+1$, d’où l’écriture. $f(x)-x=\dfrac1{x-1}\to0$ en $\pm\infty$ : $y=x$ est asymptote oblique (et $x=1$ asymptote verticale).
+2. $f'(x)=1-\dfrac1{(x-1)^2}=\dfrac{x(x-2)}{(x-1)^2}$ : $f$ croît sur $]-\infty;0]$ et $[2;+\infty[$, décroît sur $[0;1[$ et $]1;2]$ ; maximum local $f(0)=-1$, minimum local $f(2)=3$.
+3. $f(2-x)+f(x)=(2-x)+\dfrac1{1-x}+x+\dfrac1{x-1}=2=2\times1$ : $\Omega$ est centre de symétrie.
+:::
+
+:::corrige
+$g'(x)=3x^2+1>0$ : $g$ est continue et strictement croissante sur $\mathbb R$, de $-\infty$ à $+\infty$ : unique solution. $g(0{,}6)=-0{,}184<0$ et $g(0{,}7)=0{,}043>0$ : $0{,}6<\alpha<0{,}7$.
 :::

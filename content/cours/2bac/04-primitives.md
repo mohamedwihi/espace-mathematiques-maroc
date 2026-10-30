@@ -112,6 +112,14 @@ Déterminer la primitive $F$ de $f(x)=\dfrac{1}{(2x+1)^2}$ sur $\left]-\dfrac12;
 Montrer que $F(x)=\dfrac{x}{\sqrt{x^2+1}}$ est une primitive de $f(x)=\dfrac{1}{\left(x^2+1\right)\sqrt{x^2+1}}$ sur $\mathbb R$.
 :::
 
+:::exercice Série — primitives usuelles
+Déterminer une primitive de : $f(x)=(2x+1)(x^2+x)^3$ ; $g(x)=\dfrac{x}{\sqrt{x^2+1}}$ ; $h(x)=\cos x\sin^2x$ ; $k(x)=\dfrac{1}{(3x-1)^2}$ sur $\left]\dfrac13;+\infty\right[$.
+:::
+
+:::exercice Série — primitive vérifiant une condition
+Déterminer la primitive $F$ de $f(x)=3x^2-\dfrac{2}{x^2}$ sur $]0;+\infty[$ telle que $F(1)=4$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -132,4 +140,15 @@ $f=\dfrac12\times\dfrac{2}{(2x+1)^2}$ : $F(x)=-\dfrac{1}{2(2x+1)}+c$ ; $F(0)=-\d
 
 :::corrige
 $F'(x)=\dfrac{\sqrt{x^2+1}-x\times\frac{x}{\sqrt{x^2+1}}}{x^2+1}=\dfrac{x^2+1-x^2}{\left(x^2+1\right)\sqrt{x^2+1}}=f(x)$.
+:::
+
+:::corrige
+- $F(x)=\dfrac{(x^2+x)^4}{4}$ ($u'u^3$).
+- $G(x)=\sqrt{x^2+1}$.
+- $H(x)=\dfrac{\sin^3x}{3}$.
+- $K(x)=-\dfrac{1}{3(3x-1)}$.
+:::
+
+:::corrige
+$F(x)=x^3+\dfrac2x+c$ ; $F(1)=3+c=4$, $c=1$ : $F(x)=x^3+\dfrac2x+1$.
 :::

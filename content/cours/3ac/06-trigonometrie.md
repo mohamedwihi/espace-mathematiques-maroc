@@ -144,6 +144,17 @@ Calculer sans calculatrice : $D=\sin^235^\circ+\sin^255^\circ$ et $E=\tan25^\cir
 Une échelle de $4$ m est posée contre un mur et fait un angle de $60^\circ$ avec le sol horizontal. À quelle hauteur touche-t-elle le mur ? À quelle distance du mur est son pied ?
 :::
 
+:::exercice Série — relations trigonométriques
+$x$ est la mesure d’un angle aigu telle que $\cos x=\dfrac{\sqrt5}{3}$.
+1. Calculer $\sin x$ puis $\tan x$.
+2. Simplifier $A=\left(\cos x+\sin x\right)^2+\left(\cos x-\sin x\right)^2$.
+:::
+
+:::exercice Série — calcul de hauteur
+D’un point $P$ situé à $40$ m du pied d’une tour verticale, on voit le sommet de la tour sous un angle de $35°$ avec l’horizontale.
+Calculer la hauteur de la tour (arrondir au dixième ; $\tan35°\approx0{,}70$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -173,4 +184,13 @@ $\cos^2x=1-\dfrac59=\dfrac49$ et $\cos x>0$, donc $\cos x=\dfrac23$. Puis $\tan 
 
 :::corrige
 L’échelle est l’hypoténuse. Hauteur : $h=4\sin60^\circ=4\times\dfrac{\sqrt3}2=2\sqrt3\approx3{,}46$ m. Distance au mur : $d=4\cos60^\circ=4\times\dfrac12=2$ m.
+:::
+
+:::corrige
+1. $\sin^2x=1-\dfrac59=\dfrac49$, et $\sin x>0$ : $\sin x=\dfrac23$. $\tan x=\dfrac{\sin x}{\cos x}=\dfrac{2}{\sqrt5}=\dfrac{2\sqrt5}{5}$.
+2. $A=2\left(\cos^2x+\sin^2x\right)=2$ (les doubles produits s’éliminent).
+:::
+
+:::corrige
+Le triangle formé est rectangle au pied de la tour : $\tan35°=\dfrac{h}{40}$, donc $h=40\tan35°\approx28{,}0$ m.
 :::

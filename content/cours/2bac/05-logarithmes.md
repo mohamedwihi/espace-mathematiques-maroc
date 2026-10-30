@@ -151,6 +151,16 @@ Soit $f(x)=x-1-\ln x$ sur $]0;+\infty[$.
 2. Déterminer une primitive de $h(x)=\dfrac{2x-3}{x^2-3x+5}$ et de $k(x)=\dfrac{1}{x\ln x}$ sur $]1;+\infty[$.
 :::
 
+:::exercice Série — équations et inéquations
+Résoudre : $\ln(x+1)+\ln(x-1)=\ln3$ ; $(\ln x)^2-\ln x-2=0$ ; $\ln(2x-1)\le0$.
+:::
+
+:::exercice Série — étude de $x\ln x$
+Soit $f(x)=x\ln x$ sur $]0;+\infty[$.
+1. Calculer $\lim\limits_{x\to0^+}f(x)$ et $\lim\limits_{x\to+\infty}f(x)$.
+2. Étudier les variations de $f$ et préciser son minimum.
+:::
+
 # Corrigés
 
 :::corrige
@@ -178,4 +188,15 @@ $A=\ln\dfrac{12}{4\times3}=0$ ; $B=2+\dfrac12=\dfrac52$ ; $C=-3\ln2+3\ln2=0$.
 :::corrige
 1. $f'(x)=\ln x+1-1=\ln x$ ; $g(x)=\dfrac12\ln\left(x^2+1\right)$, $g'(x)=\dfrac{x}{x^2+1}$.
 2. $x^2-3x+5>0$ ($\Delta<0$) : $H(x)=\ln\left(x^2-3x+5\right)$. $k=\dfrac{u'}{u}$ avec $u=\ln x>0$ : $K(x)=\ln(\ln x)$.
+:::
+
+:::corrige
+- Domaine $x>1$ : $\ln(x^2-1)=\ln3\iff x^2=4$, $x=2$.
+- $X=\ln x$ : $X=2$ ou $X=-1$, soit $x=e^2$ ou $x=e^{-1}$.
+- $0<2x-1\le1\iff\dfrac12<x\le1$.
+:::
+
+:::corrige
+1. $\lim\limits_{0^+}x\ln x=0$ (limite de référence) et $\lim\limits_{+\infty}f=+\infty$.
+2. $f'(x)=\ln x+1$, nul pour $x=e^{-1}$ : $f$ décroît sur $\left]0;\dfrac1e\right]$, croît ensuite ; minimum $f\left(\dfrac1e\right)=-\dfrac1e$.
 :::

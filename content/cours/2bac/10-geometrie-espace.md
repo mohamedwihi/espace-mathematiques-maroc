@@ -150,6 +150,18 @@ $A(1;1;0)$, $B(2;0;1)$, $C(0;2;2)$.
 2. Calculer la distance de $O$ à la droite $(AB)$.
 :::
 
+:::exercice Série — sphère et plan
+On considère la sphère $(S):x^2+y^2+z^2-2x+4z-4=0$ et le plan $(P):2x-y+2z+3=0$.
+1. Déterminer le centre et le rayon de $(S)$.
+2. Calculer la distance du centre à $(P)$ et en déduire que $(P)$ coupe $(S)$ selon un cercle dont on calculera le rayon.
+:::
+
+:::exercice Série — produit vectoriel et aire
+On donne $A(1;0;0)$, $B(0;2;0)$ et $C(0;0;3)$.
+1. Calculer $\overrightarrow{AB}\wedge\overrightarrow{AC}$.
+2. En déduire une équation du plan $(ABC)$ et l’aire du triangle $ABC$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -170,4 +182,14 @@ $\overrightarrow{AB}(2;-1;2)$, $\overrightarrow{AC}(1;2;0)$ : $\overrightarrow{A
 :::corrige
 1. $\overrightarrow{AB}(1;-1;1)$, $\overrightarrow{AC}(-1;1;2)$ : $\overrightarrow{AB}\wedge\overrightarrow{AC}=\left((-1)(2)-1\times1;\ 1\times(-1)-1\times2;\ 1\times1-(-1)(-1)\right)=(-3;-3;0)$. Vecteur normal $(1;1;0)$ : $x+y-2=0$. Aire $=\dfrac12\sqrt{9+9}=\dfrac{3\sqrt2}2$.
 2. $\overrightarrow{AO}(-1;-1;0)$ et $\vec u=\overrightarrow{AB}(1;-1;1)$ : $\overrightarrow{AO}\wedge\vec u=\left((-1)(1)-0\times(-1);\ 0\times1-(-1)(1);\ (-1)(-1)-(-1)(1)\right)=(-1;1;2)$. $d=\dfrac{\sqrt6}{\sqrt3}=\sqrt2$.
+:::
+
+:::corrige
+1. $(x-1)^2+y^2+(z+2)^2=9$ : centre $\Omega(1;0;-2)$, rayon $3$.
+2. $d=\dfrac{\lvert2-0-4+3\rvert}{\sqrt{4+1+4}}=\dfrac13<3$ : section circulaire de rayon $r=\sqrt{9-\dfrac19}=\dfrac{\sqrt{80}}{3}=\dfrac{4\sqrt5}3$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}(-1;2;0)$, $\overrightarrow{AC}(-1;0;3)$ : $\overrightarrow{AB}\wedge\overrightarrow{AC}=(6;3;2)$.
+2. $(ABC):6x+3y+2z-6=0$ (il passe par $A$) ; aire $=\dfrac12\sqrt{36+9+4}=\dfrac72$.
 :::

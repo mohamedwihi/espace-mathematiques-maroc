@@ -170,6 +170,19 @@ Montrer par l’absurde que pour tout réel $x\ge0$ : $\dfrac{x}{1+x}\ne1$.
 Résoudre dans $\mathbb R$ l’équation $|x-1|+|x+2|=5$.
 :::
 
+:::exercice Série — valeur de vérité
+Donner la valeur de vérité et la négation de chacune des propositions :
+1. $P$ : « $\forall x\in\mathbb R,\ x^2+1>0$ ».
+2. $Q$ : « $\exists n\in\mathbb N,\ n^2=2n$ ».
+3. $R$ : « $\forall x\in\mathbb R,\ \exists y\in\mathbb R,\ x+y=0$ ».
+:::
+
+:::exercice Série — raisonnements
+1. Par contraposée, montrer que pour tout $n\in\mathbb N$ : si $n^2$ est impair, alors $n$ est impair.
+2. Par l’absurde, montrer que $\sqrt2\notin\mathbb Q$ (on admettra que si $n^2$ est pair, alors $n$ est pair).
+3. Par récurrence, montrer que pour tout $n\in\mathbb N^*$ : $1+3+5+\cdots+(2n-1)=n^2$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -204,4 +217,16 @@ Supposons $\dfrac x{1+x}=1$ avec $x\ge0$. Alors $x=1+x$, soit $0=1$ : contradict
 - Si $x\ge1$ : $(x-1)+(x+2)=5$, soit $2x+1=5$, $x=2$ (convient).
 
 $S=\{-3;2\}$.
+:::
+
+:::corrige
+1. Vraie ; $\overline P$ : « $\exists x\in\mathbb R,\ x^2+1\le0$ ».
+2. Vraie ($n=0$ ou $n=2$) ; $\overline Q$ : « $\forall n\in\mathbb N,\ n^2\ne2n$ ».
+3. Vraie ($y=-x$) ; $\overline R$ : « $\exists x\in\mathbb R,\ \forall y\in\mathbb R,\ x+y\ne0$ ».
+:::
+
+:::corrige
+1. Contraposée : si $n$ est pair, $n=2k$, alors $n^2=4k^2$ est pair.
+2. Supposons $\sqrt2=\dfrac pq$ avec $\dfrac pq$ irréductible. Alors $p^2=2q^2$ est pair, donc $p=2p'$ ; puis $q^2=2p'^2$ est pair, donc $q$ est pair : contradiction avec l’irréductibilité.
+3. Pour $n=1$ : $1=1^2$. Si la somme vaut $n^2$, en ajoutant $2(n+1)-1=2n+1$ on obtient $n^2+2n+1=(n+1)^2$.
 :::

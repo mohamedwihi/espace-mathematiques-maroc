@@ -156,6 +156,19 @@ Soit $u_0=4$ et $u_{n+1}=\dfrac13u_n+2$.
 Un capital de $10\,000$ DH est placé à intérêts composés au taux annuel de $5\,\%$. On note $C_n$ le capital après $n$ années. Exprimer $C_n$ en fonction de $n$ et calculer $C_{10}$ (arrondi au dirham).
 :::
 
+:::exercice Série — suite auxiliaire
+On définit $u_0=2$ et $u_{n+1}=\dfrac12u_n+3$. On pose $v_n=u_n-6$.
+1. Montrer que $(v_n)$ est géométrique et préciser sa raison.
+2. Exprimer $v_n$ puis $u_n$ en fonction de $n$.
+3. Calculer $S_n=v_0+v_1+\cdots+v_n$.
+:::
+
+:::exercice Série — suite arithmétique
+$(u_n)$ est arithmétique avec $u_3=11$ et $u_8=26$.
+1. Calculer la raison et $u_0$.
+2. Calculer $u_0+u_1+\cdots+u_{20}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -182,4 +195,15 @@ $q^2=\dfrac{48}{12}=4$ et $q>0$, donc $q=2$ ; $u_0=\dfrac{12}{4}=3$. $S=3\times\
 
 :::corrige
 $C_{n+1}=1{,}05\,C_n$ : suite géométrique de raison $1{,}05$, donc $C_n=10\,000\times1{,}05^n$ et $C_{10}\approx16\,289$ DH.
+:::
+
+:::corrige
+1. $v_{n+1}=u_{n+1}-6=\dfrac12u_n-3=\dfrac12\left(u_n-6\right)=\dfrac12v_n$ : raison $\dfrac12$, $v_0=-4$.
+2. $v_n=-4\left(\dfrac12\right)^n$ et $u_n=6-4\left(\dfrac12\right)^n$.
+3. $S_n=-4\times\dfrac{1-\left(\frac12\right)^{n+1}}{1-\frac12}=-8\left(1-\left(\dfrac12\right)^{n+1}\right)$.
+:::
+
+:::corrige
+1. $5r=26-11=15$, $r=3$ ; $u_0=11-9=2$.
+2. $u_{20}=2+60=62$ ; somme : $21\times\dfrac{2+62}{2}=672$.
 :::

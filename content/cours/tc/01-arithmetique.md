@@ -178,6 +178,19 @@ On dispose de $120$ roses et de $84$ tulipes. On veut faire le plus grand nombre
 Deux phares s’allument ensemble à minuit ; le premier s’allume toutes les $18$ secondes et le second toutes les $24$ secondes. Au bout de combien de secondes s’allumeront-ils de nouveau ensemble ?
 :::
 
+:::exercice Série — parité
+Soit $n$ un entier naturel.
+1. Montrer que $n^2+n$ est pair.
+2. En déduire la parité de $n^2+3n+5$.
+3. Montrer que $n^2$ et $n$ ont la même parité.
+:::
+
+:::exercice Série — nombre à deux chiffres
+On note $\overline{xy}=10x+y$ un entier de deux chiffres ($x$ chiffre des dizaines, $y$ chiffre des unités).
+1. Montrer que $\overline{xy}+\overline{yx}$ est divisible par $11$.
+2. Montrer que $\overline{xy}-\overline{yx}$ est divisible par $9$ (lorsque $x\ge y$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -208,4 +221,15 @@ Le nombre de bouquets divise $120$ et $84$ ; le plus grand est $\mathrm{PGCD}(12
 
 :::corrige
 $18=2\times3^2$ et $24=2^3\times3$, donc $\mathrm{PPCM}(18;24)=2^3\times3^2=72$. Ils s’allumeront ensemble après $72$ secondes.
+:::
+
+:::corrige
+1. $n^2+n=n(n+1)$ est le produit de deux entiers consécutifs, dont l’un est pair : il est pair.
+2. $n^2+3n+5=(n^2+n)+2n+4+1=2k+2(n+2)+1$ : il est impair.
+3. $n^2-n=n(n-1)$ est pair, donc $n^2$ et $n$ ont la même parité.
+:::
+
+:::corrige
+1. $\overline{xy}+\overline{yx}=10x+y+10y+x=11(x+y)$.
+2. $\overline{xy}-\overline{yx}=9x-9y=9(x-y)$.
 :::

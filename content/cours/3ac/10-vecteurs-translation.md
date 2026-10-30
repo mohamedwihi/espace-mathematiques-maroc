@@ -164,6 +164,16 @@ $ABCD$ est un losange de centre $O$ et $t$ la translation de vecteur $\overright
 $A$ et $B$ sont deux points distincts, $(\mathcal C)$ le cercle de centre $A$ passant par $B$ et $t$ la translation qui transforme $A$ en $B$. Déterminer l’image de $(\mathcal C)$ par $t$.
 :::
 
+:::exercice Série — construire avec des sommes
+$ABC$ est un triangle.
+1. Construire le point $M$ tel que $\overrightarrow{AM}=\overrightarrow{AB}+\overrightarrow{AC}$. Quelle est la nature de $ABMC$ ?
+2. $N$ est le symétrique de $M$ par rapport à $A$. Montrer que $\overrightarrow{AN}=\overrightarrow{BA}+\overrightarrow{CA}$.
+:::
+
+:::exercice Série — simplifier
+Simplifier : $\vec u=\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{BC}$ ; $\vec v=\overrightarrow{MA}+\overrightarrow{BM}+\overrightarrow{AB}$ ; $\vec w=\overrightarrow{EF}+\overrightarrow{GE}-\overrightarrow{GF}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -188,4 +198,15 @@ $\overrightarrow{EF}=\overrightarrow{EA}+\overrightarrow{AF}=-\dfrac13\overright
 
 :::corrige
 $t(A)=B$ et une translation conserve les rayons : l’image de $(\mathcal C)$ est le cercle de centre $B$ et de rayon $AB$.
+:::
+
+:::corrige
+1. D’après la règle du parallélogramme, $ABMC$ est un parallélogramme.
+2. $A$ est le milieu de $[MN]$, donc $\overrightarrow{AN}=-\overrightarrow{AM}=-\overrightarrow{AB}-\overrightarrow{AC}=\overrightarrow{BA}+\overrightarrow{CA}$.
+:::
+
+:::corrige
+- $\vec u=\overrightarrow{AB}+\overrightarrow{CA}+\overrightarrow{BC}=\overrightarrow{CA}+\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{CC}=\vec0$.
+- $\vec v=\overrightarrow{BM}+\overrightarrow{MA}+\overrightarrow{AB}=\overrightarrow{BB}=\vec0$.
+- $\vec w=\overrightarrow{GE}+\overrightarrow{EF}+\overrightarrow{FG}=\vec0$.
 :::

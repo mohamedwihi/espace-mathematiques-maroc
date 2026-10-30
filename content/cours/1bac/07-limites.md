@@ -154,6 +154,14 @@ Calculer : $\lim\limits_{x\to0}\dfrac{\sin5x}{2x}$ ; $\lim\limits_{x\to0}\dfrac{
 2. Calculer $\lim\limits_{x\to-\infty}\left(x^2+2\sin x\right)$.
 :::
 
+:::exercice Série — formes indéterminées
+Calculer : $\lim\limits_{x\to2}\dfrac{x^2-4}{x^2-3x+2}$ ; $\lim\limits_{x\to+\infty}\left(\sqrt{x^2+x}-x\right)$ ; $\lim\limits_{x\to0}\dfrac{\sqrt{x+4}-2}{x}$.
+:::
+
+:::exercice Série — trigonométrie
+Calculer : $\lim\limits_{x\to0}\dfrac{\sin3x}{x}$ ; $\lim\limits_{x\to0}\dfrac{1-\cos x}{x^2}$ ; $\lim\limits_{x\to0}\dfrac{\tan2x}{\sin x}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -181,4 +189,16 @@ $-\infty$ ; $\lim\limits_{x\to-\infty}\dfrac{2x^3}{x^2}=\lim 2x=-\infty$ ; $\dfr
 :::corrige
 1. $-1\le\sin x\le1$ donne l’encadrement (en divisant par $x>0$). Les deux bornes tendent vers $1$ : d’après le théorème des gendarmes, la limite vaut $1$.
 2. $x^2+2\sin x\ge x^2-2$ et $\lim\limits_{x\to-\infty}(x^2-2)=+\infty$ : la limite vaut $+\infty$.
+:::
+
+:::corrige
+- $\dfrac{(x-2)(x+2)}{(x-2)(x-1)}=\dfrac{x+2}{x-1}\to4$.
+- $\dfrac{x}{\sqrt{x^2+x}+x}=\dfrac{1}{\sqrt{1+\frac1x}+1}\to\dfrac12$.
+- $\dfrac{x}{x\left(\sqrt{x+4}+2\right)}\to\dfrac14$.
+:::
+
+:::corrige
+- $3\times\dfrac{\sin3x}{3x}\to3$.
+- $\dfrac12$ (limite de référence).
+- $\dfrac{\tan2x}{2x}\times\dfrac{x}{\sin x}\times2\to2$.
 :::

@@ -127,6 +127,17 @@ On découpe un carré de côté $x$ dans chaque coin d’une plaque carrée de $
 2. Calculer $V(5)$ et vérifier que $V(x)-2000=4(x-5)\left(x^2-25x+100\right)$.
 :::
 
+:::exercice Série — division et factorisation
+Soit $P(x)=x^3-2x^2-5x+6$.
+1. Vérifier que $1$ est une racine de $P$.
+2. Déterminer le polynôme $Q$ tel que $P(x)=(x-1)Q(x)$.
+3. Factoriser $P(x)$ et résoudre $P(x)=0$.
+:::
+
+:::exercice Série — paramètre
+Soit $P(x)=2x^3+ax^2-x+b$. Déterminer $a$ et $b$ pour que $P$ soit divisible par $x-1$ et par $x+2$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -149,4 +160,14 @@ $P(-2)=-8+4m+2-2=4m-8=0$, donc $m=2$. $P(x)=x^3+2x^2-x-2=x^2(x+2)-(x+2)=(x+2)(x-
 :::corrige
 1. La boîte a une base carrée de côté $30-2x$ et une hauteur $x$ : $V(x)=x(30-2x)^2=x\left(900-120x+4x^2\right)=4x^3-120x^2+900x$.
 2. $V(5)=5\times20^2=2000$. Et $4(x-5)(x^2-25x+100)=4\left(x^3-30x^2+225x-500\right)=4x^3-120x^2+900x-2000=V(x)-2000$.
+:::
+
+:::corrige
+1. $P(1)=1-2-5+6=0$.
+2. $Q(x)=x^2-x-6$ (division euclidienne ou identification).
+3. $x^2-x-6=(x-3)(x+2)$, donc $P(x)=(x-1)(x-3)(x+2)$ et $S=\{-2;1;3\}$.
+:::
+
+:::corrige
+$P(1)=2+a-1+b=0$ et $P(-2)=-16+4a+2+b=0$, soit $a+b=-1$ et $4a+b=14$. Par soustraction : $3a=15$, $a=5$ et $b=-6$.
 :::

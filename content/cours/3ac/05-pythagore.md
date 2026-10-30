@@ -114,6 +114,18 @@ $ABCD$ est un rectangle avec $AB=8$ et $BC=6$. $M$ est le point de $[AB]$ tel qu
 3. Le triangle $DMC$ est-il rectangle en $M$ ?
 :::
 
+:::exercice Série — triangle et hauteur
+$ABC$ est un triangle tel que $AB=13$ cm, $AC=15$ cm ; $H$ est le pied de la hauteur issue de $A$ et $AH=12$ cm, avec $H\in[BC]$.
+1. Calculer $BH$ et $HC$, puis $BC$.
+2. Calculer l’aire du triangle $ABC$.
+:::
+
+:::exercice Série — rectangle ou non ?
+$ABCD$ est un rectangle de longueur $AB=8$ cm et de largeur $AD=6$ cm ; $M$ est le point de $[CD]$ tel que $DM=2$ cm.
+1. Calculer $AM$ et $BM$.
+2. Le triangle $AMB$ est-il rectangle en $M$ ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -142,4 +154,14 @@ Le mur, le sol et l’échelle forment un triangle rectangle d’hypoténuse $5$
 1. $DAB$ est rectangle en $A$ : $DB^2=AD^2+AB^2=36+64=100$, donc $DB=10$.
 2. $DM^2=AD^2+AM^2=36+4=40$, donc $DM=\sqrt{40}=2\sqrt{10}$. $MB=6$ et $MC^2=MB^2+BC^2=36+36=72$, donc $MC=6\sqrt2$.
 3. $DC^2=64$ et $DM^2+MC^2=40+72=112$. Comme $64\ne112$, le triangle $DMC$ n’est pas rectangle en $M$.
+:::
+
+:::corrige
+1. Dans $ABH$ rectangle en $H$ : $BH^2=169-144=25$, $BH=5$ cm. Dans $ACH$ : $HC^2=225-144=81$, $HC=9$ cm. Donc $BC=14$ cm.
+2. $\mathcal A=\dfrac{14\times12}{2}=84\ \text{cm}^2$.
+:::
+
+:::corrige
+1. $AM^2=AD^2+DM^2=36+4=40$ ; $MC=6$ cm, $BM^2=BC^2+MC^2=36+36=72$.
+2. $AM^2+BM^2=112\ne AB^2=64$ : le triangle $AMB$ n’est pas rectangle en $M$.
 :::

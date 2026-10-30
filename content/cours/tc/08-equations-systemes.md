@@ -165,6 +165,14 @@ Résoudre par la méthode du déterminant : $\begin{cases}3x-y=5\\x+2y=4\end{cas
 Un rectangle a un périmètre de $34$ m et une aire de $60\ \text{m}^2$. Calculer ses dimensions.
 :::
 
+:::exercice Série — second degré
+Résoudre dans $\mathbb R$ : $2x^2-7x+3=0$ ; $x^2-4x+5=0$ ; $9x^2-6x+1=0$ ; puis l’inéquation $x^2-x-6\le0$.
+:::
+
+:::exercice Série — somme et produit
+Déterminer deux nombres dont la somme est $11$ et le produit $28$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -195,4 +203,15 @@ $\Delta=3\times2-1\times(-1)=7$ ; $\Delta_x=5\times2-4\times(-1)=14$ ; $\Delta_y
 
 :::corrige
 Soient $L$ et $\ell$ les dimensions : $L+\ell=17$ et $L\ell=60$. Ce sont les solutions de $x^2-17x+60=0$ : $\Delta=289-240=49$, donc $12$ et $5$. Le rectangle mesure $12$ m sur $5$ m.
+:::
+
+:::corrige
+- $\Delta=49-24=25$ : $x=\dfrac{7\pm5}{4}$, $S=\left\{\dfrac12;3\right\}$.
+- $\Delta=16-20<0$ : $S=\varnothing$.
+- $(3x-1)^2=0$ : $S=\left\{\dfrac13\right\}$.
+- $x^2-x-6=(x-3)(x+2)\le0\iff x\in[-2;3]$.
+:::
+
+:::corrige
+Ce sont les solutions de $X^2-11X+28=0$ : $\Delta=121-112=9$, $X=\dfrac{11\pm3}2$, soit $4$ et $7$.
 :::

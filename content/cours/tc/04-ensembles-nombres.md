@@ -116,6 +116,15 @@ Développer $(2x-1)^3$, puis factoriser $x^3-8$ et $27x^3+1$.
 3. Calculer $\left(\sqrt{7+4\sqrt3}\right)^2$ et $\left(2+\sqrt3\right)^2$ ; en déduire $\sqrt{7+4\sqrt3}$.
 :::
 
+:::exercice Série — appartenance
+Compléter par $\in$ ou $\notin$ : $\sqrt{16}\ldots\mathbb N$ ; $-\dfrac{12}{4}\ldots\mathbb Z$ ; $\dfrac{1}{3}\ldots\mathbb D$ ; $\dfrac{7}{20}\ldots\mathbb D$ ; $\sqrt{2}\ldots\mathbb Q$ ; $\left(1-\sqrt3\right)\left(1+\sqrt3\right)\ldots\mathbb Z$.
+:::
+
+:::exercice Série — simplifications
+1. Simplifier $A=\sqrt{75}-2\sqrt{12}+\sqrt{27}$ et $B=\dfrac{1}{\sqrt3-\sqrt2}-\dfrac{1}{\sqrt3+\sqrt2}$.
+2. Montrer que $\sqrt{7+4\sqrt3}=2+\sqrt3$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -140,4 +149,13 @@ $(2x-1)^3=8x^3-12x^2+6x-1$ ; $x^3-8=(x-2)\left(x^2+2x+4\right)$ ; $27x^3+1=(3x+1
 1. $E=5\sqrt3-4\sqrt3+3\sqrt3=4\sqrt3$.
 2. $F=\dfrac{3\left(2-\sqrt3\right)}{4-3}=6-3\sqrt3$.
 3. Les deux valent $7+4\sqrt3$ ; comme $2+\sqrt3>0$, $\sqrt{7+4\sqrt3}=2+\sqrt3$.
+:::
+
+:::corrige
+$\sqrt{16}=4\in\mathbb N$ ; $-3\in\mathbb Z$ ; $\dfrac13\notin\mathbb D$ ; $\dfrac7{20}=0{,}35\in\mathbb D$ ; $\sqrt2\notin\mathbb Q$ ; $1-3=-2\in\mathbb Z$.
+:::
+
+:::corrige
+1. $A=5\sqrt3-4\sqrt3+3\sqrt3=4\sqrt3$ ; $B=\left(\sqrt3+\sqrt2\right)-\left(\sqrt3-\sqrt2\right)=2\sqrt2$ (car $\left(\sqrt3-\sqrt2\right)\left(\sqrt3+\sqrt2\right)=1$).
+2. $\left(2+\sqrt3\right)^2=4+4\sqrt3+3=7+4\sqrt3$ et $2+\sqrt3>0$.
 :::

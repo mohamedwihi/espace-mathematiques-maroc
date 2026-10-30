@@ -127,6 +127,18 @@ $ABC$ est rectangle en $A$ et $H$ est le pied de la hauteur issue de $A$.
 2. En déduire que $AB^2=BH\times BC$.
 :::
 
+:::exercice Série — reconnaître des triangles semblables
+$ABC$ a pour côtés $4$, $6$ et $8$ cm ; $EFG$ a pour côtés $6$, $9$ et $12$ cm.
+1. Montrer que ces triangles sont semblables et donner le rapport.
+2. L’aire de $ABC$ est environ $11{,}6\ \text{cm}^2$ : en déduire celle de $EFG$.
+:::
+
+:::exercice Série — angles égaux
+$ABC$ est un triangle ; $M\in[AB]$ et $N\in[AC]$ tels que $\widehat{AMN}=\widehat{ACB}$. On donne $AM=3$, $AN=4$, $AB=8$.
+1. Montrer que les triangles $AMN$ et $ACB$ sont semblables.
+2. Calculer $AC$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -150,4 +162,14 @@ L’aire est multipliée par $k^2=\dfrac49$ : $36\times\dfrac49=16\ \text{cm}^2$
 :::corrige
 1. Les triangles $ABC$ (rectangle en $A$) et $HBA$ (rectangle en $H$) ont l’angle $\hat B$ en commun et un angle droit : deux angles égaux, ils sont semblables, avec $A\leftrightarrow H$, $B\leftrightarrow B$, $C\leftrightarrow A$.
 2. Les côtés homologues sont proportionnels : $\dfrac{BH}{BA}=\dfrac{BA}{BC}$, donc $AB^2=BH\times BC$.
+:::
+
+:::corrige
+1. $\dfrac64=\dfrac96=\dfrac{12}8=1{,}5$ : les côtés sont proportionnels, les triangles sont semblables ; $EFG$ est un agrandissement de rapport $k=1{,}5$.
+2. Les aires sont multipliées par $k^2=2{,}25$ : $\mathcal A_{EFG}\approx26{,}1\ \text{cm}^2$.
+:::
+
+:::corrige
+1. Ils ont l’angle $\widehat A$ en commun et $\widehat{AMN}=\widehat{ACB}$ : deux angles égaux, ils sont semblables (avec $M\leftrightarrow C$ et $N\leftrightarrow B$).
+2. $\dfrac{AM}{AC}=\dfrac{AN}{AB}$, soit $\dfrac{3}{AC}=\dfrac{4}{8}$ : $AC=6$.
 :::

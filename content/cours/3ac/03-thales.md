@@ -123,6 +123,16 @@ $ABC$ est un triangle. La parallèle à $(BC)$ passant par un point $M$ de $[AB]
 Dans la figure, $AB=9$, $AC=7{,}5$, $AM=3$ et $AN=2{,}5$, avec $M\in[AB]$ et $N\in[AC]$. Montrer que $(MN)\parallel(BC)$, puis calculer $MN$ sachant que $BC=6$.
 :::
 
+:::exercice Série — configuration papillon
+Les droites $(AC)$ et $(BD)$ se coupent en $O$, avec $(AB)\parallel(CD)$. On donne $OA=3$, $OC=7{,}5$, $OB=4$ et $CD=10$ (en cm).
+Calculer $OD$ et $AB$.
+:::
+
+:::exercice Série — réciproque
+$E$, $F$, $G$ sont alignés dans cet ordre, ainsi que $E$, $H$, $K$. On donne $EF=4$, $EG=10$, $EH=6$ et $EK=15$.
+Montrer que $(FH)\parallel(GK)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -155,4 +165,12 @@ Comme $(MN)\parallel(BC)$, d’après le théorème de Thalès $\dfrac{AM}{AB}=\
 $\dfrac{AM}{AB}=\dfrac39=\dfrac13$ et $\dfrac{AN}{AC}=\dfrac{2{,}5}{7{,}5}=\dfrac13$. Les rapports sont égaux et $A$, $M$, $B$ et $A$, $N$, $C$ sont alignés dans le même ordre, donc $(MN)\parallel(BC)$.
 
 Puis, d’après le théorème de Thalès : $\dfrac{MN}{BC}=\dfrac13$, donc $MN=\dfrac63=2$.
+:::
+
+:::corrige
+D’après le théorème de Thalès : $\dfrac{OA}{OC}=\dfrac{OB}{OD}=\dfrac{AB}{CD}$, soit $\dfrac{3}{7{,}5}=\dfrac{4}{OD}=\dfrac{AB}{10}$. Donc $OD=\dfrac{4\times7{,}5}{3}=10$ cm et $AB=\dfrac{3\times10}{7{,}5}=4$ cm.
+:::
+
+:::corrige
+$\dfrac{EF}{EG}=\dfrac4{10}=0{,}4$ et $\dfrac{EH}{EK}=\dfrac6{15}=0{,}4$. Les rapports sont égaux et les points sont alignés dans le même ordre : d’après la réciproque du théorème de Thalès, $(FH)\parallel(GK)$.
 :::

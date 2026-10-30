@@ -146,6 +146,17 @@ Une boîte de conserve cylindrique a un diamètre de $8$ cm et une hauteur de $1
 Une pyramide régulière à base carrée a pour côté de base $6$ cm et pour hauteur $4$ cm. Calculer son volume et la hauteur de chacune de ses faces latérales.
 :::
 
+:::exercice Série — cube et parallélisme
+$ABCDEFGH$ est un cube ($ABCD$ et $EFGH$ faces opposées, $(AE)$ arête). $I$ et $J$ sont les milieux de $[AB]$ et $[AD]$.
+1. Montrer que $(IJ)\parallel(BD)$, puis que $(IJ)\parallel(FH)$.
+2. En déduire que la droite $(IJ)$ est parallèle au plan $(EFH)$.
+:::
+
+:::exercice Série — intersection de plans
+$SABCD$ est une pyramide de base le parallélogramme $ABCD$.
+Déterminer l’intersection des plans $(SAB)$ et $(SCD)$ (on remarquera que $(AB)\parallel(CD)$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -170,4 +181,13 @@ $r=4$ cm : $V=\pi\times16\times11=176\pi\approx552{,}9\ \text{cm}^3\approx0{,}55
 
 :::corrige
 $V=\dfrac13\times36\times4=48\ \text{cm}^3$. La hauteur d’une face latérale relie le sommet au milieu d’un côté de la base, à $3$ cm du centre : $\sqrt{4^2+3^2}=5$ cm.
+:::
+
+:::corrige
+1. Dans le triangle $ABD$, $(IJ)$ est la droite des milieux : $(IJ)\parallel(BD)$. $BDHF$ est un rectangle, donc $(BD)\parallel(FH)$ ; ainsi $(IJ)\parallel(FH)$.
+2. $(IJ)$ est parallèle à une droite $(FH)$ du plan $(EFH)$ : elle est parallèle à ce plan.
+:::
+
+:::corrige
+$S$ est commun aux deux plans. $(AB)\subset(SAB)$ et $(CD)\subset(SCD)$ sont parallèles : d’après le théorème du toit, l’intersection est la droite passant par $S$ et parallèle à $(AB)$.
 :::

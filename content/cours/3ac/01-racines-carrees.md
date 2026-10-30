@@ -208,6 +208,16 @@ Un carré a une aire de $50\ \text{cm}^2$.
 2. Calculer la valeur exacte de la longueur de sa diagonale.
 :::
 
+:::exercice Série — rendre rationnel
+Écrire sans radical au dénominateur : $A=\dfrac{6}{\sqrt3}$ ; $B=\dfrac{2}{\sqrt5-1}$ ; $C=\dfrac{\sqrt2}{3+\sqrt2}$.
+:::
+
+:::exercice Série — comparer et simplifier
+1. Simplifier : $D=\sqrt{50}-3\sqrt{8}+\sqrt{18}$ et $E=\left(2\sqrt3-1\right)^2$.
+2. Comparer $3\sqrt5$ et $2\sqrt{11}$.
+3. Montrer que $\left(\sqrt7-2\right)\left(\sqrt7+2\right)$ est un entier.
+:::
+
 # Corrigés
 
 :::corrige
@@ -248,4 +258,16 @@ $\sqrt{18}=\sqrt{9\times2}=3\sqrt2$ ; $\sqrt{32}=\sqrt{16\times2}=4\sqrt2$ ; $\s
 :::corrige
 1. Si $c$ est le côté, $c^2=50$ et $c>0$, donc $c=\sqrt{50}=\sqrt{25\times2}=5\sqrt2\ \text{cm}$.
 2. D’après le théorème de Pythagore, la diagonale $d$ vérifie $d^2=c^2+c^2=100$, donc $d=10\ \text{cm}$.
+:::
+
+:::corrige
+- $A=\dfrac{6\sqrt3}{3}=2\sqrt3$.
+- $B=\dfrac{2\left(\sqrt5+1\right)}{5-1}=\dfrac{\sqrt5+1}{2}$.
+- $C=\dfrac{\sqrt2\left(3-\sqrt2\right)}{9-2}=\dfrac{3\sqrt2-2}{7}$.
+:::
+
+:::corrige
+1. $D=5\sqrt2-6\sqrt2+3\sqrt2=2\sqrt2$ ; $E=12-4\sqrt3+1=13-4\sqrt3$.
+2. $\left(3\sqrt5\right)^2=45$ et $\left(2\sqrt{11}\right)^2=44$ ; deux nombres positifs sont rangés comme leurs carrés : $3\sqrt5>2\sqrt{11}$.
+3. $\left(\sqrt7\right)^2-2^2=7-4=3$.
 :::

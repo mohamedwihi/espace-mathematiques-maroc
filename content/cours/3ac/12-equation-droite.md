@@ -131,6 +131,19 @@ $(D):y=\dfrac23x-1$ et $M(3;2)$.
 Dans un repère orthonormé, $A(1;1)$, $B(3;5)$ et $C(5;0)$. Calculer les coefficients directeurs de $(AB)$ et $(AC)$. Le triangle $ABC$ est-il rectangle en $A$ ?
 :::
 
+:::exercice Série — droites parallèles et perpendiculaires
+On donne $A(1;3)$ et $B(3;-1)$.
+1. Déterminer l’équation réduite de la droite $(AB)$.
+2. Déterminer l’équation de la droite $(D)$ passant par $C(0;2)$ et parallèle à $(AB)$.
+3. Déterminer l’équation de la droite $(\Delta)$ passant par $C$ et perpendiculaire à $(AB)$.
+:::
+
+:::exercice Série — intersection et appartenance
+On considère $(D_1):y=2x-3$ et $(D_2):y=-x+6$.
+1. Le point $K(4;5)$ appartient-il à $(D_1)$ ? à $(D_2)$ ?
+2. Calculer les coordonnées du point d’intersection de $(D_1)$ et $(D_2)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -155,4 +168,15 @@ $y=-3x+4$ : $m=-3$, $p=4$ ; $y=\dfrac x2$ : $m=\dfrac12$, $p=0$ ; $y=5$ : $m=0$,
 
 :::corrige
 $m_{AB}=\dfrac{5-1}{3-1}=2$ et $m_{AC}=\dfrac{0-1}{5-1}=-\dfrac14$. Comme $2\times\left(-\dfrac14\right)=-\dfrac12\ne-1$, les droites ne sont pas perpendiculaires : $ABC$ n’est pas rectangle en $A$.
+:::
+
+:::corrige
+1. Pente : $m=\dfrac{-1-3}{3-1}=-2$ ; $3=-2\times1+p$ donne $p=5$ : $(AB):y=-2x+5$.
+2. Même pente : $(D):y=-2x+2$.
+3. Pente $m'$ avec $m\times m'=-1$ : $m'=\dfrac12$ ; $(\Delta):y=\dfrac12x+2$.
+:::
+
+:::corrige
+1. $2\times4-3=5$ : $K\in(D_1)$. $-4+6=2\ne5$ : $K\notin(D_2)$.
+2. $2x-3=-x+6\iff x=3$, puis $y=3$ : le point $(3;3)$.
 :::

@@ -103,6 +103,15 @@ $ABCD$ est un tétraèdre ; $E$ et $F$ sont définis par $\overrightarrow{AE}=\d
 $ABCD$ est un tétraèdre ; $M$ est défini par $\overrightarrow{AM}=2\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{AD}$. Les points $A$, $B$, $C$, $M$ sont-ils coplanaires ? Et les points $B$, $C$, $D$, $M$ ?
 :::
 
+:::exercice Série — coplanarité
+$ABCDEFGH$ est un cube ($ABCD$ et $EFGH$ faces opposées, $(AE)$ arête). Exprimer $\overrightarrow{DG}$ en fonction de $\overrightarrow{AB}$ et $\overrightarrow{AE}$, puis conclure sur la coplanarité des vecteurs $\overrightarrow{AB}$, $\overrightarrow{AE}$ et $\overrightarrow{DG}$.
+:::
+
+:::exercice Série — centre de gravité d’un tétraèdre
+$ABCD$ est un tétraèdre ; $G$ est le point tel que $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}+\overrightarrow{GD}=\vec0$, et $I$, $J$ les milieux de $[AB]$ et $[CD]$.
+Montrer que $G$ est le milieu de $[IJ]$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -120,4 +129,12 @@ $\overrightarrow{EF}=\overrightarrow{EA}+\overrightarrow{AF}=\dfrac13\left(\over
 :::corrige
 - $\overrightarrow{AM}$ contient la composante $\overrightarrow{AD}$, non coplanaire avec $\overrightarrow{AB}$ et $\overrightarrow{AC}$ (tétraèdre) : $A$, $B$, $C$, $M$ ne sont pas coplanaires.
 - $\overrightarrow{BM}=\overrightarrow{AM}-\overrightarrow{AB}=\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{AD}$, $\overrightarrow{BC}=\overrightarrow{AC}-\overrightarrow{AB}$ et $\overrightarrow{BD}=\overrightarrow{AD}-\overrightarrow{AB}$. On cherche $\overrightarrow{BM}=\alpha\overrightarrow{BC}+\beta\overrightarrow{BD}$ : en identifiant, $\alpha=-1$, $\beta=1$ et $-\alpha-\beta=1$, ce qui donne $0=1$ : impossible. Les points ne sont pas coplanaires.
+:::
+
+:::corrige
+$\overrightarrow{DG}=\overrightarrow{DC}+\overrightarrow{CG}=\overrightarrow{AB}+\overrightarrow{AE}$ : les trois vecteurs $\overrightarrow{AB}$, $\overrightarrow{AE}$ et $\overrightarrow{DG}$ sont coplanaires.
+:::
+
+:::corrige
+$\overrightarrow{GA}+\overrightarrow{GB}=2\overrightarrow{GI}$ et $\overrightarrow{GC}+\overrightarrow{GD}=2\overrightarrow{GJ}$. Donc $2\overrightarrow{GI}+2\overrightarrow{GJ}=\vec0$, soit $\overrightarrow{GI}=-\overrightarrow{GJ}$ : $G$ est le milieu de $[IJ]$.
 :::

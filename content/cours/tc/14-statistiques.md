@@ -118,6 +118,19 @@ Dans un lycée de $600$ élèves, $270$ sont en sciences, $180$ en lettres et le
 Deux classes ont obtenu les moyennes et écarts-types suivants : classe A, $\bar x=11$, $\sigma=1{,}5$ ; classe B, $\bar x=11$, $\sigma=4$. Comparer ces deux classes.
 :::
 
+:::exercice Série — séries groupées en classes
+Le temps (en minutes) passé par $50$ élèves pour aller au lycée :
+| Classe | $[0;10[$ | $[10;20[$ | $[20;30[$ | $[30;40[$ |
+|---|---|---|---|---|
+| Effectif | $12$ | $20$ | $13$ | $5$ |
+1. Calculer la moyenne à l’aide des centres des classes.
+2. Déterminer la classe modale et la classe médiane.
+:::
+
+:::exercice Série — écart-type
+Calculer la moyenne, la variance et l’écart-type de la série : $8$ ; $10$ ; $12$ ; $14$ ; $16$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -138,4 +151,13 @@ Technique : $150$ élèves. Angles : sciences $\dfrac{270}{600}\times360^\circ=1
 
 :::corrige
 Même moyenne, mais l’écart-type de la classe A est bien plus petit : ses notes sont plus homogènes, regroupées autour de $11$ ; celles de la classe B sont beaucoup plus dispersées.
+:::
+
+:::corrige
+1. Centres $5$, $15$, $25$, $35$ : $\bar x=\dfrac{60+300+325+175}{50}=\dfrac{860}{50}=17{,}2$ min.
+2. Classe modale $[10;20[$ ; effectifs cumulés $12$, $32$… : la $25^{\text{e}}$ valeur est dans $[10;20[$, classe médiane.
+:::
+
+:::corrige
+$\bar x=12$ ; $V=\dfrac{16+4+0+4+16}{5}=8$ ; $\sigma=\sqrt8=2\sqrt2\approx2{,}83$.
 :::

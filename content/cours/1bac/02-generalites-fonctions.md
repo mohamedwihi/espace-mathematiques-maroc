@@ -166,6 +166,19 @@ Soit $u(x)=x^2-2x$ et $v(x)=\sqrt x$.
 Soit $f(x)=\dfrac{2x-1}{x+1}$. Déterminer $D_f$, le centre et les asymptotes de sa courbe, et son sens de variation.
 :::
 
+:::exercice Série — fonction majorée
+Soit $f(x)=\dfrac{2x}{x^2+1}$ sur $\mathbb R$.
+1. Montrer que $f$ est impaire.
+2. Montrer que pour tout $x$ : $-1\le f(x)\le1$ (on étudiera le signe de $1-f(x)$).
+3. $f$ admet-elle un maximum ? un minimum ?
+:::
+
+:::exercice Série — composée
+Soient $f(x)=\sqrt{x}$ et $g(x)=x^2-4x+3$.
+1. Déterminer l’ensemble de définition de $f\circ g$.
+2. Étudier les variations de $g$ sur $[2;+\infty[$, puis celles de $f\circ g$ sur $[3;+\infty[$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -191,4 +204,15 @@ $\dfrac12-f(x)=\dfrac{x^2+1-2x}{2(x^2+1)}=\dfrac{(x-1)^2}{2(x^2+1)}\ge0$, donc $
 
 :::corrige
 $D_f=\mathbb R\setminus\{-1\}$. Centre $\Omega(-1;2)$, asymptotes $x=-1$ et $y=2$. $ad-bc=2\times1-(-1)\times1=3>0$ : $f$ est croissante sur $]-\infty;-1[$ et sur $]-1;+\infty[$.
+:::
+
+:::corrige
+1. $\mathbb R$ est symétrique et $f(-x)=-f(x)$.
+2. $1-f(x)=\dfrac{x^2-2x+1}{x^2+1}=\dfrac{(x-1)^2}{x^2+1}\ge0$ ; de même $1+f(x)=\dfrac{(x+1)^2}{x^2+1}\ge0$.
+3. $f(1)=1$ est le maximum et $f(-1)=-1$ le minimum.
+:::
+
+:::corrige
+1. $f\circ g$ est définie si $g(x)\ge0$, soit $(x-1)(x-3)\ge0$ : $D=]-\infty;1]\cup[3;+\infty[$.
+2. $g(x)=(x-2)^2-1$ est croissante sur $[2;+\infty[$ ; sur $[3;+\infty[$, $g$ est croissante et positive, et $f$ est croissante sur $[0;+\infty[$ : $f\circ g$ est croissante.
 :::

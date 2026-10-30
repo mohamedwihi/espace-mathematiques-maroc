@@ -131,6 +131,18 @@ Un triangle $ABC$ vérifie $AB=4$, $AC=6$ et $BC=8$. Calculer $\cos\hat A$. L’
 $ABC$ est rectangle en $A$, $H$ est le pied de la hauteur issue de $A$, $BH=2$ et $HC=8$. Calculer $AH$, $AB$ et $AC$.
 :::
 
+:::exercice Série — calculs
+$ABC$ est un triangle avec $AB=4$, $AC=6$ et $\widehat{BAC}=\dfrac{\pi}{3}$.
+1. Calculer $\overrightarrow{AB}\cdot\overrightarrow{AC}$.
+2. En déduire $BC$ (on développera $BC^2=\left(\overrightarrow{AC}-\overrightarrow{AB}\right)^2$).
+:::
+
+:::exercice Série — orthogonalité dans un repère
+On donne $A(1;2)$, $B(4;3)$ et $C(2;-1)$ dans un repère orthonormé.
+1. Calculer $\overrightarrow{AB}\cdot\overrightarrow{AC}$. Que peut-on conclure ?
+2. Calculer l’aire du triangle $ABC$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -155,4 +167,14 @@ $64=36+16-2\times6\times4\cos\hat A$, donc $\cos\hat A=\dfrac{52-64}{48}=-\dfrac
 
 :::corrige
 $AH^2=HB\times HC=16$, donc $AH=4$. $BC=10$ ; $AB^2=BH\times BC=20$, $AB=2\sqrt5$ ; $AC^2=CH\times CB=80$, $AC=4\sqrt5$. (Vérification : $20+80=100=BC^2$.)
+:::
+
+:::corrige
+1. $\overrightarrow{AB}\cdot\overrightarrow{AC}=4\times6\times\cos\dfrac\pi3=12$.
+2. $BC^2=AC^2-2\overrightarrow{AB}\cdot\overrightarrow{AC}+AB^2=36-24+16=28$, $BC=2\sqrt7$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}(3;1)$, $\overrightarrow{AC}(1;-3)$ : $3-3=0$, le triangle est rectangle en $A$.
+2. $AB=AC=\sqrt{10}$ : $\mathcal A=\dfrac{\sqrt{10}\times\sqrt{10}}2=5$ u.a.
 :::

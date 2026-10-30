@@ -144,6 +144,17 @@ $(D):x-2y+1=0$ et $(D'):3x+y-4=0$.
 Dans un repère orthonormé, $A(1;0)$, $B(4;4)$ et $C(-3;3)$. Calculer $AB$, $AC$ et $BC$. Quelle est la nature du triangle $ABC$ ?
 :::
 
+:::exercice Série — équation cartésienne
+On donne $A(2;-1)$, $B(4;3)$ et $C(-1;2)$.
+1. Déterminer une équation cartésienne de $(AB)$.
+2. Déterminer une équation de la droite $(D)$ passant par $C$ et parallèle à $(AB)$.
+3. La droite $(AB)$ coupe l’axe des ordonnées en $E$ : calculer les coordonnées de $E$.
+:::
+
+:::exercice Série — position relative
+Étudier la position relative des droites $(D_1):2x-y+3=0$ et $(D_2):-4x+2y+1=0$, puis de $(D_1)$ et $(D_3):x+y-3=0$ (préciser le point d’intersection).
+:::
+
 # Corrigés
 
 :::corrige
@@ -169,4 +180,15 @@ $\overrightarrow{AB}(3;-4)$ ; $\overrightarrow{AC}(5;2)$ ; $2\overrightarrow{AB}
 
 :::corrige
 $AB=\sqrt{9+16}=5$ ; $AC=\sqrt{16+9}=5$ ; $BC=\sqrt{49+1}=\sqrt{50}=5\sqrt2$. $AB=AC$ et $BC^2=50=AB^2+AC^2$ : $ABC$ est rectangle isocèle en $A$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}(2;4)$ dirige $(AB)$ : $4(x-2)-2(y+1)=0$, soit $2x-y-5=0$.
+2. $(D):2x-y+c=0$ avec $C$ : $-2-2+c=0$, $c=4$ : $2x-y+4=0$.
+3. $x=0$ : $-y-5=0$, $E(0;-5)$.
+:::
+
+:::corrige
+- $-4x+2y+1=0\iff2x-y-\dfrac12=0$ : mêmes coefficients de $x$ et $y$ que $(D_1)$, constantes différentes : $(D_1)\parallel(D_2)$ strictement.
+- $(D_1)$ et $(D_3)$ : en additionnant, $3x=0$, donc $x=0$ et $y=3$ : elles sont sécantes en $(0;3)$.
 :::

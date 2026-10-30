@@ -179,6 +179,15 @@ Kawtar et Hicham choisissent le même nombre. Kawtar le multiplie par $10$ puis 
 Un club propose deux tarifs : tarif A, $25$ DH par séance ; tarif B, abonnement de $150$ DH plus $15$ DH par séance. À partir de combien de séances le tarif B est-il plus avantageux ?
 :::
 
+:::exercice Série — équations
+Résoudre : $(2x-3)^2=(x+1)^2$ ; $x^2-2\sqrt3x+3=0$ ; $\dfrac{x-1}{2}-\dfrac{2x+1}{3}=\dfrac{1}{6}$.
+:::
+
+:::exercice Série — problème avec inéquation
+Une salle de sport propose deux formules : formule A, $15$ DH par séance ; formule B, abonnement de $120$ DH plus $7$ DH par séance.
+À partir de combien de séances la formule B est-elle plus avantageuse ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -213,4 +222,14 @@ $10x-2=8x+7$, donc $2x=9$ et $x=4{,}5$. Vérification : $10\times4{,}5-2=43$ et 
 
 :::corrige
 Soit $n$ le nombre de séances. Le tarif B est plus avantageux si $150+15n<25n$, soit $150<10n$ et $n>15$. Le tarif B est plus avantageux à partir de $16$ séances.
+:::
+
+:::corrige
+- $(2x-3)^2-(x+1)^2=0\iff(x-4)(3x-2)=0$ : $x=4$ ou $x=\dfrac23$.
+- $(x-\sqrt3)^2=0$ : $x=\sqrt3$.
+- On multiplie par $6$ : $3(x-1)-2(2x+1)=1\iff-x-5=1\iff x=-6$.
+:::
+
+:::corrige
+Soit $n$ le nombre de séances : $120+7n<15n\iff120<8n\iff n>15$. La formule B est plus avantageuse à partir de $16$ séances.
 :::

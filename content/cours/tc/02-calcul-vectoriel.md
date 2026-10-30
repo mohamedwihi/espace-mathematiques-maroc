@@ -137,6 +137,18 @@ $ABCD$ est un parallélogramme de centre $O$. Montrer que $\overrightarrow{OA}+\
 $ABC$ est un triangle, $I$ le milieu de $[BC]$ et $G$ le point tel que $\overrightarrow{AG}=\dfrac23\overrightarrow{AI}$. Montrer que $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec0$.
 :::
 
+:::exercice Série — points définis par des égalités
+$ABC$ est un triangle. On définit $E$ et $F$ par $\overrightarrow{AE}=\dfrac13\overrightarrow{AB}$ et $\overrightarrow{AF}=\dfrac13\overrightarrow{AC}$.
+1. Exprimer $\overrightarrow{EF}$ en fonction de $\overrightarrow{BC}$.
+2. En déduire que $(EF)\parallel(BC)$.
+:::
+
+:::exercice Série — alignement
+$ABC$ est un triangle ; $M$ et $N$ sont définis par $\overrightarrow{AM}=2\overrightarrow{AB}-\overrightarrow{AC}$ et $\overrightarrow{AN}=\dfrac12\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
+1. Exprimer $\overrightarrow{BM}$ et $\overrightarrow{BN}$ en fonction de $\overrightarrow{AB}$ et $\overrightarrow{AC}$.
+2. Les points $B$, $M$ et $N$ sont-ils alignés ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -160,4 +172,14 @@ $O$ est le milieu de $[AC]$ et de $[BD]$, donc $\overrightarrow{OA}+\overrightar
 
 :::corrige
 $\overrightarrow{GB}+\overrightarrow{GC}=2\overrightarrow{GI}$. Or $\overrightarrow{AG}=\dfrac23\overrightarrow{AI}$ donne $\overrightarrow{GI}=\dfrac13\overrightarrow{AI}$ et $\overrightarrow{GA}=-\dfrac23\overrightarrow{AI}$. Donc $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=-\dfrac23\overrightarrow{AI}+\dfrac23\overrightarrow{AI}=\vec0$.
+:::
+
+:::corrige
+1. $\overrightarrow{EF}=\overrightarrow{EA}+\overrightarrow{AF}=-\dfrac13\overrightarrow{AB}+\dfrac13\overrightarrow{AC}=\dfrac13\left(\overrightarrow{BA}+\overrightarrow{AC}\right)=\dfrac13\overrightarrow{BC}$.
+2. Les vecteurs $\overrightarrow{EF}$ et $\overrightarrow{BC}$ sont colinéaires : $(EF)\parallel(BC)$.
+:::
+
+:::corrige
+1. $\overrightarrow{BM}=\overrightarrow{BA}+\overrightarrow{AM}=\overrightarrow{AB}-\overrightarrow{AC}$ ; $\overrightarrow{BN}=-\dfrac12\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
+2. $\overrightarrow{BN}=-\dfrac12\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$ n’est pas un multiple de $\overrightarrow{AB}-\overrightarrow{AC}$ : il faudrait $k=-\dfrac12$ et $-k=\dfrac14$, impossible. Les points ne sont pas alignés.
 :::

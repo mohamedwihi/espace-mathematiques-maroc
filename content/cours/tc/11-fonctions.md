@@ -169,6 +169,16 @@ Soit $f(x)=-2x^2+8x-5$.
 Montrer que, pour tout réel $x$, $\dfrac{1}{x^2+1}\le1$. En déduire la valeur maximale de $g(x)=\dfrac{1}{x^2+1}$ sur $\mathbb R$.
 :::
 
+:::exercice Série — domaine et parité
+Déterminer le domaine de définition et étudier la parité de : $f(x)=\dfrac{x^3}{x^2-4}$ ; $g(x)=\sqrt{x^2+1}-2$ ; $h(x)=\dfrac{1}{x-1}$.
+:::
+
+:::exercice Série — fonction homographique
+Soit $f(x)=\dfrac{2x-1}{x+1}$.
+1. Déterminer $D_f$ et écrire $f(x)=a+\dfrac{b}{x+1}$.
+2. En déduire les variations de $f$ sur $]-1;+\infty[$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -197,4 +207,15 @@ $T=\dfrac{\frac1b-\frac1a}{b-a}=\dfrac{a-b}{ab(b-a)}=-\dfrac{1}{ab}$. Pour $a$, 
 
 :::corrige
 $x^2+1\ge1>0$, donc $\dfrac{1}{x^2+1}\le1$. Comme $g(0)=1$, la valeur maximale de $g$ sur $\mathbb R$ est $1$, atteinte en $0$.
+:::
+
+:::corrige
+- $D_f=\mathbb R\setminus\{-2;2\}$, symétrique, et $f(-x)=-f(x)$ : $f$ est impaire.
+- $D_g=\mathbb R$ et $g(-x)=g(x)$ : $g$ est paire.
+- $D_h=\mathbb R\setminus\{1\}$ n’est pas symétrique par rapport à $0$ : $h$ n’est ni paire ni impaire.
+:::
+
+:::corrige
+1. $D_f=\mathbb R\setminus\{-1\}$ ; $f(x)=\dfrac{2(x+1)-3}{x+1}=2-\dfrac{3}{x+1}$.
+2. Sur $]-1;+\infty[$, $x\mapsto\dfrac{1}{x+1}$ est décroissante, donc $x\mapsto-\dfrac{3}{x+1}$ est croissante : $f$ est croissante.
 :::

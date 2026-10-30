@@ -179,6 +179,17 @@ $A(1+i)$ et $B(3+2i)$. On considère la rotation $R$ de centre $A$ et d’angle 
 Déterminer l’ensemble des points $M(z)$ tels que : $|z-2i|=3$ ; $|z-1|=|z+i|$.
 :::
 
+:::exercice Série — forme trigonométrique
+Soit $z=1+i\sqrt3$ et $w=1-i$.
+1. Écrire $z$ et $w$ sous forme trigonométrique.
+2. En déduire la forme trigonométrique de $\dfrac{z}{w}$ puis calculer $z^6$.
+:::
+
+:::exercice Série — équation et géométrie
+1. Résoudre dans $\mathbb C$ : $z^2-4z+8=0$.
+2. On note $A$ et $B$ les points d’affixes les solutions $a=2+2i$ et $b=2-2i$. Montrer que le triangle $OAB$ est rectangle isocèle en $O$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -203,4 +214,14 @@ $z_1=\sqrt2\left(\cos\dfrac\pi4+i\sin\dfrac\pi4\right)=\sqrt2e^{i\frac\pi4}$ ; $
 :::corrige
 - Cercle de centre le point d’affixe $2i$ et de rayon $3$.
 - $|z-1|=|z-(-i)|$ : médiatrice du segment joignant les points d’affixes $1$ et $-i$, c’est-à-dire la droite $y=-x$.
+:::
+
+:::corrige
+1. $\lvert z\rvert=2$, $z=2\left(\cos\dfrac\pi3+i\sin\dfrac\pi3\right)$ ; $\lvert w\rvert=\sqrt2$, $w=\sqrt2\left(\cos\left(-\dfrac\pi4\right)+i\sin\left(-\dfrac\pi4\right)\right)$.
+2. $\dfrac zw=\sqrt2\left(\cos\dfrac{7\pi}{12}+i\sin\dfrac{7\pi}{12}\right)$ ; $z^6=2^6\left(\cos2\pi+i\sin2\pi\right)=64$.
+:::
+
+:::corrige
+1. $\Delta=16-32=-16=(4i)^2$ : $z=2+2i$ ou $z=2-2i$.
+2. $\dfrac ba=\dfrac{2-2i}{2+2i}=\dfrac{(1-i)^2}{2}=-i$ : $OB=OA$ et $\left(\overrightarrow{OA};\overrightarrow{OB}\right)=-\dfrac\pi2$ : rectangle isocèle en $O$.
 :::

@@ -136,6 +136,17 @@ $ABCD$ est un parallélogramme de centre $O$. Déterminer l’image de $[AB]$ pa
 Un triangle d’aire $6\ \text{cm}^2$ est transformé par une homothétie de rapport $-3$. Calculer l’aire de l’image.
 :::
 
+:::exercice Série — homothétie
+$ABC$ est un triangle ; $h$ est l’homothétie de centre $A$ et de rapport $\dfrac23$. On note $B'=h(B)$ et $C'=h(C)$.
+1. Construire $B'$ et $C'$.
+2. Montrer que $(B'C')\parallel(BC)$ et que $B'C'=\dfrac23BC$.
+:::
+
+:::exercice Série — composition de symétries
+$(D)$ et $(D')$ sont deux droites parallèles ; $S$ et $S'$ sont les symétries axiales d’axes $(D)$ et $(D')$. $M$ est un point, $M_1=S(M)$ et $M_2=S'(M_1)$.
+Montrer que $\overrightarrow{MM_2}=2\overrightarrow{HH'}$, où $H$ et $H'$ sont les projetés orthogonaux de $M$ sur $(D)$ et $(D')$ (on raisonnera sur une droite perpendiculaire aux axes).
+:::
+
 # Corrigés
 
 :::corrige
@@ -158,4 +169,13 @@ $S_O(A)=C$ et $S_O(B)=D$ : l’image de $[AB]$ est $[CD]$. Et $\overrightarrow{D
 
 :::corrige
 Les aires sont multipliées par $k^2=9$ : $6\times9=54\ \text{cm}^2$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB'}=\dfrac23\overrightarrow{AB}$ et $\overrightarrow{AC'}=\dfrac23\overrightarrow{AC}$.
+2. $\overrightarrow{B'C'}=\overrightarrow{AC'}-\overrightarrow{AB'}=\dfrac23\overrightarrow{BC}$ : les vecteurs sont colinéaires et $B'C'=\dfrac23BC$.
+:::
+
+:::corrige
+$M$, $M_1$, $M_2$, $H$, $H'$ sont sur la perpendiculaire aux axes passant par $M$. $H$ est le milieu de $[MM_1]$ et $H'$ celui de $[M_1M_2]$ : $\overrightarrow{MM_2}=\overrightarrow{MM_1}+\overrightarrow{M_1M_2}=2\overrightarrow{HM_1}+2\overrightarrow{M_1H'}=2\overrightarrow{HH'}$. La composée est une translation.
 :::

@@ -170,6 +170,16 @@ Un rectangle a pour longueur $L$ et largeur $\ell$ avec $5{,}2\le L\le5{,}3$ et 
 Soient $x$ et $y$ deux réels tels que $x\le-8$ et $y\le5$. Montrer que $x+4\le-4$ puis que $x+y\le-3$.
 :::
 
+:::exercice Série — encadrer
+On sait que $1{,}4<\sqrt2<1{,}5$ et $1{,}7<\sqrt3<1{,}8$. Encadrer : $\sqrt2+\sqrt3$ ; $\sqrt3-\sqrt2$ ; $2\sqrt2-3\sqrt3$ ; $\sqrt6$.
+:::
+
+:::exercice Série — comparer par la différence
+Soient $a$ et $b$ deux nombres réels.
+1. Montrer que $a^2+b^2-2ab\ge0$.
+2. En déduire que pour tout $x>0$ : $x+\dfrac1x\ge2$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -204,4 +214,16 @@ $x+7>13$ ; $x-4>2$ ; $3x>18$ ; $-2x<-12$ ; $\dfrac x2>3$.
 :::corrige
 - $x\le-8$, donc $x+4\le-8+4=-4$.
 - En additionnant $x\le-8$ et $y\le5$ membre à membre : $x+y\le-3$.
+:::
+
+:::corrige
+- $3{,}1<\sqrt2+\sqrt3<3{,}3$.
+- $-1{,}5<-\sqrt2<-1{,}4$, donc $0{,}2<\sqrt3-\sqrt2<0{,}4$.
+- $2{,}8<2\sqrt2<3$ et $-5{,}4<-3\sqrt3<-5{,}1$ : $-2{,}6<2\sqrt2-3\sqrt3<-2{,}1$.
+- $\sqrt6=\sqrt2\times\sqrt3$ (nombres positifs) : $2{,}38<\sqrt6<2{,}7$.
+:::
+
+:::corrige
+1. $a^2+b^2-2ab=(a-b)^2\ge0$.
+2. Pour $x>0$ : $x+\dfrac1x-2=\dfrac{x^2-2x+1}{x}=\dfrac{(x-1)^2}{x}\ge0$, donc $x+\dfrac1x\ge2$.
 :::

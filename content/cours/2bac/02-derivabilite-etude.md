@@ -159,6 +159,16 @@ Soit $f(x)=x^3-3x^2+1$. Déterminer le point d’inflexion de $(C_f)$, l’équa
 Étudier la fonction $f(x)=\dfrac{x^2-x+1}{x-1}$ : ensemble de définition, limites, asymptotes, variations, centre de symétrie.
 :::
 
+:::exercice Série — dérivabilité en un point
+Soit $f(x)=x\sqrt{x}$ pour $x\ge0$. Étudier la dérivabilité de $f$ à droite en $0$ et interpréter graphiquement.
+:::
+
+:::exercice Série — étude avec racine
+Soit $g(x)=x-2\sqrt{x}$ sur $[0;+\infty[$.
+1. Calculer $\lim\limits_{x\to+\infty}g(x)$ et $\lim\limits_{x\to+\infty}\dfrac{g(x)}{x}$ ; interpréter.
+2. Étudier la dérivabilité de $g$ en $0$, puis les variations de $g$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -185,4 +195,13 @@ $f''(x)=6x-6$ s’annule en changeant de signe en $1$ : point d’inflexion $I(1
 
 :::corrige
 $D_f=\mathbb R\setminus\{1\}$ et $f(x)=x+\dfrac{1}{x-1}$. Limites : $\pm\infty$ en $\pm\infty$ ; en $1^+$, $+\infty$ ; en $1^-$, $-\infty$ : asymptote verticale $x=1$ et oblique $y=x$. $f'(x)=1-\dfrac1{(x-1)^2}=\dfrac{x(x-2)}{(x-1)^2}$ : croissante sur $]-\infty;0]$, décroissante sur $[0;1[$ et $]1;2]$, croissante sur $[2;+\infty[$ ; maximum local $f(0)=-1$, minimum local $f(2)=3$. $f(2-x)+f(x)=(2-x)+\dfrac1{1-x}+x+\dfrac1{x-1}=2$ : centre de symétrie $\Omega(1;1)$.
+:::
+
+:::corrige
+$\dfrac{f(x)-f(0)}{x-0}=\sqrt x\to0$ : $f$ est dérivable à droite en $0$, $f'_d(0)=0$ ; la courbe admet une demi-tangente horizontale à l’origine.
+:::
+
+:::corrige
+1. $g(x)=\sqrt x\left(\sqrt x-2\right)\to+\infty$ ; $\dfrac{g(x)}x=1-\dfrac{2}{\sqrt x}\to1$ et $g(x)-x=-2\sqrt x\to-\infty$ : branche parabolique de direction $y=x$.
+2. $\dfrac{g(x)}{x}=1-\dfrac2{\sqrt x}\to-\infty$ en $0^+$ : non dérivable, demi-tangente verticale. $g'(x)=1-\dfrac1{\sqrt x}=\dfrac{\sqrt x-1}{\sqrt x}$ : $g$ décroît sur $[0;1]$, croît sur $[1;+\infty[$, minimum $g(1)=-1$.
 :::

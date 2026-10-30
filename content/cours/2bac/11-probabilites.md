@@ -175,6 +175,18 @@ Dans une population, $30\,\%$ des personnes sont vaccinées. Parmi les vaccinée
 Un joueur lance un dé équilibré. S’il obtient $6$, il gagne $10$ DH ; s’il obtient $4$ ou $5$, il gagne $2$ DH ; sinon il perd $3$ DH. Soit $G$ le gain algébrique. Déterminer la loi de $G$, son espérance, et dire si le jeu est favorable au joueur.
 :::
 
+:::exercice Série — tirage sans remise
+Une urne contient $4$ boules rouges et $3$ boules vertes. On tire simultanément $3$ boules.
+1. Calculer la probabilité d’obtenir exactement $2$ boules rouges.
+2. Calculer la probabilité d’obtenir au moins une boule verte.
+:::
+
+:::exercice Série — loi binomiale
+On lance $5$ fois un dé équilibré. $X$ est le nombre de « $6$ » obtenus.
+1. Quelle est la loi de $X$ ? Calculer $P(X=2)$.
+2. Calculer $E(X)$ et $P(X\ge1)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -203,4 +215,14 @@ $(2x-1)^4=16x^4-32x^3+24x^2-8x+1$.
 | $p(G=g_i)$ | $\dfrac16$ | $\dfrac26$ | $\dfrac36$ |
 
 $E(G)=\dfrac{10+4-9}{6}=\dfrac56>0$ : le jeu est favorable au joueur (gain moyen de $0{,}83$ DH par partie environ).
+:::
+
+:::corrige
+1. $\dfrac{\binom42\binom31}{\binom73}=\dfrac{6\times3}{35}=\dfrac{18}{35}$.
+2. $1-\dfrac{\binom43}{\binom73}=1-\dfrac{4}{35}=\dfrac{31}{35}$.
+:::
+
+:::corrige
+1. $X$ suit la loi binomiale $\mathcal B\left(5;\dfrac16\right)$ : $P(X=2)=\binom52\left(\dfrac16\right)^2\left(\dfrac56\right)^3=\dfrac{10\times125}{7776}=\dfrac{1250}{7776}\approx0{,}161$.
+2. $E(X)=\dfrac56$ ; $P(X\ge1)=1-\left(\dfrac56\right)^5\approx0{,}598$.
 :::

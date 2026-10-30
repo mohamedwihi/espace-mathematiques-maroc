@@ -138,6 +138,19 @@ Une salle de sport propose : tarif A, $f(x)=60x$ ; tarif B, $g(x)=30x+300$, où 
 2. Pour combien de mois les deux tarifs sont-ils égaux ? Interpréter graphiquement.
 :::
 
+:::exercice Série — fonction affine
+$f$ est une fonction affine telle que $f(2)=1$ et $f(-1)=7$.
+1. Déterminer $f(x)$.
+2. Calculer l’antécédent de $-5$ par $f$.
+3. $f$ est-elle croissante ou décroissante ?
+:::
+
+:::exercice Série — tarifs
+Un taxi facture $7$ DH de prise en charge puis $3{,}5$ DH par kilomètre. Un second taxi facture $5$ DH par kilomètre sans prise en charge.
+1. Exprimer les prix $p_1(x)$ et $p_2(x)$ pour $x$ kilomètres.
+2. Pour quelle distance les deux prix sont-ils égaux ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -161,4 +174,15 @@ $a=\dfrac{-2-7}{2-(-1)}=-3$ ; $7=-3\times(-1)+b$ donne $b=4$ : $h(x)=-3x+4$. Ant
 :::corrige
 1. Pour $8$ mois : $f(8)=480$ DH et $g(8)=540$ DH. Pour $12$ mois : $f(12)=720$ DH et $g(12)=660$ DH.
 2. $60x=30x+300$ donne $x=10$ : pour $10$ mois les deux tarifs coûtent $600$ DH. Graphiquement, c’est l’abscisse du point d’intersection des deux droites ; avant $10$ mois le tarif A est moins cher, après le tarif B l’est.
+:::
+
+:::corrige
+1. $a=\dfrac{f(2)-f(-1)}{2-(-1)}=\dfrac{1-7}{3}=-2$ ; $f(2)=-4+b=1$ donne $b=5$ : $f(x)=-2x+5$.
+2. $-2x+5=-5\iff x=5$.
+3. $a=-2<0$ : $f$ est décroissante.
+:::
+
+:::corrige
+1. $p_1(x)=3{,}5x+7$ et $p_2(x)=5x$.
+2. $3{,}5x+7=5x\iff1{,}5x=7\iff x=\dfrac{14}{3}\approx4{,}67$ km.
 :::

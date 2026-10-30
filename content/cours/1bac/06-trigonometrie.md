@@ -133,6 +133,15 @@ Montrer que pour tout réel $x$ : $\cos^4x-\sin^4x=\cos2x$ et $\dfrac{\sin2x}{1+
 Résoudre dans $[0;2\pi[$ : $\cos2x=\cos x$ ; $2\cos^2x-3\cos x+1=0$ ; $2\sin x-\sqrt2<0$.
 :::
 
+:::exercice Série — formules d’addition
+Calculer $\cos\dfrac{\pi}{12}$ et $\sin\dfrac{\pi}{12}$ en écrivant $\dfrac{\pi}{12}=\dfrac{\pi}{3}-\dfrac{\pi}{4}$.
+:::
+
+:::exercice Série — transformation
+1. Écrire $\sqrt3\cos x-\sin x$ sous la forme $r\cos(x+\varphi)$.
+2. Résoudre dans $[0;2\pi[$ l’équation $\sqrt3\cos x-\sin x=1$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -156,4 +165,13 @@ $r=2$, $\cos\varphi=\dfrac{\sqrt3}2$, $\sin\varphi=-\dfrac12$ : $\varphi=-\dfrac
 - $\cos2x=\cos x\iff2x=\pm x+2k\pi\iff x=2k\pi$ ou $x=\dfrac{2k\pi}3$ : $S=\left\{0;\dfrac{2\pi}3;\dfrac{4\pi}3\right\}$.
 - $X=\cos x$ : $2X^2-3X+1=0$, $X=1$ ou $X=\dfrac12$ : $S=\left\{0;\dfrac\pi3;\dfrac{5\pi}3\right\}$.
 - $\sin x<\dfrac{\sqrt2}2$ : $S=\left[0;\dfrac\pi4\right[\cup\left]\dfrac{3\pi}4;2\pi\right[$.
+:::
+
+:::corrige
+$\cos\dfrac\pi{12}=\cos\dfrac\pi3\cos\dfrac\pi4+\sin\dfrac\pi3\sin\dfrac\pi4=\dfrac{\sqrt2+\sqrt6}{4}$ ; $\sin\dfrac\pi{12}=\sin\dfrac\pi3\cos\dfrac\pi4-\cos\dfrac\pi3\sin\dfrac\pi4=\dfrac{\sqrt6-\sqrt2}{4}$.
+:::
+
+:::corrige
+1. $r=\sqrt{3+1}=2$ : $\sqrt3\cos x-\sin x=2\left(\dfrac{\sqrt3}2\cos x-\dfrac12\sin x\right)=2\cos\left(x+\dfrac\pi6\right)$.
+2. $\cos\left(x+\dfrac\pi6\right)=\dfrac12$ : $x+\dfrac\pi6=\pm\dfrac\pi3+2k\pi$, soit $x=\dfrac\pi6+2k\pi$ ou $x=-\dfrac\pi2+2k\pi$. Dans $[0;2\pi[$ : $S=\left\{\dfrac\pi6;\dfrac{3\pi}2\right\}$.
 :::

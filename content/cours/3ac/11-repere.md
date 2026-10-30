@@ -137,6 +137,17 @@ Dans un repère orthonormé, $A(1;1)$, $B(5;3)$ et $C(3;7)$.
 Dans un repère orthonormé, $\Omega(2;-1)$ et $M(5;3)$. Calculer le rayon du cercle de centre $\Omega$ passant par $M$. Le point $N(-1;-5)$ est-il sur ce cercle ?
 :::
 
+:::exercice Série — nature d’un triangle
+Dans un repère orthonormé, on donne $A(-1;2)$, $B(3;4)$ et $C(1;-2)$.
+1. Calculer $AB$, $AC$ et $BC$.
+2. Quelle est la nature du triangle $ABC$ ?
+3. Calculer les coordonnées du milieu $I$ de $[BC]$ et la longueur $AI$.
+:::
+
+:::exercice Série — parallélogramme
+On donne $E(2;1)$, $F(5;2)$ et $G(4;5)$. Déterminer les coordonnées du point $H$ tel que $EFGH$ soit un parallélogramme, puis celles de son centre.
+:::
+
 # Corrigés
 
 :::corrige
@@ -159,4 +170,14 @@ $ABCD$ est un parallélogramme si $\overrightarrow{AB}=\overrightarrow{DC}$. $\o
 
 :::corrige
 $r=\Omega M=\sqrt{3^2+4^2}=5$. $\Omega N=\sqrt{(-3)^2+(-4)^2}=5$ : oui, $N$ est sur le cercle.
+:::
+
+:::corrige
+1. $AB=\sqrt{16+4}=\sqrt{20}$ ; $AC=\sqrt{4+16}=\sqrt{20}$ ; $BC=\sqrt{4+36}=\sqrt{40}$.
+2. $AB=AC$ et $AB^2+AC^2=40=BC^2$ : $ABC$ est rectangle et isocèle en $A$.
+3. $I(2;1)$ ; $AI=\sqrt{9+1}=\sqrt{10}$ (c’est bien $\dfrac{BC}2=\dfrac{\sqrt{40}}2=\sqrt{10}$).
+:::
+
+:::corrige
+$\overrightarrow{EF}=\overrightarrow{HG}$ : $(3;1)=(4-x_H;5-y_H)$, donc $H(1;4)$. Le centre est le milieu de $[EG]$ : $\left(3;3\right)$.
 :::

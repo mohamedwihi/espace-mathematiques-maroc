@@ -114,6 +114,17 @@ $(\mathcal C)$ est un cercle de centre $O$ et de rayon $3$, circonscrit au trian
 Un hexagone régulier $ABCDEF$ est inscrit dans un cercle de centre $O$. Calculer $\widehat{AOB}$, puis $\widehat{ACB}$ et $\widehat{ADB}$.
 :::
 
+:::exercice Série — calculer des angles
+$A$, $B$, $C$, $D$ sont quatre points d’un cercle de centre $O$, avec $\widehat{AOB}=110°$ ; les points $C$ et $D$ sont situés sur le grand arc d’extrémités $A$ et $B$.
+1. Calculer $\widehat{ACB}$ et $\widehat{ADB}$.
+2. Que peut-on dire des angles $\widehat{CAD}$ et $\widehat{CBD}$ ? Justifier.
+:::
+
+:::exercice Série — quadrilatère inscrit
+$ABCD$ est un quadrilatère inscrit dans un cercle, avec $\widehat{DAB}=72°$ et $\widehat{ABC}=95°$.
+Sachant que deux angles opposés d’un quadrilatère inscrit sont supplémentaires, calculer $\widehat{BCD}$ et $\widehat{CDA}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -137,4 +148,13 @@ $\widehat{ADB}$ et $\widehat{ACB}$ interceptent le même arc : $\widehat{ADB}=48
 
 :::corrige
 Les six angles au centre sont égaux : $\widehat{AOB}=\dfrac{360^\circ}6=60^\circ$. Les angles inscrits $\widehat{ACB}$ et $\widehat{ADB}$ interceptent l’arc $\overset{\frown}{AB}$ : ils mesurent $30^\circ$.
+:::
+
+:::corrige
+1. $\widehat{ACB}$ et $\widehat{ADB}$ sont des angles inscrits qui interceptent le même arc que l’angle au centre $\widehat{AOB}$ : $\widehat{ACB}=\widehat{ADB}=\dfrac{110°}{2}=55°$.
+2. Ils interceptent le même arc $\overset\frown{CD}$ : ils ont la même mesure.
+:::
+
+:::corrige
+$\widehat{BCD}=180°-72°=108°$ et $\widehat{CDA}=180°-95°=85°$ (vérification : $72+95+108+85=360$).
 :::

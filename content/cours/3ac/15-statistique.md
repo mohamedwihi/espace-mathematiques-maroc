@@ -143,6 +143,20 @@ Les notes de Youssef sont $11$, $14$, $9$ et $x$. Sa moyenne est $12$. Calculer 
 Dans un collège de $400$ élèves, $160$ pratiquent le football, $100$ le basket, $80$ l’athlétisme et le reste la natation. Calculer les angles des secteurs du diagramme circulaire.
 :::
 
+:::exercice Série — notes d’une classe
+Les notes d’un devoir dans une classe sont :
+| Note | $6$ | $8$ | $10$ | $12$ | $14$ | $16$ |
+|---|---|---|---|---|---|---|
+| Effectif | $2$ | $5$ | $8$ | $6$ | $3$ | $1$ |
+1. Calculer l’effectif total et la moyenne (au centième).
+2. Déterminer le mode et la médiane.
+3. Calculer le pourcentage des élèves ayant au moins $12$.
+:::
+
+:::exercice Série — moyenne pondérée
+Un élève a obtenu $13$ en mathématiques (coefficient $4$), $11$ en physique (coefficient $3$) et $15$ en français (coefficient $2$). Quelle note doit-il obtenir en anglais (coefficient $1$) pour avoir une moyenne de $13$ ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -161,4 +175,14 @@ $\dfrac{11+14+9+x}4=12$, donc $34+x=48$ et $x=14$.
 
 :::corrige
 Natation : $400-160-100-80=60$ élèves. Angles : football $\dfrac{160}{400}\times360^\circ=144^\circ$ ; basket $90^\circ$ ; athlétisme $72^\circ$ ; natation $54^\circ$. Total : $360^\circ$.
+:::
+
+:::corrige
+1. $N=25$ ; $\bar x=\dfrac{12+40+80+72+42+16}{25}=\dfrac{262}{25}=10{,}48$.
+2. Mode : $10$. Médiane : la $13^{\text{e}}$ valeur ; les effectifs cumulés sont $2$, $7$, $15$… donc la médiane est $10$.
+3. $6+3+1=10$ élèves, soit $\dfrac{10}{25}=40\,\%$.
+:::
+
+:::corrige
+$\dfrac{13\times4+11\times3+15\times2+x}{10}=13\iff115+x=130\iff x=15$.
 :::

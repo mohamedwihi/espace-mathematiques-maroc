@@ -162,6 +162,15 @@ Simplifier : $B=\sin(\pi-x)+\cos\left(\dfrac\pi2-x\right)-2\sin(-x)$ et $C=\cos^
 Sur un cercle de rayon $6$ cm, calculer la longueur de l’arc intercepté par un angle au centre de $\dfrac{2\pi}3$.
 :::
 
+:::exercice Série — abscisses curvilignes
+1. Convertir en radians : $30°$ ; $135°$ ; $300°$. Convertir en degrés : $\dfrac{5\pi}{6}$ ; $\dfrac{7\pi}{4}$.
+2. Déterminer l’abscisse curviligne principale (dans $]-\pi;\pi]$) des réels $\dfrac{17\pi}{3}$ et $-\dfrac{25\pi}{4}$.
+:::
+
+:::exercice Série — calcul d’expressions
+Calculer : $A=\cos\dfrac{\pi}{6}+\sin\dfrac{\pi}{3}-\tan\dfrac{\pi}{4}$ ; $B=\cos^2\dfrac{\pi}{8}+\cos^2\dfrac{3\pi}{8}$ (on remarquera que $\dfrac{3\pi}{8}=\dfrac{\pi}{2}-\dfrac{\pi}{8}$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -187,4 +196,14 @@ $\cos^2x=1-\dfrac59=\dfrac49$ et $\cos x<0$ sur l’intervalle, donc $\cos x=-\d
 
 :::corrige
 $\ell=r\alpha=6\times\dfrac{2\pi}3=4\pi\approx12{,}57$ cm.
+:::
+
+:::corrige
+1. $\dfrac\pi6$ ; $\dfrac{3\pi}4$ ; $\dfrac{5\pi}3$ ; $150°$ ; $315°$.
+2. $\dfrac{17\pi}3=6\pi-\dfrac\pi3$ : $-\dfrac\pi3$. $-\dfrac{25\pi}4=-6\pi-\dfrac\pi4$ : $-\dfrac\pi4$.
+:::
+
+:::corrige
+- $A=\dfrac{\sqrt3}2+\dfrac{\sqrt3}2-1=\sqrt3-1$.
+- $\cos\dfrac{3\pi}8=\sin\dfrac\pi8$, donc $B=\cos^2\dfrac\pi8+\sin^2\dfrac\pi8=1$.
 :::

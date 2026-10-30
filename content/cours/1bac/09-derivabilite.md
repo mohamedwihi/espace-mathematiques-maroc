@@ -158,6 +158,16 @@ Calculer les dérivées de : $f_1(x)=4x^3-\dfrac{2}{x}+\sqrt x$ ; $f_2(x)=\dfrac
 On veut fabriquer un enclos rectangulaire de $200\ \text{m}^2$ le long d’un mur (le côté le long du mur n’a pas de clôture). Soit $x$ la largeur (côtés perpendiculaires au mur). Exprimer la longueur de clôture $L(x)$ et déterminer $x$ pour qu’elle soit minimale.
 :::
 
+:::exercice Série — dérivées
+Calculer la dérivée de : $f(x)=(2x-1)^5$ ; $g(x)=\sqrt{x^2+3}$ ; $h(x)=\dfrac{x^2}{x-1}$ ; $k(x)=\sin^2x$.
+:::
+
+:::exercice Série — tangente
+Soit $f(x)=x^3-3x+1$.
+1. Déterminer l’équation de la tangente à $(C_f)$ au point d’abscisse $2$.
+2. Déterminer les points de $(C_f)$ où la tangente est horizontale.
+:::
+
 # Corrigés
 
 :::corrige
@@ -184,4 +194,16 @@ $f'(x)=\dfrac{2x(x-1)-(x^2+3)}{(x-1)^2}=\dfrac{x^2-2x-3}{(x-1)^2}=\dfrac{(x-3)(x
 
 :::corrige
 La longueur parallèle au mur vaut $\dfrac{200}x$, donc $L(x)=2x+\dfrac{200}{x}$ pour $x>0$. $L'(x)=2-\dfrac{200}{x^2}=\dfrac{2(x^2-100)}{x^2}$, négatif sur $]0;10]$ et positif sur $[10;+\infty[$ : $L$ est minimale pour $x=10$ m (longueur $20$ m, clôture $40$ m).
+:::
+
+:::corrige
+- $f'(x)=10(2x-1)^4$.
+- $g'(x)=\dfrac{2x}{2\sqrt{x^2+3}}=\dfrac{x}{\sqrt{x^2+3}}$.
+- $h'(x)=\dfrac{2x(x-1)-x^2}{(x-1)^2}=\dfrac{x^2-2x}{(x-1)^2}$.
+- $k'(x)=2\sin x\cos x$.
+:::
+
+:::corrige
+1. $f(2)=3$, $f'(x)=3x^2-3$, $f'(2)=9$ : $y=9(x-2)+3=9x-15$.
+2. $f'(x)=0\iff x=\pm1$ : points $(1;-1)$ et $(-1;3)$.
 :::

@@ -117,6 +117,14 @@ Résoudre dans $[0;2\pi[$ : $2\cos^2x-\cos x-1=0$.
 Résoudre dans $[0;2\pi[$ : $\cos x<-\dfrac12$ ; $2\sin x-1\ge0$. Résoudre dans $]-\pi;\pi]$ : $\cos x>0$.
 :::
 
+:::exercice Série — équations trigonométriques
+Résoudre dans $\mathbb R$ : $\cos x=\dfrac12$ ; $\sin x=-\dfrac{\sqrt2}{2}$ ; $\tan x=\sqrt3$. Puis résoudre $2\sin x-1=0$ dans $[0;2\pi]$.
+:::
+
+:::exercice Série — identité
+Montrer que pour tout réel $x$ : $\left(\cos x+\sin x\right)^2-\left(\cos x-\sin x\right)^2=4\sin x\cos x$, et que $\cos^4x-\sin^4x=\cos^2x-\sin^2x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -144,4 +152,16 @@ Avec $X=\cos x$ : $2X^2-X-1=0$, $\Delta=9$, $X=1$ ou $X=-\dfrac12$. $\cos x=1$ d
 - $\cos x=-\dfrac12$ pour $\dfrac{2\pi}3$ et $\dfrac{4\pi}3$ : $S=\left]\dfrac{2\pi}3;\dfrac{4\pi}3\right[$.
 - $\sin x\ge\dfrac12$ : $S=\left[\dfrac\pi6;\dfrac{5\pi}6\right]$.
 - $\cos x>0$ dans $]-\pi;\pi]$ : $S=\left]-\dfrac\pi2;\dfrac\pi2\right[$.
+:::
+
+:::corrige
+- $x=\dfrac\pi3+2k\pi$ ou $x=-\dfrac\pi3+2k\pi$ ($k\in\mathbb Z$).
+- $x=-\dfrac\pi4+2k\pi$ ou $x=\dfrac{5\pi}4+2k\pi$.
+- $x=\dfrac\pi3+k\pi$.
+- $\sin x=\dfrac12$ dans $[0;2\pi]$ : $S=\left\{\dfrac\pi6;\dfrac{5\pi}6\right\}$.
+:::
+
+:::corrige
+- Avec $a^2-b^2=(a-b)(a+b)$ : $(2\sin x)(2\cos x)=4\sin x\cos x$.
+- $\cos^4x-\sin^4x=\left(\cos^2x-\sin^2x\right)\left(\cos^2x+\sin^2x\right)=\cos^2x-\sin^2x$.
 :::

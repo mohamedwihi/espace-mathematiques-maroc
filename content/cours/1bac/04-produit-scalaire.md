@@ -154,6 +154,16 @@ Un triangle $ABC$ vérifie $AB=5$, $AC=7$ et $\hat A=120^\circ$. Calculer $BC$, 
 Calculer la distance du point $M(3;-2)$ à la droite $(D):2x-y+2=0$, puis l’équation du cercle de centre $M$ tangent à $(D)$.
 :::
 
+:::exercice Série — cercle
+Déterminer le centre et le rayon du cercle $(\mathcal C):x^2+y^2-4x+6y-3=0$, puis une équation de la tangente à $(\mathcal C)$ au point $A(6;-3)$.
+:::
+
+:::exercice Série — distance et position
+On donne la droite $(D):3x-4y+5=0$ et le cercle $(\mathcal C)$ de centre $\Omega(2;-1)$ et de rayon $3$.
+1. Calculer la distance de $\Omega$ à $(D)$.
+2. En déduire la position de $(D)$ par rapport à $(\mathcal C)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -177,4 +187,13 @@ $BC^2=25+49-2\times5\times7\times\left(-\dfrac12\right)=109$, $BC=\sqrt{109}$. M
 
 :::corrige
 $d=\dfrac{|6+2+2|}{\sqrt5}=\dfrac{10}{\sqrt5}=2\sqrt5$. Le cercle cherché a pour rayon $2\sqrt5$ : $(x-3)^2+(y+2)^2=20$.
+:::
+
+:::corrige
+$(x-2)^2+(y+3)^2=16$ : centre $\Omega(2;-3)$, rayon $4$. $A\in(\mathcal C)$ car $16+0=16$. La tangente en $A$ est perpendiculaire à $\overrightarrow{\Omega A}(4;0)$ : c’est la droite $x=6$.
+:::
+
+:::corrige
+1. $d=\dfrac{\lvert6+4+5\rvert}{\sqrt{9+16}}=\dfrac{15}{5}=3$.
+2. $d=r$ : la droite est tangente au cercle.
 :::

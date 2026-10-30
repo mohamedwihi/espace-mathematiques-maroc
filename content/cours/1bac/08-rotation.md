@@ -107,6 +107,17 @@ $ABC$ est un triangle quelconque. On construit, à l’extérieur, les triangles
 $(\mathcal C)$ est le cercle de centre $O(2;0)$ et de rayon $1$. Déterminer le centre et le rayon de son image par la rotation de centre l’origine $(0;0)$ et d’angle $\dfrac\pi2$.
 :::
 
+:::exercice Série — triangle équilatéral
+$ABC$ est un triangle équilatéral direct de centre $O$ ; $r$ est la rotation de centre $O$ et d’angle $\dfrac{2\pi}{3}$.
+1. Déterminer $r(A)$, $r(B)$ et $r(C)$.
+2. En déduire l’image du triangle $ABC$ par $r$.
+:::
+
+:::exercice Série — carrés sur les côtés
+$ABCD$ est un carré direct de centre $O$. $I$ est le milieu de $[AB]$ et $J$ celui de $[BC]$.
+Déterminer l’image de $A$, de $B$ et de $I$ par la rotation de centre $O$ et d’angle $\dfrac{\pi}{2}$ ; en déduire que $OI=OJ$ et $(OI)\perp(OJ)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -123,4 +134,13 @@ Avec l’orientation adaptée, la rotation $R$ de centre $A$ et d’angle $\dfra
 
 :::corrige
 L’image du centre $O(2;0)$ par la rotation de centre l’origine et d’angle $\dfrac\pi2$ est $O'(0;2)$. L’image est le cercle de centre $O'(0;2)$ et de rayon $1$.
+:::
+
+:::corrige
+1. $OA=OB=OC$ et $\left(\overrightarrow{OA};\overrightarrow{OB}\right)=\dfrac{2\pi}3$ : $r(A)=B$, $r(B)=C$, $r(C)=A$.
+2. Le triangle $ABC$ est globalement invariant.
+:::
+
+:::corrige
+Le carré étant direct, la rotation transforme $A$ en $B$ et $B$ en $C$. Elle conserve les milieux : $r(I)=J$. Donc $OI=OJ$ et $\left(\overrightarrow{OI};\overrightarrow{OJ}\right)=\dfrac\pi2$, d’où $(OI)\perp(OJ)$.
 :::

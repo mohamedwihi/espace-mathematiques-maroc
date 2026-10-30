@@ -127,6 +127,16 @@ On considère $(E):y'-2y=e^{x}$.
 2. Montrer que $y$ est solution de $(E)$ si et seulement si $y-y_0$ est solution de $y'=2y$ ; en déduire les solutions de $(E)$.
 :::
 
+:::exercice Série — refroidissement
+La température $\theta(t)$ d’un café (en °C, $t$ en minutes) vérifie $\theta'=-0{,}1\left(\theta-20\right)$ et $\theta(0)=80$.
+1. Résoudre l’équation différentielle et exprimer $\theta(t)$.
+2. Au bout de combien de minutes la température atteint-elle $40\,°$C ?
+:::
+
+:::exercice Série — second ordre avec conditions
+Déterminer la solution de $y''-4y'+4y=0$ telle que $y(0)=1$ et $y'(0)=3$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -152,4 +162,13 @@ $y=\alpha\cos2x+\beta\sin2x$ ; $y(0)=\alpha=2$ ; $y'(0)=2\beta=-2$, $\beta=-1$. 
 :::corrige
 1. $y_0'-2y_0=ke^x-2ke^x=-ke^x=e^x$, donc $k=-1$.
 2. $y'-2y=e^x$ et $y_0'-2y_0=e^x$ donnent, par différence, $(y-y_0)'=2(y-y_0)$, et réciproquement. Donc $y-y_0=Ce^{2x}$ : les solutions de $(E)$ sont $y=Ce^{2x}-e^x$ ($C\in\mathbb R$).
+:::
+
+:::corrige
+1. $\theta'=-0{,}1\theta+2$ : $\theta(t)=Ce^{-0{,}1t}+20$ ; $\theta(0)=C+20=80$, $C=60$ : $\theta(t)=20+60e^{-0{,}1t}$.
+2. $60e^{-0{,}1t}=20\iff e^{-0{,}1t}=\dfrac13\iff t=10\ln3\approx11$ min.
+:::
+
+:::corrige
+$r^2-4r+4=(r-2)^2$ : $y=(\alpha x+\beta)e^{2x}$. $y(0)=\beta=1$ ; $y'(x)=\left(\alpha+2\alpha x+2\beta\right)e^{2x}$, $y'(0)=\alpha+2=3$, $\alpha=1$ : $y=(x+1)e^{2x}$.
 :::
