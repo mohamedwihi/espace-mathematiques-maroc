@@ -86,7 +86,8 @@ interface Fig {
   x: [number, number];
   y: [number, number];
   functions?: { fn: string; label?: string; color?: string; domain?: [number, number] }[];
-  points?: { x: number; y: number; label?: string }[];
+  /** `dot: false` : étiquette seule (nom d’une droite, d’un cercle…). */
+  points?: { x: number; y: number; label?: string; dot?: boolean }[];
   segments?: { from: [number, number]; to: [number, number]; dashed?: boolean; color?: string }[];
   polygons?: { points: [number, number][]; color?: string; fill?: boolean }[];
   circles?: { c: [number, number]; r: number; color?: string }[];
@@ -174,7 +175,7 @@ function figure(f: Fig): string {
     out.push(`<path d="${d}" fill="none" stroke="${COLORS[fn.color ?? 'brand']}" stroke-width="2.3"/>`);
   }
   for (const p of f.points ?? []) {
-    out.push(`<circle cx="${px(p.x)}" cy="${py(p.y)}" r="3.4" fill="#1f2937"/>`);
+    if (p.dot !== false) out.push(`<circle cx="${px(p.x)}" cy="${py(p.y)}" r="3.4" fill="#1f2937"/>`);
     if (p.label) out.push(`<text x="${px(p.x) + 6}" y="${py(p.y) - 6}" class="plabel">${esc(p.label)}</text>`);
   }
   const legend = (f.functions ?? [])
@@ -236,6 +237,8 @@ function blocks(lines: string[]): string {
       const rows: string[][] = [];
       for (; i < lines.length && lines[i].trim().startsWith('|'); i++) {
         const cells = lines[i].trim().replace(/^\||\|$/g, '').split('|').map((c) => c.trim());
+        // Une barre « | » dans une formule couperait la cellule : utiliser \lvert … \rvert.
+        if (cells.some((c) => (c.match(/\$/g) ?? []).length % 2)) problems.push(`${currentFile} : cellule de tableau coupée (« | » dans une formule ?) — ${lines[i].trim()}`);
         if (!cells.every((c) => /^:?-+:?$/.test(c))) rows.push(cells);
       }
       i--;
