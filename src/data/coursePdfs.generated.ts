@@ -1,6 +1,18 @@
 // Fichier généré par scripts/build-courses.ts — ne pas modifier à la main.
 /** Cours complets disponibles en PDF, sous la forme « niveau/identifiant ». */
 export const coursePdfs: readonly string[] = [
+  '1bac/1bac-barycentre',
+  '1bac/1bac-derivabilite',
+  '1bac/1bac-etude-fonctions',
+  '1bac/1bac-generalites-fonctions',
+  '1bac/1bac-geometrie-analytique-espace',
+  '1bac/1bac-limites',
+  '1bac/1bac-logique',
+  '1bac/1bac-produit-scalaire',
+  '1bac/1bac-rotation',
+  '1bac/1bac-suites',
+  '1bac/1bac-trigonometrie',
+  '1bac/1bac-vecteurs-espace',
   '3ac/3ac-angles-inscrits',
   '3ac/3ac-equation-droite',
   '3ac/3ac-equations-inequations',
