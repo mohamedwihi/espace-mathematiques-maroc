@@ -12,7 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "check:math": "vite-node scripts/check-math.ts",
-    "pdf": "vite-node scripts/build-pdfs.ts"
+    "cours": "vite-node scripts/build-courses.ts"
   },
   "dependencies": {
     "katex": "0.16.11",

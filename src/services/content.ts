@@ -5,11 +5,11 @@ import { exercises } from '@/data/exercises';
 import { exams } from '@/data/exams';
 import { tools } from '@/data/tools';
 import { dictionaries } from '@/i18n';
-import { lessonPdfIds } from '@/data/lessonPdfs.generated';
+import { coursePdfs } from '@/data/coursePdfs.generated';
 
-/** PDF du cours (cours + exercices + corrigés) dans la langue demandée, s'il a été généré. */
-export function lessonPdfUrl(lesson: Lesson, lang: Lang): string | undefined {
-  return lessonPdfIds.has(lesson.id) ? `/pdf/${lesson.levelId}/${lesson.id}-${lang}.pdf` : undefined;
+/** Cours complet en PDF (rédigé dans content/cours/), affiché à la place du cours abrégé s'il existe. */
+export function coursePdfUrl(lesson: Lesson): string | undefined {
+  return coursePdfs.includes(`${lesson.levelId}/${lesson.id}`) ? `/cours/${lesson.levelId}/${lesson.id}.pdf` : undefined;
 }
 
 /* ---------- Requêtes ---------- */

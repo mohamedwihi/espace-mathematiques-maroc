@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
-import { CheckCircle2, Clock, FileDown, Heart, NotebookPen, Printer, Target } from 'lucide-react';
+import { CheckCircle2, Clock, Download, ExternalLink, FileText, Heart, NotebookPen, Printer, Target } from 'lucide-react';
 import { getLevel } from '@/data/levels';
-import { exercisesForLesson, getLesson, lessonPdfUrl, lessonSemester, unitTitle } from '@/services/content';
+import { coursePdfUrl, exercisesForLesson, getLesson, lessonSemester, unitTitle } from '@/services/content';
 import { LessonBlockView } from '@/components/lesson/LessonBlocks';
 import { ReviewBadge, DifficultyBadge, Arrow } from '@/components/cards/Cards';
 import { MathText } from '@/components/math/MathText';
@@ -13,7 +13,7 @@ import { usePageMeta } from '@/hooks/usePageMeta';
 
 export default function LessonPage() {
   const { lessonId } = useParams();
-  const { t, L, fmt, lang } = useI18n();
+  const { t, L, fmt } = useI18n();
   const { isFavorite, toggleFavorite } = useProgress();
   const lesson = getLesson(lessonId);
   usePageMeta(lesson ? L(lesson.title) : t.lesson.notFound, lesson ? L(lesson.summary).replace(/\$[^$]*\$/g, '') : undefined);
@@ -37,7 +37,7 @@ export default function LessonPage() {
   const fav = isFavorite(lesson.id);
   const streams = lesson.streams?.map((s) => level.streams.find((x) => x.id === s)?.short).filter(Boolean);
   const hasQuiz = related.some((e) => e.question.type !== 'open');
-  const pdf = lessonPdfUrl(lesson, lang);
+  const pdf = coursePdfUrl(lesson);
 
   return (
     <article>
@@ -63,26 +63,47 @@ export default function LessonPage() {
         }
         actions={
           <>
-            {pdf && (
-              <a href={pdf} download className="btn-primary">
-                <FileDown className="h-4 w-4" aria-hidden="true" />
-                {t.lesson.downloadPdf}
-              </a>
-            )}
             <button type="button" className={fav ? 'btn-secondary border-red-200 text-red-600' : 'btn-secondary'} onClick={() => toggleFavorite(lesson.id)} aria-pressed={fav}>
               <Heart className={`h-4 w-4 ${fav ? 'fill-red-500 text-red-500' : ''}`} aria-hidden="true" />
               {fav ? t.lesson.removeFav : t.lesson.addFav}
             </button>
-            <button type="button" className="btn-secondary" onClick={() => window.print()}>
-              <Printer className="h-4 w-4" aria-hidden="true" />
-              {t.lesson.print}
-            </button>
+            {!pdf && (
+              <button type="button" className="btn-secondary" onClick={() => window.print()}>
+                <Printer className="h-4 w-4" aria-hidden="true" />
+                {t.lesson.print}
+              </button>
+            )}
           </>
         }
       />
 
-      <div className="container-page grid gap-8 py-8 lg:grid-cols-[1fr_280px]">
+      <div className={`container-page grid gap-8 py-8 ${pdf ? '' : 'lg:grid-cols-[1fr_280px]'}`}>
         <div className="min-w-0 space-y-8">
+          {pdf ? (
+            <section className="card p-4 sm:p-5" aria-labelledby="h-course">
+              <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+                <h2 id="h-course" className="flex items-center gap-2 text-lg font-bold">
+                  <FileText className="h-5 w-5 text-brand-600" aria-hidden="true" />
+                  {t.lesson.coursePdf}
+                </h2>
+                <div className="flex flex-wrap gap-2">
+                  <a href={pdf} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-sm">
+                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                    {t.lesson.openPdf}
+                  </a>
+                  <a href={pdf} download className="btn-primary btn-sm">
+                    <Download className="h-4 w-4" aria-hidden="true" />
+                    {t.lesson.downloadPdf}
+                  </a>
+                </div>
+              </div>
+              <object data={pdf} type="application/pdf" className="h-[85vh] w-full rounded-xl border border-ink-100" aria-label={L(lesson.title)}>
+                <p className="p-4 text-sm text-ink-600">{t.lesson.pdfFallback}</p>
+              </object>
+            </section>
+          ) : (
+            <>
+
           <MathText text={L(lesson.summary)} block className="text-lg text-ink-600" />
           {lesson.source && (
             <Notice tone="info">
@@ -135,6 +156,8 @@ export default function LessonPage() {
               ))}
             </ul>
           </section>
+            </>
+          )}
 
           <section id="exercises" className="no-print scroll-mt-24" aria-labelledby="h-related">
             <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -168,6 +191,7 @@ export default function LessonPage() {
           </section>
         </div>
 
+        {!pdf && (
         <aside className="no-print">
           <nav aria-label={t.lesson.contents} className="card sticky top-24 p-4">
             <p className="mb-3 text-sm font-bold text-ink-600">{t.lesson.contents}</p>
@@ -189,6 +213,7 @@ export default function LessonPage() {
             </ol>
           </nav>
         </aside>
+        )}
       </div>
     </article>
   );

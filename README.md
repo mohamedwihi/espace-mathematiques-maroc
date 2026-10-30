@@ -46,9 +46,9 @@ npm run dev
 | `npm run build` | فحص الأنواع ثم بناء نسخة الإنتاج في `dist/` |
 | `npm run preview` | معاينة نسخة الإنتاج محلياً |
 | `npm run check:math` | فحص الكتابة الرياضية في كل الدروس والتمارين والفروض (أخطاء KaTeX، الفواصل، الرموز خارج الصيغ) |
-| `npm run pdf` | توليد ملفات PDF للدروس (عربي/فرنسي) في `public/pdf/` — يتطلب Microsoft Edge أو Google Chrome. لدرس واحد: `npm run pdf -- --only <id>` |
+| `npm run cours` | فحص الدروس الشاملة المكتوبة في `content/cours/<المستوى>/*.md` ثم توليد ملفات PDF في `public/cours/` — يتطلب Microsoft Edge أو Google Chrome. لدرس واحد: `npm run cours -- --only <id>`، للفحص فقط: `npm run cours -- --check` |
 
-بعد تعديل أي درس، أعد توليد ملف PDF الخاص به ثم ارفع التغييرات.
+عند وجود درس شامل لدرس ما، تعرض صفحة الدرس ملف PDF مكان المحتوى المختصر. بعد تعديل ملف `.md`، أعد توليد ملف PDF الخاص به ثم ارفع التغييرات.
 
 ## بنية المشروع
 
