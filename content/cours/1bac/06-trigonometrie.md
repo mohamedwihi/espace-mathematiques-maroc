@@ -142,6 +142,16 @@ Calculer $\cos\dfrac{\pi}{12}$ et $\sin\dfrac{\pi}{12}$ en écrivant $\dfrac{\pi
 2. Résoudre dans $[0;2\pi[$ l’équation $\sqrt3\cos x-\sin x=1$.
 :::
 
+:::exercice Approfondissement — transformation de somme
+1. Montrer que $\cos x+\cos3x=2\cos2x\cos x$.
+2. Résoudre dans $[0;\pi]$ l’équation $\cos x+\cos2x+\cos3x=0$.
+:::
+
+:::exercice Approfondissement — valeur exacte
+1. Calculer $\cos\dfrac{\pi}{8}$ à l’aide de $\cos2a=2\cos^2a-1$.
+2. En déduire $\tan\dfrac{\pi}{8}=\sqrt2-1$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -174,4 +184,14 @@ $\cos\dfrac\pi{12}=\cos\dfrac\pi3\cos\dfrac\pi4+\sin\dfrac\pi3\sin\dfrac\pi4=\df
 :::corrige
 1. $r=\sqrt{3+1}=2$ : $\sqrt3\cos x-\sin x=2\left(\dfrac{\sqrt3}2\cos x-\dfrac12\sin x\right)=2\cos\left(x+\dfrac\pi6\right)$.
 2. $\cos\left(x+\dfrac\pi6\right)=\dfrac12$ : $x+\dfrac\pi6=\pm\dfrac\pi3+2k\pi$, soit $x=\dfrac\pi6+2k\pi$ ou $x=-\dfrac\pi2+2k\pi$. Dans $[0;2\pi[$ : $S=\left\{\dfrac\pi6;\dfrac{3\pi}2\right\}$.
+:::
+
+:::corrige
+1. $\cos(2x+x)+\cos(2x-x)=2\cos2x\cos x$.
+2. $\cos2x(2\cos x+1)=0$ : $\cos2x=0$ donne $x=\dfrac\pi4$ ou $\dfrac{3\pi}4$ ; $\cos x=-\dfrac12$ donne $x=\dfrac{2\pi}3$.
+:::
+
+:::corrige
+1. $2\cos^2\dfrac\pi8-1=\dfrac{\sqrt2}2$, donc $\cos\dfrac\pi8=\dfrac{\sqrt{2+\sqrt2}}2$.
+2. $\tan a=\dfrac{\sin2a}{1+\cos2a}$ : $\tan\dfrac\pi8=\dfrac{\frac{\sqrt2}2}{1+\frac{\sqrt2}2}=\dfrac{\sqrt2}{2+\sqrt2}=\sqrt2-1$.
 :::

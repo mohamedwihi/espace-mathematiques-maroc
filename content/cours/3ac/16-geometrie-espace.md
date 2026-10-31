@@ -151,6 +151,19 @@ Un cône de révolution a pour hauteur $12$ cm et pour rayon de base $5$ cm. On 
 2. Le petit cône obtenu est une réduction du grand : donner le coefficient puis son volume.
 :::
 
+:::exercice Approfondissement — cône et boule
+Un cône de révolution a pour hauteur $SO=12$ cm et pour rayon de base $OA=5$ cm.
+1. Calculer la génératrice $SA$.
+2. Calculer le volume du cône (valeur exacte en fonction de $\pi$).
+3. Une boule a le même volume que ce cône. Calculer son rayon (au mm près ; $V=\dfrac43\pi R^3$).
+:::
+
+:::exercice Approfondissement — section d’un pavé
+$ABCDEFGH$ est un pavé droit avec $AB=8$, $AD=6$, $AE=5$ (cm). On le coupe par le plan qui passe par $A$, $C$, $G$ et $E$.
+1. Quelle est la nature de la section $ACGE$ ? Justifier.
+2. Calculer ses dimensions et son aire.
+:::
+
 # Corrigés
 
 :::corrige
@@ -184,4 +197,15 @@ Rapport $k=3$ : l’aire est multipliée par $9$ et le volume par $27$. Volume d
 :::corrige
 1. $V=\dfrac{3{,}14\times25\times12}{3}=314\ \text{cm}^3$.
 2. $k=\dfrac4{12}=\dfrac13$ ; $V'=k^3V=\dfrac{314}{27}\approx11{,}6\ \text{cm}^3$.
+:::
+
+:::corrige
+1. $SA^2=144+25=169$, $SA=13$ cm.
+2. $V=\dfrac{\pi\times25\times12}{3}=100\pi\ \text{cm}^3$.
+3. $\dfrac43\pi R^3=100\pi\iff R^3=75\iff R\approx4{,}2$ cm.
+:::
+
+:::corrige
+1. $(AE)$ est perpendiculaire à la base, donc à $(AC)$ ; $AE=CG$ et $(AE)\parallel(CG)$ : $ACGE$ est un rectangle.
+2. $AC=\sqrt{64+36}=10$ cm et $AE=5$ cm : aire $50\ \text{cm}^2$.
 :::

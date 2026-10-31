@@ -154,6 +154,16 @@ Calculer $\widehat{COD}$, $\widehat{BOC}$ et $\widehat{AOD}$ en justifiant.
 Tracer un triangle $ABC$ tel que $AB=7$ cm, $AC=5$ cm et $BC=6$ cm. Construire son cercle inscrit.
 :::
 
+:::exercice Approfondissement — bissectrices de deux angles adjacents
+$\widehat{AOB}$ et $\widehat{BOC}$ sont deux angles adjacents supplémentaires. $[OM)$ est la bissectrice de $\widehat{AOB}$ et $[ON)$ celle de $\widehat{BOC}$.
+Montrer que $\widehat{MON}=90°$.
+:::
+
+:::exercice Approfondissement — angles et horloge
+1. Quel angle forment les aiguilles d’une horloge à $3$ h ? à $5$ h ? à $9$ h $30$ ?
+2. À quelle heure (entière) les aiguilles forment-elles un angle plat ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -180,4 +190,13 @@ Aigu ; droit ; obtus ; plat ; aigu ; obtus.
 
 :::corrige
 On construit deux bissectrices (par exemple celles de $\widehat A$ et $\widehat B$), qui se coupent en $I$ ; on construit le projeté orthogonal $H$ de $I$ sur $[AB]$ ; le cercle de centre $I$ et de rayon $IH$ est le cercle inscrit (il touche les trois côtés).
+:::
+
+:::corrige
+$\widehat{MON}=\widehat{MOB}+\widehat{BON}=\dfrac{\widehat{AOB}}2+\dfrac{\widehat{BOC}}2=\dfrac{\widehat{AOB}+\widehat{BOC}}2=\dfrac{180°}2=90°$.
+:::
+
+:::corrige
+1. Une heure correspond à $\dfrac{360°}{12}=30°$. À $3$ h : $90°$ ; à $5$ h : $150°$. À $9$ h $30$, la petite aiguille est entre $9$ et $10$ (à $285°$) et la grande sur $6$ ($180°$) : $105°$.
+2. À $6$ h.
 :::

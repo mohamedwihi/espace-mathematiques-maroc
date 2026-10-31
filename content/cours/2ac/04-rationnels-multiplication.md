@@ -109,6 +109,16 @@ Hassan a dépensé les $\dfrac{2}{5}$ de son salaire pour le loyer, puis les $\d
 2. Son salaire est de $6\,000$ DH. Combien lui reste-t-il ?
 :::
 
+:::exercice Approfondissement — produit télescopique
+Calculer $P=\left(1-\dfrac12\right)\left(1-\dfrac13\right)\left(1-\dfrac14\right)\cdots\left(1-\dfrac1{10}\right)$.
+:::
+
+:::exercice Approfondissement — la balle qui rebondit
+Une balle lâchée de $8$ m remonte à chaque rebond aux $\dfrac34$ de la hauteur précédente.
+1. Calculer la hauteur atteinte après le $1^{\text{er}}$, le $2^{\text{e}}$ puis le $3^{\text{e}}$ rebond.
+2. Exprimer la hauteur après le $n^{\text{e}}$ rebond à l’aide d’une puissance.
+:::
+
 # Corrigés
 
 :::corrige
@@ -135,4 +145,13 @@ $\dfrac{-10}{21}$ ; $\dfrac{60}{225}=\dfrac4{15}$ ; $-\dfrac{14\times5}{15\times
 :::corrige
 1. Reste après le loyer : $1-\dfrac25=\dfrac35$ ; nourriture : $\dfrac34\times\dfrac35=\dfrac9{20}$.
 2. Dépenses : $\dfrac25+\dfrac9{20}=\dfrac{17}{20}$ ; reste $\dfrac3{20}\times6\,000=900$ DH.
+:::
+
+:::corrige
+$P=\dfrac12\times\dfrac23\times\dfrac34\times\cdots\times\dfrac9{10}$ : chaque numérateur se simplifie avec le dénominateur précédent, il reste $P=\dfrac1{10}$.
+:::
+
+:::corrige
+1. $6$ m ; $4{,}5$ m ; $3{,}375$ m.
+2. $8\times\left(\dfrac34\right)^n$ m.
 :::

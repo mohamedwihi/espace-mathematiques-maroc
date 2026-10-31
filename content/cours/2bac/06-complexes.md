@@ -190,6 +190,18 @@ Soit $z=1+i\sqrt3$ et $w=1-i$.
 2. On note $A$ et $B$ les points d’affixes les solutions $a=2+2i$ et $b=2-2i$. Montrer que le triangle $OAB$ est rectangle isocèle en $O$.
 :::
 
+:::exercice Approfondissement — rotation et triangle équilatéral
+Dans le plan complexe, $A$, $B$ ont pour affixes $a=1+i$ et $b=3+2i$. Soit $R$ la rotation de centre $A$ et d’angle $\dfrac{\pi}{3}$.
+1. Donner l’écriture complexe de $R$.
+2. Calculer l’affixe $c$ de $C=R(B)$ et justifier que $ABC$ est équilatéral.
+:::
+
+:::exercice Approfondissement — équation de degré 3
+On considère le polynôme $P(z)=z^3-3z^2+4z-2$.
+1. Vérifier que $P(1)=0$ et factoriser $P(z)$.
+2. Résoudre $P(z)=0$ dans $\mathbb C$ et écrire les solutions sous forme exponentielle.
+:::
+
 # Corrigés
 
 :::corrige
@@ -224,4 +236,14 @@ $z_1=\sqrt2\left(\cos\dfrac\pi4+i\sin\dfrac\pi4\right)=\sqrt2e^{i\frac\pi4}$ ; $
 :::corrige
 1. $\Delta=16-32=-16=(4i)^2$ : $z=2+2i$ ou $z=2-2i$.
 2. $\dfrac ba=\dfrac{2-2i}{2+2i}=\dfrac{(1-i)^2}{2}=-i$ : $OB=OA$ et $\left(\overrightarrow{OA};\overrightarrow{OB}\right)=-\dfrac\pi2$ : rectangle isocèle en $O$.
+:::
+
+:::corrige
+1. $z'-a=e^{i\frac\pi3}(z-a)$, soit $z'=\left(\dfrac12+i\dfrac{\sqrt3}2\right)(z-1-i)+1+i$.
+2. $b-a=2+i$ : $c=1+i+\left(\dfrac12+i\dfrac{\sqrt3}2\right)(2+i)=1+i+1-\dfrac{\sqrt3}2+i\left(\dfrac12+\sqrt3\right)=2-\dfrac{\sqrt3}2+i\left(\dfrac32+\sqrt3\right)$. $AC=AB$ et $\left(\overrightarrow{AB};\overrightarrow{AC}\right)=\dfrac\pi3$ : le triangle est équilatéral.
+:::
+
+:::corrige
+1. $P(1)=1-3+4-2=0$ ; $P(z)=(z-1)(z^2-2z+2)$.
+2. $z^2-2z+2=0$ : $\Delta=-4$, $z=1\pm i$. Solutions : $1=e^{i0}$, $1+i=\sqrt2e^{i\frac\pi4}$, $1-i=\sqrt2e^{-i\frac\pi4}$.
 :::

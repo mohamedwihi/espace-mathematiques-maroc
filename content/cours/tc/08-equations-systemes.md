@@ -173,6 +173,15 @@ Résoudre dans $\mathbb R$ : $2x^2-7x+3=0$ ; $x^2-4x+5=0$ ; $9x^2-6x+1=0$ ; puis
 Déterminer deux nombres dont la somme est $11$ et le produit $28$.
 :::
 
+:::exercice Approfondissement — équation bicarrée et paramètre
+1. Résoudre $x^4-13x^2+36=0$.
+2. Déterminer les valeurs de $m$ pour lesquelles l’équation $x^2-2mx+m+2=0$ admet une racine double, et calculer cette racine.
+:::
+
+:::exercice Approfondissement — système non linéaire
+Résoudre le système $\begin{cases}x+y=7\\xy=12\end{cases}$, puis $\begin{cases}x^2+y^2=25\\x+y=7\end{cases}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -214,4 +223,14 @@ Soient $L$ et $\ell$ les dimensions : $L+\ell=17$ et $L\ell=60$. Ce sont les sol
 
 :::corrige
 Ce sont les solutions de $X^2-11X+28=0$ : $\Delta=121-112=9$, $X=\dfrac{11\pm3}2$, soit $4$ et $7$.
+:::
+
+:::corrige
+1. $X=x^2$ : $X^2-13X+36=(X-4)(X-9)=0$, donc $x\in\{-3;-2;2;3\}$.
+2. $\Delta'=m^2-m-2=(m-2)(m+1)=0$ : $m=2$ (racine double $x=m=2$) ou $m=-1$ (racine double $x=-1$).
+:::
+
+:::corrige
+- $x$ et $y$ sont solutions de $X^2-7X+12=0$ : $\{3;4\}$ ; solutions $(3;4)$ et $(4;3)$.
+- $(x+y)^2=x^2+y^2+2xy$ donne $49=25+2xy$, $xy=12$ : mêmes solutions $(3;4)$ et $(4;3)$.
 :::

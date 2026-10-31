@@ -187,6 +187,19 @@ Soit $f(x)=x^3+3x-2$ sur $\mathbb R$.
 3. Donner le tableau de variations de $f^{-1}$.
 :::
 
+:::exercice Approfondissement — point fixe
+Soit $f$ une fonction continue sur $[0;1]$ telle que $f([0;1])\subset[0;1]$.
+1. On pose $g(x)=f(x)-x$. Calculer le signe de $g(0)$ et de $g(1)$.
+2. En déduire que l’équation $f(x)=x$ admet au moins une solution dans $[0;1]$.
+3. Application : montrer que $\cos x=x$ admet une solution dans $\left[0;\dfrac{\pi}{2}\right]$.
+:::
+
+:::exercice Approfondissement — fonction réciproque explicite
+Soit $f(x)=\dfrac{2x}{\sqrt{x^2+1}}$ sur $\mathbb R$.
+1. Montrer que $f$ est strictement croissante et que $f(\mathbb R)=]-2;2[$.
+2. Déterminer l’expression de $f^{-1}(y)$ pour $y\in]-2;2[$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -221,4 +234,15 @@ $g(x)=x^3+3x-2$ est continue, $g'(x)=3x^2+3>0$ : strictement croissante ; $g(0)=
 1. $f'(x)=3x^2+3>0$ : $f$ est continue et strictement croissante, avec $\lim\limits_{-\infty}f=-\infty$ et $\lim\limits_{+\infty}f=+\infty$ : bijection de $\mathbb R$ sur $\mathbb R$.
 2. $0$ a un unique antécédent $\alpha$ ; $f(0{,}5)=-0{,}375<0$ et $f(1)=2>0$, donc $0{,}5<\alpha<1$.
 3. $f^{-1}$ est continue et strictement croissante sur $\mathbb R$, de $-\infty$ à $+\infty$, avec $f^{-1}(0)=\alpha$.
+:::
+
+:::corrige
+1. $g(0)=f(0)\ge0$ et $g(1)=f(1)-1\le0$.
+2. $g$ est continue sur $[0;1]$ et change de signe (au sens large) : d’après le TVI, il existe $c$ tel que $g(c)=0$, soit $f(c)=c$.
+3. $h(x)=\cos x-x$ est continue, $h(0)=1>0$ et $h\left(\dfrac\pi2\right)=-\dfrac\pi2<0$ : une solution existe.
+:::
+
+:::corrige
+1. $f'(x)=\dfrac{2}{(x^2+1)\sqrt{x^2+1}}>0$ ; $\lim\limits_{\pm\infty}f=\pm2$ : $f(\mathbb R)=]-2;2[$.
+2. $y=\dfrac{2x}{\sqrt{x^2+1}}$ : $x$ et $y$ ont même signe et $y^2(x^2+1)=4x^2$, donc $x^2=\dfrac{y^2}{4-y^2}$ et $f^{-1}(y)=\dfrac{y}{\sqrt{4-y^2}}$.
 :::

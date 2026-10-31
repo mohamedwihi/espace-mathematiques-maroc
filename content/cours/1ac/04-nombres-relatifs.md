@@ -124,6 +124,20 @@ On relève les températures suivantes à six heures du matin : Ifrane $-6\,°$C
 2. Ranger ces températures de la plus froide à la plus chaude.
 :::
 
+:::exercice Approfondissement — points sur une droite graduée
+Sur une droite graduée, $A$ a pour abscisse $-3$ et $B$ pour abscisse $5$.
+1. Quelle est l’abscisse du milieu $I$ de $[AB]$ ?
+2. Placer le point $C$ tel que $A$ soit le milieu de $[BC]$ ; donner son abscisse.
+3. Trouver les abscisses des points $M$ tels que $MA=2$.
+:::
+
+:::exercice Approfondissement — repère et figure
+Dans un repère, placer $A(-2;1)$, $B(3;1)$, $C(3;-2)$.
+1. Donner les coordonnées du point $D$ pour que $ABCD$ soit un rectangle.
+2. Calculer son périmètre et son aire (unité : le carreau).
+3. Donner les coordonnées des symétriques de $A$ et $C$ par rapport à l’origine.
+:::
+
 # Corrigés
 
 :::corrige
@@ -151,4 +165,16 @@ On relève les températures suivantes à six heures du matin : Ifrane $-6\,°$C
 :::corrige
 1. Ifrane, Azilal et Midelt.
 2. $-6<-4<-2{,}5<1<3$ : Ifrane, Midelt, Azilal, Oujda, Fès.
+:::
+
+:::corrige
+1. $AB=5-(-3)=8$, donc $I$ est à $4$ unités de $A$ : abscisse $-3+4=1$.
+2. $C$ est à $8$ unités de $A$, à gauche : abscisse $-11$.
+3. $M$ à $2$ unités de $A$ : abscisses $-5$ et $-1$.
+:::
+
+:::corrige
+1. $D(-2;-2)$.
+2. $AB=5$ et $BC=3$ : périmètre $16$ carreaux, aire $15$ carreaux.
+3. $A'(2;-1)$ et $C'(-3;2)$.
 :::

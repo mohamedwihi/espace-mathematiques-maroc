@@ -149,6 +149,17 @@ Salma dépense le $\dfrac{1}{4}$ de son argent de poche pour un livre et les $\d
 2. Quelle somme lui reste-t-il ? Quelle fraction de son argent cela représente-t-il ?
 :::
 
+:::exercice Approfondissement — fractions encadrées
+1. Trouver trois fractions de dénominateur $20$ comprises strictement entre $\dfrac{3}{5}$ et $\dfrac{3}{4}$.
+2. Trouver une fraction comprise entre $\dfrac{1}{3}$ et $\dfrac{1}{2}$ dont le numérateur est $5$.
+:::
+
+:::exercice Approfondissement — héritage
+Un père partage une somme d’argent entre ses trois enfants : l’aîné reçoit les $\dfrac{2}{5}$ de la somme, le deuxième les $\dfrac{3}{10}$ et le dernier reçoit $1\,800$ DH.
+1. Quelle fraction de la somme reçoit le dernier enfant ?
+2. Calculer la somme totale puis la part de chacun.
+:::
+
 # Corrigés
 
 :::corrige
@@ -177,4 +188,14 @@ Salma dépense le $\dfrac{1}{4}$ de son argent de poche pour un livre et les $\d
 :::corrige
 1. Livre : $\dfrac14\times200=50$ DH ; fournitures : $\dfrac25\times200=80$ DH.
 2. Il reste $200-130=70$ DH, soit $\dfrac{70}{200}=\dfrac7{20}$ de son argent.
+:::
+
+:::corrige
+1. $\dfrac35=\dfrac{12}{20}$ et $\dfrac34=\dfrac{15}{20}$ : $\dfrac{13}{20}$ et $\dfrac{14}{20}$ conviennent ; il n’y en a que deux de dénominateur $20$. Avec le dénominateur $40$ : $\dfrac{25}{40}$, $\dfrac{26}{40}$, $\dfrac{27}{40}$ (ou plus).
+2. $\dfrac13=\dfrac5{15}$ et $\dfrac12=\dfrac5{10}$ : il suffit d’un dénominateur entre $10$ et $15$, par exemple $\dfrac5{12}$.
+:::
+
+:::corrige
+1. $1-\dfrac25-\dfrac3{10}=\dfrac{10-4-3}{10}=\dfrac3{10}$.
+2. $\dfrac3{10}$ de la somme valent $1\,800$ DH : la somme est $1\,800\times\dfrac{10}3=6\,000$ DH. Aîné : $2\,400$ DH ; deuxième : $1\,800$ DH ; dernier : $1\,800$ DH.
 :::

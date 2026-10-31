@@ -162,6 +162,19 @@ On donne $A(1;0;0)$, $B(0;2;0)$ et $C(0;0;3)$.
 2. En déduire une équation du plan $(ABC)$ et l’aire du triangle $ABC$.
 :::
 
+:::exercice Approfondissement — plan tangent et distance
+$(S)$ est la sphère de centre $\Omega(1;-2;3)$ et de rayon $3$, et $A(3;-1;5)$.
+1. Vérifier que $A\in(S)$.
+2. Déterminer une équation du plan $(P)$ tangent à $(S)$ en $A$.
+3. Calculer la distance du point $O$ (origine) au plan $(P)$.
+:::
+
+:::exercice Approfondissement — droite perpendiculaire à un plan
+On donne $(P):2x-y+2z-6=0$ et $B(1;1;1)$.
+1. Donner une représentation paramétrique de la droite $(\Delta)$ passant par $B$ et perpendiculaire à $(P)$.
+2. Déterminer le projeté orthogonal $H$ de $B$ sur $(P)$ et vérifier que $BH=d(B,(P))$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -192,4 +205,15 @@ $\overrightarrow{AB}(2;-1;2)$, $\overrightarrow{AC}(1;2;0)$ : $\overrightarrow{A
 :::corrige
 1. $\overrightarrow{AB}(-1;2;0)$, $\overrightarrow{AC}(-1;0;3)$ : $\overrightarrow{AB}\wedge\overrightarrow{AC}=(6;3;2)$.
 2. $(ABC):6x+3y+2z-6=0$ (il passe par $A$) ; aire $=\dfrac12\sqrt{36+9+4}=\dfrac72$.
+:::
+
+:::corrige
+1. $\Omega A^2=4+1+4=9$.
+2. $\overrightarrow{\Omega A}(2;1;2)$ est normal : $2(x-3)+(y+1)+2(z-5)=0$, soit $2x+y+2z-15=0$.
+3. $d=\dfrac{\lvert-15\rvert}{\sqrt{4+1+4}}=5$.
+:::
+
+:::corrige
+1. $x=1+2t$, $y=1-t$, $z=1+2t$.
+2. $2(1+2t)-(1-t)+2(1+2t)-6=0\iff9t-3=0\iff t=\dfrac13$ : $H\left(\dfrac53;\dfrac23;\dfrac53\right)$. $BH=\dfrac13\sqrt{4+1+4}=1$ et $d(B,(P))=\dfrac{\lvert2-1+2-6\rvert}{3}=1$.
 :::

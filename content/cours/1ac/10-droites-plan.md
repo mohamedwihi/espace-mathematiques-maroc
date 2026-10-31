@@ -132,6 +132,18 @@ On sait que $(D_1)\parallel(D_2)$ et $(D_2)\parallel(D_3)$, et que $(L)\perp(D_1
 3. Le point $N$ vérifie $NA=NB=4$ cm. À quelle droite appartient-il ?
 :::
 
+:::exercice Approfondissement — nombre de droites
+1. Combien de droites passent par deux points parmi trois points non alignés ? parmi quatre points dont trois quelconques ne sont pas alignés ?
+2. Combien de droites pour $n$ points (trois jamais alignés) ? Vérifier pour $n=5$.
+:::
+
+:::exercice Approfondissement — médiatrices
+$A$, $B$, $C$ sont trois points non alignés. On trace les médiatrices $(\Delta_1)$ de $[AB]$ et $(\Delta_2)$ de $[BC]$ ; elles se coupent en $O$.
+1. Montrer que $OA=OB=OC$.
+2. En déduire que $O$ appartient à la médiatrice de $[AC]$.
+3. Que peut-on dire du cercle de centre $O$ passant par $A$ ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -150,4 +162,15 @@ On sait que $(D_1)\parallel(D_2)$ et $(D_2)\parallel(D_3)$, et que $(L)\perp(D_1
 :::corrige
 2. $M$ appartient à la médiatrice de $[AB]$, donc $MB=MA=5$ cm.
 3. $N$ est équidistant de $A$ et $B$, donc il appartient à la médiatrice $(\Delta)$ de $[AB]$.
+:::
+
+:::corrige
+1. $3$ droites, puis $6$ droites.
+2. Chaque point est relié aux $n-1$ autres, et chaque droite est comptée deux fois : $\dfrac{n(n-1)}2$. Pour $n=5$ : $10$ droites.
+:::
+
+:::corrige
+1. $O\in(\Delta_1)$ donc $OA=OB$ ; $O\in(\Delta_2)$ donc $OB=OC$. Ainsi $OA=OB=OC$.
+2. $OA=OC$ : $O$ est équidistant de $A$ et $C$, il est sur la médiatrice de $[AC]$.
+3. Il passe aussi par $B$ et $C$ : c’est le cercle passant par les trois points.
 :::

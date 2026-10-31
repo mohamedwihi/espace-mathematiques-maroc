@@ -131,6 +131,20 @@ Un sous-marin est à $-120$ m (sous le niveau de la mer). Il remonte de $45$ m, 
 2. Calculer cette position.
 :::
 
+:::exercice Approfondissement — carré magique
+Compléter le carré pour que les sommes de chaque ligne, de chaque colonne et de chaque diagonale soient égales à $-3$ :
+| $\ldots$ | $-8$ | $\ldots$ |
+|---|---|---|
+| $\ldots$ | $-1$ | $\ldots$ |
+| $0$ | $\ldots$ | $\ldots$ |
+:::
+
+:::exercice Approfondissement — températures
+La température à Ifrane relevée à $6$ h est $-7{,}5\,°$C. Elle augmente de $4{,}5\,°$C jusqu’à $10$ h, puis de $6\,°$C jusqu’à $14$ h, puis baisse de $9{,}5\,°$C jusqu’à minuit.
+1. Calculer la température à $14$ h puis à minuit.
+2. Quel est l’écart entre la température la plus haute et la plus basse de cette journée ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -160,4 +174,18 @@ $AB=1{,}5-(-4)=5{,}5$ ; $AC=-0{,}5-(-4)=3{,}5$ ; $BC=1{,}5-(-0{,}5)=2$.
 :::corrige
 1. $-120+45-70+95$.
 2. $-120+45-70+95=140-190=-50$ : le sous-marin est à $50$ m sous le niveau de la mer.
+:::
+
+:::corrige
+La diagonale passant par le centre et par $0$ donne la case en haut à droite : $-3-0-(-1)=-2$. Première ligne : $-3-(-8)-(-2)=7$. Première colonne : $-3-7-0=-10$. Ligne du milieu : $-3-(-10)-(-1)=8$. Colonne du milieu : $-3-(-8)-(-1)=6$. Dernière case : $-3-0-6=-9$.
+| $7$ | $-8$ | $-2$ |
+|---|---|---|
+| $-10$ | $-1$ | $8$ |
+| $0$ | $6$ | $-9$ |
+Vérification sur l’autre diagonale : $7+(-1)+(-9)=-3$.
+:::
+
+:::corrige
+1. $14$ h : $-7{,}5+4{,}5+6=3\,°$C ; minuit : $3-9{,}5=-6{,}5\,°$C.
+2. Plus haute $3\,°$C, plus basse $-7{,}5\,°$C : écart $3-(-7{,}5)=10{,}5\,°$C.
 :::

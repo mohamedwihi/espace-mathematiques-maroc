@@ -183,6 +183,17 @@ Donner la valeur de vérité et la négation de chacune des propositions :
 3. Par récurrence, montrer que pour tout $n\in\mathbb N^*$ : $1+3+5+\cdots+(2n-1)=n^2$.
 :::
 
+:::exercice Approfondissement — récurrence et divisibilité
+Montrer par récurrence que pour tout $n\in\mathbb N$ :
+1. $4^n-1$ est divisible par $3$ ;
+2. $1^2+2^2+\cdots+n^2=\dfrac{n(n+1)(2n+1)}{6}$ (pour $n\ge1$).
+:::
+
+:::exercice Approfondissement — disjonction des cas et équivalence
+1. Montrer que pour tout $n\in\mathbb N$, $n(n^2+2)$ est divisible par $3$ (étudier les restes de $n$ modulo $3$).
+2. Montrer que pour tous réels $x$ et $y$ : $x^2+y^2=0\iff x=y=0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -229,4 +240,14 @@ $S=\{-3;2\}$.
 1. Contraposée : si $n$ est pair, $n=2k$, alors $n^2=4k^2$ est pair.
 2. Supposons $\sqrt2=\dfrac pq$ avec $\dfrac pq$ irréductible. Alors $p^2=2q^2$ est pair, donc $p=2p'$ ; puis $q^2=2p'^2$ est pair, donc $q$ est pair : contradiction avec l’irréductibilité.
 3. Pour $n=1$ : $1=1^2$. Si la somme vaut $n^2$, en ajoutant $2(n+1)-1=2n+1$ on obtient $n^2+2n+1=(n+1)^2$.
+:::
+
+:::corrige
+1. $n=0$ : $0$ est divisible par $3$. Si $4^n-1=3k$, alors $4^{n+1}-1=4\left(4^n-1\right)+3=12k+3=3(4k+1)$.
+2. $n=1$ : $1=\dfrac{1\times2\times3}6$. Si la formule est vraie au rang $n$, alors $S_{n+1}=\dfrac{n(n+1)(2n+1)}6+(n+1)^2=\dfrac{(n+1)\left[n(2n+1)+6(n+1)\right]}6=\dfrac{(n+1)(2n^2+7n+6)}6=\dfrac{(n+1)(n+2)(2n+3)}6$.
+:::
+
+:::corrige
+1. Si $n=3k$, c’est clair. Si $n=3k+1$, $n^2+2=9k^2+6k+3$ est multiple de $3$. Si $n=3k+2$, $n^2+2=9k^2+12k+6$ aussi.
+2. Si $x=y=0$, la somme est nulle. Réciproquement, $x^2\ge0$ et $y^2\ge0$ : si leur somme est nulle, chacun est nul.
 :::

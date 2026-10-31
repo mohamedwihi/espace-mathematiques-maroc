@@ -131,6 +131,14 @@ Résoudre par la méthode de votre choix : $\begin{cases}3x-2y=4\\x+4y=6\end{cas
 Dans une ferme, il y a des poules et des lapins : on compte $40$ têtes et $112$ pattes. Combien y a-t-il de poules et de lapins ?
 :::
 
+:::exercice Approfondissement — nombre à deux chiffres
+Un nombre de deux chiffres a pour somme des chiffres $11$. Si l’on permute ses chiffres, le nombre augmente de $27$. Quel est ce nombre ?
+:::
+
+:::exercice Approfondissement — mélange
+On mélange du thé à $80$ DH le kilo et du thé à $120$ DH le kilo pour obtenir $50$ kg d’un mélange à $96$ DH le kilo. Quelle quantité de chaque thé faut-il ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -162,4 +170,12 @@ Soient $L$ et $\ell$ les dimensions : $L+\ell=17$ et $(L+3)(\ell-2)=L\ell$. La s
 
 :::corrige
 Soit $x$ le nombre de poules et $y$ celui de lapins : $x+y=40$ et $2x+4y=112$. Alors $2y=112-80=32$, $y=16$ et $x=24$ : $24$ poules et $16$ lapins.
+:::
+
+:::corrige
+Soit $x$ le chiffre des dizaines et $y$ celui des unités : $x+y=11$ et $(10y+x)-(10x+y)=27$, soit $y-x=3$. Donc $y=7$, $x=4$ : le nombre est $47$ (vérification : $74-47=27$).
+:::
+
+:::corrige
+$x+y=50$ et $80x+120y=96\times50=4\,800$. Avec $x=50-y$ : $4\,000+40y=4\,800$, $y=20$ et $x=30$ : $30$ kg à $80$ DH et $20$ kg à $120$ DH.
 :::

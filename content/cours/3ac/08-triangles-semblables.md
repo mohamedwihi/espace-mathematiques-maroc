@@ -139,6 +139,18 @@ $ABC$ est un triangle ; $M\in[AB]$ et $N\in[AC]$ tels que $\widehat{AMN}=\wideha
 2. Calculer $AC$.
 :::
 
+:::exercice Approfondissement — hauteur dans un triangle rectangle
+$ABC$ est rectangle en $A$ et $H$ est le pied de la hauteur issue de $A$.
+1. Montrer que les triangles $HBA$ et $ABC$ sont semblables, puis que $AB^2=BH\times BC$.
+2. Application : $BH=3{,}6$ et $BC=10$. Calculer $AB$, puis $AC$ et $AH$.
+:::
+
+:::exercice Approfondissement — agrandissement
+Un triangle $T$ a pour périmètre $24$ cm et pour aire $24\ \text{cm}^2$. Un triangle $T'$ semblable à $T$ a pour périmètre $36$ cm.
+1. Quel est le rapport de similitude ?
+2. Quelle est l’aire de $T'$ ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -172,4 +184,14 @@ L’aire est multipliée par $k^2=\dfrac49$ : $36\times\dfrac49=16\ \text{cm}^2$
 :::corrige
 1. Ils ont l’angle $\widehat A$ en commun et $\widehat{AMN}=\widehat{ACB}$ : deux angles égaux, ils sont semblables (avec $M\leftrightarrow C$ et $N\leftrightarrow B$).
 2. $\dfrac{AM}{AC}=\dfrac{AN}{AB}$, soit $\dfrac{3}{AC}=\dfrac{4}{8}$ : $AC=6$.
+:::
+
+:::corrige
+1. Ils ont l’angle $\widehat B$ en commun et un angle droit ($\widehat{BHA}=\widehat{BAC}=90°$) : ils sont semblables. Donc $\dfrac{BH}{BA}=\dfrac{BA}{BC}$, soit $AB^2=BH\times BC$.
+2. $AB^2=36$, $AB=6$ ; $AC^2=100-36=64$, $AC=8$ ; aire : $\dfrac{AB\times AC}2=\dfrac{BC\times AH}2$, donc $AH=\dfrac{48}{10}=4{,}8$.
+:::
+
+:::corrige
+1. $k=\dfrac{36}{24}=1{,}5$.
+2. $\mathcal A'=k^2\mathcal A=2{,}25\times24=54\ \text{cm}^2$.
 :::

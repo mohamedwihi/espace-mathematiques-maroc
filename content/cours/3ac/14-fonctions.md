@@ -151,6 +151,17 @@ Un taxi facture $7$ DH de prise en charge puis $3{,}5$ DH par kilomètre. Un sec
 2. Pour quelle distance les deux prix sont-ils égaux ?
 :::
 
+:::exercice Approfondissement — fonction affine par morceaux
+Un parking facture : $5$ DH pour la première heure, puis $3$ DH par heure supplémentaire. On note $p(x)$ le prix pour $x$ heures ($x$ entier, $x\ge1$).
+1. Calculer $p(1)$, $p(2)$, $p(5)$.
+2. Montrer que $p(x)=3x+2$ et en déduire la durée pour un prix de $32$ DH.
+:::
+
+:::exercice Approfondissement — fonctions et pourcentages
+1. Un article coûte $x$ DH. Après une hausse de $20\,\%$ puis une baisse de $20\,\%$, son prix est $f(x)$. Exprimer $f(x)$ ; quelle est la nature de $f$ ?
+2. Le prix final est-il égal au prix initial ? Quel pourcentage d’évolution global obtient-on ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -185,4 +196,14 @@ $a=\dfrac{-2-7}{2-(-1)}=-3$ ; $7=-3\times(-1)+b$ donne $b=4$ : $h(x)=-3x+4$. Ant
 :::corrige
 1. $p_1(x)=3{,}5x+7$ et $p_2(x)=5x$.
 2. $3{,}5x+7=5x\iff1{,}5x=7\iff x=\dfrac{14}{3}\approx4{,}67$ km.
+:::
+
+:::corrige
+1. $p(1)=5$, $p(2)=8$, $p(5)=17$.
+2. $p(x)=5+3(x-1)=3x+2$ ; $3x+2=32\iff x=10$ heures.
+:::
+
+:::corrige
+1. $f(x)=0{,}8\times1{,}2x=0{,}96x$ : $f$ est linéaire.
+2. Non : le prix baisse de $4\,\%$.
 :::

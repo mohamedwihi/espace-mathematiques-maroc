@@ -112,6 +112,15 @@ Un réservoir est plein aux $\dfrac{3}{4}$. Lundi, on en utilise $\dfrac{1}{3}$ 
 2. La capacité est $120$ L. Quel volume contient-il mardi soir ?
 :::
 
+:::exercice Approfondissement — décomposition
+1. Vérifier que pour tout entier $n\ge1$ : $\dfrac{1}{n}-\dfrac{1}{n+1}=\dfrac{1}{n(n+1)}$.
+2. En déduire $A=\dfrac{1}{6}+\dfrac{1}{12}+\dfrac{1}{20}+\dfrac{1}{30}+\dfrac{1}{42}$.
+:::
+
+:::exercice Approfondissement — trouver le nombre manquant
+Déterminer le rationnel $x$ dans chaque cas : $\dfrac{3}{4}+x=\dfrac{1}{6}$ ; $x-\dfrac{2}{5}=-\dfrac{7}{10}$ ; $\dfrac{5}{8}-x=1$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -138,4 +147,15 @@ $B=\left(\dfrac59+\dfrac49\right)+\left(\dfrac{-3}4+\dfrac74\right)=1+1=2$ ; $C=
 :::corrige
 1. $\dfrac34-\dfrac13+\dfrac16=\dfrac{9-4+2}{12}=\dfrac7{12}$.
 2. $\dfrac7{12}\times120=70$ L.
+:::
+
+:::corrige
+1. $\dfrac1n-\dfrac1{n+1}=\dfrac{n+1-n}{n(n+1)}=\dfrac1{n(n+1)}$.
+2. $A=\left(\dfrac12-\dfrac13\right)+\left(\dfrac13-\dfrac14\right)+\cdots+\left(\dfrac16-\dfrac17\right)=\dfrac12-\dfrac17=\dfrac5{14}$.
+:::
+
+:::corrige
+- $x=\dfrac16-\dfrac34=\dfrac{2-9}{12}=-\dfrac7{12}$.
+- $x=-\dfrac7{10}+\dfrac4{10}=-\dfrac3{10}$.
+- $x=\dfrac58-1=-\dfrac38$.
 :::

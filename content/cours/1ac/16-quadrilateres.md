@@ -134,6 +134,19 @@ $(\mathcal C)$ est un cercle de centre $O$ ; $[AC]$ et $[BD]$ sont deux diamètr
 $[AB]$ est un segment de milieu $I$ ; $M$ est un point de la médiatrice de $[AB]$ distinct de $I$, et $N$ est le symétrique de $M$ par rapport à $I$. Montrer que $AMBN$ est un losange.
 :::
 
+:::exercice Approfondissement — le rectangle caché
+$ABC$ est un triangle rectangle en $A$ et $M$ le milieu de $[BC]$. $D$ est le symétrique de $A$ par rapport à $M$.
+1. Montrer que $ABDC$ est un rectangle.
+2. En déduire que $AM=\dfrac{BC}2$.
+:::
+
+:::exercice Approfondissement — losange ou carré ?
+$ABCD$ est un losange de centre $O$ tel que $AC=8$ cm et $BD=6$ cm.
+1. Calculer son aire.
+2. Sachant que le côté mesure $5$ cm, calculer la hauteur du losange relative au côté $[AB]$.
+3. À quelle condition sur $AC$ et $BD$ un losange est-il un carré ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -160,4 +173,15 @@ $[AB]$ est un segment de milieu $I$ ; $M$ est un point de la médiatrice de $[AB
 
 :::corrige
 $I$ est le milieu de $[AB]$ et de $[MN]$ : $AMBN$ est un parallélogramme. $M$ est sur la médiatrice de $[AB]$, donc $MA=MB$ : deux côtés consécutifs égaux, c’est un losange.
+:::
+
+:::corrige
+1. $M$ est le milieu de $[BC]$ et de $[AD]$ : $ABDC$ est un parallélogramme ; il a un angle droit en $A$ : c’est un rectangle.
+2. Les diagonales d’un rectangle ont la même longueur et se coupent en leur milieu : $AM=\dfrac{AD}2=\dfrac{BC}2$.
+:::
+
+:::corrige
+1. $\mathcal A=\dfrac{8\times6}2=24\ \text{cm}^2$.
+2. Un losange est un parallélogramme : $\mathcal A=AB\times h$, donc $h=\dfrac{24}5=4{,}8$ cm.
+3. Il faut des diagonales de même longueur.
 :::

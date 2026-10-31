@@ -164,6 +164,14 @@ On donne la droite $(D):3x-4y+5=0$ et le cercle $(\mathcal C)$ de centre $\Omega
 2. En déduire la position de $(D)$ par rapport à $(\mathcal C)$.
 :::
 
+:::exercice Approfondissement — cercle passant par trois points
+Déterminer l’équation du cercle passant par $A(1;0)$, $B(5;0)$ et $C(3;4)$, puis son centre et son rayon.
+:::
+
+:::exercice Approfondissement — tangentes issues d’un point
+$(\mathcal C):x^2+y^2=5$. Déterminer les équations des tangentes à $(\mathcal C)$ passant par $P(3;1)$ (chercher les droites $y-1=m(x-3)$ à distance $\sqrt5$ de $O$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -196,4 +204,12 @@ $(x-2)^2+(y+3)^2=16$ : centre $\Omega(2;-3)$, rayon $4$. $A\in(\mathcal C)$ car 
 :::corrige
 1. $d=\dfrac{\lvert6+4+5\rvert}{\sqrt{9+16}}=\dfrac{15}{5}=3$.
 2. $d=r$ : la droite est tangente au cercle.
+:::
+
+:::corrige
+$(\mathcal C):x^2+y^2+ax+by+c=0$. Avec $A$ : $1+a+c=0$ ; $B$ : $25+5a+c=0$ ; d’où $a=-6$, $c=5$. Avec $C$ : $9+16-18+4b+5=0$, $b=-3$. $(\mathcal C):x^2+y^2-6x-3y+5=0$, soit $(x-3)^2+\left(y-\dfrac32\right)^2=\dfrac{25}4$ : centre $\left(3;\dfrac32\right)$, rayon $\dfrac52$.
+:::
+
+:::corrige
+$mx-y+1-3m=0$ ; distance à $O$ : $\dfrac{\lvert1-3m\rvert}{\sqrt{m^2+1}}=\sqrt5\iff(1-3m)^2=5(m^2+1)\iff4m^2-6m-4=0\iff2m^2-3m-2=0$ : $m=2$ ou $m=-\dfrac12$. Tangentes : $y=2x-5$ et $y=-\dfrac12x+\dfrac52$.
 :::

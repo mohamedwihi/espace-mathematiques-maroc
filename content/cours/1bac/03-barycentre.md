@@ -122,6 +122,16 @@ $ABC$ est un triangle. Construire le barycentre $G$ des points pondérés $(A;1)
 $A$ et $B$ sont deux points distincts. Déterminer l’ensemble des points $M$ du plan tels que $\left\lVert\overrightarrow{MA}+3\overrightarrow{MB}\right\rVert=8$, sachant que $AB=4$.
 :::
 
+:::exercice Approfondissement — points alignés par barycentre
+$ABC$ est un triangle. $I=\text{Bar}\{(B;1),(C;2)\}$, $J=\text{Bar}\{(A;3),(C;2)\}$ et $G=\text{Bar}\{(A;3),(B;1),(C;2)\}$.
+1. Montrer que $G\in(AI)$ et $G\in(BJ)$.
+2. En déduire que les droites $(AI)$, $(BJ)$ et $(CK)$ sont concourantes, où $K=\text{Bar}\{(A;3),(B;1)\}$.
+:::
+
+:::exercice Approfondissement — ensemble de points
+$AB=4$. Déterminer l’ensemble des points $M$ tels que $\left\lVert2\overrightarrow{MA}+\overrightarrow{MB}\right\rVert=\left\lVert\overrightarrow{MA}-\overrightarrow{MB}\right\rVert$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -153,4 +163,13 @@ $I$ est le barycentre de $(A;1)$ et $(C;1)$ ; par associativité, $G$ est le bar
 
 :::corrige
 Soit $G$ le barycentre de $(A;1)$ et $(B;3)$ : $\overrightarrow{MA}+3\overrightarrow{MB}=4\overrightarrow{MG}$. La condition devient $4MG=8$, soit $MG=2$ : l’ensemble est le cercle de centre $G$ et de rayon $2$ (avec $\overrightarrow{AG}=\dfrac34\overrightarrow{AB}$, donc $AG=3$).
+:::
+
+:::corrige
+1. Par associativité : $G=\text{Bar}\{(A;3),(I;3)\}$, donc $G\in(AI)$ (milieu de $[AI]$) ; et $G=\text{Bar}\{(J;5),(B;1)\}$, donc $G\in(BJ)$.
+2. De même $G=\text{Bar}\{(K;4),(C;2)\}\in(CK)$ : les trois droites passent par $G$.
+:::
+
+:::corrige
+Avec $G=\text{Bar}\{(A;2),(B;1)\}$ : $2\overrightarrow{MA}+\overrightarrow{MB}=3\overrightarrow{MG}$, et $\overrightarrow{MA}-\overrightarrow{MB}=\overrightarrow{BA}$. La condition devient $3MG=4$ : cercle de centre $G$ et de rayon $\dfrac43$.
 :::

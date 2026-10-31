@@ -179,6 +179,19 @@ Soit $f(x)=\dfrac{2x-1}{x+1}$.
 2. En déduire les variations de $f$ sur $]-1;+\infty[$.
 :::
 
+:::exercice Approfondissement — fonction et extremum
+Soit $f(x)=\dfrac{4x}{x^2+1}$ sur $\mathbb R$.
+1. Montrer que pour tout $x$ : $f(x)\le2$ (étudier $2-f(x)$) et que $f(1)=2$.
+2. Montrer que $f$ est impaire ; en déduire le minimum de $f$.
+:::
+
+:::exercice Approfondissement — variations d’une fonction polynôme
+Soit $g(x)=x^2-6x+5$.
+1. Écrire $g(x)$ sous forme canonique.
+2. En déduire les variations de $g$, son minimum, et l’axe de symétrie de sa courbe.
+3. Résoudre $g(x)\le0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -218,4 +231,15 @@ $x^2+1\ge1>0$, donc $\dfrac{1}{x^2+1}\le1$. Comme $g(0)=1$, la valeur maximale d
 :::corrige
 1. $D_f=\mathbb R\setminus\{-1\}$ ; $f(x)=\dfrac{2(x+1)-3}{x+1}=2-\dfrac{3}{x+1}$.
 2. Sur $]-1;+\infty[$, $x\mapsto\dfrac{1}{x+1}$ est décroissante, donc $x\mapsto-\dfrac{3}{x+1}$ est croissante : $f$ est croissante.
+:::
+
+:::corrige
+1. $2-f(x)=\dfrac{2x^2-4x+2}{x^2+1}=\dfrac{2(x-1)^2}{x^2+1}\ge0$, et $f(1)=\dfrac42=2$.
+2. $f(-x)=-f(x)$ ; donc $f(x)\ge-2$ avec égalité en $-1$ : minimum $-2$.
+:::
+
+:::corrige
+1. $g(x)=(x-3)^2-4$.
+2. Décroissante sur $]-\infty;3]$, croissante sur $[3;+\infty[$ ; minimum $-4$ en $3$ ; axe $x=3$.
+3. $(x-3)^2\le4\iff-2\le x-3\le2\iff x\in[1;5]$.
 :::

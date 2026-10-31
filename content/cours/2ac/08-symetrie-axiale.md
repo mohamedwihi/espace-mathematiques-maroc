@@ -141,6 +141,18 @@ Tracer un cercle $(\mathcal C)$ de centre $O$ et de rayon $2$ cm, et une droite 
 Combien d’axes de symétrie ont : un triangle isocèle non équilatéral ; un parallélogramme quelconque ; un hexagone régulier ; la lettre H ?
 :::
 
+:::exercice Approfondissement — le plus court chemin
+Deux villages $A$ et $B$ sont situés du même côté d’une rivière rectiligne $(\Delta)$. On veut construire un point $M$ de $(\Delta)$ (une pompe) tel que $MA+MB$ soit le plus petit possible.
+1. Soit $A'$ le symétrique de $A$ par rapport à $(\Delta)$. Justifier que $MA=MA'$ pour tout $M\in(\Delta)$.
+2. En déduire la position du point $M$ cherché.
+:::
+
+:::exercice Approfondissement — axe d’un triangle isocèle
+$ABC$ est isocèle en $A$ et $(\Delta)$ est la médiatrice de $[BC]$.
+1. Montrer que $A\in(\Delta)$ et que $C$ est le symétrique de $B$ par rapport à $(\Delta)$.
+2. En déduire que $\widehat{ABC}=\widehat{ACB}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -163,4 +175,14 @@ $OO'=2\times3=6$ cm et les deux rayons valent $2$ cm ; comme $6>2+2$, les cercle
 
 :::corrige
 Un ; aucun ; six ; deux.
+:::
+
+:::corrige
+1. $(\Delta)$ est la médiatrice de $[AA']$ : tout point $M$ de $(\Delta)$ vérifie $MA=MA'$.
+2. $MA+MB=MA'+MB\ge A'B$, avec égalité quand $M$ est sur $[A'B]$ : $M$ est l’intersection de $(A'B)$ et $(\Delta)$.
+:::
+
+:::corrige
+1. $AB=AC$ : $A$ est équidistant de $B$ et $C$, il est sur leur médiatrice. $(\Delta)$ est la médiatrice de $[BC]$, donc $C$ est le symétrique de $B$.
+2. La symétrie d’axe $(\Delta)$ laisse $A$ fixe et échange $B$ et $C$ : elle transforme $\widehat{ABC}$ en $\widehat{ACB}$, et conserve les angles.
 :::

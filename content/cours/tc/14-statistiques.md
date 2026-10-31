@@ -131,6 +131,16 @@ Le temps (en minutes) passé par $50$ élèves pour aller au lycée :
 Calculer la moyenne, la variance et l’écart-type de la série : $8$ ; $10$ ; $12$ ; $14$ ; $16$.
 :::
 
+:::exercice Approfondissement — effet d’une transformation
+Une série a pour moyenne $\bar x=12$ et écart-type $\sigma=3$. On transforme chaque valeur par $y=2x-5$.
+1. Calculer la moyenne et l’écart-type de la nouvelle série.
+2. Quelle transformation affine faut-il appliquer pour obtenir une série de moyenne $10$ et d’écart-type $2$ ?
+:::
+
+:::exercice Approfondissement — formule de König
+Montrer que la variance d’une série $x_1,\ldots,x_n$ vérifie $V=\dfrac{1}{n}\sum x_i^2-\bar x^2$, puis l’utiliser pour la série $2$ ; $4$ ; $4$ ; $5$ ; $10$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -160,4 +170,13 @@ Même moyenne, mais l’écart-type de la classe A est bien plus petit : ses not
 
 :::corrige
 $\bar x=12$ ; $V=\dfrac{16+4+0+4+16}{5}=8$ ; $\sigma=\sqrt8=2\sqrt2\approx2{,}83$.
+:::
+
+:::corrige
+1. $\bar y=2\times12-5=19$ et $\sigma_y=2\times3=6$.
+2. $y=ax+b$ avec $\lvert a\rvert\times3=2$, soit $a=\dfrac23$, et $\dfrac23\times12+b=10$, $b=2$ : $y=\dfrac23x+2$.
+:::
+
+:::corrige
+$V=\dfrac1n\sum(x_i-\bar x)^2=\dfrac1n\sum x_i^2-2\bar x\times\dfrac1n\sum x_i+\bar x^2=\dfrac1n\sum x_i^2-\bar x^2$. Ici $\bar x=5$ et $\dfrac{4+16+16+25+100}{5}=32{,}2$, donc $V=32{,}2-25=7{,}2$.
 :::

@@ -166,6 +166,19 @@ Soit $f(x)=\dfrac{x^2-x+1}{x-1}$ sur $\mathbb R\setminus\{1\}$.
 Soit $g(x)=x^3+x-1$. Montrer que l’équation $g(x)=0$ admet une unique solution $\alpha$ dans $\mathbb R$ et que $0{,}6<\alpha<0{,}7$.
 :::
 
+:::exercice Approfondissement — étude complète avec racine
+Soit $f(x)=x-2\sqrt{x+1}$ sur $[-1;+\infty[$.
+1. Étudier la dérivabilité de $f$ à droite en $-1$ et interpréter.
+2. Calculer $f'(x)$ pour $x>-1$ et dresser le tableau de variations.
+3. Étudier la branche infinie en $+\infty$.
+:::
+
+:::exercice Approfondissement — position relative et tangente
+Soit $g(x)=\dfrac{x^2+3}{x+1}$ sur $]-1;+\infty[$.
+1. Écrire $g(x)=x-1+\dfrac{4}{x+1}$ et étudier la position de $(C_g)$ par rapport à la droite $(D):y=x-1$.
+2. Existe-t-il un point de $(C_g)$ où la tangente est parallèle à $(D)$ ? Justifier.
+:::
+
 # Corrigés
 
 :::corrige
@@ -201,4 +214,15 @@ $f$ est impaire (courbe symétrique par rapport à $O$). $\lim\limits_{x\to\pm\i
 
 :::corrige
 $g'(x)=3x^2+1>0$ : $g$ est continue et strictement croissante sur $\mathbb R$, de $-\infty$ à $+\infty$ : unique solution. $g(0{,}6)=-0{,}184<0$ et $g(0{,}7)=0{,}043>0$ : $0{,}6<\alpha<0{,}7$.
+:::
+
+:::corrige
+1. $\dfrac{f(x)-f(-1)}{x+1}=1-\dfrac{2}{\sqrt{x+1}}\to-\infty$ : non dérivable, demi-tangente verticale.
+2. $f'(x)=1-\dfrac1{\sqrt{x+1}}$, négatif sur $]-1;0]$, positif sur $[0;+\infty[$ ; minimum $f(0)=-2$, $f(-1)=-1$.
+3. $f(x)\to+\infty$, $\dfrac{f(x)}x\to1$ et $f(x)-x=-2\sqrt{x+1}\to-\infty$ : branche parabolique de direction $y=x$.
+:::
+
+:::corrige
+1. $(x-1)(x+1)+4=x^2+3$. $g(x)-(x-1)=\dfrac4{x+1}>0$ : la courbe est au-dessus de $(D)$.
+2. $g'(x)=1-\dfrac4{(x+1)^2}=1$ est impossible : aucune tangente parallèle à $(D)$.
 :::

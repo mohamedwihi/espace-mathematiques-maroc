@@ -133,6 +133,18 @@ Dire si l’on peut construire un triangle dont les côtés mesurent :
 3. Construire un triangle équilatéral de périmètre $12$ cm.
 :::
 
+:::exercice Approfondissement — angles en fonction de x
+Dans un triangle $ABC$, $\widehat A=x$, $\widehat B=2x$ et $\widehat C=3x$.
+1. Calculer $x$ et les angles du triangle.
+2. Quelle est la nature du triangle ?
+:::
+
+:::exercice Approfondissement — triangle isocèle et bissectrice
+$ABC$ est isocèle en $A$ avec $\widehat{BAC}=36°$. La bissectrice de $\widehat{ABC}$ coupe $[AC]$ en $D$.
+1. Calculer $\widehat{ABC}$, $\widehat{ABD}$ et $\widehat{BDC}$.
+2. Montrer que les triangles $ABD$ et $BDC$ sont isocèles.
+:::
+
 # Corrigés
 
 :::corrige
@@ -156,4 +168,14 @@ Dire si l’on peut construire un triangle dont les côtés mesurent :
 :::corrige
 2. $\widehat F=\widehat E=50°$, donc $\widehat D=180°-100°=80°$.
 3. Chaque côté mesure $12\div3=4$ cm ; on trace $[AB]$ de $4$ cm puis deux arcs de rayon $4$ cm centrés en $A$ et $B$.
+:::
+
+:::corrige
+1. $x+2x+3x=180°$, donc $x=30°$ : $\widehat A=30°$, $\widehat B=60°$, $\widehat C=90°$.
+2. Il est rectangle en $C$.
+:::
+
+:::corrige
+1. $\widehat{ABC}=\widehat{ACB}=\dfrac{180°-36°}2=72°$ ; $\widehat{ABD}=36°$ ; dans $BDC$ : $\widehat{BDC}=180°-36°-72°=72°$.
+2. $ABD$ : $\widehat{BAD}=\widehat{ABD}=36°$, isocèle en $D$. $BDC$ : $\widehat{BDC}=\widehat{BCD}=72°$, isocèle en $B$.
 :::

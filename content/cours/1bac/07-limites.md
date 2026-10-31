@@ -162,6 +162,15 @@ Calculer : $\lim\limits_{x\to2}\dfrac{x^2-4}{x^2-3x+2}$ ; $\lim\limits_{x\to+\in
 Calculer : $\lim\limits_{x\to0}\dfrac{\sin3x}{x}$ ; $\lim\limits_{x\to0}\dfrac{1-\cos x}{x^2}$ ; $\lim\limits_{x\to0}\dfrac{\tan2x}{\sin x}$.
 :::
 
+:::exercice Approfondissement — limites et encadrement
+1. Montrer que pour tout $x>0$ : $-\dfrac1x\le\dfrac{\sin x}{x}\le\dfrac1x$ ; en déduire $\lim\limits_{x\to+\infty}\dfrac{\sin x}{x}$.
+2. Calculer $\lim\limits_{x\to+\infty}\dfrac{x+\cos x}{x}$.
+:::
+
+:::exercice Approfondissement — limite avec paramètre
+Déterminer les réels $a$ et $b$ pour que $\lim\limits_{x\to1}\dfrac{x^2+ax+b}{x-1}=5$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -201,4 +210,13 @@ $-\infty$ ; $\lim\limits_{x\to-\infty}\dfrac{2x^3}{x^2}=\lim 2x=-\infty$ ; $\dfr
 - $3\times\dfrac{\sin3x}{3x}\to3$.
 - $\dfrac12$ (limite de référence).
 - $\dfrac{\tan2x}{2x}\times\dfrac{x}{\sin x}\times2\to2$.
+:::
+
+:::corrige
+1. $-1\le\sin x\le1$ et $x>0$ : encadrement, puis gendarmes : la limite vaut $0$.
+2. $1+\dfrac{\cos x}x\to1$ (même raisonnement).
+:::
+
+:::corrige
+Il faut $1+a+b=0$ (sinon la limite est infinie). Alors $x^2+ax+b=(x-1)(x+1+a)$ et la limite vaut $2+a=5$ : $a=3$, $b=-4$.
 :::

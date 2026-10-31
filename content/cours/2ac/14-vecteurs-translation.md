@@ -137,6 +137,17 @@ $ABC$ est un triangle et $I$ le milieu de $[BC]$. On considère la translation $
 $I$ est le milieu de $[AB]$ et $M$ un point quelconque. Montrer que $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$ (on pourra utiliser la relation de Chasles avec le point $I$).
 :::
 
+:::exercice Approfondissement — égalités vectorielles et milieux
+$ABCD$ est un parallélogramme de centre $O$. $E$ est défini par $\overrightarrow{CE}=\overrightarrow{OD}$.
+1. Montrer que $\overrightarrow{OE}=\overrightarrow{OC}+\overrightarrow{OD}$.
+2. Montrer que $OCED$ est un parallélogramme, puis comparer $\overrightarrow{OC}$ et $\overrightarrow{DE}$, et enfin $\overrightarrow{AO}$ et $\overrightarrow{DE}$.
+:::
+
+:::exercice Approfondissement — composée de deux translations
+$t_1$ est la translation de vecteur $\overrightarrow{AB}$ et $t_2$ celle de vecteur $\overrightarrow{BC}$. $M$ est un point, $M_1=t_1(M)$ et $M_2=t_2(M_1)$.
+Montrer que $\overrightarrow{MM_2}=\overrightarrow{AC}$ : la composée est la translation de vecteur $\overrightarrow{AC}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -161,4 +172,13 @@ $\vec u=\overrightarrow{AD}$ ; $\vec v=\overrightarrow{PM}+\overrightarrow{MN}=\
 
 :::corrige
 $\overrightarrow{MA}+\overrightarrow{MB}=\left(\overrightarrow{MI}+\overrightarrow{IA}\right)+\left(\overrightarrow{MI}+\overrightarrow{IB}\right)=2\overrightarrow{MI}+\left(\overrightarrow{IA}+\overrightarrow{IB}\right)$. Comme $I$ est le milieu de $[AB]$, $\overrightarrow{IA}=-\overrightarrow{IB}$, donc $\overrightarrow{IA}+\overrightarrow{IB}=\vec0$ et $\overrightarrow{MA}+\overrightarrow{MB}=2\overrightarrow{MI}$.
+:::
+
+:::corrige
+1. $\overrightarrow{OE}=\overrightarrow{OC}+\overrightarrow{CE}=\overrightarrow{OC}+\overrightarrow{OD}$.
+2. $\overrightarrow{OD}=\overrightarrow{CE}$ signifie que $ODEC$ (c’est-à-dire $OCED$) est un parallélogramme ; donc $\overrightarrow{OC}=\overrightarrow{DE}$. Comme $O$ est le milieu de $[AC]$, $\overrightarrow{AO}=\overrightarrow{OC}=\overrightarrow{DE}$.
+:::
+
+:::corrige
+$\overrightarrow{MM_2}=\overrightarrow{MM_1}+\overrightarrow{M_1M_2}=\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{AC}$ (relation de Chasles).
 :::

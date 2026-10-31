@@ -120,6 +120,16 @@ Déterminer une primitive de : $f(x)=(2x+1)(x^2+x)^3$ ; $g(x)=\dfrac{x}{\sqrt{x^
 Déterminer la primitive $F$ de $f(x)=3x^2-\dfrac{2}{x^2}$ sur $]0;+\infty[$ telle que $F(1)=4$.
 :::
 
+:::exercice Approfondissement — décomposition en éléments simples
+1. Déterminer $a$ et $b$ tels que $\dfrac{1}{x(x+1)}=\dfrac ax+\dfrac{b}{x+1}$ pour $x>0$.
+2. En déduire une primitive de $x\mapsto\dfrac{1}{x(x+1)}$ sur $]0;+\infty[$.
+:::
+
+:::exercice Approfondissement — linéarisation
+1. Montrer que $\sin^2x=\dfrac{1-\cos2x}{2}$ et $\cos^3x=\cos x-\cos x\sin^2x$.
+2. En déduire une primitive de $\sin^2x$ et de $\cos^3x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -151,4 +161,14 @@ $F'(x)=\dfrac{\sqrt{x^2+1}-x\times\frac{x}{\sqrt{x^2+1}}}{x^2+1}=\dfrac{x^2+1-x^
 
 :::corrige
 $F(x)=x^3+\dfrac2x+c$ ; $F(1)=3+c=4$, $c=1$ : $F(x)=x^3+\dfrac2x+1$.
+:::
+
+:::corrige
+1. $\dfrac ax+\dfrac b{x+1}=\dfrac{(a+b)x+a}{x(x+1)}$ : $a=1$, $b=-1$.
+2. $F(x)=\ln x-\ln(x+1)=\ln\dfrac{x}{x+1}$.
+:::
+
+:::corrige
+1. $\cos2x=1-2\sin^2x$ ; $\cos^3x=\cos x\left(1-\sin^2x\right)$.
+2. $\displaystyle\int\sin^2x=\dfrac x2-\dfrac{\sin2x}4+c$ ; $\cos^3x$ a pour primitive $\sin x-\dfrac{\sin^3x}3+c$ ($u'u^2$ avec $u=\sin x$).
 :::

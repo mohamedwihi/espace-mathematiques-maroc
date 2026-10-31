@@ -117,6 +117,18 @@ On prend $\pi\approx3{,}14$.
 3. Un cercle a un périmètre de $25{,}12$ cm. Calculer son rayon.
 :::
 
+:::exercice Approfondissement — deux tangentes
+$(\mathcal C)$ est un cercle de centre $O$ et de rayon $3$ cm, et $M$ un point tel que $OM=6$ cm. Les tangentes à $(\mathcal C)$ issues de $M$ touchent le cercle en $A$ et $B$.
+1. Quelle est la nature des triangles $OAM$ et $OBM$ ?
+2. On admet que $MA=MB$. Montrer que $(OM)$ est la médiatrice de $[AB]$.
+:::
+
+:::exercice Approfondissement — couronne
+Deux cercles de même centre ont pour rayons $5$ cm et $3$ cm. On prend $\pi\approx3{,}14$.
+1. Calculer l’aire de la couronne comprise entre les deux cercles.
+2. Quel doit être le rayon d’un disque ayant la même aire que cette couronne ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -136,4 +148,14 @@ $5>4$ : droite extérieure ; $4=4$ : droite tangente ; $2{,}5<4$ : droite sécan
 1. $P=3{,}14\times8=25{,}12$ cm ; $r=4$ cm, $\mathcal A=3{,}14\times16=50{,}24\ \text{cm}^2$.
 2. Un tour : $2\times3{,}14\times35=219{,}8$ cm ; $100$ tours : $21\,980$ cm $=219{,}8$ m.
 3. $2\pi r=25{,}12$ donc $r=\dfrac{25{,}12}{6{,}28}=4$ cm.
+:::
+
+:::corrige
+1. Une tangente est perpendiculaire au rayon au point de contact : $OAM$ est rectangle en $A$ et $OBM$ rectangle en $B$.
+2. $OA=OB$ (rayons) et $MA=MB$ : $O$ et $M$ sont tous deux équidistants de $A$ et $B$, donc sur la médiatrice de $[AB]$ ; cette médiatrice est la droite $(OM)$.
+:::
+
+:::corrige
+1. $3{,}14\times25-3{,}14\times9=3{,}14\times16=50{,}24\ \text{cm}^2$.
+2. $\pi r^2=\pi\times16$, donc $r=4$ cm.
 :::

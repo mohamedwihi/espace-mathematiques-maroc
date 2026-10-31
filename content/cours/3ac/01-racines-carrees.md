@@ -218,6 +218,18 @@ Un carré a une aire de $50\ \text{cm}^2$.
 3. Montrer que $\left(\sqrt7-2\right)\left(\sqrt7+2\right)$ est un entier.
 :::
 
+:::exercice Approfondissement — radicaux imbriqués
+1. Développer $\left(\sqrt5-1\right)^2$ et en déduire $\sqrt{6-2\sqrt5}$.
+2. Montrer que $A=\sqrt{7+4\sqrt3}+\sqrt{7-4\sqrt3}$ est un entier (on calculera $\left(2\pm\sqrt3\right)^2$).
+3. Montrer que $\dfrac{1}{\sqrt2+1}+\dfrac{1}{\sqrt3+\sqrt2}+\dfrac{1}{2+\sqrt3}=1$.
+:::
+
+:::exercice Approfondissement — comparer avec les carrés
+Soit $a=\sqrt{11}-\sqrt{10}$ et $b=\sqrt{10}-3$.
+1. Montrer que $a=\dfrac{1}{\sqrt{11}+\sqrt{10}}$ et $b=\dfrac{1}{\sqrt{10}+3}$.
+2. En déduire la comparaison de $a$ et $b$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -270,4 +282,15 @@ $\sqrt{18}=\sqrt{9\times2}=3\sqrt2$ ; $\sqrt{32}=\sqrt{16\times2}=4\sqrt2$ ; $\s
 1. $D=5\sqrt2-6\sqrt2+3\sqrt2=2\sqrt2$ ; $E=12-4\sqrt3+1=13-4\sqrt3$.
 2. $\left(3\sqrt5\right)^2=45$ et $\left(2\sqrt{11}\right)^2=44$ ; deux nombres positifs sont rangés comme leurs carrés : $3\sqrt5>2\sqrt{11}$.
 3. $\left(\sqrt7\right)^2-2^2=7-4=3$.
+:::
+
+:::corrige
+1. $\left(\sqrt5-1\right)^2=6-2\sqrt5$ et $\sqrt5-1>0$, donc $\sqrt{6-2\sqrt5}=\sqrt5-1$.
+2. $\left(2+\sqrt3\right)^2=7+4\sqrt3$ et $\left(2-\sqrt3\right)^2=7-4\sqrt3$, avec $2-\sqrt3>0$ : $A=\left(2+\sqrt3\right)+\left(2-\sqrt3\right)=4$.
+3. En rendant rationnels : $\left(\sqrt2-1\right)+\left(\sqrt3-\sqrt2\right)+\left(2-\sqrt3\right)=1$.
+:::
+
+:::corrige
+1. On multiplie par l’expression conjuguée : $a=\dfrac{11-10}{\sqrt{11}+\sqrt{10}}$ et $b=\dfrac{10-9}{\sqrt{10}+3}$.
+2. $\sqrt{11}+\sqrt{10}>\sqrt{10}+3$ (car $\sqrt{11}>3$), donc $a<b$.
 :::

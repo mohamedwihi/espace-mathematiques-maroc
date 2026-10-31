@@ -152,6 +152,15 @@ On sait que $2\le x\le3$ et $-1\le y\le1$.
 2. Encadrer $\dfrac{x-1}{x}=1-\dfrac1x$.
 :::
 
+:::exercice Approfondissement — approximation de la racine
+1. Montrer que pour tout $x\ge0$ : $\sqrt{1+x}\le1+\dfrac x2$.
+2. En déduire un majorant de $\sqrt{1{,}02}$ et vérifier avec la calculatrice.
+:::
+
+:::exercice Approfondissement — inéquation à valeur absolue
+Résoudre dans $\mathbb R$ : $\lvert x-1\rvert+\lvert x+2\rvert\le5$ (distinguer les cas $x<-2$, $-2\le x\le1$ et $x>1$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -187,4 +196,17 @@ $1\le x+y\le4$ ; $-1\le-y\le1$ donc $1\le x-y\le4$ ; $4\le x^2\le9$ ; $\dfrac13\
 :::corrige
 1. $-2\le2y\le2$, donc $0\le x+2y\le5$ ; $4\le x^2\le9$ ; $\dfrac13\le\dfrac1x\le\dfrac12$.
 2. $-\dfrac12\le-\dfrac1x\le-\dfrac13$, donc $\dfrac12\le\dfrac{x-1}{x}\le\dfrac23$.
+:::
+
+:::corrige
+1. Les deux membres sont positifs ; $\left(1+\dfrac x2\right)^2=1+x+\dfrac{x^2}4\ge1+x$.
+2. $\sqrt{1{,}02}\le1{,}01$ (valeur réelle $\approx1{,}00995$).
+:::
+
+:::corrige
+- $x<-2$ : $-(x-1)-(x+2)=-2x-1\le5\iff x\ge-3$ : $[-3;-2[$.
+- $-2\le x\le1$ : $-(x-1)+(x+2)=3\le5$ : toujours vrai.
+- $x>1$ : $2x+1\le5\iff x\le2$ : $]1;2]$.
+
+$S=[-3;2]$.
 :::

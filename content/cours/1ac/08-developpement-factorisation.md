@@ -131,6 +131,19 @@ Un rectangle a pour largeur $4$ et pour longueur $x+6$.
 2. Calculer cette aire pour $x=2{,}5$.
 :::
 
+:::exercice Approfondissement — programme de calcul
+Programme : « Choisir un nombre ; lui ajouter $3$ ; multiplier le résultat par $4$ ; soustraire $12$ ; diviser par le nombre de départ. »
+1. Appliquer le programme à $5$, puis à $-2$.
+2. Démontrer que le résultat est toujours le même (pour un nombre de départ non nul).
+:::
+
+:::exercice Approfondissement — périmètre et aire
+Un rectangle a pour largeur $x$ et pour longueur $2x+3$ (en cm).
+1. Exprimer son périmètre $P$ et son aire $\mathcal A$ en fonction de $x$, sous forme réduite.
+2. Calculer $P$ et $\mathcal A$ pour $x=2{,}5$.
+3. Pour quelle valeur de $x$ le périmètre vaut-il $36$ cm ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -156,4 +169,15 @@ $8(x+y)$ ; $5(a-4)$ ; $3(3t+4)$ ; $x(x-3)$ ; $7(2y-3)$ ; $2a(a+3)$.
 :::corrige
 1. $\mathcal A=4(x+6)=4x+24$.
 2. Pour $x=2{,}5$ : $4\times8{,}5=34$, ou $10+24=34$.
+:::
+
+:::corrige
+1. $5\to8\to32\to20\to4$ ; $-2\to1\to4\to-8\to4$.
+2. Avec $x$ : $\dfrac{4(x+3)-12}{x}=\dfrac{4x+12-12}{x}=\dfrac{4x}x=4$.
+:::
+
+:::corrige
+1. $P=2(x+2x+3)=6x+6$ ; $\mathcal A=x(2x+3)=2x^2+3x$.
+2. $P=21$ cm ; $\mathcal A=12{,}5+7{,}5=20\ \text{cm}^2$.
+3. $6x+6=36\iff x=5$.
 :::

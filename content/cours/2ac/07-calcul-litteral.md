@@ -139,6 +139,15 @@ Un carré a pour côté $x+3$. On enlève dans un coin un carré de côté $3$.
 2. Montrer que cette aire est égale à $x(x+6)$.
 :::
 
+:::exercice Approfondissement — démontrer avec le calcul littéral
+1. Montrer que la somme de trois entiers consécutifs est toujours un multiple de $3$.
+2. Montrer que pour tout nombre $n$ : $(n+1)^2-(n-1)^2=4n$. En déduire $101^2-99^2$ sans calculatrice.
+:::
+
+:::exercice Approfondissement — factorisations en chaîne
+Factoriser : $A=x^2-4+(x+2)(3x-1)$ ; $B=(2x-1)^2-(x+3)^2$ ; $C=x^3-x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -173,4 +182,15 @@ $x^2+8x+16$ ; $4a^2-12a+9$ ; $25y^2-1$ ; $x^2-x+\dfrac14$.
 :::corrige
 1. $\mathcal A=(x+3)^2-3^2=x^2+6x+9-9=x^2+6x$.
 2. $x^2+6x=x(x+6)$.
+:::
+
+:::corrige
+1. $n+(n+1)+(n+2)=3n+3=3(n+1)$.
+2. $(n^2+2n+1)-(n^2-2n+1)=4n$ ; avec $n=100$ : $101^2-99^2=400$.
+:::
+
+:::corrige
+- $A=(x-2)(x+2)+(x+2)(3x-1)=(x+2)(4x-3)$.
+- $B=(2x-1-x-3)(2x-1+x+3)=(x-4)(3x+2)$.
+- $C=x(x^2-1)=x(x-1)(x+1)$.
 :::

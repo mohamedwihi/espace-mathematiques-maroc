@@ -105,6 +105,17 @@ Calculer : $D=6-4\times(-3)$ ; $E=(-5+2)\times(-4)-7$ ; $F=\dfrac{-18+6}{3}-2\ti
 Calculer $x^2-3x+2$ et $(x-1)(x-2)$ pour $x=-2$, puis pour $x=0{,}5$. Que remarque-t-on ?
 :::
 
+:::exercice Approfondissement — somme alternée
+Calculer astucieusement :
+1. $S=1-2+3-4+5-6+\cdots+99-100$ ;
+2. $T=(-1)+(+2)+(-3)+(+4)+\cdots+(-49)+(+50)$.
+:::
+
+:::exercice Approfondissement — expression à plusieurs lettres
+On donne $a=-2$, $b=3$ et $c=-0{,}5$. Calculer :
+$E=a-b\times c$ ; $F=(a-b)\times c$ ; $G=\dfrac{a\times b}{c}-a^2$ ; $H=-a-(b-c)\times a$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -134,4 +145,16 @@ $-5$ ; $-7$ ; $11$ ; $-20$ ; $3$ ; $4$ ; $-42$.
 - Pour $x=0{,}5$ : $0{,}25-1{,}5+2=0{,}75$ et $(-0{,}5)\times(-1{,}5)=0{,}75$.
 
 Les deux expressions donnent les mêmes valeurs : elles sont égales (on le démontrera par développement).
+:::
+
+:::corrige
+1. On groupe par deux : $(1-2)+(3-4)+\cdots+(99-100)$ : $50$ groupes valant $-1$, donc $S=-50$.
+2. $(-1+2)+(-3+4)+\cdots+(-49+50)$ : $25$ groupes valant $1$, donc $T=25$.
+:::
+
+:::corrige
+- $E=-2-3\times(-0{,}5)=-2+1{,}5=-0{,}5$.
+- $F=(-5)\times(-0{,}5)=2{,}5$.
+- $G=\dfrac{-6}{-0{,}5}-4=12-4=8$.
+- $H=2-(3{,}5)\times(-2)=2+7=9$.
 :::

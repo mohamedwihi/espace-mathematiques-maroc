@@ -133,6 +133,16 @@ $[AC]$ et $[BD]$ sont deux segments de même milieu $I$.
 2. Un parallélogramme a une aire de $42\ \text{cm}^2$ et une base de $12$ cm. Calculer la hauteur correspondante.
 :::
 
+:::exercice Approfondissement — milieux des côtés
+$ABCD$ est un parallélogramme. $I$ est le milieu de $[AB]$ et $J$ celui de $[CD]$.
+1. Montrer que $AICJ$ est un parallélogramme.
+2. En déduire que les droites $(AJ)$ et $(CI)$ sont parallèles.
+:::
+
+:::exercice Approfondissement — angles d’un parallélogramme
+Dans le parallélogramme $ABCD$, $\widehat{A}=3\widehat{B}-20°$. Calculer tous les angles.
+:::
+
 # Corrigés
 
 :::corrige
@@ -155,4 +165,13 @@ $[AC]$ et $[BD]$ sont deux segments de même milieu $I$.
 :::corrige
 1. $9\times5{,}5=49{,}5\ \text{cm}^2$.
 2. $h=\dfrac{42}{12}=3{,}5$ cm.
+:::
+
+:::corrige
+1. $(AI)\parallel(JC)$ car $(AB)\parallel(DC)$, et $AI=\dfrac{AB}2=\dfrac{DC}2=JC$. Le quadrilatère $AICJ$ a deux côtés opposés parallèles et de même longueur : c’est un parallélogramme.
+2. Ses côtés $[AJ]$ et $[IC]$ sont donc parallèles.
+:::
+
+:::corrige
+$\widehat A+\widehat B=180°$ et $\widehat A=3\widehat B-20°$ : $4\widehat B-20°=180°$, donc $\widehat B=50°$ et $\widehat A=130°$. Ainsi $\widehat C=130°$ et $\widehat D=50°$.
 :::

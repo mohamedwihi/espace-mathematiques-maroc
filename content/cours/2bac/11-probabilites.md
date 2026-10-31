@@ -187,6 +187,18 @@ On lance $5$ fois un dé équilibré. $X$ est le nombre de « $6$ » obtenus.
 2. Calculer $E(X)$ et $P(X\ge1)$.
 :::
 
+:::exercice Approfondissement — probabilités conditionnelles
+Dans un lycée, $60\,\%$ des élèves sont en filière PC et $40\,\%$ en SVT. $70\,\%$ des élèves de PC et $55\,\%$ des élèves de SVT ont la moyenne en mathématiques.
+1. Calculer la probabilité qu’un élève choisi au hasard ait la moyenne.
+2. Un élève a la moyenne : quelle est la probabilité qu’il soit en SVT ?
+:::
+
+:::exercice Approfondissement — variable aléatoire et jeu
+Une urne contient $3$ boules blanches et $2$ noires. On tire successivement sans remise deux boules. On gagne $10$ DH par boule blanche et on perd $15$ DH par boule noire. $X$ est le gain algébrique.
+1. Déterminer la loi de $X$.
+2. Calculer $E(X)$. Le jeu est-il favorable ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -225,4 +237,14 @@ $E(G)=\dfrac{10+4-9}{6}=\dfrac56>0$ : le jeu est favorable au joueur (gain moyen
 :::corrige
 1. $X$ suit la loi binomiale $\mathcal B\left(5;\dfrac16\right)$ : $P(X=2)=\binom52\left(\dfrac16\right)^2\left(\dfrac56\right)^3=\dfrac{10\times125}{7776}=\dfrac{1250}{7776}\approx0{,}161$.
 2. $E(X)=\dfrac56$ ; $P(X\ge1)=1-\left(\dfrac56\right)^5\approx0{,}598$.
+:::
+
+:::corrige
+1. $P(M)=0{,}6\times0{,}7+0{,}4\times0{,}55=0{,}42+0{,}22=0{,}64$.
+2. $P_M(\text{SVT})=\dfrac{0{,}22}{0{,}64}=\dfrac{11}{32}\approx0{,}34$.
+:::
+
+:::corrige
+1. Deux blanches : $X=20$, $P=\dfrac35\times\dfrac24=\dfrac3{10}$ ; une de chaque : $X=-5$, $P=2\times\dfrac35\times\dfrac24=\dfrac6{10}$ ; deux noires : $X=-30$, $P=\dfrac25\times\dfrac14=\dfrac1{10}$.
+2. $E(X)=\dfrac{60-30-30}{10}=0$ : le jeu est équitable.
 :::

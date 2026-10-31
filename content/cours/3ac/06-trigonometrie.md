@@ -155,6 +155,17 @@ D’un point $P$ situé à $40$ m du pied d’une tour verticale, on voit le som
 Calculer la hauteur de la tour (arrondir au dixième ; $\tan35°\approx0{,}70$).
 :::
 
+:::exercice Approfondissement — deux observations
+D’un point $A$, on voit le sommet $S$ d’une tour sous un angle de $30°$ ; en avançant de $20$ m vers la tour jusqu’en $B$, on le voit sous un angle de $45°$. On note $h$ la hauteur de la tour et $x$ la distance de $B$ au pied $H$ de la tour.
+1. Montrer que $h=x$ et que $\tan30°=\dfrac{h}{x+20}$.
+2. En déduire $h$ (valeur exacte puis approchée au dixième ; $\tan30°=\dfrac{\sqrt3}{3}$).
+:::
+
+:::exercice Approfondissement — simplifications
+$x$ est un angle aigu. Simplifier :
+$A=(\cos x+\sin x)^2-2\sin x\cos x$ ; $B=\dfrac{1}{\cos^2x}-\tan^2x$ ; $C=\cos^2x\times\tan^2x+\cos^2x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -193,4 +204,15 @@ L’échelle est l’hypoténuse. Hauteur : $h=4\sin60^\circ=4\times\dfrac{\sqrt
 
 :::corrige
 Le triangle formé est rectangle au pied de la tour : $\tan35°=\dfrac{h}{40}$, donc $h=40\tan35°\approx28{,}0$ m.
+:::
+
+:::corrige
+1. Dans $BHS$ rectangle en $H$ : $\tan45°=\dfrac hx=1$, donc $h=x$. Dans $AHS$ : $\tan30°=\dfrac{h}{x+20}$.
+2. $\dfrac{\sqrt3}3=\dfrac{h}{h+20}\iff3h=\sqrt3(h+20)\iff h(3-\sqrt3)=20\sqrt3\iff h=\dfrac{20\sqrt3}{3-\sqrt3}=10\left(\sqrt3+1\right)\approx27{,}3$ m.
+:::
+
+:::corrige
+- $A=\cos^2x+\sin^2x=1$.
+- $B=\dfrac{1-\sin^2x}{\cos^2x}=\dfrac{\cos^2x}{\cos^2x}=1$.
+- $C=\sin^2x+\cos^2x=1$.
 :::

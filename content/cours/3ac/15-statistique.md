@@ -157,6 +157,18 @@ Les notes d’un devoir dans une classe sont :
 Un élève a obtenu $13$ en mathématiques (coefficient $4$), $11$ en physique (coefficient $3$) et $15$ en français (coefficient $2$). Quelle note doit-il obtenir en anglais (coefficient $1$) pour avoir une moyenne de $13$ ?
 :::
 
+:::exercice Approfondissement — retrouver une donnée manquante
+Les notes d’un groupe sont : $8$ (effectif $3$), $11$ (effectif $x$), $14$ (effectif $4$), $17$ (effectif $1$). La moyenne est $12$.
+1. Montrer que $x$ vérifie $24+11x+56+17=12(8+x)$.
+2. En déduire $x$, puis la médiane.
+:::
+
+:::exercice Approfondissement — moyennes de deux classes
+La classe A ($24$ élèves) a une moyenne de $11{,}5$ et la classe B ($30$ élèves) une moyenne de $13$.
+1. Calculer la moyenne de l’ensemble des deux classes.
+2. Est-ce la moyenne de $11{,}5$ et $13$ ? Expliquer.
+:::
+
 # Corrigés
 
 :::corrige
@@ -185,4 +197,14 @@ Natation : $400-160-100-80=60$ élèves. Angles : football $\dfrac{160}{400}\tim
 
 :::corrige
 $\dfrac{13\times4+11\times3+15\times2+x}{10}=13\iff115+x=130\iff x=15$.
+:::
+
+:::corrige
+1. Effectif total $8+x$ et somme des notes $24+11x+56+17$.
+2. $97+11x=96+12x\iff x=1$. Série ordonnée : $8$ ; $8$ ; $8$ ; $11$ ; $14$ ; $14$ ; $14$ ; $14$ ; $17$ ($9$ notes) : la médiane est la $5^{\text{e}}$ valeur, $14$.
+:::
+
+:::corrige
+1. $\dfrac{24\times11{,}5+30\times13}{54}=\dfrac{276+390}{54}=\dfrac{666}{54}\approx12{,}33$.
+2. Non ($12{,}25$) : les classes n’ont pas le même effectif, il faut pondérer.
 :::

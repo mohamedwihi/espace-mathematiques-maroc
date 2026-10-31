@@ -180,6 +180,17 @@ Soient $a$ et $b$ deux nombres réels.
 2. En déduire que pour tout $x>0$ : $x+\dfrac1x\ge2$.
 :::
 
+:::exercice Approfondissement — encadrement et périmètre
+Un rectangle a une longueur $L$ et une largeur $\ell$ telles que $5{,}4\le L\le5{,}5$ et $3{,}2\le\ell\le3{,}3$ (en cm).
+1. Encadrer son périmètre et son aire.
+2. Encadrer le carré de sa diagonale $d^2=L^2+\ell^2$, puis $d$ (au dixième).
+:::
+
+:::exercice Approfondissement — inégalité utile
+1. Montrer que pour tous réels positifs $a$ et $b$ : $\sqrt{a+b}\le\sqrt a+\sqrt b$ (comparer les carrés).
+2. Montrer que pour tout réel $x$ : $x^2+1\ge2x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -226,4 +237,14 @@ $x+7>13$ ; $x-4>2$ ; $3x>18$ ; $-2x<-12$ ; $\dfrac x2>3$.
 :::corrige
 1. $a^2+b^2-2ab=(a-b)^2\ge0$.
 2. Pour $x>0$ : $x+\dfrac1x-2=\dfrac{x^2-2x+1}{x}=\dfrac{(x-1)^2}{x}\ge0$, donc $x+\dfrac1x\ge2$.
+:::
+
+:::corrige
+1. $2(5{,}4+3{,}2)\le P\le2(5{,}5+3{,}3)$ : $17{,}2\le P\le17{,}6$ ; $17{,}28\le\mathcal A\le18{,}15$.
+2. $29{,}16+10{,}24\le d^2\le30{,}25+10{,}89$ : $39{,}4\le d^2\le41{,}14$, donc $\sqrt{39{,}4}\le d\le\sqrt{41{,}14}$, soit $6{,}2<d<6{,}5$ (car $\sqrt{39{,}4}\approx6{,}28$ et $\sqrt{41{,}14}\approx6{,}41$).
+:::
+
+:::corrige
+1. Les deux membres sont positifs ; $\left(\sqrt a+\sqrt b\right)^2=a+b+2\sqrt{ab}\ge a+b$.
+2. $x^2+1-2x=(x-1)^2\ge0$.
 :::

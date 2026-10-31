@@ -171,6 +171,14 @@ Sur un cercle de rayon $6$ cm, calculer la longueur de l’arc intercepté par u
 Calculer : $A=\cos\dfrac{\pi}{6}+\sin\dfrac{\pi}{3}-\tan\dfrac{\pi}{4}$ ; $B=\cos^2\dfrac{\pi}{8}+\cos^2\dfrac{3\pi}{8}$ (on remarquera que $\dfrac{3\pi}{8}=\dfrac{\pi}{2}-\dfrac{\pi}{8}$).
 :::
 
+:::exercice Approfondissement — calcul exact
+Sachant que $\cos\dfrac{\pi}{5}=\dfrac{1+\sqrt5}{4}$, calculer $\sin\dfrac{\pi}{5}$, puis $\cos\dfrac{4\pi}{5}$ et $\cos\dfrac{6\pi}{5}$.
+:::
+
+:::exercice Approfondissement — simplification
+Simplifier $A=\cos(\pi-x)+\sin\left(\dfrac{\pi}{2}+x\right)+\cos(\pi+x)+\sin\left(\dfrac{\pi}{2}-x\right)$, puis $B=\sin^2\dfrac{\pi}{8}+\sin^2\dfrac{3\pi}{8}+\sin^2\dfrac{5\pi}{8}+\sin^2\dfrac{7\pi}{8}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -206,4 +214,13 @@ $\ell=r\alpha=6\times\dfrac{2\pi}3=4\pi\approx12{,}57$ cm.
 :::corrige
 - $A=\dfrac{\sqrt3}2+\dfrac{\sqrt3}2-1=\sqrt3-1$.
 - $\cos\dfrac{3\pi}8=\sin\dfrac\pi8$, donc $B=\cos^2\dfrac\pi8+\sin^2\dfrac\pi8=1$.
+:::
+
+:::corrige
+$\sin^2\dfrac\pi5=1-\dfrac{6+2\sqrt5}{16}=\dfrac{10-2\sqrt5}{16}$ et $\sin\dfrac\pi5>0$ : $\sin\dfrac\pi5=\dfrac{\sqrt{10-2\sqrt5}}4$. $\cos\dfrac{4\pi}5=-\cos\dfrac\pi5=-\dfrac{1+\sqrt5}4$ et $\cos\dfrac{6\pi}5=\cos\left(\pi+\dfrac\pi5\right)=-\dfrac{1+\sqrt5}4$.
+:::
+
+:::corrige
+- $A=-\cos x+\cos x-\cos x+\cos x=0$.
+- $\sin\dfrac{7\pi}8=\sin\dfrac\pi8$, $\sin\dfrac{5\pi}8=\sin\dfrac{3\pi}8=\cos\dfrac\pi8$ : $B=2\left(\sin^2\dfrac\pi8+\cos^2\dfrac\pi8\right)=2$.
 :::

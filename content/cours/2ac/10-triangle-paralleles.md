@@ -99,6 +99,17 @@ $ABC$ est un triangle avec $AB=10$ cm, $AC=12$ cm et $BC=8$ cm. $M$ est le point
 2. Calculer le périmètre du triangle $AMN$ et comparer avec celui de $ABC$.
 :::
 
+:::exercice Approfondissement — trapèze
+$ABCD$ est un trapèze de bases $[AB]$ et $[CD]$, avec $AB=10$ et $CD=6$. $I$ et $J$ sont les milieux de $[AD]$ et $[BC]$, et $K$ le milieu de la diagonale $[AC]$.
+1. Dans le triangle $ACD$, calculer $IK$ ; dans le triangle $ABC$, calculer $KJ$.
+2. Montrer que $I$, $K$, $J$ sont alignés et calculer $IJ$.
+:::
+
+:::exercice Approfondissement — partage en trois
+$[AB]$ est un segment de $9$ cm. On trace une demi-droite $[Ax)$ et on y place $C$, $D$, $E$ tels que $AC=CD=DE=2$ cm. La parallèle à $(EB)$ passant par $D$ coupe $[AB]$ en $N$, et celle passant par $C$ coupe $[AB]$ en $M$.
+Montrer que $AM=MN=NB=3$ cm.
+:::
+
 # Corrigés
 
 :::corrige
@@ -119,4 +130,13 @@ $ABC$ est un triangle avec $AB=10$ cm, $AC=12$ cm et $BC=8$ cm. $M$ est le point
 :::corrige
 1. $\dfrac{AM}{AB}=\dfrac4{10}=\dfrac25$. $AN=\dfrac25\times12=4{,}8$ cm et $MN=\dfrac25\times8=3{,}2$ cm.
 2. Périmètre de $AMN$ : $4+4{,}8+3{,}2=12$ cm ; celui de $ABC$ : $30$ cm. On a $12=\dfrac25\times30$ : les périmètres sont dans le même rapport.
+:::
+
+:::corrige
+1. Dans $ACD$, $I$ et $K$ sont les milieux de $[AD]$ et $[AC]$ : $(IK)\parallel(DC)$ et $IK=3$. Dans $ABC$ : $(KJ)\parallel(AB)$ et $KJ=5$.
+2. $(IK)$ et $(KJ)$ sont parallèles à $(AB)$ (car $(DC)\parallel(AB)$) et passent par $K$ : elles sont confondues, $I$, $K$, $J$ sont alignés. $IJ=3+5=8=\dfrac{AB+CD}2$.
+:::
+
+:::corrige
+Dans le triangle $AEB$, $(DN)\parallel(EB)$ : $\dfrac{AN}{AB}=\dfrac{AD}{AE}=\dfrac46$, donc $AN=6$. De même $(CM)\parallel(EB)$ : $\dfrac{AM}{AB}=\dfrac{AC}{AE}=\dfrac26$, donc $AM=3$. Ainsi $AM=3$, $MN=3$, $NB=3$.
 :::

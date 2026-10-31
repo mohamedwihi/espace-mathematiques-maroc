@@ -143,6 +143,16 @@ On donne $A(1;2)$, $B(4;3)$ et $C(2;-1)$ dans un repère orthonormé.
 2. Calculer l’aire du triangle $ABC$.
 :::
 
+:::exercice Approfondissement — théorème de la médiane
+$ABC$ est un triangle et $I$ le milieu de $[BC]$.
+1. Montrer que $AB^2+AC^2=2AI^2+\dfrac{BC^2}{2}$ (développer $\left(\overrightarrow{AI}+\overrightarrow{IB}\right)^2+\left(\overrightarrow{AI}+\overrightarrow{IC}\right)^2$).
+2. Application : $AB=5$, $AC=7$, $BC=8$. Calculer $AI$.
+:::
+
+:::exercice Approfondissement — ensemble de points
+$A$ et $B$ sont deux points tels que $AB=6$. Déterminer l’ensemble des points $M$ tels que $\overrightarrow{MA}\cdot\overrightarrow{MB}=0$, puis tels que $\overrightarrow{MA}\cdot\overrightarrow{MB}=7$ (on introduira le milieu $I$ de $[AB]$ : $\overrightarrow{MA}\cdot\overrightarrow{MB}=MI^2-IA^2$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -177,4 +187,13 @@ $AH^2=HB\times HC=16$, donc $AH=4$. $BC=10$ ; $AB^2=BH\times BC=20$, $AB=2\sqrt5
 :::corrige
 1. $\overrightarrow{AB}(3;1)$, $\overrightarrow{AC}(1;-3)$ : $3-3=0$, le triangle est rectangle en $A$.
 2. $AB=AC=\sqrt{10}$ : $\mathcal A=\dfrac{\sqrt{10}\times\sqrt{10}}2=5$ u.a.
+:::
+
+:::corrige
+1. $\overrightarrow{IC}=-\overrightarrow{IB}$ : la somme vaut $2AI^2+2IB^2+2\overrightarrow{AI}\cdot\left(\overrightarrow{IB}+\overrightarrow{IC}\right)=2AI^2+2\left(\dfrac{BC}2\right)^2$.
+2. $25+49=2AI^2+32$, donc $AI^2=21$ et $AI=\sqrt{21}$.
+:::
+
+:::corrige
+$\overrightarrow{MA}\cdot\overrightarrow{MB}=MI^2-9$. Égal à $0$ : $MI=3$, cercle de diamètre $[AB]$. Égal à $7$ : $MI^2=16$, cercle de centre $I$ et de rayon $4$.
 :::

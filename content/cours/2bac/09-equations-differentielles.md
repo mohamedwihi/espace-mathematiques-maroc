@@ -137,6 +137,19 @@ La température $\theta(t)$ d’un café (en °C, $t$ en minutes) vérifie $\the
 Déterminer la solution de $y''-4y'+4y=0$ telle que $y(0)=1$ et $y'(0)=3$.
 :::
 
+:::exercice Approfondissement — second membre non constant
+On considère $(E):y'-y=-x$.
+1. Déterminer les réels $a$ et $b$ pour que $p(x)=ax+b$ soit solution de $(E)$.
+2. Montrer que $y$ est solution de $(E)$ si et seulement si $y-p$ est solution de $y'=y$.
+3. En déduire les solutions de $(E)$ et celle qui vérifie $y(0)=2$.
+:::
+
+:::exercice Approfondissement — circuit oscillant
+Une tension $u$ vérifie $u''+100u=0$ avec $u(0)=2$ et $u'(0)=0$.
+1. Déterminer $u(t)$.
+2. Calculer la période des oscillations et la valeur maximale de $u$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -171,4 +184,15 @@ $y=\alpha\cos2x+\beta\sin2x$ ; $y(0)=\alpha=2$ ; $y'(0)=2\beta=-2$, $\beta=-1$. 
 
 :::corrige
 $r^2-4r+4=(r-2)^2$ : $y=(\alpha x+\beta)e^{2x}$. $y(0)=\beta=1$ ; $y'(x)=\left(\alpha+2\alpha x+2\beta\right)e^{2x}$, $y'(0)=\alpha+2=3$, $\alpha=1$ : $y=(x+1)e^{2x}$.
+:::
+
+:::corrige
+1. $p'-p=a-ax-b=-x$ : $a=1$ et $b=1$, $p(x)=x+1$.
+2. $(y-p)'-(y-p)=(y'-y)-(p'-p)=-x+x=0$ si $y$ est solution, et réciproquement.
+3. $y=Ce^x+x+1$ ; $y(0)=C+1=2$, $C=1$ : $y=e^x+x+1$.
+:::
+
+:::corrige
+1. $r=\pm10i$ : $u=\alpha\cos10t+\beta\sin10t$ ; $u(0)=\alpha=2$, $u'(0)=10\beta=0$ : $u(t)=2\cos10t$.
+2. Période $T=\dfrac{2\pi}{10}=\dfrac\pi5\approx0{,}63$ s ; amplitude $2$.
 :::

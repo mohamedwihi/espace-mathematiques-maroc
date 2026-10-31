@@ -144,6 +144,18 @@ On considère $(D_1):y=2x-3$ et $(D_2):y=-x+6$.
 2. Calculer les coordonnées du point d’intersection de $(D_1)$ et $(D_2)$.
 :::
 
+:::exercice Approfondissement — hauteur et orthocentre
+On donne $A(0;4)$, $B(-2;0)$ et $C(6;0)$.
+1. Déterminer l’équation de la hauteur issue de $B$ (perpendiculaire à $(AC)$).
+2. La hauteur issue de $A$ est l’axe des ordonnées. En déduire les coordonnées de l’orthocentre $H$.
+:::
+
+:::exercice Approfondissement — droites paramétrées
+Pour tout réel $m$, on considère la droite $(D_m):y=mx+2-3m$.
+1. Montrer que toutes les droites $(D_m)$ passent par un même point $P$.
+2. Déterminer $m$ pour que $(D_m)$ soit parallèle à $y=2x+5$, puis perpendiculaire à cette droite.
+:::
+
 # Corrigés
 
 :::corrige
@@ -179,4 +191,14 @@ $m_{AB}=\dfrac{5-1}{3-1}=2$ et $m_{AC}=\dfrac{0-1}{5-1}=-\dfrac14$. Comme $2\tim
 :::corrige
 1. $2\times4-3=5$ : $K\in(D_1)$. $-4+6=2\ne5$ : $K\notin(D_2)$.
 2. $2x-3=-x+6\iff x=3$, puis $y=3$ : le point $(3;3)$.
+:::
+
+:::corrige
+1. Pente de $(AC)$ : $\dfrac{0-4}{6-0}=-\dfrac23$, donc la hauteur a pour pente $\dfrac32$ : $y=\dfrac32(x+2)=\dfrac32x+3$.
+2. Avec $x=0$ : $y=3$, donc $H(0;3)$.
+:::
+
+:::corrige
+1. $y=m(x-3)+2$ : pour $x=3$, $y=2$ quel que soit $m$ : $P(3;2)$.
+2. Parallèle : $m=2$. Perpendiculaire : $2m=-1$, $m=-\dfrac12$.
 :::

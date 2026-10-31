@@ -125,6 +125,19 @@ $ABCD$ est un quadrilatère inscrit dans un cercle, avec $\widehat{DAB}=72°$ et
 Sachant que deux angles opposés d’un quadrilatère inscrit sont supplémentaires, calculer $\widehat{BCD}$ et $\widehat{CDA}$.
 :::
 
+:::exercice Approfondissement — polygone régulier
+Un hexagone régulier $ABCDEF$ est inscrit dans un cercle de centre $O$.
+1. Calculer $\widehat{AOB}$ et en déduire la nature du triangle $AOB$.
+2. Calculer l’angle inscrit $\widehat{ACB}$ puis $\widehat{ADB}$.
+3. Calculer $\widehat{FAB}$ (angle de l’hexagone).
+:::
+
+:::exercice Approfondissement — tangente et angle inscrit
+$A$ et $B$ sont deux points d’un cercle de centre $O$, avec $\widehat{AOB}=100°$, et $(T)$ est la tangente en $A$. $M$ est un point du grand arc $\overset\frown{AB}$.
+1. Calculer $\widehat{AMB}$.
+2. Calculer l’angle entre $(T)$ et la corde $[AB]$ (du côté du petit arc). Que remarque-t-on ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -157,4 +170,15 @@ Les six angles au centre sont égaux : $\widehat{AOB}=\dfrac{360^\circ}6=60^\cir
 
 :::corrige
 $\widehat{BCD}=180°-72°=108°$ et $\widehat{CDA}=180°-95°=85°$ (vérification : $72+95+108+85=360$).
+:::
+
+:::corrige
+1. $\widehat{AOB}=\dfrac{360°}6=60°$ et $OA=OB$ : $AOB$ est équilatéral.
+2. $\widehat{ACB}=\widehat{ADB}=\dfrac{60°}2=30°$ (ils interceptent le même arc $\overset\frown{AB}$).
+3. $\widehat{FAB}=\widehat{FAO}+\widehat{OAB}=60°+60°=120°$.
+:::
+
+:::corrige
+1. $\widehat{AMB}=\dfrac{100°}2=50°$.
+2. $OAB$ est isocèle en $O$ : $\widehat{OAB}=\dfrac{180°-100°}2=40°$ ; $(T)\perp(OA)$, donc l’angle cherché vaut $90°-40°=50°$ : il est égal à l’angle inscrit $\widehat{AMB}$.
 :::

@@ -124,6 +124,18 @@ Les triangles suivants sont-ils rectangles ?
 Une échelle de $5$ m est appuyée contre un mur vertical ; son pied est à $1{,}4$ m du mur. À quelle hauteur l’échelle touche-t-elle le mur ?
 :::
 
+:::exercice Approfondissement — la spirale de Pythagore
+On construit des triangles rectangles successifs : $OA_1A_2$ rectangle en $A_1$ avec $OA_1=A_1A_2=1$, puis $OA_2A_3$ rectangle en $A_2$ avec $A_2A_3=1$, etc.
+1. Calculer $OA_2$, $OA_3$, $OA_4$.
+2. Conjecturer $OA_n$ et le justifier.
+:::
+
+:::exercice Approfondissement — cercle et triangle rectangle
+$[AB]$ est un diamètre d’un cercle de centre $O$ et de rayon $5$ cm ; $C$ est un point du cercle tel que $AC=6$ cm.
+1. Montrer que $ABC$ est rectangle et calculer $BC$.
+2. Calculer l’aire de $ABC$ puis la longueur de la hauteur issue de $C$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -150,4 +162,14 @@ Une échelle de $5$ m est appuyée contre un mur vertical ; son pied est à $1{,
 
 :::corrige
 Le mur, le sol et l’échelle forment un triangle rectangle d’hypoténuse $5$ m : $h^2=25-1{,}96=23{,}04$, donc $h=4{,}8$ m.
+:::
+
+:::corrige
+1. $OA_2=\sqrt2$, $OA_3=\sqrt{2+1}=\sqrt3$, $OA_4=\sqrt4=2$.
+2. $OA_n=\sqrt n$ : si $OA_n=\sqrt n$, Pythagore donne $OA_{n+1}^2=n+1$.
+:::
+
+:::corrige
+1. $C$ est sur le cercle de diamètre $[AB]$ : $ABC$ est rectangle en $C$. $BC^2=100-36=64$, $BC=8$ cm.
+2. $\mathcal A=\dfrac{6\times8}2=24\ \text{cm}^2$ ; $\dfrac{10\times h}2=24$, donc $h=4{,}8$ cm.
 :::

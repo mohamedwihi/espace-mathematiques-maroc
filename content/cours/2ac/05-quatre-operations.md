@@ -95,6 +95,16 @@ $G=\dfrac{1}{2}-\dfrac{3}{4}\times\dfrac{2}{9}$ ; $H=\left(\dfrac{1}{2}-\dfrac{3
 Calculer : $M=1+\dfrac{1}{1+\dfrac{1}{2}}$ et $N=\dfrac{1}{2}\times\left[\dfrac{4}{3}-\left(\dfrac{1}{3}-2\right)\right]$.
 :::
 
+:::exercice Approfondissement — fraction continue
+Calculer $A=1+\dfrac{1}{2+\dfrac{1}{3+\dfrac{1}{4}}}$.
+:::
+
+:::exercice Approfondissement — moyenne de vitesses
+Un cycliste fait un aller de $30$ km à $15$ km/h et le retour à $10$ km/h.
+1. Calculer la durée totale du trajet.
+2. Calculer sa vitesse moyenne sur l’aller-retour. Est-ce la moyenne de $15$ et $10$ ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -117,4 +127,13 @@ Calculer : $M=1+\dfrac{1}{1+\dfrac{1}{2}}$ et $N=\dfrac{1}{2}\times\left[\dfrac{
 :::corrige
 - $M=1+\dfrac{1}{\dfrac32}=1+\dfrac23=\dfrac53$.
 - $N=\dfrac12\times\left[\dfrac43-\dfrac13+2\right]=\dfrac12\times3=\dfrac32$.
+:::
+
+:::corrige
+$3+\dfrac14=\dfrac{13}4$ ; $2+\dfrac4{13}=\dfrac{30}{13}$ ; $A=1+\dfrac{13}{30}=\dfrac{43}{30}$.
+:::
+
+:::corrige
+1. Aller : $\dfrac{30}{15}=2$ h ; retour : $\dfrac{30}{10}=3$ h ; total $5$ h.
+2. $v=\dfrac{60}{5}=12$ km/h, différent de $\dfrac{15+10}2=12{,}5$ km/h.
 :::

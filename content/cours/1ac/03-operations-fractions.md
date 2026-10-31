@@ -106,6 +106,17 @@ Un champ est cultivé ainsi : les $\dfrac{2}{5}$ en blé, le $\dfrac{1}{3}$ en o
 3. Le champ a une aire de $4\,500\ \text{m}^2$. Calculer l’aire de la partie en légumes.
 :::
 
+:::exercice Approfondissement — somme télescopique
+1. Vérifier que $\dfrac12-\dfrac13=\dfrac{1}{2\times3}$ et que $\dfrac13-\dfrac14=\dfrac{1}{3\times4}$.
+2. En déduire la valeur de $S=\dfrac{1}{1\times2}+\dfrac{1}{2\times3}+\dfrac{1}{3\times4}+\dfrac{1}{4\times5}+\dfrac{1}{5\times6}$.
+:::
+
+:::exercice Approfondissement — le robinet
+Un robinet remplit un bassin en $6$ heures ; un second robinet le remplit en $3$ heures.
+1. Quelle fraction du bassin chaque robinet remplit-il en une heure ?
+2. Quelle fraction est remplie en une heure si les deux robinets coulent ensemble ? En combien de temps le bassin est-il plein ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -132,4 +143,14 @@ $\dfrac{15}8$ ; $\dfrac{45}{60}=\dfrac34$ ; $\dfrac{84}{18}=\dfrac{14}3$ ; $\dfr
 1. $\dfrac25+\dfrac13=\dfrac6{15}+\dfrac5{15}=\dfrac{11}{15}$.
 2. $1-\dfrac{11}{15}=\dfrac4{15}$.
 3. $\dfrac4{15}\times4\,500=1\,200\ \text{m}^2$.
+:::
+
+:::corrige
+1. $\dfrac12-\dfrac13=\dfrac{3-2}{6}=\dfrac16=\dfrac1{2\times3}$ ; de même $\dfrac13-\dfrac14=\dfrac1{12}$.
+2. $S=\left(1-\dfrac12\right)+\left(\dfrac12-\dfrac13\right)+\cdots+\left(\dfrac15-\dfrac16\right)=1-\dfrac16=\dfrac56$.
+:::
+
+:::corrige
+1. $\dfrac16$ et $\dfrac13$.
+2. $\dfrac16+\dfrac13=\dfrac16+\dfrac26=\dfrac12$ du bassin par heure : il est plein en $2$ heures.
 :::

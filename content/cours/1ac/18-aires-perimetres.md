@@ -117,6 +117,16 @@ Un triangle $ABC$ est rectangle en $A$ avec $AB=6$ cm, $AC=8$ cm et $BC=10$ cm.
 2. En déduire la longueur de la hauteur issue de $A$.
 :::
 
+:::exercice Approfondissement — même périmètre, aires différentes
+1. Donner les dimensions entières de tous les rectangles de périmètre $20$ cm.
+2. Calculer leurs aires. Lequel a la plus grande aire ?
+3. Un disque de même périmètre ($20$ cm) a-t-il une aire plus grande ? ($\pi\approx3{,}14$)
+:::
+
+:::exercice Approfondissement — figure composée
+Un carré $ABCD$ de côté $8$ cm contient un quart de disque de centre $A$ et de rayon $8$ cm. Calculer l’aire de la partie du carré située hors du quart de disque ($\pi\approx3{,}14$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -140,4 +150,14 @@ Un triangle $ABC$ est rectangle en $A$ avec $AB=6$ cm, $AC=8$ cm et $BC=10$ cm.
 :::corrige
 1. $P=6+8+10=24$ cm ; $\mathcal A=\dfrac{6\times8}2=24\ \text{cm}^2$.
 2. En prenant $[BC]$ comme base : $\dfrac{10\times h}2=24$, donc $h=4{,}8$ cm.
+:::
+
+:::corrige
+1. $L+\ell=10$ : $9\times1$, $8\times2$, $7\times3$, $6\times4$, $5\times5$.
+2. Aires $9$, $16$, $21$, $24$, $25\ \text{cm}^2$ : le carré $5\times5$ a la plus grande aire.
+3. $2\pi r=20$ donne $r\approx3{,}18$ cm et $\mathcal A\approx3{,}14\times10{,}13\approx31{,}8\ \text{cm}^2$ : oui, plus grande.
+:::
+
+:::corrige
+$64-\dfrac{3{,}14\times64}{4}=64-50{,}24=13{,}76\ \text{cm}^2$.
 :::

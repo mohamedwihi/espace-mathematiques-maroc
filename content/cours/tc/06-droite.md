@@ -155,6 +155,18 @@ On donne $A(2;-1)$, $B(4;3)$ et $C(-1;2)$.
 Étudier la position relative des droites $(D_1):2x-y+3=0$ et $(D_2):-4x+2y+1=0$, puis de $(D_1)$ et $(D_3):x+y-3=0$ (préciser le point d’intersection).
 :::
 
+:::exercice Approfondissement — médianes concourantes
+On donne $A(-2;1)$, $B(4;3)$ et $C(1;-4)$.
+1. Déterminer une équation de la médiane issue de $A$ et de celle issue de $B$.
+2. Calculer leur point d’intersection et vérifier qu’il a pour coordonnées la moyenne des coordonnées des sommets.
+:::
+
+:::exercice Approfondissement — famille de droites
+Pour tout réel $m$, on pose $(D_m):(m-1)x+(2m+1)y-3m=0$.
+1. Montrer que toutes ces droites passent par un point fixe.
+2. Déterminer $m$ pour que $(D_m)$ soit parallèle à l’axe des abscisses.
+:::
+
 # Corrigés
 
 :::corrige
@@ -191,4 +203,14 @@ $AB=\sqrt{9+16}=5$ ; $AC=\sqrt{16+9}=5$ ; $BC=\sqrt{49+1}=\sqrt{50}=5\sqrt2$. $A
 :::corrige
 - $-4x+2y+1=0\iff2x-y-\dfrac12=0$ : mêmes coefficients de $x$ et $y$ que $(D_1)$, constantes différentes : $(D_1)\parallel(D_2)$ strictement.
 - $(D_1)$ et $(D_3)$ : en additionnant, $3x=0$, donc $x=0$ et $y=3$ : elles sont sécantes en $(0;3)$.
+:::
+
+:::corrige
+1. Milieu de $[BC]$ : $A'\left(\dfrac52;-\dfrac12\right)$ ; $\overrightarrow{AA'}\left(\dfrac92;-\dfrac32\right)$, colinéaire à $(3;-1)$ : médiane $(AA')$ : $x+3y-1=0$. Milieu de $[AC]$ : $B'\left(-\dfrac12;-\dfrac32\right)$ ; $\overrightarrow{BB'}\left(-\dfrac92;-\dfrac92\right)$, colinéaire à $(1;1)$ : médiane $(BB')$ : $x-y-1=0$.
+2. En soustrayant : $4y=0$, $y=0$ et $x=1$ : $G(1;0)$, et $\dfrac{-2+4+1}3=1$, $\dfrac{1+3-4}3=0$.
+:::
+
+:::corrige
+1. $m(x+2y-3)+(-x+y)=0$ pour tout $m$ dès que $x+2y-3=0$ et $-x+y=0$ : $x=y=1$. Point fixe $(1;1)$.
+2. Il faut un coefficient de $x$ nul : $m=1$ ; alors $(D_1):3y-3=0$, soit $y=1$.
 :::

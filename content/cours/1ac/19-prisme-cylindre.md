@@ -124,6 +124,20 @@ Un réservoir cylindrique a un rayon de $1$ m et une hauteur de $2$ m. On prend 
 2. On le remplit avec un robinet de débit $20$ L par minute. Combien de temps faut-il pour le remplir ?
 :::
 
+:::exercice Approfondissement — remplir un aquarium
+Un aquarium a la forme d’un pavé droit de $60$ cm sur $30$ cm et de hauteur $40$ cm. On le remplit avec une carafe cylindrique de rayon $5$ cm et de hauteur $20$ cm ($\pi\approx3{,}14$).
+1. Calculer le volume de l’aquarium en litres.
+2. Calculer le volume de la carafe en litres.
+3. Combien de carafes pleines faut-il pour remplir l’aquarium aux trois quarts ?
+:::
+
+:::exercice Approfondissement — doubler les dimensions
+Un cylindre a pour rayon $r$ et pour hauteur $h$.
+1. Comment varie son volume si l’on double sa hauteur ?
+2. si l’on double son rayon ?
+3. si l’on double les deux ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -148,4 +162,16 @@ Un réservoir cylindrique a un rayon de $1$ m et une hauteur de $2$ m. On prend 
 :::corrige
 1. $V=3{,}14\times1^2\times2=6{,}28\ \text{m}^3=6\,280$ L.
 2. $6\,280\div20=314$ min, soit $5$ h $14$ min.
+:::
+
+:::corrige
+1. $60\times30\times40=72\,000\ \text{cm}^3=72$ L.
+2. $3{,}14\times25\times20=1\,570\ \text{cm}^3=1{,}57$ L.
+3. $\dfrac34\times72=54$ L ; $54\div1{,}57\approx34{,}4$ : il faut $35$ carafes (la dernière n’étant pas vidée entièrement).
+:::
+
+:::corrige
+1. $\pi r^2(2h)=2\pi r^2h$ : le volume double.
+2. $\pi(2r)^2h=4\pi r^2h$ : il est multiplié par $4$.
+3. $\pi(2r)^2(2h)=8\pi r^2h$ : il est multiplié par $8$.
 :::

@@ -125,6 +125,18 @@ Compléter par $\in$ ou $\notin$ : $\sqrt{16}\ldots\mathbb N$ ; $-\dfrac{12}{4}\
 2. Montrer que $\sqrt{7+4\sqrt3}=2+\sqrt3$.
 :::
 
+:::exercice Approfondissement — irrationalité
+On admet que $\sqrt2$ est irrationnel.
+1. Montrer par l’absurde que $1+\sqrt2$ est irrationnel.
+2. Montrer que $3\sqrt2$ est irrationnel.
+3. La somme de deux irrationnels est-elle toujours irrationnelle ? (Chercher un contre-exemple.)
+:::
+
+:::exercice Approfondissement — décimaux et rationnels
+1. Écrire $x=1{,}\overline{27}=1{,}2727\ldots$ sous forme de fraction irréductible.
+2. Montrer que $\dfrac{7}{40}$ est un nombre décimal et que $\dfrac{5}{12}$ n’en est pas un.
+:::
+
 # Corrigés
 
 :::corrige
@@ -158,4 +170,15 @@ $\sqrt{16}=4\in\mathbb N$ ; $-3\in\mathbb Z$ ; $\dfrac13\notin\mathbb D$ ; $\dfr
 :::corrige
 1. $A=5\sqrt3-4\sqrt3+3\sqrt3=4\sqrt3$ ; $B=\left(\sqrt3+\sqrt2\right)-\left(\sqrt3-\sqrt2\right)=2\sqrt2$ (car $\left(\sqrt3-\sqrt2\right)\left(\sqrt3+\sqrt2\right)=1$).
 2. $\left(2+\sqrt3\right)^2=4+4\sqrt3+3=7+4\sqrt3$ et $2+\sqrt3>0$.
+:::
+
+:::corrige
+1. Si $1+\sqrt2=r\in\mathbb Q$, alors $\sqrt2=r-1\in\mathbb Q$ : absurde.
+2. Si $3\sqrt2=r$, alors $\sqrt2=\dfrac r3\in\mathbb Q$ : absurde.
+3. Non : $\sqrt2+\left(-\sqrt2\right)=0\in\mathbb Q$.
+:::
+
+:::corrige
+1. $100x-x=127{,}27\ldots-1{,}27\ldots=126$, donc $x=\dfrac{126}{99}=\dfrac{14}{11}$.
+2. $\dfrac7{40}=\dfrac{7\times25}{1000}=0{,}175$ ; $\dfrac5{12}$ irréductible a un dénominateur divisible par $3$ : ce n’est pas un décimal.
 :::

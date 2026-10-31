@@ -167,6 +167,20 @@ Un jardin rectangulaire de largeur $12$ m est formé d’un potager de longueur 
 Calculer l’aire du jardin de deux façons différentes.
 :::
 
+:::exercice Approfondissement — placer les parenthèses
+Placer des parenthèses (si nécessaire) pour que chaque égalité soit vraie :
+1. $3+4\times5-2=33$
+2. $3+4\times5-2=21$
+3. $48\div4\times2+6=12$
+4. $48\div4\times2+6=30$
+:::
+
+:::exercice Approfondissement — problème à étapes
+Un commerçant achète $45$ kg de pommes à $6{,}40$ DH le kilogramme. Il en perd $5$ kg (abîmés) et vend le reste à $9{,}50$ DH le kilogramme.
+1. Écrire une seule expression donnant son bénéfice, puis la calculer.
+2. À quel prix minimal (au centime près) aurait-il dû vendre le kilogramme pour ne pas perdre d’argent ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -197,4 +211,16 @@ $F=15\times4=60$ ; $G=50-(12+18)=50-30=20$ ; $H=3\times(20-18)=6$ ; $K=\dfrac{30
 :::corrige
 - Première façon : $12\times(15+9)=12\times24=288\ \text{m}^2$.
 - Deuxième façon : $12\times15+12\times9=180+108=288\ \text{m}^2$.
+:::
+
+:::corrige
+1. $(3+4)\times5-2=33$.
+2. $3+4\times(5-2)=15$ ne convient pas ; sans parenthèses : $3+20-2=21$.
+3. $48\div(4\times2)+6=6+6=12$.
+4. Sans parenthèses : $12\times2+6=30$.
+:::
+
+:::corrige
+1. $B=(45-5)\times9{,}50-45\times6{,}40=380-288=92$ DH.
+2. Il faut $40\times p\ge288$, soit $p\ge7{,}20$ DH : au minimum $7{,}20$ DH le kilogramme.
 :::

@@ -169,6 +169,18 @@ Soit $g(x)=x-2\sqrt{x}$ sur $[0;+\infty[$.
 2. Étudier la dérivabilité de $g$ en $0$, puis les variations de $g$.
 :::
 
+:::exercice Approfondissement — problème complet
+Soit $f(x)=x+\sqrt{x^2-1}$ sur $[1;+\infty[$.
+1. Étudier la dérivabilité à droite en $1$ et interpréter.
+2. Montrer que $f$ est strictement croissante et calculer $\lim\limits_{+\infty}f$.
+3. Montrer que $f$ admet une fonction réciproque et déterminer $f^{-1}(y)$ pour $y\ge1$ (on montrera que $f^{-1}(y)=\dfrac12\left(y+\dfrac1y\right)$).
+:::
+
+:::exercice Approfondissement — théorème des accroissements finis
+1. En appliquant les accroissements finis à $\sqrt{\ }$ sur $[100;101]$, montrer que $\dfrac{1}{2\sqrt{101}}\le\sqrt{101}-10\le\dfrac{1}{20}$.
+2. En déduire un encadrement de $\sqrt{101}$ d’amplitude inférieure à $10^{-3}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -204,4 +216,15 @@ $\dfrac{f(x)-f(0)}{x-0}=\sqrt x\to0$ : $f$ est dérivable à droite en $0$, $f'_
 :::corrige
 1. $g(x)=\sqrt x\left(\sqrt x-2\right)\to+\infty$ ; $\dfrac{g(x)}x=1-\dfrac{2}{\sqrt x}\to1$ et $g(x)-x=-2\sqrt x\to-\infty$ : branche parabolique de direction $y=x$.
 2. $\dfrac{g(x)}{x}=1-\dfrac2{\sqrt x}\to-\infty$ en $0^+$ : non dérivable, demi-tangente verticale. $g'(x)=1-\dfrac1{\sqrt x}=\dfrac{\sqrt x-1}{\sqrt x}$ : $g$ décroît sur $[0;1]$, croît sur $[1;+\infty[$, minimum $g(1)=-1$.
+:::
+
+:::corrige
+1. $\dfrac{f(x)-1}{x-1}=1+\sqrt{\dfrac{x+1}{x-1}}\to+\infty$ : demi-tangente verticale en $(1;1)$.
+2. $f'(x)=1+\dfrac{x}{\sqrt{x^2-1}}>0$ ; $\lim\limits_{+\infty}f=+\infty$.
+3. $f$ est continue et strictement croissante de $[1;+\infty[$ sur $[1;+\infty[$. $y-x=\sqrt{x^2-1}$ donne $y^2-2xy+x^2=x^2-1$, d’où $x=\dfrac{y^2+1}{2y}=\dfrac12\left(y+\dfrac1y\right)$.
+:::
+
+:::corrige
+1. Il existe $c\in]100;101[$ avec $\sqrt{101}-10=\dfrac1{2\sqrt c}$, et $\dfrac1{2\sqrt{101}}<\dfrac1{2\sqrt c}<\dfrac1{20}$.
+2. $\sqrt{101}<11$, donc $\dfrac1{2\sqrt{101}}>\dfrac1{22}$ : $10+\dfrac1{22}<\sqrt{101}<10+\dfrac1{20}$, soit $10{,}0454<\sqrt{101}<10{,}05$ ; en raffinant avec $\sqrt{101}<10{,}05$ : $\dfrac1{20{,}1}\approx0{,}04975$, d’où $10{,}0497<\sqrt{101}<10{,}05$.
 :::

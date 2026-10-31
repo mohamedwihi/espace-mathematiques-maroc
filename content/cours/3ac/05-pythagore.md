@@ -126,6 +126,18 @@ $ABCD$ est un rectangle de longueur $AB=8$ cm et de largeur $AD=6$ cm ; $M$ est 
 2. Le triangle $AMB$ est-il rectangle en $M$ ?
 :::
 
+:::exercice Approfondissement — diagonale d’un pavé
+Un pavé droit $ABCDEFGH$ a pour dimensions $AB=6$, $AD=8$ et $AE=10$ (en cm).
+1. Calculer la diagonale $AC$ de la base.
+2. Le triangle $ACG$ est rectangle en $C$ : calculer la grande diagonale $AG$.
+:::
+
+:::exercice Approfondissement — triangle à côtés littéraux
+Un triangle a pour côtés $x+1$, $x+8$ et $x+9$ (en cm), avec $x>0$.
+1. Pour quelle valeur de $x$ est-il rectangle ?
+2. Calculer alors son aire.
+:::
+
 # Corrigés
 
 :::corrige
@@ -164,4 +176,14 @@ Le mur, le sol et l’échelle forment un triangle rectangle d’hypoténuse $5$
 :::corrige
 1. $AM^2=AD^2+DM^2=36+4=40$ ; $MC=6$ cm, $BM^2=BC^2+MC^2=36+36=72$.
 2. $AM^2+BM^2=112\ne AB^2=64$ : le triangle $AMB$ n’est pas rectangle en $M$.
+:::
+
+:::corrige
+1. $AC^2=36+64=100$, $AC=10$ cm.
+2. $AG^2=AC^2+CG^2=100+100=200$, $AG=10\sqrt2\approx14{,}1$ cm.
+:::
+
+:::corrige
+1. Le plus grand côté est $x+9$ : $(x+9)^2=(x+1)^2+(x+8)^2\iff x^2+18x+81=2x^2+18x+65\iff x^2=16$, donc $x=4$.
+2. Côtés $5$, $12$, $13$ : aire $\dfrac{5\times12}2=30\ \text{cm}^2$.
 :::

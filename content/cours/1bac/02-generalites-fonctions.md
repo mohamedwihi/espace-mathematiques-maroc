@@ -179,6 +179,18 @@ Soient $f(x)=\sqrt{x}$ et $g(x)=x^2-4x+3$.
 2. Étudier les variations de $g$ sur $[2;+\infty[$, puis celles de $f\circ g$ sur $[3;+\infty[$.
 :::
 
+:::exercice Approfondissement — fonction périodique et parité
+Soit $f(x)=\sin^2x+\cos x$.
+1. Montrer que $f$ est paire et périodique de période $2\pi$.
+2. En posant $X=\cos x$, montrer que $f(x)=-X^2+X+1$ et en déduire le maximum de $f$.
+:::
+
+:::exercice Approfondissement — composée et variations
+Soient $u(x)=x^2-2x$ et $v(x)=\dfrac{1}{x+2}$.
+1. Déterminer $v\circ u$ et son ensemble de définition.
+2. Étudier les variations de $v\circ u$ sur $[1;+\infty[$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -215,4 +227,14 @@ $D_f=\mathbb R\setminus\{-1\}$. Centre $\Omega(-1;2)$, asymptotes $x=-1$ et $y=2
 :::corrige
 1. $f\circ g$ est définie si $g(x)\ge0$, soit $(x-1)(x-3)\ge0$ : $D=]-\infty;1]\cup[3;+\infty[$.
 2. $g(x)=(x-2)^2-1$ est croissante sur $[2;+\infty[$ ; sur $[3;+\infty[$, $g$ est croissante et positive, et $f$ est croissante sur $[0;+\infty[$ : $f\circ g$ est croissante.
+:::
+
+:::corrige
+1. $f(-x)=\sin^2(-x)+\cos(-x)=f(x)$ et $f(x+2\pi)=f(x)$.
+2. $\sin^2x=1-\cos^2x$ : $f=-X^2+X+1$ avec $X\in[-1;1]$ ; maximum en $X=\dfrac12$ : $f=\dfrac54$ (atteint pour $x=\pm\dfrac\pi3+2k\pi$).
+:::
+
+:::corrige
+1. $v(u(x))=\dfrac1{x^2-2x+2}$ ; $x^2-2x+2=(x-1)^2+1>0$ : définie sur $\mathbb R$.
+2. $u$ est croissante sur $[1;+\infty[$ à valeurs dans $[-1;+\infty[$, et $v$ est décroissante sur $]-2;+\infty[$ : $v\circ u$ est décroissante sur $[1;+\infty[$.
 :::

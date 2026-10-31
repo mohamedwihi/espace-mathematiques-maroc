@@ -131,6 +131,14 @@ Le père de Karim a $28$ ans de plus que lui. La somme de leurs âges est $52$ a
 La longueur d’un rectangle dépasse sa largeur de $5$ cm et son périmètre est $46$ cm. Calculer ses dimensions.
 :::
 
+:::exercice Approfondissement — les tirelires
+Amine a $3$ fois plus d’argent que Salma. Si Amine donne $40$ DH à Salma, ils ont la même somme. Combien chacun avait-il au départ ?
+:::
+
+:::exercice Approfondissement — équation avec fractions
+Résoudre : $\dfrac{x}{2}+\dfrac{x}{3}+\dfrac{x}{6}=12$, puis $\dfrac{2x-1}{3}=\dfrac{x+4}{2}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -163,4 +171,13 @@ Soit $x$ l’âge de Karim : $x+(x+28)=52\iff2x=24\iff x=12$. Karim a $12$ ans e
 
 :::corrige
 Soit $\ell$ la largeur : $2(\ell+\ell+5)=46\iff4\ell+10=46\iff\ell=9$. Largeur $9$ cm, longueur $14$ cm (vérification : $2\times23=46$).
+:::
+
+:::corrige
+Soit $x$ la somme de Salma ; Amine a $3x$. $3x-40=x+40\iff2x=80\iff x=40$. Salma avait $40$ DH et Amine $120$ DH (ensuite $80$ DH chacun).
+:::
+
+:::corrige
+- On multiplie par $6$ : $3x+2x+x=72\iff6x=72\iff x=12$.
+- On multiplie par $6$ : $2(2x-1)=3(x+4)\iff4x-2=3x+12\iff x=14$.
 :::

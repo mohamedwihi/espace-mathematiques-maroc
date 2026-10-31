@@ -112,6 +112,15 @@ $ABCD$ est un tétraèdre ; $G$ est le point tel que $\overrightarrow{GA}+\overr
 Montrer que $G$ est le milieu de $[IJ]$.
 :::
 
+:::exercice Approfondissement — plans parallèles dans un cube
+$ABCDEFGH$ est un cube. Montrer que les plans $(BDE)$ et $(CFH)$ sont parallèles (montrer que deux droites sécantes de l’un sont parallèles à l’autre).
+:::
+
+:::exercice Approfondissement — point d’intersection
+$ABCD$ est un tétraèdre, $I$ le milieu de $[BC]$ et $G$ le centre de gravité du triangle $BCD$. $M$ est défini par $\overrightarrow{AM}=\dfrac34\overrightarrow{AG}$.
+Exprimer $\overrightarrow{AM}$ en fonction de $\overrightarrow{AB}$, $\overrightarrow{AC}$, $\overrightarrow{AD}$, et montrer que $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}+\overrightarrow{MD}=\vec0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -137,4 +146,12 @@ $\overrightarrow{DG}=\overrightarrow{DC}+\overrightarrow{CG}=\overrightarrow{AB}
 
 :::corrige
 $\overrightarrow{GA}+\overrightarrow{GB}=2\overrightarrow{GI}$ et $\overrightarrow{GC}+\overrightarrow{GD}=2\overrightarrow{GJ}$. Donc $2\overrightarrow{GI}+2\overrightarrow{GJ}=\vec0$, soit $\overrightarrow{GI}=-\overrightarrow{GJ}$ : $G$ est le milieu de $[IJ]$.
+:::
+
+:::corrige
+$(BD)\parallel(FH)$ ($BDHF$ rectangle) et $(BE)\parallel(CH)$ ($BCHE$ rectangle). Les droites sécantes $(BD)$ et $(BE)$ du plan $(BDE)$ sont parallèles au plan $(CFH)$ : les plans sont parallèles.
+:::
+
+:::corrige
+$\overrightarrow{AG}=\dfrac13\left(\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}\right)$, donc $\overrightarrow{AM}=\dfrac14\left(\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}\right)$. Alors $\overrightarrow{MA}+\overrightarrow{MB}+\overrightarrow{MC}+\overrightarrow{MD}=4\overrightarrow{MA}+\overrightarrow{AB}+\overrightarrow{AC}+\overrightarrow{AD}=-4\overrightarrow{AM}+4\overrightarrow{AM}=\vec0$.
 :::

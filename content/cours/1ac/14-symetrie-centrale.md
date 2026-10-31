@@ -127,6 +127,16 @@ $ABC$ est un triangle et $I$ le milieu de $[BC]$. $D$ est le symétrique de $A$ 
 2. En déduire que $CD=AB$ et que $(CD)\parallel(AB)$.
 :::
 
+:::exercice Approfondissement — composée de deux symétries
+$O$ et $O'$ sont deux points distincts. $M$ est un point quelconque, $M_1$ son symétrique par rapport à $O$ et $M_2$ le symétrique de $M_1$ par rapport à $O'$.
+1. Faire une figure avec $OO'=3$ cm.
+2. En utilisant la droite des milieux dans le triangle $MM_1M_2$, montrer que $MM_2=2OO'$ et que $(MM_2)\parallel(OO')$.
+:::
+
+:::exercice Approfondissement — construire avec la symétrie
+$(D)$ et $(D')$ sont deux droites sécantes et $I$ un point qui n’appartient à aucune d’elles. Construire un point $A$ de $(D)$ et un point $B$ de $(D')$ tels que $I$ soit le milieu de $[AB]$. (Indication : construire le symétrique de $(D)$ par rapport à $I$.)
+:::
+
 # Corrigés
 
 :::corrige
@@ -150,4 +160,12 @@ Ont un centre de symétrie : le segment (son milieu), le rectangle (intersection
 :::corrige
 1. $I$ est le milieu de $[BC]$, donc le symétrique de $B$ par rapport à $I$ est $C$.
 2. Le symétrique de $[AB]$ est $[DC]$ ; la symétrie conserve les longueurs et transforme une droite en une droite parallèle : $CD=AB$ et $(CD)\parallel(AB)$.
+:::
+
+:::corrige
+2. Dans le triangle $MM_1M_2$, $O$ est le milieu de $[MM_1]$ et $O'$ celui de $[M_1M_2]$ : $(OO')\parallel(MM_2)$ et $OO'=\dfrac{MM_2}2$, soit $MM_2=2OO'$ (si $M_2\ne M$).
+:::
+
+:::corrige
+Le symétrique $(D_1)$ de $(D)$ par rapport à $I$ coupe $(D')$ en $B$. Le symétrique $A$ de $B$ par rapport à $I$ est sur $(D)$ (car $B\in(D_1)$) et $I$ est le milieu de $[AB]$.
 :::

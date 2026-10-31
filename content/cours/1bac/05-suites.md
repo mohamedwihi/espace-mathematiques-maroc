@@ -169,6 +169,19 @@ $(u_n)$ est arithmétique avec $u_3=11$ et $u_8=26$.
 2. Calculer $u_0+u_1+\cdots+u_{20}$.
 :::
 
+:::exercice Approfondissement — suite homographique
+$u_0=0$ et $u_{n+1}=\dfrac{2u_n+3}{u_n+4}$.
+1. Montrer par récurrence que $0\le u_n<1$.
+2. On pose $v_n=\dfrac{u_n-1}{u_n+3}$. Montrer que $(v_n)$ est géométrique de raison $\dfrac15$.
+3. Exprimer $v_n$ puis $u_n$ en fonction de $n$ et déterminer $\lim u_n$.
+:::
+
+:::exercice Approfondissement — somme et monotonie
+$u_n=\dfrac{1}{n+1}+\dfrac{1}{n+2}+\cdots+\dfrac{1}{2n}$ pour $n\ge1$.
+1. Montrer que $u_{n+1}-u_n=\dfrac{1}{2n+1}-\dfrac{1}{2n+2}$.
+2. En déduire que $(u_n)$ est croissante et que $\dfrac12\le u_n<1$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -206,4 +219,15 @@ $C_{n+1}=1{,}05\,C_n$ : suite géométrique de raison $1{,}05$, donc $C_n=10\,00
 :::corrige
 1. $5r=26-11=15$, $r=3$ ; $u_0=11-9=2$.
 2. $u_{20}=2+60=62$ ; somme : $21\times\dfrac{2+62}{2}=672$.
+:::
+
+:::corrige
+1. $u_0=0$. Si $0\le u_n<1$ : $u_{n+1}\ge0$ et $1-u_{n+1}=\dfrac{1-u_n}{u_n+4}>0$.
+2. $v_{n+1}=\dfrac{\frac{2u_n+3}{u_n+4}-1}{\frac{2u_n+3}{u_n+4}+3}=\dfrac{u_n-1}{5u_n+15}=\dfrac15v_n$.
+3. $v_0=-\dfrac13$, $v_n=-\dfrac13\left(\dfrac15\right)^n$. De $v=\dfrac{u-1}{u+3}$ : $u_n=\dfrac{1+3v_n}{1-v_n}\to1$.
+:::
+
+:::corrige
+1. $u_{n+1}=u_n-\dfrac1{n+1}+\dfrac1{2n+1}+\dfrac1{2n+2}$ et $\dfrac1{2n+2}-\dfrac1{n+1}=-\dfrac1{2n+2}$.
+2. $\dfrac1{2n+1}>\dfrac1{2n+2}$ : croissante. $u_n$ a $n$ termes, chacun $\ge\dfrac1{2n}$ et $<\dfrac1n$ (sauf égalités aux bords) : $\dfrac12\le u_n<1$.
 :::

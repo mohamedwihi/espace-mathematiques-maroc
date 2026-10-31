@@ -118,6 +118,17 @@ On sait que $-1\le x\le2$ et $3\le y\le5$. Encadrer : $x+y$ ; $x-y$ ; $2x+3y$ ; 
 Les dimensions d’un rectangle vérifient $4{,}5\le L\le4{,}6$ et $2{,}5\le\ell\le2{,}6$ (en cm). Encadrer son périmètre et son aire.
 :::
 
+:::exercice Approfondissement — inégalité des moyennes
+Soient $a$ et $b$ deux nombres positifs.
+1. Montrer que $(a+b)^2-4ab=(a-b)^2$.
+2. En déduire que $ab\le\left(\dfrac{a+b}{2}\right)^2$.
+3. Application : parmi les rectangles de périmètre $40$ cm, lequel a la plus grande aire ?
+:::
+
+:::exercice Approfondissement — encadrer un quotient
+On sait que $2\le x\le4$ et $1\le y\le3$. Encadrer $\dfrac{x}{y}$ et $\dfrac{x+y}{y}$ (écrire $\dfrac{x+y}{y}=\dfrac xy+1$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -145,4 +156,14 @@ $A-B=x^2+6x+9-x^2-6x-5=4>0$, donc $A>B$ pour tout $x$.
 :::corrige
 - $2(4{,}5+2{,}5)\le P\le2(4{,}6+2{,}6)$ : $14\le P\le14{,}4$ cm.
 - $4{,}5\times2{,}5\le\mathcal A\le4{,}6\times2{,}6$ : $11{,}25\le\mathcal A\le11{,}96\ \text{cm}^2$.
+:::
+
+:::corrige
+1. $a^2+2ab+b^2-4ab=a^2-2ab+b^2=(a-b)^2$.
+2. $(a+b)^2-4ab\ge0$ donc $4ab\le(a+b)^2$, d’où le résultat.
+3. $L+\ell=20$ : $L\ell\le\left(\dfrac{20}2\right)^2=100$, avec égalité si $L=\ell=10$ : c’est le carré de côté $10$ cm.
+:::
+
+:::corrige
+$\dfrac13\le\dfrac1y\le1$, et tout est positif : $\dfrac23\le\dfrac xy\le4$. Puis $\dfrac53\le\dfrac{x+y}{y}\le5$.
 :::

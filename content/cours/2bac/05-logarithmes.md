@@ -161,6 +161,18 @@ Soit $f(x)=x\ln x$ sur $]0;+\infty[$.
 2. Étudier les variations de $f$ et préciser son minimum.
 :::
 
+:::exercice Approfondissement — problème type bac
+Soit $f(x)=x-1-\dfrac{\ln x}{x}$ sur $]0;+\infty[$.
+1. Soit $g(x)=x^2-1+\ln x$. Étudier les variations de $g$, calculer $g(1)$ et en déduire le signe de $g$.
+2. Montrer que $f'(x)=\dfrac{g(x)}{x^2}$ et dresser le tableau de variations de $f$.
+3. Montrer que la droite $(D):y=x-1$ est asymptote à $(C_f)$ en $+\infty$ et étudier leur position relative.
+:::
+
+:::exercice Approfondissement — inégalité classique
+1. Montrer que pour tout $x>0$ : $\ln x\le x-1$.
+2. En déduire que pour tout entier $n\ge1$ : $\ln\left(1+\dfrac1n\right)\le\dfrac1n$, puis que $\left(1+\dfrac1n\right)^n\le e$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -199,4 +211,15 @@ $A=\ln\dfrac{12}{4\times3}=0$ ; $B=2+\dfrac12=\dfrac52$ ; $C=-3\ln2+3\ln2=0$.
 :::corrige
 1. $\lim\limits_{0^+}x\ln x=0$ (limite de référence) et $\lim\limits_{+\infty}f=+\infty$.
 2. $f'(x)=\ln x+1$, nul pour $x=e^{-1}$ : $f$ décroît sur $\left]0;\dfrac1e\right]$, croît ensuite ; minimum $f\left(\dfrac1e\right)=-\dfrac1e$.
+:::
+
+:::corrige
+1. $g'(x)=2x+\dfrac1x>0$ : $g$ croissante, $g(1)=0$ : $g<0$ sur $]0;1[$ et $g>0$ sur $]1;+\infty[$.
+2. $f'(x)=1-\dfrac{1-\ln x}{x^2}=\dfrac{x^2-1+\ln x}{x^2}$ : $f$ décroît sur $]0;1]$, croît sur $[1;+\infty[$, minimum $f(1)=0$.
+3. $f(x)-(x-1)=-\dfrac{\ln x}x\to0$ : asymptote. Courbe au-dessus de $(D)$ sur $]0;1[$, en dessous sur $]1;+\infty[$, et ils se coupent en $(1;0)$.
+:::
+
+:::corrige
+1. $h(x)=\ln x-x+1$ : $h'(x)=\dfrac1x-1$, maximum $h(1)=0$.
+2. Avec $x=1+\dfrac1n$ : $\ln\left(1+\dfrac1n\right)\le\dfrac1n$ ; en multipliant par $n$ : $n\ln\left(1+\dfrac1n\right)\le1$, puis par croissance de $\exp$ : $\left(1+\dfrac1n\right)^n\le e$.
 :::

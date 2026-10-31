@@ -158,6 +158,19 @@ On donne $A(1;0;2)$, $B(3;1;0)$ et $C(0;2;1)$.
 Déterminer une équation cartésienne du plan $(P)$ passant par $A(1;0;2)$ et dirigé par $\vec u(1;1;0)$ et $\vec v(0;1;1)$.
 :::
 
+:::exercice Approfondissement — intersection droite–plan
+On donne le plan $(P):x+y-z-1=0$ et la droite $(\Delta)$ : $x=1+t$, $y=2-t$, $z=3+2t$ ($t\in\mathbb R$).
+1. Déterminer le point d’intersection de $(\Delta)$ et $(P)$.
+2. La droite $(\Delta)$ est-elle parallèle au plan $(Q):x+y-2=0$ ?
+:::
+
+:::exercice Approfondissement — plans et alignement
+On donne $A(1;2;0)$, $B(2;0;1)$, $C(0;1;3)$.
+1. Montrer que $A$, $B$, $C$ ne sont pas alignés.
+2. Déterminer une équation cartésienne du plan $(ABC)$.
+3. Le point $D(3;-1;4)$ appartient-il à ce plan ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -190,4 +203,15 @@ $2t-(1+t)-(-1+t)+3=0$ donne $3=0$ : aucune solution. La droite est strictement p
 
 :::corrige
 $M(x;y;z)\in(P)\iff\overrightarrow{AM}=a\vec u+b\vec v$ : $x-1=a$, $y=a+b$, $z-2=b$. Donc $y=(x-1)+(z-2)$, soit $(P):x-y+z-3=0$.
+:::
+
+:::corrige
+1. $(1+t)+(2-t)-(3+2t)-1=0\iff-2t-1=0\iff t=-\dfrac12$ : point $\left(\dfrac12;\dfrac52;2\right)$.
+2. Pour tout $t$ : $(1+t)+(2-t)-2=1\ne0$, donc aucun point commun ; le vecteur directeur $(1;-1;2)$ vérifie $1-1=0$ : $(\Delta)$ est strictement parallèle à $(Q)$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}(1;-2;1)$ et $\overrightarrow{AC}(-1;-1;3)$ ne sont pas colinéaires.
+2. Un vecteur normal $\vec n(a;b;c)$ vérifie $a-2b+c=0$ et $-a-b+3c=0$ : $\vec n(5;4;3)$. $(ABC):5x+4y+3z-13=0$.
+3. $15-4+12-13=10\ne0$ : non.
 :::

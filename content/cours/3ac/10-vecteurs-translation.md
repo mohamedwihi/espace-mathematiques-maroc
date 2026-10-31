@@ -174,6 +174,19 @@ $ABC$ est un triangle.
 Simplifier : $\vec u=\overrightarrow{AB}-\overrightarrow{AC}+\overrightarrow{BC}$ ; $\vec v=\overrightarrow{MA}+\overrightarrow{BM}+\overrightarrow{AB}$ ; $\vec w=\overrightarrow{EF}+\overrightarrow{GE}-\overrightarrow{GF}$.
 :::
 
+:::exercice Approfondissement — point défini par une somme
+$ABC$ est un triangle et $I$ le milieu de $[BC]$. $M$ est le point tel que $\overrightarrow{AM}=\overrightarrow{AB}+\overrightarrow{AC}$.
+1. Montrer que $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AI}$ (introduire $I$ par Chasles).
+2. En déduire que $A$, $I$, $M$ sont alignés et que $I$ est le milieu de $[AM]$.
+:::
+
+:::exercice Approfondissement — translation et parallélogramme
+$t$ est la translation qui transforme $A$ en $B$. $C$ est un point non situé sur $(AB)$, $D=t(C)$ et $E=t(B)$.
+1. Quelle est la nature de $ABDC$ ? Justifier.
+2. Montrer que $B$ est le milieu de $[AE]$.
+3. Montrer que $\overrightarrow{CD}+\overrightarrow{CA}=\overrightarrow{CB}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -209,4 +222,15 @@ $t(A)=B$ et une translation conserve les rayons : l’image de $(\mathcal C)$ es
 - $\vec u=\overrightarrow{AB}+\overrightarrow{CA}+\overrightarrow{BC}=\overrightarrow{CA}+\overrightarrow{AB}+\overrightarrow{BC}=\overrightarrow{CC}=\vec0$.
 - $\vec v=\overrightarrow{BM}+\overrightarrow{MA}+\overrightarrow{AB}=\overrightarrow{BB}=\vec0$.
 - $\vec w=\overrightarrow{GE}+\overrightarrow{EF}+\overrightarrow{FG}=\vec0$.
+:::
+
+:::corrige
+1. $\overrightarrow{AB}+\overrightarrow{AC}=\left(\overrightarrow{AI}+\overrightarrow{IB}\right)+\left(\overrightarrow{AI}+\overrightarrow{IC}\right)=2\overrightarrow{AI}$ car $\overrightarrow{IB}+\overrightarrow{IC}=\vec0$.
+2. $\overrightarrow{AM}=2\overrightarrow{AI}$ : les points sont alignés et $I$ est le milieu de $[AM]$.
+:::
+
+:::corrige
+1. $\overrightarrow{CD}=\overrightarrow{AB}$ : $ABDC$ est un parallélogramme.
+2. $\overrightarrow{BE}=\overrightarrow{AB}$ : $B$ est le milieu de $[AE]$.
+3. $\overrightarrow{CD}+\overrightarrow{CA}=\overrightarrow{AB}+\overrightarrow{CA}=\overrightarrow{CA}+\overrightarrow{AB}=\overrightarrow{CB}$.
 :::

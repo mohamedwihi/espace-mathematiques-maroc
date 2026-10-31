@@ -188,6 +188,18 @@ Une salle de sport propose deux formules : formule A, $15$ DH par séance ; form
 À partir de combien de séances la formule B est-elle plus avantageuse ?
 :::
 
+:::exercice Approfondissement — problème du jardin
+Un jardin rectangulaire mesure $20$ m sur $12$ m. On veut l’entourer d’une allée de largeur constante $x$ m, de sorte que l’aire de l’allée soit égale à celle du jardin.
+1. Montrer que $x$ vérifie $(20+2x)(12+2x)=480$.
+2. Montrer que cette équation équivaut à $x^2+16x-60=0$, puis que $(x+8)^2=124$. En déduire $x$ (valeur exacte et approchée).
+:::
+
+:::exercice Approfondissement — inéquation et problème
+Une entreprise de location propose : tarif A, $250$ DH par jour ; tarif B, $600$ DH de forfait plus $180$ DH par jour.
+1. Pour quelles durées le tarif B est-il strictement plus avantageux ?
+2. Représenter les solutions sur une droite graduée.
+:::
+
 # Corrigés
 
 :::corrige
@@ -232,4 +244,14 @@ Soit $n$ le nombre de séances. Le tarif B est plus avantageux si $150+15n<25n$,
 
 :::corrige
 Soit $n$ le nombre de séances : $120+7n<15n\iff120<8n\iff n>15$. La formule B est plus avantageuse à partir de $16$ séances.
+:::
+
+:::corrige
+1. L’aire totale (jardin + allée) vaut le double de celle du jardin : $(20+2x)(12+2x)=2\times240=480$.
+2. $240+40x+24x+4x^2=480\iff4x^2+64x-240=0\iff x^2+16x-60=0$. Or $x^2+16x=(x+8)^2-64$, donc $(x+8)^2=124$ et $x=-8+\sqrt{124}=-8+2\sqrt{31}\approx3{,}14$ m (la solution négative est rejetée).
+:::
+
+:::corrige
+1. $600+180n<250n\iff600<70n\iff n>\dfrac{60}{7}\approx8{,}57$ : à partir de $9$ jours.
+2. Demi-droite ouverte en $\dfrac{60}7$, vers la droite (seuls les entiers $n\ge9$ ont un sens concret).
 :::

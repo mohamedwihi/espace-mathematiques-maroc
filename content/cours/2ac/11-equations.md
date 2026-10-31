@@ -116,6 +116,14 @@ La longueur d’un rectangle est le triple de sa largeur. Si l’on augmente la 
 Un père a $41$ ans et son fils $9$ ans. Dans combien d’années l’âge du père sera-t-il le triple de celui du fils ?
 :::
 
+:::exercice Approfondissement — problème des robinets
+Un bassin se remplit en $4$ h avec un robinet A et en $6$ h avec un robinet B. On ouvre A seul pendant $1$ h, puis A et B ensemble. Au bout de combien de temps (au total) le bassin est-il plein ?
+:::
+
+:::exercice Approfondissement — équation produit cachée
+Résoudre : $(2x+1)^2=(x-3)^2$ ; $x^2+5x=0$ ; $(x-2)(x+3)=(x-2)(2x-1)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -145,4 +153,14 @@ Soit $\ell$ la largeur ; longueur $3\ell$. $\ell+4=3\ell-4\iff2\ell=8\iff\ell=4$
 
 :::corrige
 Dans $n$ années : $41+n=3(9+n)\iff41+n=27+3n\iff2n=14\iff n=7$. Dans $7$ ans (le père aura $48$ ans, le fils $16$).
+:::
+
+:::corrige
+A remplit $\dfrac14$ par heure, B $\dfrac16$. Après $1$ h, il reste $\dfrac34$. Ensemble : $\dfrac14+\dfrac16=\dfrac5{12}$ par heure. Durée $t$ : $\dfrac5{12}t=\dfrac34$, $t=\dfrac95=1{,}8$ h. Total : $2{,}8$ h, soit $2$ h $48$ min.
+:::
+
+:::corrige
+- $(2x+1-x+3)(2x+1+x-3)=0\iff(x+4)(3x-2)=0$ : $x=-4$ ou $x=\dfrac23$.
+- $x(x+5)=0$ : $x=0$ ou $x=-5$.
+- $(x-2)\left[(x+3)-(2x-1)\right]=0\iff(x-2)(-x+4)=0$ : $x=2$ ou $x=4$.
 :::

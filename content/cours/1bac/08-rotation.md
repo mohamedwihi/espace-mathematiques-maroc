@@ -118,6 +118,16 @@ $ABCD$ est un carré direct de centre $O$. $I$ est le milieu de $[AB]$ et $J$ ce
 Déterminer l’image de $A$, de $B$ et de $I$ par la rotation de centre $O$ et d’angle $\dfrac{\pi}{2}$ ; en déduire que $OI=OJ$ et $(OI)\perp(OJ)$.
 :::
 
+:::exercice Approfondissement — triangles équilatéraux sur les côtés
+$ABC$ est un triangle ; on construit à l’extérieur deux triangles équilatéraux $ABD$ et $ACE$ tels que $(\overrightarrow{AD};\overrightarrow{AB})=\dfrac{\pi}{3}$ et $(\overrightarrow{AC};\overrightarrow{AE})=\dfrac{\pi}{3}$. Soit $r$ la rotation de centre $A$ et d’angle $\dfrac{\pi}{3}$.
+1. Déterminer $r(D)$ et $r(C)$.
+2. En déduire que $DC=BE$ et que l’angle entre $(DC)$ et $(BE)$ vaut $\dfrac{\pi}{3}$.
+:::
+
+:::exercice Approfondissement — composée de rotations
+$r_1$ et $r_2$ sont les rotations de même centre $O$ et d’angles $\dfrac{\pi}{3}$ et $\dfrac{\pi}{6}$. Déterminer $r_2\circ r_1$. Quelle est l’image d’un point $M$ par $r_1$ appliquée six fois ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -143,4 +153,13 @@ L’image du centre $O(2;0)$ par la rotation de centre l’origine et d’angle 
 
 :::corrige
 Le carré étant direct, la rotation transforme $A$ en $B$ et $B$ en $C$. Elle conserve les milieux : $r(I)=J$. Donc $OI=OJ$ et $\left(\overrightarrow{OI};\overrightarrow{OJ}\right)=\dfrac\pi2$, d’où $(OI)\perp(OJ)$.
+:::
+
+:::corrige
+1. $AD=AB$ et $(\overrightarrow{AD};\overrightarrow{AB})=\dfrac\pi3$ : $r(D)=B$. $AC=AE$ et $(\overrightarrow{AC};\overrightarrow{AE})=\dfrac\pi3$ : $r(C)=E$.
+2. $r$ transforme $[DC]$ en $[BE]$ : elle conserve les distances, $DC=BE$, et $(\overrightarrow{DC};\overrightarrow{BE})=\dfrac\pi3$.
+:::
+
+:::corrige
+$r_2\circ r_1$ est la rotation de centre $O$ et d’angle $\dfrac\pi3+\dfrac\pi6=\dfrac\pi2$. Six fois $r_1$ : angle $2\pi$, on retrouve $M$.
 :::

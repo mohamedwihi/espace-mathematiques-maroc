@@ -144,6 +144,17 @@ Calculer $I=\displaystyle\int_0^1\frac{x}{x+1}\,dx$ (on écrira $\dfrac{x}{x+1}=
 Calculer $K=\displaystyle\int_0^1x^2e^x\,dx$.
 :::
 
+:::exercice Approfondissement — intégrale et suite
+On pose $J_n=\displaystyle\int_1^e(\ln x)^n\,dx$ pour $n\ge1$.
+1. Calculer $J_1$.
+2. Par intégration par parties, montrer que $J_{n+1}=e-(n+1)J_n$.
+3. En déduire $J_2$ et $J_3$.
+:::
+
+:::exercice Approfondissement — aire entre deux courbes
+Calculer l’aire du domaine limité par les courbes de $f(x)=e^x$ et $g(x)=e^{-x}$ et les droites $x=0$ et $x=\ln2$ (unité $2$ cm).
+:::
+
 # Corrigés
 
 :::corrige
@@ -175,4 +186,14 @@ $V=\pi\displaystyle\int_0^1e^{-2x}dx=\pi\left[-\frac{e^{-2x}}2\right]_0^1=\frac\
 
 :::corrige
 $u=x^2$, $v'=e^x$ : $K=\big[x^2e^x\big]_0^1-2\displaystyle\int_0^1xe^x\,dx=e-2\times1=e-2$ (on a vu que $\displaystyle\int_0^1xe^x\,dx=1$).
+:::
+
+:::corrige
+1. $J_1=\big[x\ln x-x\big]_1^e=0-(-1)=1$.
+2. $u=(\ln x)^{n+1}$, $v'=1$ : $J_{n+1}=\big[x(\ln x)^{n+1}\big]_1^e-(n+1)\displaystyle\int_1^e(\ln x)^ndx=e-(n+1)J_n$.
+3. $J_2=e-2$ ; $J_3=e-3(e-2)=6-2e$.
+:::
+
+:::corrige
+Sur $[0;\ln2]$, $e^x\ge e^{-x}$ : $\mathcal A=\displaystyle\int_0^{\ln2}\left(e^x-e^{-x}\right)dx=\big[e^x+e^{-x}\big]_0^{\ln2}=\left(2+\dfrac12\right)-2=\dfrac12$ u.a. $=\dfrac12\times4=2\ \text{cm}^2$.
 :::

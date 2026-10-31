@@ -149,6 +149,18 @@ $ABC$ est un triangle ; $M$ et $N$ sont définis par $\overrightarrow{AM}=2\over
 2. Les points $B$, $M$ et $N$ sont-ils alignés ?
 :::
 
+:::exercice Approfondissement — concours de droites
+$ABC$ est un triangle. $I$ est le milieu de $[BC]$, $J$ le point tel que $\overrightarrow{AJ}=\dfrac23\overrightarrow{AC}$ et $K$ celui tel que $\overrightarrow{AK}=2\overrightarrow{AB}$.
+1. Exprimer $\overrightarrow{IJ}$ et $\overrightarrow{IK}$ en fonction de $\overrightarrow{AB}$ et $\overrightarrow{AC}$.
+2. En déduire que $I$, $J$, $K$ sont alignés.
+:::
+
+:::exercice Approfondissement — centre de gravité
+$G$ est le point tel que $\overrightarrow{GA}+\overrightarrow{GB}+\overrightarrow{GC}=\vec0$.
+1. Montrer que $\overrightarrow{AG}=\dfrac13\left(\overrightarrow{AB}+\overrightarrow{AC}\right)$.
+2. En déduire que $G$ est sur la médiane issue de $A$, aux deux tiers à partir de $A$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -182,4 +194,14 @@ $\overrightarrow{GB}+\overrightarrow{GC}=2\overrightarrow{GI}$. Or $\overrightar
 :::corrige
 1. $\overrightarrow{BM}=\overrightarrow{BA}+\overrightarrow{AM}=\overrightarrow{AB}-\overrightarrow{AC}$ ; $\overrightarrow{BN}=-\dfrac12\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$.
 2. $\overrightarrow{BN}=-\dfrac12\overrightarrow{AB}+\dfrac14\overrightarrow{AC}$ n’est pas un multiple de $\overrightarrow{AB}-\overrightarrow{AC}$ : il faudrait $k=-\dfrac12$ et $-k=\dfrac14$, impossible. Les points ne sont pas alignés.
+:::
+
+:::corrige
+1. $\overrightarrow{AI}=\dfrac12\overrightarrow{AB}+\dfrac12\overrightarrow{AC}$. $\overrightarrow{IJ}=\overrightarrow{AJ}-\overrightarrow{AI}=-\dfrac12\overrightarrow{AB}+\dfrac16\overrightarrow{AC}$ ; $\overrightarrow{IK}=\overrightarrow{AK}-\overrightarrow{AI}=\dfrac32\overrightarrow{AB}-\dfrac12\overrightarrow{AC}$.
+2. $\overrightarrow{IK}=-3\overrightarrow{IJ}$ : les vecteurs sont colinéaires, les points sont alignés.
+:::
+
+:::corrige
+1. $\overrightarrow{GA}+\left(\overrightarrow{GA}+\overrightarrow{AB}\right)+\left(\overrightarrow{GA}+\overrightarrow{AC}\right)=\vec0$, donc $3\overrightarrow{AG}=\overrightarrow{AB}+\overrightarrow{AC}$.
+2. Avec $A'$ milieu de $[BC]$ : $\overrightarrow{AB}+\overrightarrow{AC}=2\overrightarrow{AA'}$, donc $\overrightarrow{AG}=\dfrac23\overrightarrow{AA'}$.
 :::

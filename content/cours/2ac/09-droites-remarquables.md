@@ -133,6 +133,19 @@ $ABC$ est isocèle en $A$ avec $\widehat{BAC}=40°$ ; $I$ est le milieu de $[BC]
 2. Que représente $(AI)$ pour $[BC]$ ?
 :::
 
+:::exercice Approfondissement — orthocentre et parallèles
+$ABC$ est un triangle, $H$ son orthocentre. On mène par $A$ la parallèle à $(BC)$, par $B$ la parallèle à $(AC)$ et par $C$ la parallèle à $(AB)$ ; elles forment un triangle $A'B'C'$.
+1. Montrer que $A$ est le milieu de $[B'C']$ (utiliser des parallélogrammes).
+2. En déduire que les hauteurs de $ABC$ sont les médiatrices de $A'B'C'$, et que $H$ est le centre du cercle circonscrit à $A'B'C'$.
+:::
+
+:::exercice Approfondissement — centre de gravité et aires
+$G$ est le centre de gravité du triangle $ABC$ et $A'$ le milieu de $[BC]$. L’aire de $ABC$ est $36\ \text{cm}^2$.
+1. Calculer l’aire de $ABA'$.
+2. Calculer l’aire de $GBA'$ (on utilisera $GA'=\dfrac13AA'$).
+3. En déduire l’aire de $GBC$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -158,4 +171,15 @@ $ABC$ est isocèle en $A$ avec $\widehat{BAC}=40°$ ; $I$ est le milieu de $[BC]
 :::corrige
 1. Dans un triangle isocèle en $A$, la médiane issue de $A$ est aussi bissectrice : $\widehat{BAI}=20°$.
 2. C’est aussi la médiatrice de $[BC]$ (et la hauteur issue de $A$).
+:::
+
+:::corrige
+1. $ABCB'$ et $ACBC'$ sont des parallélogrammes (côtés opposés parallèles), avec $B'$ et $C'$ sur la parallèle à $(BC)$ passant par $A$ : $AB'=BC$ et $AC'=BC$. Donc $A$ est le milieu de $[B'C']$.
+2. La hauteur issue de $A$ est perpendiculaire à $(BC)$, donc à $(B'C')$, en son milieu $A$ : c’est la médiatrice de $[B'C']$. De même pour les autres. Les trois hauteurs de $ABC$ concourent en $H$, qui est donc le point de concours des médiatrices de $A'B'C'$.
+:::
+
+:::corrige
+1. Une médiane partage le triangle en deux triangles de même aire : $18\ \text{cm}^2$.
+2. $GBA'$ et $ABA'$ ont la même hauteur issue de $B$ et des bases $GA'=\dfrac13AA'$ : aire $6\ \text{cm}^2$.
+3. $GBC$ est formé de $GBA'$ et $GA'C$ (même aire) : $12\ \text{cm}^2$.
 :::

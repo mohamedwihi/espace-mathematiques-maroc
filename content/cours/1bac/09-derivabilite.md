@@ -168,6 +168,16 @@ Soit $f(x)=x^3-3x+1$.
 2. Déterminer les points de $(C_f)$ où la tangente est horizontale.
 :::
 
+:::exercice Approfondissement — inégalité par étude de fonction
+Montrer que pour tout $x\ge0$ : $\sin x\le x$, puis $1-\dfrac{x^2}{2}\le\cos x$ (étudier $f(x)=x-\sin x$ puis $g(x)=\cos x-1+\dfrac{x^2}2$).
+:::
+
+:::exercice Approfondissement — problème d’optimisation
+On veut fabriquer une boîte sans couvercle à partir d’un carré de carton de $30$ cm de côté, en découpant un carré de côté $x$ à chaque coin.
+1. Montrer que le volume est $V(x)=x(30-2x)^2$ pour $0<x<15$.
+2. Étudier les variations de $V$ et déterminer $x$ pour lequel le volume est maximal.
+:::
+
 # Corrigés
 
 :::corrige
@@ -206,4 +216,14 @@ La longueur parallèle au mur vaut $\dfrac{200}x$, donc $L(x)=2x+\dfrac{200}{x}$
 :::corrige
 1. $f(2)=3$, $f'(x)=3x^2-3$, $f'(2)=9$ : $y=9(x-2)+3=9x-15$.
 2. $f'(x)=0\iff x=\pm1$ : points $(1;-1)$ et $(-1;3)$.
+:::
+
+:::corrige
+- $f'(x)=1-\cos x\ge0$ : $f$ croissante, $f(x)\ge f(0)=0$.
+- $g'(x)=-\sin x+x\ge0$ (première inégalité) : $g$ croissante, $g(x)\ge g(0)=0$.
+:::
+
+:::corrige
+1. La base est un carré de côté $30-2x$ et la hauteur vaut $x$.
+2. $V'(x)=(30-2x)^2-4x(30-2x)=(30-2x)(30-6x)$, positif sur $]0;5]$, négatif sur $[5;15[$ : maximum $V(5)=5\times400=2\,000\ \text{cm}^3$.
 :::

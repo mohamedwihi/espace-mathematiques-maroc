@@ -119,6 +119,15 @@ Donner le signe puis écrire avec un dénominateur positif : $\dfrac{-4}{-11}$ ;
 Réduire au même dénominateur : $\dfrac{-2}{3}$ et $\dfrac{5}{9}$ ; $\dfrac{7}{10}$ et $\dfrac{-4}{15}$ ; $\dfrac{1}{6}$, $\dfrac{-3}{8}$ et $\dfrac{5}{12}$.
 :::
 
+:::exercice Approfondissement — fraction irréductible et chiffres
+1. Montrer que $\dfrac{n}{n+1}$ est irréductible pour tout entier naturel non nul $n$ (un diviseur commun divise la différence).
+2. Écrire $0{,}1\overline{6}=0{,}1666\ldots$ sous forme de fraction (on pourra calculer $100x-10x$ en posant $x=0{,}1666\ldots$).
+:::
+
+:::exercice Approfondissement — comparer sans calcul
+Comparer, en justifiant : $\dfrac{2025}{2026}$ et $\dfrac{2026}{2027}$ (étudier $1-\dfrac{n}{n+1}$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -143,4 +152,13 @@ $-\dfrac34$ ; $-\dfrac23$ ; $\dfrac58$ ; $\dfrac{3\times2\times7}{3\times7\times
 - $\dfrac{-6}9$ et $\dfrac59$.
 - $\dfrac{21}{30}$ et $\dfrac{-8}{30}$.
 - Dénominateur $24$ : $\dfrac4{24}$, $\dfrac{-9}{24}$ et $\dfrac{10}{24}$.
+:::
+
+:::corrige
+1. Un diviseur commun $d$ de $n$ et $n+1$ divise $(n+1)-n=1$, donc $d=1$.
+2. Soit $x=0{,}1666\ldots$ : $10x=1{,}666\ldots$ et $100x=16{,}666\ldots$, donc $100x-10x=15$, $x=\dfrac{15}{90}=\dfrac16$.
+:::
+
+:::corrige
+$1-\dfrac{2025}{2026}=\dfrac1{2026}$ et $1-\dfrac{2026}{2027}=\dfrac1{2027}$. Comme $\dfrac1{2026}>\dfrac1{2027}$, le premier est plus loin de $1$ : $\dfrac{2025}{2026}<\dfrac{2026}{2027}$.
 :::

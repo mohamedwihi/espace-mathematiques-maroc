@@ -106,6 +106,17 @@ $ABC$ est un triangle. La droite $(L)$ passe par $A$ et est parallèle à $(BC)$
 2. En déduire que $\widehat{BAC}+\widehat{ABC}+\widehat{ACB}=180°$.
 :::
 
+:::exercice Approfondissement — le Z
+$(D)\parallel(D')$ ; $A\in(D)$, $B\in(D')$, et $M$ est un point situé entre les deux droites. On donne $\widehat{xAM}=35°$ et $\widehat{MBy}=50°$, où $[Ax)\subset(D)$ et $[By)\subset(D')$ sont dirigées dans le même sens.
+En traçant par $M$ la parallèle à $(D)$, montrer que $\widehat{AMB}=85°$.
+:::
+
+:::exercice Approfondissement — parallèles ou non ?
+Deux droites $(D_1)$ et $(D_2)$ sont coupées par une sécante. Un angle formé avec $(D_1)$ mesure $3x+10$ et l’angle correspondant formé avec $(D_2)$ mesure $5x-30$ (en degrés).
+1. Pour quelle valeur de $x$ les droites sont-elles parallèles ?
+2. Donner alors la mesure de ces angles.
+:::
+
 # Corrigés
 
 :::corrige
@@ -125,4 +136,13 @@ En $A$ : $48°$, son opposé par le sommet $48°$, et deux angles de $180°-48°
 :::corrige
 1. $(L)\parallel(BC)$, coupées par la sécante $(AB)$ : $\widehat{MAB}$ et $\widehat{ABC}$ sont alternes-internes, donc égaux. De même avec la sécante $(AC)$ : $\widehat{NAC}=\widehat{ACB}$.
 2. $\widehat{MAB}+\widehat{BAC}+\widehat{NAC}=180°$ (angle plat $\widehat{MAN}$), donc $\widehat{ABC}+\widehat{BAC}+\widehat{ACB}=180°$.
+:::
+
+:::corrige
+Soit $(L)$ la parallèle à $(D)$ passant par $M$ ; elle est aussi parallèle à $(D')$. Elle partage $\widehat{AMB}$ en deux angles qui sont alternes-internes avec $\widehat{xAM}$ et $\widehat{MBy}$ : ils mesurent $35°$ et $50°$. Donc $\widehat{AMB}=35°+50°=85°$.
+:::
+
+:::corrige
+1. Il faut des angles correspondants égaux : $3x+10=5x-30\iff x=20$.
+2. Ils mesurent $70°$.
 :::

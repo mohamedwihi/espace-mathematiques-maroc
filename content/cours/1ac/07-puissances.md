@@ -125,6 +125,19 @@ Un cube a une arête de $4$ cm.
 2. Calculer son volume. Que devient le volume si l’on double l’arête ?
 :::
 
+:::exercice Approfondissement — comparer des puissances
+1. Comparer $2^{10}$ et $10^3$.
+2. Calculer $(-1)^{1}+(-1)^{2}+(-1)^{3}+\cdots+(-1)^{2026}$.
+3. Quel est le chiffre des unités de $3^{2026}$ ? (On pourra observer les chiffres des unités de $3^1$, $3^2$, $3^3$, $3^4$, $3^5$…)
+:::
+
+:::exercice Approfondissement — bactéries
+Une population de bactéries double toutes les heures. À midi, il y en a $500$.
+1. Combien y en aura-t-il à $17$ h ? Écrire le résultat avec une puissance de $2$.
+2. Donner l’écriture scientifique de ce nombre.
+3. Combien y en avait-il à $10$ h ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -152,4 +165,16 @@ Un cube a une arête de $4$ cm.
 :::corrige
 1. Une face : $4^2=16\ \text{cm}^2$ ; aire totale : $6\times16=96\ \text{cm}^2$.
 2. $V=4^3=64\ \text{cm}^3$. Avec une arête de $8$ cm : $8^3=512\ \text{cm}^3$, soit $8$ fois plus ($2^3=8$).
+:::
+
+:::corrige
+1. $2^{10}=1\,024>1\,000=10^3$.
+2. Les termes valent alternativement $-1$ et $+1$ ; $2026$ termes forment $1013$ paires de somme nulle : la somme vaut $0$.
+3. Chiffres des unités : $3$, $9$, $7$, $1$, puis le cycle recommence tous les $4$ exposants. $2026=4\times506+2$ : le chiffre des unités est celui de $3^2$, c’est $9$.
+:::
+
+:::corrige
+1. Cinq doublements : $500\times2^5=16\,000$.
+2. $1{,}6\times10^4$.
+3. Deux heures avant : $500\div2^2=125$.
 :::

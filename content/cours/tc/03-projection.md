@@ -107,6 +107,17 @@ Sur une droite $(D)$, les points $A$, $B$, $C$ vérifient $\overrightarrow{AC}=\
 Calculer $A'C'$.
 :::
 
+:::exercice Approfondissement — projection et coordonnées
+Dans le plan, on projette sur l’axe des abscisses parallèlement à la droite $(\Delta):y=2x$.
+1. Déterminer le projeté $M'$ du point $M(3;4)$.
+2. Plus généralement, déterminer le projeté du point $M(x;y)$.
+:::
+
+:::exercice Approfondissement — conservation des rapports
+$ABC$ est un triangle ; $M\in[AB]$ avec $AM=\dfrac14AB$. $N$ est le projeté de $M$ sur $(AC)$ parallèlement à $(BC)$, et $P$ le projeté de $N$ sur $(BC)$ parallèlement à $(AB)$.
+Exprimer $\overrightarrow{AN}$ en fonction de $\overrightarrow{AC}$, puis $\overrightarrow{BP}$ en fonction de $\overrightarrow{BC}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -136,4 +147,13 @@ $\overrightarrow{EF}=\overrightarrow{EA}+\overrightarrow{AF}=-3\overrightarrow{A
 
 :::corrige
 La projection conserve le coefficient de colinéarité : $\overrightarrow{A'C'}=\dfrac35\overrightarrow{A'B'}$, donc $A'C'=\dfrac35\times10=6$ cm.
+:::
+
+:::corrige
+1. La droite passant par $M$ parallèle à $(\Delta)$ : $y-4=2(x-3)$ ; avec $y=0$ : $x=1$. $M'(1;0)$.
+2. $y'=0$ et $0-y=2(x'-x)$, donc $x'=x-\dfrac y2$ : $M'\left(x-\dfrac y2;0\right)$.
+:::
+
+:::corrige
+La projection conserve le coefficient de colinéarité : $\overrightarrow{AN}=\dfrac14\overrightarrow{AC}$. Puis, en projetant $A$, $N$, $C$ sur $(BC)$ parallèlement à $(AB)$ : $A\mapsto B$, $C\mapsto C$, donc $\overrightarrow{BP}=\dfrac14\overrightarrow{BC}$.
 :::

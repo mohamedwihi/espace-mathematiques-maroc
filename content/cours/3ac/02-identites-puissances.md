@@ -216,6 +216,18 @@ Factoriser : $A=9x^2-12x+4$ ; $B=(2x+1)^2-25$ ; $C=x^2-3-(x-\sqrt3)(2x+1)$.
 2. Donner l’écriture scientifique de $G=\dfrac{0{,}6\times10^{5}\times2{,}5\times10^{-3}}{5\times10^{-4}}$.
 :::
 
+:::exercice Approfondissement — identité et calcul mental
+1. Montrer que pour tous réels $a$ et $b$ : $(a+b)^2-(a-b)^2=4ab$.
+2. En déduire, sans calculatrice, $1\,002^2-998^2$.
+3. Montrer que le produit de deux entiers impairs consécutifs augmenté de $1$ est un carré : $(2n-1)(2n+1)+1=(2n)^2$.
+:::
+
+:::exercice Approfondissement — puissances de 10 et ordre de grandeur
+La lumière parcourt environ $3\times10^{5}$ km par seconde. Une année compte environ $3{,}15\times10^{7}$ secondes.
+1. Calculer la distance parcourue par la lumière en un an (une année-lumière), en écriture scientifique.
+2. L’étoile la plus proche du Soleil est à environ $4{,}2$ années-lumière. Exprimer cette distance en km.
+:::
+
 # Corrigés
 
 :::corrige
@@ -267,4 +279,15 @@ $Q=\dfrac{6\times10^{2}}{12\times10^{-2}}=0{,}5\times10^{4}=5\times10^{3}$.
 :::corrige
 1. $6^3=2^3\times3^3$ et $4^3=2^6$ : $F=\dfrac{2^{8}\times3^{1}}{2^{6}\times3^{2}}=\dfrac{2^2}{3}=\dfrac43$.
 2. $G=\dfrac{0{,}6\times2{,}5}{5}\times10^{5-3+4}=0{,}3\times10^{6}=3\times10^{5}$.
+:::
+
+:::corrige
+1. $(a^2+2ab+b^2)-(a^2-2ab+b^2)=4ab$.
+2. Avec $a=1\,000$ et $b=2$ : $4\times1\,000\times2=8\,000$.
+3. $(2n-1)(2n+1)+1=4n^2-1+1=(2n)^2$.
+:::
+
+:::corrige
+1. $3\times10^5\times3{,}15\times10^7=9{,}45\times10^{12}$ km.
+2. $4{,}2\times9{,}45\times10^{12}=39{,}69\times10^{12}\approx3{,}97\times10^{13}$ km.
 :::

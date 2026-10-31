@@ -140,6 +140,19 @@ On pose $u_n=\displaystyle\sum_{k=1}^{n}\dfrac{1}{k^2}$ et $v_n=u_n+\dfrac1n$ po
 Montrer que $(u_n)$ et $(v_n)$ sont adjacentes.
 :::
 
+:::exercice Approfondissement — suite définie par une intégrale
+On pose $I_n=\displaystyle\int_0^1x^ne^{-x}\,dx$ pour $n\in\mathbb N$.
+1. Calculer $I_0$.
+2. Montrer que $0\le I_n\le\dfrac{1}{n+1}$ et en déduire $\lim I_n$.
+3. Par intégration par parties, montrer que $I_{n+1}=(n+1)I_n-\dfrac1e$.
+:::
+
+:::exercice Approfondissement — suite et fonction
+$f(x)=\dfrac{x}{2}+\dfrac{1}{x}$ sur $]0;+\infty[$, $u_0=2$ et $u_{n+1}=f(u_n)$.
+1. Montrer que $u_n\ge\sqrt2$ pour tout $n$ (on étudiera le minimum de $f$).
+2. Montrer que $(u_n)$ est décroissante, puis qu’elle converge vers $\sqrt2$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -169,4 +182,15 @@ Pour $1\le k\le n$, $\sqrt k\le\sqrt n$, donc $\dfrac1{\sqrt k}\ge\dfrac1{\sqrt 
 
 :::corrige
 $u_{n+1}-u_n=\dfrac1{(n+1)^2}>0$ ; $v_{n+1}-v_n=\dfrac1{(n+1)^2}+\dfrac1{n+1}-\dfrac1n=\dfrac{1}{(n+1)^2}-\dfrac{1}{n(n+1)}=\dfrac{n-(n+1)}{n(n+1)^2}<0$ ; et $v_n-u_n=\dfrac1n\to0$ : les suites sont adjacentes.
+:::
+
+:::corrige
+1. $I_0=\big[-e^{-x}\big]_0^1=1-\dfrac1e$.
+2. Sur $[0;1]$ : $0\le x^ne^{-x}\le x^n$, donc $0\le I_n\le\dfrac1{n+1}$ ; par encadrement, $I_n\to0$.
+3. $u=x^{n+1}$, $v'=e^{-x}$ : $I_{n+1}=\big[-x^{n+1}e^{-x}\big]_0^1+(n+1)\displaystyle\int_0^1x^ne^{-x}dx=-\dfrac1e+(n+1)I_n$.
+:::
+
+:::corrige
+1. $f'(x)=\dfrac12-\dfrac1{x^2}$ s’annule en $\sqrt2$ : minimum $f\left(\sqrt2\right)=\sqrt2$. Donc $f(x)\ge\sqrt2$ pour tout $x>0$, et $u_{n+1}\ge\sqrt2$ ($u_0=2\ge\sqrt2$).
+2. $u_{n+1}-u_n=\dfrac1{u_n}-\dfrac{u_n}2=\dfrac{2-u_n^2}{2u_n}\le0$. Décroissante et minorée, elle converge vers $\ell\ge\sqrt2$ avec $\ell=\dfrac\ell2+\dfrac1\ell$, soit $\ell^2=2$, $\ell=\sqrt2$.
 :::

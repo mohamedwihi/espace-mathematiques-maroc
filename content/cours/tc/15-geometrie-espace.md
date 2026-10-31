@@ -157,6 +157,18 @@ $SABCD$ est une pyramide de base le parallélogramme $ABCD$.
 Déterminer l’intersection des plans $(SAB)$ et $(SCD)$ (on remarquera que $(AB)\parallel(CD)$).
 :::
 
+:::exercice Approfondissement — section d’un tétraèdre
+$ABCD$ est un tétraèdre ; $I$ est le milieu de $[AB]$, $J$ celui de $[AC]$ et $K$ un point de $[AD]$.
+1. Montrer que $(IJ)\parallel(BC)$, puis que $(IJ)$ est parallèle au plan $(BCD)$.
+2. On suppose que $K$ est le milieu de $[AD]$. Déterminer l’intersection des plans $(IJK)$ et $(BCD)$.
+:::
+
+:::exercice Approfondissement — volume d’une pyramide tronquée
+Une pyramide régulière à base carrée de côté $10$ cm et de hauteur $15$ cm est coupée par un plan parallèle à la base, à $9$ cm de la base.
+1. Calculer le coefficient de réduction et le côté de la petite base.
+2. Calculer le volume du tronc de pyramide obtenu.
+:::
+
 # Corrigés
 
 :::corrige
@@ -190,4 +202,14 @@ $V=\dfrac13\times36\times4=48\ \text{cm}^3$. La hauteur d’une face latérale r
 
 :::corrige
 $S$ est commun aux deux plans. $(AB)\subset(SAB)$ et $(CD)\subset(SCD)$ sont parallèles : d’après le théorème du toit, l’intersection est la droite passant par $S$ et parallèle à $(AB)$.
+:::
+
+:::corrige
+1. Droite des milieux dans $ABC$ : $(IJ)\parallel(BC)$ ; $(BC)\subset(BCD)$, donc $(IJ)\parallel(BCD)$.
+2. Si $K$ est le milieu de $[AD]$, $(IK)\parallel(BD)$ et $(JK)\parallel(CD)$ : le plan $(IJK)$ est parallèle au plan $(BCD)$, ils n’ont aucun point commun.
+:::
+
+:::corrige
+1. La petite pyramide a pour hauteur $15-9=6$ cm : $k=\dfrac6{15}=\dfrac25$ ; côté $4$ cm.
+2. $V=\dfrac{100\times15}3=500\ \text{cm}^3$ ; petite pyramide : $k^3V=\dfrac8{125}\times500=32\ \text{cm}^3$ ; tronc : $468\ \text{cm}^3$.
 :::

@@ -153,6 +153,17 @@ Soit $f(x)=xe^{-x}$ sur $\mathbb R$.
 3. Déterminer l’équation de la tangente en $0$.
 :::
 
+:::exercice Approfondissement — problème type bac
+Soit $f(x)=(x+1)e^{-x}+x$ sur $\mathbb R$.
+1. Calculer $\lim\limits_{+\infty}f$ et montrer que $(D):y=x$ est asymptote en $+\infty$ ; étudier la position relative.
+2. Calculer $\lim\limits_{-\infty}f$ et $\lim\limits_{-\infty}\dfrac{f(x)}{x}$ ; interpréter.
+3. Montrer que $f'(x)=1-xe^{-x}$, puis que $e^x\ge x$ pour tout $x$ ; en déduire que $f$ est croissante.
+:::
+
+:::exercice Approfondissement — équation avec paramètre
+Discuter, selon le réel $m$, le nombre de solutions de l’équation $e^{x}-x=m$ (étudier $h(x)=e^x-x$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -190,4 +201,14 @@ $+\infty$ ($\dfrac{e^x}{x^2}\to+\infty$) ; $0$ ; $\dfrac{1-xe^{-x}}{1+e^{-x}}\to
 1. $\lim\limits_{-\infty}f=-\infty$ ; $\lim\limits_{+\infty}\dfrac{x}{e^x}=0$.
 2. $f'(x)=(1-x)e^{-x}$ : croissante sur $]-\infty;1]$, décroissante sur $[1;+\infty[$, maximum $f(1)=\dfrac1e$.
 3. $f(0)=0$, $f'(0)=1$ : $y=x$.
+:::
+
+:::corrige
+1. $(x+1)e^{-x}\to0$ : $f\to+\infty$ et $f(x)-x\to0$. $f(x)-x=(x+1)e^{-x}$ : courbe au-dessus de $(D)$ pour $x>-1$, en dessous pour $x<-1$.
+2. $(x+1)e^{-x}\to-\infty$ donc $f\to-\infty$ ; $\dfrac{f(x)}x=\left(1+\dfrac1x\right)e^{-x}+1\to+\infty$ : branche parabolique de direction $(Oy)$.
+3. $f'(x)=e^{-x}-(x+1)e^{-x}+1=1-xe^{-x}=e^{-x}\left(e^x-x\right)$. Or $e^x\ge x+1>x$ : $f'>0$, $f$ croissante.
+:::
+
+:::corrige
+$h'(x)=e^x-1$ : $h$ décroît sur $]-\infty;0]$, croît sur $[0;+\infty[$, minimum $h(0)=1$, et $h\to+\infty$ aux deux bornes. Si $m<1$ : aucune solution ; $m=1$ : une solution ($x=0$) ; $m>1$ : deux solutions.
 :::

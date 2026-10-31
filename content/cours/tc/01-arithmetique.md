@@ -191,6 +191,17 @@ On note $\overline{xy}=10x+y$ un entier de deux chiffres ($x$ chiffre des dizain
 2. Montrer que $\overline{xy}-\overline{yx}$ est divisible par $9$ (lorsque $x\ge y$).
 :::
 
+:::exercice Approfondissement — nombres premiers et divisibilité
+1. Montrer que pour tout entier naturel $n$, $n(n+1)(n+2)$ est divisible par $6$.
+2. Montrer que si $p$ est un nombre premier supérieur ou égal à $5$, alors $p^2-1$ est divisible par $24$ (écrire $p^2-1=(p-1)(p+1)$ et raisonner sur les multiples de $2$, $4$ et $3$).
+:::
+
+:::exercice Approfondissement — PGCD et problème
+Un fleuriste dispose de $264$ roses et $198$ tulipes. Il veut composer le plus grand nombre de bouquets identiques en utilisant toutes les fleurs.
+1. Combien de bouquets peut-il faire ?
+2. Quelle est la composition de chaque bouquet ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -232,4 +243,14 @@ $18=2\times3^2$ et $24=2^3\times3$, donc $\mathrm{PPCM}(18;24)=2^3\times3^2=72$.
 :::corrige
 1. $\overline{xy}+\overline{yx}=10x+y+10y+x=11(x+y)$.
 2. $\overline{xy}-\overline{yx}=9x-9y=9(x-y)$.
+:::
+
+:::corrige
+1. Parmi trois entiers consécutifs, l’un est pair et l’un est multiple de $3$ : le produit est divisible par $2$ et par $3$, donc par $6$.
+2. $p$ est impair : $p-1$ et $p+1$ sont deux pairs consécutifs, l’un est multiple de $4$ : le produit est divisible par $8$. $p$ n’est pas multiple de $3$, donc l’un de $p-1$, $p+1$ l’est. Comme $8$ et $3$ sont premiers entre eux, $24$ divise $p^2-1$.
+:::
+
+:::corrige
+1. $264=2^3\times3\times11$ et $198=2\times3^2\times11$ : $\text{PGCD}=2\times3\times11=66$ bouquets.
+2. $264\div66=4$ roses et $198\div66=3$ tulipes par bouquet.
 :::

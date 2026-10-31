@@ -115,6 +115,19 @@ Calculer : $C=5-3\times(-4)$ ; $D=(-6)\times(-2)-15\div(-3)$ ; $E=\dfrac{-8+2}{-
 Compléter : $(-7)\times\ldots=21$ ; $\ldots\times(-0{,}5)=-4$ ; $\ldots\div(-3)=6$ ; $(-45)\div\ldots=9$.
 :::
 
+:::exercice Approfondissement — signe sans calcul
+Sans calculer, donner le signe de :
+1. $A=(-1)\times(-2)\times(-3)\times\cdots\times(-10)$ ;
+2. $B=(-2{,}5)\times(+4)\times(-0{,}1)\times(-8)\times(-3)$ ;
+3. $C=\dfrac{(-6)\times(-7)}{(-3)\times2}$.
+Puis calculer $B$ et $C$.
+:::
+
+:::exercice Approfondissement — trouver les nombres
+1. Le produit de deux nombres relatifs est $-36$ et leur somme est $0$. Quels sont ces nombres ?
+2. Le produit de deux nombres entiers relatifs est $12$ et leur somme est $-7$. Quels sont-ils ?
+:::
+
 # Corrigés
 
 :::corrige
@@ -139,4 +152,15 @@ $-42$ ; $+10$ ; $-6$ ; $-90$ ; $+13$.
 
 :::corrige
 $(-7)\times(-3)=21$ ; $8\times(-0{,}5)=-4$ ; $(-18)\div(-3)=6$ ; $(-45)\div(-5)=9$.
+:::
+
+:::corrige
+1. Dix facteurs négatifs (nombre pair) : $A$ est positif.
+2. Quatre facteurs négatifs : $B$ est positif ; $B=2{,}5\times4\times0{,}1\times8\times3=24$.
+3. Numérateur positif, dénominateur négatif : $C$ est négatif ; $C=\dfrac{42}{-6}=-7$.
+:::
+
+:::corrige
+1. Somme nulle : les nombres sont opposés, $a\times(-a)=-36$, donc $a^2=36$ : $6$ et $-6$.
+2. Produit positif et somme négative : les deux sont négatifs ; $-3$ et $-4$ (car $(-3)\times(-4)=12$ et $-3-4=-7$).
 :::

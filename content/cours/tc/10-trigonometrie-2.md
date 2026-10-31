@@ -125,6 +125,14 @@ Résoudre dans $\mathbb R$ : $\cos x=\dfrac12$ ; $\sin x=-\dfrac{\sqrt2}{2}$ ; $
 Montrer que pour tout réel $x$ : $\left(\cos x+\sin x\right)^2-\left(\cos x-\sin x\right)^2=4\sin x\cos x$, et que $\cos^4x-\sin^4x=\cos^2x-\sin^2x$.
 :::
 
+:::exercice Approfondissement — équation du second degré en cosinus
+Résoudre dans $]-\pi;\pi]$ l’équation $2\cos^2x-3\cos x+1=0$, puis représenter les solutions sur le cercle trigonométrique.
+:::
+
+:::exercice Approfondissement — inéquation trigonométrique
+Résoudre dans $[0;2\pi]$ : $2\sin x-\sqrt3\ge0$, puis $\cos x<\dfrac12$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -164,4 +172,13 @@ Avec $X=\cos x$ : $2X^2-X-1=0$, $\Delta=9$, $X=1$ ou $X=-\dfrac12$. $\cos x=1$ d
 :::corrige
 - Avec $a^2-b^2=(a-b)(a+b)$ : $(2\sin x)(2\cos x)=4\sin x\cos x$.
 - $\cos^4x-\sin^4x=\left(\cos^2x-\sin^2x\right)\left(\cos^2x+\sin^2x\right)=\cos^2x-\sin^2x$.
+:::
+
+:::corrige
+$X=\cos x$ : $2X^2-3X+1=(2X-1)(X-1)=0$, donc $\cos x=1$ ou $\cos x=\dfrac12$ : $S=\left\{-\dfrac\pi3;0;\dfrac\pi3\right\}$.
+:::
+
+:::corrige
+- $\sin x\ge\dfrac{\sqrt3}2$ : $x\in\left[\dfrac\pi3;\dfrac{2\pi}3\right]$.
+- $\cos x<\dfrac12$ : $x\in\left]\dfrac\pi3;\dfrac{5\pi}3\right[$.
 :::

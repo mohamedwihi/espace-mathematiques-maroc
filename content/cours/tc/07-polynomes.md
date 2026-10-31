@@ -138,6 +138,16 @@ Soit $P(x)=x^3-2x^2-5x+6$.
 Soit $P(x)=2x^3+ax^2-x+b$. Déterminer $a$ et $b$ pour que $P$ soit divisible par $x-1$ et par $x+2$.
 :::
 
+:::exercice Approfondissement — polynôme de degré 4
+Soit $P(x)=x^4-5x^2+4$.
+1. En posant $X=x^2$, factoriser $P(x)$ en produit de quatre facteurs du premier degré.
+2. Résoudre l’inéquation $P(x)<0$ à l’aide d’un tableau de signes.
+:::
+
+:::exercice Approfondissement — reste d’une division
+Déterminer le reste de la division euclidienne de $P(x)=x^{5}-3x^{3}+2x+1$ par $(x-1)$, puis par $(x+1)$, sans effectuer la division.
+:::
+
 # Corrigés
 
 :::corrige
@@ -170,4 +180,13 @@ $P(-2)=-8+4m+2-2=4m-8=0$, donc $m=2$. $P(x)=x^3+2x^2-x-2=x^2(x+2)-(x+2)=(x+2)(x-
 
 :::corrige
 $P(1)=2+a-1+b=0$ et $P(-2)=-16+4a+2+b=0$, soit $a+b=-1$ et $4a+b=14$. Par soustraction : $3a=15$, $a=5$ et $b=-6$.
+:::
+
+:::corrige
+1. $X^2-5X+4=(X-1)(X-4)$, donc $P(x)=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$.
+2. Les racines rangées : $-2<-1<1<2$ ; le signe alterne à partir de $+$ : $P(x)<0$ sur $]-2;-1[\cup]1;2[$.
+:::
+
+:::corrige
+Le reste de la division par $(x-a)$ est $P(a)$ : $P(1)=1-3+2+1=1$ et $P(-1)=-1+3-2+1=1$.
 :::

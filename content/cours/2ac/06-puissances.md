@@ -113,6 +113,15 @@ Simplifier : $C=\dfrac{3^5\times2^4}{6^3}$ ; $D=\dfrac{(-2)^3\times10^{-2}}{4\ti
 Donner l’écriture scientifique de : $45\,600\,000$ ; $0{,}000\,203$ ; $72\times10^{-5}$ ; $0{,}6\times10^{8}$ ; $\dfrac{3\times10^{4}\times8\times10^{-6}}{4\times10^{-3}}$.
 :::
 
+:::exercice Approfondissement — simplifier une grande expression
+Simplifier $A=\dfrac{2^{12}\times3^{5}\times10^{-3}}{6^{4}\times4^{3}\times5^{-3}}$.
+:::
+
+:::exercice Approfondissement — comparer des puissances
+1. Comparer $2^{30}$ et $3^{20}$ (écrire $2^{30}=\left(2^3\right)^{10}$).
+2. Comparer $5^{40}$ et $4^{50}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -135,4 +144,13 @@ $7^{-2}$ ; $(-3)^3$ ; $5^{-6}$ ; $10^6$ ; $3^5$ ; $a^{3-5+4}=a^2$.
 
 :::corrige
 $4{,}56\times10^7$ ; $2{,}03\times10^{-4}$ ; $7{,}2\times10^{-4}$ ; $6\times10^7$ ; $\dfrac{24}{4}\times10^{4-6+3}=6\times10^1$.
+:::
+
+:::corrige
+$10^{-3}=2^{-3}\times5^{-3}$, $6^4=2^4\times3^4$, $4^3=2^6$. Donc $A=\dfrac{2^{12-3}\times3^5\times5^{-3}}{2^{4+6}\times3^4\times5^{-3}}=2^{9-10}\times3=\dfrac32$.
+:::
+
+:::corrige
+1. $2^{30}=8^{10}$ et $3^{20}=9^{10}$ : $2^{30}<3^{20}$.
+2. $5^{40}=\left(5^4\right)^{10}=625^{10}$ et $4^{50}=\left(4^5\right)^{10}=1024^{10}$ : $5^{40}<4^{50}$.
 :::

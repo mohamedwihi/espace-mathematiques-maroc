@@ -147,6 +147,17 @@ $(D)$ et $(D')$ sont deux droites parallèles ; $S$ et $S'$ sont les symétries 
 Montrer que $\overrightarrow{MM_2}=2\overrightarrow{HH'}$, où $H$ et $H'$ sont les projetés orthogonaux de $M$ sur $(D)$ et $(D')$ (on raisonnera sur une droite perpendiculaire aux axes).
 :::
 
+:::exercice Approfondissement — homothétie et alignement
+Deux cercles $(\mathcal C)$ et $(\mathcal C')$ de centres $O$ et $O'$ et de rayons $2$ et $6$ sont tangents extérieurement en $T$.
+1. Déterminer l’homothétie de centre $T$ qui transforme $(\mathcal C)$ en $(\mathcal C')$ (rapport négatif).
+2. Une droite passant par $T$ recoupe $(\mathcal C)$ en $M$ et $(\mathcal C')$ en $M'$. Montrer que $(OM)\parallel(O'M')$.
+:::
+
+:::exercice Approfondissement — composée d’homothéties
+$h_1$ est l’homothétie de centre $A$ et de rapport $2$, $h_2$ celle de centre $B$ et de rapport $\dfrac12$.
+Pour un point $M$, on pose $M_1=h_1(M)$ et $M_2=h_2(M_1)$. Exprimer $\overrightarrow{MM_2}$ en fonction de $\overrightarrow{AB}$ et en déduire la nature de la transformation $h_2\circ h_1$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -178,4 +189,13 @@ Les aires sont multipliées par $k^2=9$ : $6\times9=54\ \text{cm}^2$.
 
 :::corrige
 $M$, $M_1$, $M_2$, $H$, $H'$ sont sur la perpendiculaire aux axes passant par $M$. $H$ est le milieu de $[MM_1]$ et $H'$ celui de $[M_1M_2]$ : $\overrightarrow{MM_2}=\overrightarrow{MM_1}+\overrightarrow{M_1M_2}=2\overrightarrow{HM_1}+2\overrightarrow{M_1H'}=2\overrightarrow{HH'}$. La composée est une translation.
+:::
+
+:::corrige
+1. $T$, $O$, $O'$ sont alignés et $T$ est entre $O$ et $O'$ : l’homothétie de centre $T$ et de rapport $-\dfrac{6}{2}=-3$ transforme $O$ en $O'$ et $(\mathcal C)$ en $(\mathcal C')$.
+2. Elle transforme $M\in(\mathcal C)\cap(TM)$ en $M'$, donc $[OM]$ en $[O'M']$ : $\overrightarrow{O'M'}=-3\overrightarrow{OM}$, les droites sont parallèles.
+:::
+
+:::corrige
+$\overrightarrow{AM_1}=2\overrightarrow{AM}$ et $\overrightarrow{BM_2}=\dfrac12\overrightarrow{BM_1}$. Alors $\overrightarrow{MM_2}=\overrightarrow{MB}+\dfrac12\overrightarrow{BM_1}=\overrightarrow{MB}+\dfrac12\left(\overrightarrow{BA}+2\overrightarrow{AM}\right)=\overrightarrow{MB}+\dfrac12\overrightarrow{BA}+\overrightarrow{AM}=\overrightarrow{AB}+\dfrac12\overrightarrow{BA}=\dfrac12\overrightarrow{AB}$. La composée est la translation de vecteur $\dfrac12\overrightarrow{AB}$.
 :::

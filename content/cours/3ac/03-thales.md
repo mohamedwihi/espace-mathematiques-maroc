@@ -133,6 +133,16 @@ $E$, $F$, $G$ sont alignés dans cet ordre, ainsi que $E$, $H$, $K$. On donne $E
 Montrer que $(FH)\parallel(GK)$.
 :::
 
+:::exercice Approfondissement — hauteur d’un arbre
+Pour mesurer la hauteur d’un arbre, Karim place un bâton vertical de $1{,}5$ m à $12$ m du pied de l’arbre. En s’alignant, il constate que l’ombre du sommet du bâton et celle du sommet de l’arbre arrivent au même point $S$ du sol, situé à $2$ m du bâton (le bâton est entre $S$ et l’arbre).
+Calculer la hauteur de l’arbre.
+:::
+
+:::exercice Approfondissement — Thalès et calcul littéral
+Dans un triangle $ABC$, $M\in[AB]$ et $N\in[AC]$ avec $(MN)\parallel(BC)$. On donne $AM=x$, $MB=4$, $AN=5$ et $NC=x+1$ (en cm).
+Déterminer $x$ puis les longueurs $AB$ et $AC$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -173,4 +183,12 @@ D’après le théorème de Thalès : $\dfrac{OA}{OC}=\dfrac{OB}{OD}=\dfrac{AB}{
 
 :::corrige
 $\dfrac{EF}{EG}=\dfrac4{10}=0{,}4$ et $\dfrac{EH}{EK}=\dfrac6{15}=0{,}4$. Les rapports sont égaux et les points sont alignés dans le même ordre : d’après la réciproque du théorème de Thalès, $(FH)\parallel(GK)$.
+:::
+
+:::corrige
+Le bâton et l’arbre sont parallèles (verticaux). D’après Thalès : $\dfrac{1{,}5}{h}=\dfrac{2}{2+12}$, donc $h=\dfrac{1{,}5\times14}{2}=10{,}5$ m.
+:::
+
+:::corrige
+$\dfrac{AM}{AB}=\dfrac{AN}{AC}$ équivaut à $\dfrac{AM}{MB}=\dfrac{AN}{NC}$ : $\dfrac x4=\dfrac{5}{x+1}$, soit $x(x+1)=20$, c’est-à-dire $x^2+x-20=(x-4)(x+5)=0$. Comme $x>0$ : $x=4$, puis $AB=8$ cm et $AC=10$ cm.
 :::

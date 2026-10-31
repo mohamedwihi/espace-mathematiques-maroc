@@ -148,6 +148,17 @@ Dans un repère orthonormé, on donne $A(-1;2)$, $B(3;4)$ et $C(1;-2)$.
 On donne $E(2;1)$, $F(5;2)$ et $G(4;5)$. Déterminer les coordonnées du point $H$ tel que $EFGH$ soit un parallélogramme, puis celles de son centre.
 :::
 
+:::exercice Approfondissement — cercle circonscrit
+On donne $A(1;1)$, $B(7;1)$ et $C(1;9)$.
+1. Montrer que $ABC$ est rectangle en $A$.
+2. Déterminer le centre $\Omega$ et le rayon du cercle circonscrit à $ABC$.
+3. Le point $D(7;9)$ appartient-il à ce cercle ?
+:::
+
+:::exercice Approfondissement — point équidistant
+On donne $A(2;3)$ et $B(6;1)$. Déterminer le point $M$ de l’axe des abscisses tel que $MA=MB$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -180,4 +191,14 @@ $r=\Omega M=\sqrt{3^2+4^2}=5$. $\Omega N=\sqrt{(-3)^2+(-4)^2}=5$ : oui, $N$ est 
 
 :::corrige
 $\overrightarrow{EF}=\overrightarrow{HG}$ : $(3;1)=(4-x_H;5-y_H)$, donc $H(1;4)$. Le centre est le milieu de $[EG]$ : $\left(3;3\right)$.
+:::
+
+:::corrige
+1. $AB=6$, $AC=8$, $BC=\sqrt{36+64}=10$ et $36+64=100$ : rectangle en $A$.
+2. Le centre est le milieu de l’hypoténuse : $\Omega(4;5)$, rayon $5$.
+3. $\Omega D=\sqrt{9+16}=5$ : oui.
+:::
+
+:::corrige
+$M(x;0)$ : $(x-2)^2+9=(x-6)^2+1\iff-4x+13=-12x+37\iff8x=24\iff x=3$. $M(3;0)$.
 :::
