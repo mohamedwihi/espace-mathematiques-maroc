@@ -175,6 +175,24 @@ On donne $(P):2x-y+2z-6=0$ et $B(1;1;1)$.
 2. Déterminer le projeté orthogonal $H$ de $B$ sur $(P)$ et vérifier que $BH=d(B,(P))$.
 :::
 
+:::exercice Série d’entraînement — produit scalaire et orthogonalité
+On donne $\vec u(1;-2;2)$ et $\vec v(2;3;m)$.
+1. Calculer $\lVert\vec u\rVert$.
+2. Déterminer $m$ pour que $\vec u\perp\vec v$.
+3. Calculer $\vec u\wedge\vec w$ avec $\vec w(0;1;1)$.
+:::
+
+:::exercice Série d’entraînement — plans
+1. Équation du plan passant par $A(1;2;-1)$ de vecteur normal $\vec n(2;-1;3)$.
+2. Distance du point $B(3;0;1)$ à ce plan.
+3. Équation du plan passant par $A(1;0;0)$, $B(0;2;0)$, $C(0;0;3)$.
+:::
+
+:::exercice Série d’entraînement — sphères
+1. Déterminer le centre et le rayon de la sphère $x^2+y^2+z^2+4x-2y-4=0$.
+2. Écrire l’équation de la sphère de diamètre $[AB]$ avec $A(1;0;2)$ et $B(3;2;0)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -216,4 +234,21 @@ $\overrightarrow{AB}(2;-1;2)$, $\overrightarrow{AC}(1;2;0)$ : $\overrightarrow{A
 :::corrige
 1. $x=1+2t$, $y=1-t$, $z=1+2t$.
 2. $2(1+2t)-(1-t)+2(1+2t)-6=0\iff9t-3=0\iff t=\dfrac13$ : $H\left(\dfrac53;\dfrac23;\dfrac53\right)$. $BH=\dfrac13\sqrt{4+1+4}=1$ et $d(B,(P))=\dfrac{\lvert2-1+2-6\rvert}{3}=1$.
+:::
+
+:::corrige
+1. $\lVert\vec u\rVert=\sqrt{1+4+4}=3$.
+2. $2-6+2m=0$, $m=2$.
+3. $\vec u\wedge\vec w=\left((-2)(1)-2(1);\ 2(0)-1(1);\ 1(1)-(-2)(0)\right)=(-4;-1;1)$.
+:::
+
+:::corrige
+1. $2(x-1)-(y-2)+3(z+1)=0$, soit $2x-y+3z+3=0$.
+2. $d=\dfrac{\lvert6-0+3+3\rvert}{\sqrt{14}}=\dfrac{12}{\sqrt{14}}$.
+3. $\dfrac x1+\dfrac y2+\dfrac z3=1$, soit $6x+3y+2z-6=0$.
+:::
+
+:::corrige
+1. $(x+2)^2+(y-1)^2+z^2=9$ : centre $(-2;1;0)$, rayon $3$.
+2. Centre $I(2;1;1)$, rayon $\dfrac{AB}2=\dfrac{\sqrt{4+4+4}}2=\sqrt3$ : $(x-2)^2+(y-1)^2+(z-1)^2=3$.
 :::

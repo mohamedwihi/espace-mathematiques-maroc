@@ -81,7 +81,7 @@ export default function ExamPage() {
                   <a href={pdf} download className="btn-primary btn-sm"><Download className="h-4 w-4" aria-hidden="true" />{t.exams.downloadPdf}</a>
                 </>
               )}
-              {correctionPdf && <a href={correctionPdf} download className="btn-secondary btn-sm"><Download className="h-4 w-4" aria-hidden="true" />{t.exams.correctionPdf}</a>}
+              {correctionPdf && <a href={correctionPdf} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-sm"><FileText className="h-4 w-4" aria-hidden="true" />{t.exams.correctionPdf}</a>}
             </div>
             {pdf && <object data={pdf} type="application/pdf" className="h-[70vh] w-full rounded-xl border border-ink-100" aria-label={L(exam.title)}><p className="p-4 text-sm">{t.exams.viewPdf}: <a className="text-brand-700 underline" href={pdf}>{pdf}</a></p></object>}
           </section>

@@ -150,6 +150,18 @@ Une tension $u$ vérifie $u''+100u=0$ avec $u(0)=2$ et $u'(0)=0$.
 2. Calculer la période des oscillations et la valeur maximale de $u$.
 :::
 
+:::exercice Série d’entraînement — premier ordre
+Résoudre : $y'=-4y$ ; $3y'-y=0$ ; $y'=2y-6$ ; $y'+y=1$ avec $y(0)=3$.
+:::
+
+:::exercice Série d’entraînement — second ordre
+Résoudre : $y''-5y'+6y=0$ ; $y''+2y'+y=0$ ; $y''+16y=0$ ; $y''-2y'+2y=0$.
+:::
+
+:::exercice Série d’entraînement — conditions initiales
+Déterminer la solution de $y''+y'-2y=0$ vérifiant $y(0)=3$ et $y'(0)=0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -195,4 +207,16 @@ $r^2-4r+4=(r-2)^2$ : $y=(\alpha x+\beta)e^{2x}$. $y(0)=\beta=1$ ; $y'(x)=\left(\
 :::corrige
 1. $r=\pm10i$ : $u=\alpha\cos10t+\beta\sin10t$ ; $u(0)=\alpha=2$, $u'(0)=10\beta=0$ : $u(t)=2\cos10t$.
 2. Période $T=\dfrac{2\pi}{10}=\dfrac\pi5\approx0{,}63$ s ; amplitude $2$.
+:::
+
+:::corrige
+$y=Ce^{-4x}$ ; $y=Ce^{\frac x3}$ ; $y=Ce^{2x}+3$ ; $y=Ce^{-x}+1$ et $y(0)=C+1=3$ : $y=2e^{-x}+1$.
+:::
+
+:::corrige
+$r\in\{2;3\}$ : $\alpha e^{2x}+\beta e^{3x}$ ; $r=-1$ double : $(\alpha x+\beta)e^{-x}$ ; $r=\pm4i$ : $\alpha\cos4x+\beta\sin4x$ ; $r=1\pm i$ : $e^x(\alpha\cos x+\beta\sin x)$.
+:::
+
+:::corrige
+$r^2+r-2=(r-1)(r+2)$ : $y=\alpha e^x+\beta e^{-2x}$. $\alpha+\beta=3$ et $\alpha-2\beta=0$ : $\beta=1$, $\alpha=2$, donc $y=2e^x+e^{-2x}$.
 :::

@@ -200,6 +200,31 @@ Soit $f(x)=\dfrac{2x}{\sqrt{x^2+1}}$ sur $\mathbb R$.
 2. Déterminer l’expression de $f^{-1}(y)$ pour $y\in]-2;2[$.
 :::
 
+:::exercice Série d’entraînement — limites usuelles
+Calculer :
+1. $\lim\limits_{x\to+\infty}\left(2x^3-5x^2+1\right)$ ; $\lim\limits_{x\to-\infty}\dfrac{3x^2-x}{1-2x^2}$ ; $\lim\limits_{x\to-\infty}\dfrac{x+1}{x^2+3}$.
+2. $\lim\limits_{x\to3}\dfrac{x^2-9}{x-3}$ ; $\lim\limits_{x\to1^+}\dfrac{2x}{x-1}$ ; $\lim\limits_{x\to1^-}\dfrac{2x}{x-1}$.
+3. $\lim\limits_{x\to+\infty}\left(\sqrt{x+1}-\sqrt x\right)$ ; $\lim\limits_{x\to0}\dfrac{\sin5x}{2x}$ ; $\lim\limits_{x\to0}\dfrac{\tan x}{x}$.
+:::
+
+:::exercice Série d’entraînement — continuité par morceaux
+Soit $f(x)=x^2+a$ si $x\le1$ et $f(x)=\dfrac{\sqrt{x+8}-3}{x-1}$ si $x>1$. Déterminer $a$ pour que $f$ soit continue en $1$.
+:::
+
+:::exercice Série d’entraînement — image d’un intervalle
+Soit $f(x)=\dfrac{2x-1}{x+1}$ sur $[0;+\infty[$. Montrer que $f$ est strictement croissante et déterminer $f([0;2])$ et $f([0;+\infty[)$.
+:::
+
+:::exercice Série d’entraînement — racine n-ième
+1. Simplifier : $A=\sqrt[3]{8}\times\sqrt[4]{16}$ ; $B=\dfrac{\sqrt[5]{32}}{\sqrt[3]{27}}$ ; $C=\sqrt[3]{\sqrt{64}}$.
+2. Résoudre dans $\mathbb R$ : $x^3=-27$ ; $\sqrt[3]{x-1}=2$ ; $x^4=16$.
+3. Calculer $\lim\limits_{x\to+\infty}\dfrac{\sqrt[3]{x}}{x}$ et $\lim\limits_{x\to0}\dfrac{\sqrt[3]{x+1}-1}{x}$.
+:::
+
+:::exercice Série d’entraînement — dichotomie
+On considère $h(x)=x^3+2x-4$. Montrer que $h(x)=0$ a une unique solution $\beta$ dans $[1;2]$ puis, par dichotomie, en donner un encadrement d’amplitude $0{,}25$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -245,4 +270,28 @@ $g(x)=x^3+3x-2$ est continue, $g'(x)=3x^2+3>0$ : strictement croissante ; $g(0)=
 :::corrige
 1. $f'(x)=\dfrac{2}{(x^2+1)\sqrt{x^2+1}}>0$ ; $\lim\limits_{\pm\infty}f=\pm2$ : $f(\mathbb R)=]-2;2[$.
 2. $y=\dfrac{2x}{\sqrt{x^2+1}}$ : $x$ et $y$ ont même signe et $y^2(x^2+1)=4x^2$, donc $x^2=\dfrac{y^2}{4-y^2}$ et $f^{-1}(y)=\dfrac{y}{\sqrt{4-y^2}}$.
+:::
+
+:::corrige
+1. $+\infty$ ; $-\dfrac32$ ; $0$.
+2. $\dfrac{(x-3)(x+3)}{x-3}=x+3\to6$ ; $+\infty$ ; $-\infty$.
+3. $\dfrac1{\sqrt{x+1}+\sqrt x}\to0$ ; $\dfrac52\times\dfrac{\sin5x}{5x}\to\dfrac52$ ; $1$.
+:::
+
+:::corrige
+Pour $x>1$ : $f(x)=\dfrac{(x+8)-9}{(x-1)\left(\sqrt{x+8}+3\right)}=\dfrac1{\sqrt{x+8}+3}\to\dfrac16$. Continuité en $1$ : $1+a=\dfrac16$, soit $a=-\dfrac56$.
+:::
+
+:::corrige
+$f(x)=2-\dfrac3{x+1}$, donc $f'(x)=\dfrac3{(x+1)^2}>0$. $f$ étant continue et strictement croissante : $f([0;2])=[f(0);f(2)]=[-1;1]$ et $f([0;+\infty[)=[-1;2[$.
+:::
+
+:::corrige
+1. $A=2\times2=4$ ; $B=\dfrac23$ ; $C=\sqrt[3]{8}=2$.
+2. $x=-3$ ; $x-1=8$, $x=9$ ; $x=2$ ou $x=-2$.
+3. $\dfrac{\sqrt[3]x}{x}=\dfrac1{\sqrt[3]{x^2}}\to0$ ; avec $t=\sqrt[3]{x+1}$ : $\dfrac{t-1}{t^3-1}=\dfrac1{t^2+t+1}\to\dfrac13$.
+:::
+
+:::corrige
+$h'(x)=3x^2+2>0$ : $h$ est continue et strictement croissante ; $h(1)=-1<0$ et $h(2)=8>0$ : unique solution $\beta\in]1;2[$. $h(1{,}5)=2{,}375>0$ : $\beta\in]1;1{,}5[$ ; $h(1{,}25)\approx0{,}45>0$ : $1<\beta<1{,}25$.
 :::

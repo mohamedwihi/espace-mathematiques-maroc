@@ -164,6 +164,23 @@ Soit $f(x)=(x+1)e^{-x}+x$ sur $\mathbb R$.
 Discuter, selon le réel $m$, le nombre de solutions de l’équation $e^{x}-x=m$ (étudier $h(x)=e^x-x$).
 :::
 
+:::exercice Série d’entraînement — calculs
+Simplifier : $A=e^{\ln3+\ln2}$ ; $B=\dfrac{e^{3x}}{e^{x-2}}$ ; $C=\left(e^{x}\right)^2e^{-2x+1}$ ; $D=\ln\left(e^{2x}\right)-e^{\ln x}$ ($x>0$).
+:::
+
+:::exercice Série d’entraînement — équations et inéquations
+Résoudre : $e^{3x-1}=1$ ; $e^{x^2}=e^{x+2}$ ; $e^{2x}+e^x-2=0$ ; $e^{2x}\le e$ ; $2^x=10$.
+:::
+
+:::exercice Série d’entraînement — limites
+Calculer : $\lim\limits_{x\to+\infty}\dfrac{e^x}{x^3}$ ; $\lim\limits_{x\to-\infty}x^2e^{x}$ ; $\lim\limits_{x\to+\infty}\dfrac{e^x+1}{e^x-1}$ ; $\lim\limits_{x\to0}\dfrac{e^{x}-1}{2x}$ ; $\lim\limits_{x\to+\infty}xe^{-x}$.
+:::
+
+:::exercice Série d’entraînement — dérivées et primitives
+1. Dériver : $f(x)=e^{-x^2}$ ; $g(x)=\dfrac{e^x}{x}$ ; $h(x)=(x^2+1)e^{2x}$.
+2. Primitives : $e^{-3x}$ ; $xe^{x^2}$ ; $\dfrac{e^x}{\left(e^x+1\right)^2}$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -211,4 +228,21 @@ $+\infty$ ($\dfrac{e^x}{x^2}\to+\infty$) ; $0$ ; $\dfrac{1-xe^{-x}}{1+e^{-x}}\to
 
 :::corrige
 $h'(x)=e^x-1$ : $h$ décroît sur $]-\infty;0]$, croît sur $[0;+\infty[$, minimum $h(0)=1$, et $h\to+\infty$ aux deux bornes. Si $m<1$ : aucune solution ; $m=1$ : une solution ($x=0$) ; $m>1$ : deux solutions.
+:::
+
+:::corrige
+$A=6$ ; $B=e^{2x+2}$ ; $C=e$ ; $D=2x-x=x$.
+:::
+
+:::corrige
+$x=\dfrac13$ ; $x^2-x-2=0$, $x=2$ ou $x=-1$ ; $X^2+X-2=0$, $X=1$ ($X=-2$ rejeté), $x=0$ ; $x\le\dfrac12$ ; $x=\dfrac{\ln10}{\ln2}$.
+:::
+
+:::corrige
+$+\infty$ ; $0$ ; $1$ ; $\dfrac12$ ; $0$.
+:::
+
+:::corrige
+1. $-2xe^{-x^2}$ ; $\dfrac{(x-1)e^x}{x^2}$ ; $\left(2x+2x^2+2\right)e^{2x}=2\left(x^2+x+1\right)e^{2x}$.
+2. $-\dfrac13e^{-3x}$ ; $\dfrac12e^{x^2}$ ; $-\dfrac1{e^x+1}$.
 :::

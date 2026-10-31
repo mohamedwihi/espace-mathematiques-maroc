@@ -199,6 +199,25 @@ Une urne contient $3$ boules blanches et $2$ noires. On tire successivement sans
 2. Calculer $E(X)$. Le jeu est-il favorable ?
 :::
 
+:::exercice Série d’entraînement — dénombrement
+1. Calculer $\binom{8}{3}$, $A_6^2$ et $5!$.
+2. Combien de codes de $4$ chiffres (de $0$ à $9$) existe-t-il ? avec des chiffres tous différents ?
+3. De combien de façons peut-on choisir un comité de $3$ élèves parmi $10$ ?
+:::
+
+:::exercice Série d’entraînement — probabilités conditionnelles
+Dans une classe, $40\,\%$ des élèves font du sport ; parmi eux, $75\,\%$ ont la moyenne ; parmi ceux qui ne font pas de sport, $50\,\%$ ont la moyenne.
+1. Calculer la probabilité qu’un élève ait la moyenne.
+2. Sachant qu’un élève a la moyenne, quelle est la probabilité qu’il fasse du sport ?
+3. Les événements « faire du sport » et « avoir la moyenne » sont-ils indépendants ?
+:::
+
+:::exercice Série d’entraînement — loi binomiale
+Un tireur atteint sa cible avec la probabilité $0{,}8$. Il tire $4$ fois de façon indépendante ; $X$ est le nombre de tirs réussis.
+1. Calculer $p(X=4)$ et $p(X=2)$.
+2. Calculer $E(X)$ et $V(X)$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -247,4 +266,21 @@ $E(G)=\dfrac{10+4-9}{6}=\dfrac56>0$ : le jeu est favorable au joueur (gain moyen
 :::corrige
 1. Deux blanches : $X=20$, $P=\dfrac35\times\dfrac24=\dfrac3{10}$ ; une de chaque : $X=-5$, $P=2\times\dfrac35\times\dfrac24=\dfrac6{10}$ ; deux noires : $X=-30$, $P=\dfrac25\times\dfrac14=\dfrac1{10}$.
 2. $E(X)=\dfrac{60-30-30}{10}=0$ : le jeu est équitable.
+:::
+
+:::corrige
+1. $\binom83=56$ ; $A_6^2=30$ ; $5!=120$.
+2. $10^4=10\,000$ ; $A_{10}^4=5\,040$.
+3. $\binom{10}3=120$.
+:::
+
+:::corrige
+1. $0{,}4\times0{,}75+0{,}6\times0{,}5=0{,}3+0{,}3=0{,}6$.
+2. $\dfrac{0{,}3}{0{,}6}=0{,}5$.
+3. $p(S\cap M)=0{,}3$ et $p(S)p(M)=0{,}4\times0{,}6=0{,}24$ : ils ne sont pas indépendants.
+:::
+
+:::corrige
+1. $p(X=4)=0{,}8^4=0{,}4096$ ; $p(X=2)=\binom42(0{,}8)^2(0{,}2)^2=6\times0{,}64\times0{,}04=0{,}1536$.
+2. $E(X)=4\times0{,}8=3{,}2$ et $V(X)=4\times0{,}8\times0{,}2=0{,}64$.
 :::

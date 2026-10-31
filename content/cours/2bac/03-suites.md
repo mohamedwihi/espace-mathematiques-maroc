@@ -153,6 +153,29 @@ $f(x)=\dfrac{x}{2}+\dfrac{1}{x}$ sur $]0;+\infty[$, $u_0=2$ et $u_{n+1}=f(u_n)$.
 2. Montrer que $(u_n)$ est décroissante, puis qu’elle converge vers $\sqrt2$.
 :::
 
+:::exercice Série d’entraînement — suites arithmétiques et géométriques
+1. $(u_n)$ est arithmétique, $u_2=7$ et $u_7=22$ : calculer la raison, $u_0$ et $S=u_0+\cdots+u_{20}$.
+2. $(v_n)$ est géométrique de raison $q=\dfrac12$ et $v_0=8$ : calculer $v_5$ et $v_0+v_1+\cdots+v_9$.
+:::
+
+:::exercice Série d’entraînement — limites de suites
+Calculer la limite de : $u_n=\dfrac{3n^2-1}{n^2+n}$ ; $v_n=\left(\dfrac23\right)^n+3$ ; $w_n=\dfrac{2^n-3^n}{3^n}$ ; $t_n=\dfrac{(-1)^n}{n+1}$.
+:::
+
+:::exercice Série d’entraînement — suite récurrente et fonction
+$u_0=0$ et $u_{n+1}=\sqrt{2u_n+3}$.
+1. Montrer que $0\le u_n<3$ pour tout $n$.
+2. Montrer que $(u_n)$ est croissante et en déduire qu’elle converge ; déterminer sa limite.
+:::
+
+:::exercice Série d’entraînement — suite auxiliaire
+$u_0=4$ et $u_{n+1}=\dfrac12u_n+1$. On pose $v_n=u_n-2$. Montrer que $(v_n)$ est géométrique, puis exprimer $u_n$ et calculer $\lim u_n$.
+:::
+
+:::exercice Série d’entraînement — comparaison
+Montrer que $u_n=\dfrac{n+\sin n}{n^2+1}$ tend vers $0$ (encadrer $\sin n$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -193,4 +216,26 @@ $u_{n+1}-u_n=\dfrac1{(n+1)^2}>0$ ; $v_{n+1}-v_n=\dfrac1{(n+1)^2}+\dfrac1{n+1}-\d
 :::corrige
 1. $f'(x)=\dfrac12-\dfrac1{x^2}$ s’annule en $\sqrt2$ : minimum $f\left(\sqrt2\right)=\sqrt2$. Donc $f(x)\ge\sqrt2$ pour tout $x>0$, et $u_{n+1}\ge\sqrt2$ ($u_0=2\ge\sqrt2$).
 2. $u_{n+1}-u_n=\dfrac1{u_n}-\dfrac{u_n}2=\dfrac{2-u_n^2}{2u_n}\le0$. Décroissante et minorée, elle converge vers $\ell\ge\sqrt2$ avec $\ell=\dfrac\ell2+\dfrac1\ell$, soit $\ell^2=2$, $\ell=\sqrt2$.
+:::
+
+:::corrige
+1. $5r=15$, $r=3$ ; $u_0=1$ ; $u_{20}=61$ ; $S=21\times\dfrac{1+61}2=651$.
+2. $v_5=\dfrac8{32}=\dfrac14$ ; $\displaystyle\sum_{k=0}^9v_k=8\times\frac{1-\left(\frac12\right)^{10}}{1-\frac12}=16\left(1-\frac1{1024}\right)=\frac{1023}{64}$.
+:::
+
+:::corrige
+$u_n\to3$ ; $v_n\to3$ ; $w_n=\left(\dfrac23\right)^n-1\to-1$ ; $\lvert t_n\rvert\le\dfrac1{n+1}\to0$, donc $t_n\to0$.
+:::
+
+:::corrige
+1. Récurrence : si $0\le u_n<3$, alors $3\le2u_n+3<9$ et $\sqrt3\le u_{n+1}<3$.
+2. $u_{n+1}-u_n=\dfrac{2u_n+3-u_n^2}{\sqrt{2u_n+3}+u_n}=\dfrac{(3-u_n)(u_n+1)}{\sqrt{2u_n+3}+u_n}>0$. Croissante et majorée, elle converge vers $\ell\ge0$ avec $\ell^2=2\ell+3$, soit $\ell=3$.
+:::
+
+:::corrige
+$v_{n+1}=\dfrac12u_n-1=\dfrac12v_n$, $v_0=2$, $v_n=2\left(\dfrac12\right)^n$ ; $u_n=2+2\left(\dfrac12\right)^n\to2$.
+:::
+
+:::corrige
+$\dfrac{n-1}{n^2+1}\le u_n\le\dfrac{n+1}{n^2+1}$ et les deux bornes tendent vers $0$.
 :::

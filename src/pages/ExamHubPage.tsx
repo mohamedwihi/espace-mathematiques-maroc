@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Download, ExternalLink, Info } from 'lucide-react';
+import { CheckCircle2, Download, ExternalLink, Info } from 'lucide-react';
 import { exams } from '@/data/exams';
 import { ExamCard } from '@/components/cards/Cards';
 import { FilterSelect } from '@/components/ui/FilterSelect';
@@ -103,6 +103,12 @@ export function ExamsBacPage() {
                       <ExternalLink className="h-4 w-4" aria-hidden="true" />
                       {t.hub.open}
                     </a>
+                    {e.correctionPdfUrl && (
+                      <a href={e.correctionPdfUrl} target="_blank" rel="noopener noreferrer" className="btn-secondary btn-sm text-brand-700">
+                        <CheckCircle2 className="h-4 w-4" aria-hidden="true" />
+                        {t.exams.correctionPdf}
+                      </a>
+                    )}
                     <a href={e.pdfUrl} download className="btn-primary btn-sm">
                       <Download className="h-4 w-4" aria-hidden="true" />
                       {t.hub.download}

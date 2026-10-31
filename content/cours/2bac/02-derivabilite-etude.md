@@ -181,6 +181,31 @@ Soit $f(x)=x+\sqrt{x^2-1}$ sur $[1;+\infty[$.
 2. En déduire un encadrement de $\sqrt{101}$ d’amplitude inférieure à $10^{-3}$.
 :::
 
+:::exercice Série d’entraînement — calculs de dérivées
+Calculer $f'(x)$ :
+1. $f(x)=\left(3x^2-1\right)^4$ ; $f(x)=\sqrt{x^2+2x+3}$ ; $f(x)=\dfrac{x^2+1}{x-2}$.
+2. $f(x)=\sqrt[3]{x^2+1}$ ; $f(x)=x\sqrt x$ ; $f(x)=\sin\left(x^2\right)$.
+:::
+
+:::exercice Série d’entraînement — dérivabilité et interprétation
+Étudier la dérivabilité de $f$ en $x_0$ et interpréter graphiquement :
+1. $f(x)=\lvert x^2-1\rvert$ en $x_0=1$ ;
+2. $f(x)=\sqrt{x-2}$ en $x_0=2$ (à droite).
+:::
+
+:::exercice Série d’entraînement — concavité
+Soit $f(x)=x^3-3x^2+2$. Calculer $f''(x)$, étudier la concavité de la courbe et déterminer son point d’inflexion.
+:::
+
+:::exercice Série d’entraînement — axe et centre de symétrie
+1. Montrer que la droite $x=1$ est axe de symétrie de la courbe de $f(x)=x^2-2x+3$.
+2. Montrer que $\Omega(1;2)$ est centre de symétrie de la courbe de $g(x)=\dfrac{2x+1}{x-1}$.
+:::
+
+:::exercice Série d’entraînement — branches infinies
+Étudier les branches infinies de $f(x)=\dfrac{x^2+x-1}{x-1}$ (on écrira $f(x)=x+2+\dfrac{1}{x-1}$).
+:::
+
 # Corrigés
 
 :::corrige
@@ -227,4 +252,27 @@ $\dfrac{f(x)-f(0)}{x-0}=\sqrt x\to0$ : $f$ est dérivable à droite en $0$, $f'_
 :::corrige
 1. Il existe $c\in]100;101[$ avec $\sqrt{101}-10=\dfrac1{2\sqrt c}$, et $\dfrac1{2\sqrt{101}}<\dfrac1{2\sqrt c}<\dfrac1{20}$.
 2. $\sqrt{101}<11$, donc $\dfrac1{2\sqrt{101}}>\dfrac1{22}$ : $10+\dfrac1{22}<\sqrt{101}<10+\dfrac1{20}$, soit $10{,}0454<\sqrt{101}<10{,}05$ ; en raffinant avec $\sqrt{101}<10{,}05$ : $\dfrac1{20{,}1}\approx0{,}04975$, d’où $10{,}0497<\sqrt{101}<10{,}05$.
+:::
+
+:::corrige
+1. $24x\left(3x^2-1\right)^3$ ; $\dfrac{x+1}{\sqrt{x^2+2x+3}}$ ; $\dfrac{2x(x-2)-\left(x^2+1\right)}{(x-2)^2}=\dfrac{x^2-4x-1}{(x-2)^2}$.
+2. $\dfrac{2x}{3\sqrt[3]{\left(x^2+1\right)^2}}$ ; $\dfrac32\sqrt x$ ; $2x\cos\left(x^2\right)$.
+:::
+
+:::corrige
+1. À droite : $\dfrac{x^2-1}{x-1}=x+1\to2$ ; à gauche : $\dfrac{1-x^2}{x-1}=-(x+1)\to-2$ : non dérivable, point anguleux (deux demi-tangentes).
+2. $\dfrac{\sqrt{x-2}}{x-2}=\dfrac1{\sqrt{x-2}}\to+\infty$ : non dérivable à droite, demi-tangente verticale.
+:::
+
+:::corrige
+$f'(x)=3x^2-6x$, $f''(x)=6x-6$ : concave sur $]-\infty;1]$, convexe sur $[1;+\infty[$ ; point d’inflexion $(1;0)$.
+:::
+
+:::corrige
+1. $f(2-x)=(2-x)^2-2(2-x)+3=x^2-2x+3=f(x)$.
+2. $g(2-x)+g(x)=\dfrac{5-2x}{1-x}+\dfrac{2x+1}{x-1}=\dfrac{2x-5+2x+1}{x-1}=\dfrac{4(x-1)}{x-1}=4=2\times2$.
+:::
+
+:::corrige
+Asymptote verticale $x=1$ ($\lim\limits_{1^\pm}f=\pm\infty$). En $\pm\infty$ : $f(x)-(x+2)=\dfrac1{x-1}\to0$ : la droite $y=x+2$ est asymptote oblique ; la courbe est au-dessus pour $x>1$, en dessous pour $x<1$.
 :::

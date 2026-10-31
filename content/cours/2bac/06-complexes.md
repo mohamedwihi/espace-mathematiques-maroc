@@ -202,6 +202,25 @@ On considère le polynôme $P(z)=z^3-3z^2+4z-2$.
 2. Résoudre $P(z)=0$ dans $\mathbb C$ et écrire les solutions sous forme exponentielle.
 :::
 
+:::exercice Série d’entraînement — forme algébrique
+Écrire sous forme algébrique : $(2-3i)(1+4i)$ ; $(1+i)^4$ ; $\dfrac{3+i}{1-2i}$ ; $\dfrac1{i}+\dfrac2{1+i}$.
+:::
+
+:::exercice Série d’entraînement — module et argument
+Donner le module et un argument de : $z_1=-2+2i$ ; $z_2=\sqrt3-i$ ; $z_3=-5$ ; $z_4=3i$ ; puis la forme exponentielle de $z_1z_2$ et de $\dfrac{z_1}{z_2}$.
+:::
+
+:::exercice Série d’entraînement — équations du second degré
+Résoudre dans $\mathbb C$ : $z^2+9=0$ ; $z^2-4z+5=0$ ; $z^2+z+1=0$ ; $2z^2-2z+5=0$.
+:::
+
+:::exercice Série d’entraînement — géométrie
+On donne $A(1+i)$, $B(3+2i)$, $C(2+3i)$.
+1. Calculer $\dfrac{c-a}{b-a}$ et en déduire la nature du triangle $ABC$.
+2. Déterminer l’affixe de $D$ tel que $ABDC$ soit un parallélogramme.
+3. Déterminer l’ensemble des points $M(z)$ tels que $\lvert z-1-i\rvert=2$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -246,4 +265,22 @@ $z_1=\sqrt2\left(\cos\dfrac\pi4+i\sin\dfrac\pi4\right)=\sqrt2e^{i\frac\pi4}$ ; $
 :::corrige
 1. $P(1)=1-3+4-2=0$ ; $P(z)=(z-1)(z^2-2z+2)$.
 2. $z^2-2z+2=0$ : $\Delta=-4$, $z=1\pm i$. Solutions : $1=e^{i0}$, $1+i=\sqrt2e^{i\frac\pi4}$, $1-i=\sqrt2e^{-i\frac\pi4}$.
+:::
+
+:::corrige
+$14+5i$ ; $(2i)^2=-4$ ; $\dfrac{(3+i)(1+2i)}5=\dfrac{1+7i}5$ ; $-i+(1-i)=1-2i$.
+:::
+
+:::corrige
+$z_1=2\sqrt2e^{i\frac{3\pi}4}$ ; $z_2=2e^{-i\frac\pi6}$ ; $z_3=5e^{i\pi}$ ; $z_4=3e^{i\frac\pi2}$. $z_1z_2=4\sqrt2e^{i\frac{7\pi}{12}}$ et $\dfrac{z_1}{z_2}=\sqrt2e^{i\frac{11\pi}{12}}$.
+:::
+
+:::corrige
+$\pm3i$ ; $2\pm i$ ; $-\dfrac12\pm i\dfrac{\sqrt3}2$ ; $\Delta=4-40=-36$, $z=\dfrac{2\pm6i}4=\dfrac12\pm\dfrac32i$.
+:::
+
+:::corrige
+1. $\dfrac{1+2i}{2+i}=\dfrac{(1+2i)(2-i)}5=\dfrac{4+3i}5$ : module $1$, donc $AC=AB$ ; $ABC$ est isocèle en $A$ (non rectangle, car le quotient n’est pas imaginaire pur).
+2. $\overrightarrow{AB}=\overrightarrow{CD}$ : $d=c+b-a=4+4i$.
+3. Le cercle de centre $A(1+i)$ et de rayon $2$.
 :::

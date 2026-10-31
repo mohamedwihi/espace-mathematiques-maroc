@@ -130,6 +130,18 @@ Déterminer la primitive $F$ de $f(x)=3x^2-\dfrac{2}{x^2}$ sur $]0;+\infty[$ tel
 2. En déduire une primitive de $\sin^2x$ et de $\cos^3x$.
 :::
 
+:::exercice Série d’entraînement — primitives directes
+Déterminer une primitive de : $f(x)=5x^4-3x^2+2$ ; $g(x)=\dfrac1{x^2}-\dfrac3{\sqrt x}$ ; $h(x)=(2x-1)^5$ ; $k(x)=\dfrac{1}{(x+2)^3}$ ; $m(x)=\sin(3x)$.
+:::
+
+:::exercice Série d’entraînement — formes composées
+Déterminer une primitive de : $f(x)=\dfrac{x}{\sqrt{x^2+4}}$ ; $g(x)=x\left(x^2-1\right)^3$ ; $h(x)=\dfrac{\cos x}{\sin^2x}$ sur $]0;\pi[$ ; $k(x)=\dfrac{3x^2}{x^3+1}$ sur $]-1;+\infty[$.
+:::
+
+:::exercice Série d’entraînement — primitive avec condition
+Déterminer la primitive $F$ de $f(x)=\dfrac{2x}{\left(x^2+1\right)^2}$ sur $\mathbb R$ telle que $F(1)=0$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -171,4 +183,16 @@ $F(x)=x^3+\dfrac2x+c$ ; $F(1)=3+c=4$, $c=1$ : $F(x)=x^3+\dfrac2x+1$.
 :::corrige
 1. $\cos2x=1-2\sin^2x$ ; $\cos^3x=\cos x\left(1-\sin^2x\right)$.
 2. $\displaystyle\int\sin^2x=\dfrac x2-\dfrac{\sin2x}4+c$ ; $\cos^3x$ a pour primitive $\sin x-\dfrac{\sin^3x}3+c$ ($u'u^2$ avec $u=\sin x$).
+:::
+
+:::corrige
+$F(x)=x^5-x^3+2x$ ; $G(x)=-\dfrac1x-6\sqrt x$ ; $H(x)=\dfrac{(2x-1)^6}{12}$ ; $K(x)=-\dfrac1{2(x+2)^2}$ ; $M(x)=-\dfrac{\cos3x}3$.
+:::
+
+:::corrige
+$\sqrt{x^2+4}$ ; $\dfrac{\left(x^2-1\right)^4}8$ ; $-\dfrac1{\sin x}$ ; $\ln\left(x^3+1\right)$.
+:::
+
+:::corrige
+$F(x)=-\dfrac1{x^2+1}+c$ et $F(1)=-\dfrac12+c=0$ : $F(x)=\dfrac12-\dfrac1{x^2+1}$.
 :::

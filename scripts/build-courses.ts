@@ -4,6 +4,8 @@
  * la liste des cours disponibles est écrite dans src/data/coursePdfs.generated.ts.
  *
  * Usage : npm run cours [-- --only <id>] [-- --level <niveau>] [-- --check]
+ *         [-- --src content/corriges --out public/exams] : autre dossier source/sortie (corrigés d’examens),
+ *         le sous-dossier source donne le sous-dossier de sortie et la liste des cours n’est pas modifiée.
  * Nécessite Microsoft Edge ou Google Chrome (chemin modifiable avec la variable PDF_BROWSER).
  *
  * Format des fichiers .md :
@@ -25,8 +27,13 @@ import { activeSocialLinks } from '@/data/social';
 
 const AUTHOR = 'Prof Wihi Mohamed';
 const ROOT = process.cwd();
-const SRC_DIR = path.join(ROOT, 'content', 'cours');
-const OUT_DIR = path.join(ROOT, 'public', 'cours');
+const argValue = (name: string) => {
+  const i = process.argv.indexOf(name);
+  return i > -1 ? process.argv[i + 1] : undefined;
+};
+const SRC_DIR = path.join(ROOT, argValue('--src') ?? 'content/cours');
+const OUT_DIR = path.join(ROOT, argValue('--out') ?? 'public/cours');
+const IS_COURSES = !argValue('--out');
 const TMP_DIR = path.join(os.tmpdir(), 'emm-cours-build');
 const KATEX_CSS = pathToFileURL(path.join(ROOT, 'node_modules', 'katex', 'dist', 'katex.min.css')).href;
 const COLORS: Record<string, string> = { brand: '#0f7a5a', ink: '#2f5d9e', saffron: '#d97706', red: '#dc2626' };
@@ -229,7 +236,9 @@ function blocks(lines: string[]): string {
       const items: string[] = [];
       for (; i < lines.length && /^\s*(- |\d+\. )/.test(lines[i]); i++) items.push(lines[i].trim().replace(/^(- |\d+\. )/, ''));
       i--;
-      html.push(`<${ordered ? 'ol' : 'ul'}>${items.map((it) => `<li>${inline(it)}</li>`).join('')}</${ordered ? 'ol' : 'ul'}>`);
+      // Une liste numérotée interrompue (par « b) … ») reprend à son vrai numéro.
+      const start = ordered ? Number(line.match(/^(\d+)\./)![1]) : 1;
+      html.push(`<${ordered ? `ol${start > 1 ? ` start="${start}"` : ''}` : 'ul'}>${items.map((it) => `<li>${inline(it)}</li>`).join('')}</${ordered ? 'ol' : 'ul'}>`);
       continue;
     }
     if (line.startsWith('|')) {
@@ -256,7 +265,7 @@ function blocks(lines: string[]): string {
   return html.join('');
 }
 
-function parse(file: string): { meta: Meta; objectifs: string[]; prerequis: string[]; body: string; exercices: number } {
+function parse(file: string): { file: string; meta: Meta; objectifs: string[]; prerequis: string[]; body: string; exercices: number } {
   currentFile = path.relative(ROOT, file);
   const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
   const fm = text.match(/^---\n([\s\S]*?)\n---\n/);
@@ -324,7 +333,7 @@ function parse(file: string): { meta: Meta; objectifs: string[]; prerequis: stri
   flush();
   if (exo !== corr) problems.push(`${currentFile} : ${exo} exercice(s) mais ${corr} corrigé(s)`);
   if (!sec) problems.push(`${currentFile} : aucune partie`);
-  return { meta, objectifs, prerequis, body: html.join('\n'), exercices: exo };
+  return { file, meta, objectifs, prerequis, body: html.join('\n'), exercices: exo };
 }
 
 /* ---------------- Page ---------------- */
@@ -402,7 +411,7 @@ function page(c: ReturnType<typeof parse>): string {
   <div class="meta">${meta}</div>
   <div class="social">Suivez-moi : ${socialHtml()}</div>
 </header>
-<div class="intro"><div class="obj"><h4>Objectifs</h4>${list(c.objectifs)}</div><div class="pre"><h4>Prérequis</h4>${list(c.prerequis)}</div></div>
+${c.objectifs.length || c.prerequis.length ? `<div class="intro"><div class="obj"><h4>Objectifs</h4>${list(c.objectifs)}</div><div class="pre"><h4>Prérequis</h4>${list(c.prerequis)}</div></div>` : ""}
 ${c.body}
 </td></tr></tbody><tfoot><tr><td><div class="footer-space"></div></td></tr></tfoot></table>
 </body></html>`;
@@ -447,7 +456,7 @@ function main() {
 
   for (const c of courses) {
     const html = path.join(TMP_DIR, `${c.meta.id}.html`);
-    const outDir = path.join(OUT_DIR, c.meta.niveau);
+    const outDir = path.join(OUT_DIR, path.basename(path.dirname(c.file)));
     const out = path.join(outDir, `${c.meta.id}.pdf`);
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(html, page(c), 'utf8');
@@ -457,7 +466,7 @@ function main() {
     });
     console.log(`✓ ${path.relative(ROOT, out)} (${Math.round(fs.statSync(out).size / 1024)} Ko, ${c.exercices} exercices)`);
   }
-  writeManifest();
+  if (IS_COURSES) writeManifest();
 }
 
 /** Liste des cours dont le PDF existe (lue par le site). */

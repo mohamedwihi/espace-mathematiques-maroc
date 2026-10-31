@@ -155,6 +155,23 @@ On pose $J_n=\displaystyle\int_1^e(\ln x)^n\,dx$ pour $n\ge1$.
 Calculer l’aire du domaine limité par les courbes de $f(x)=e^x$ et $g(x)=e^{-x}$ et les droites $x=0$ et $x=\ln2$ (unité $2$ cm).
 :::
 
+:::exercice Série d’entraînement — intégrales directes
+Calculer : $\displaystyle\int_0^2\left(x^2-x\right)dx$ ; $\displaystyle\int_1^4\frac{dx}{\sqrt x}$ ; $\displaystyle\int_0^{\pi}\sin x\,dx$ ; $\displaystyle\int_0^1\frac{x}{x^2+1}dx$ ; $\displaystyle\int_0^1e^{-x}dx$.
+:::
+
+:::exercice Série d’entraînement — intégration par parties
+Calculer : $\displaystyle\int_0^1xe^{-x}dx$ ; $\displaystyle\int_1^e x^2\ln x\,dx$ ; $\displaystyle\int_0^{\frac\pi2}x\sin x\,dx$.
+:::
+
+:::exercice Série d’entraînement — encadrement et valeur moyenne
+1. Montrer que pour $x\in[0;1]$ : $\dfrac{1}{e}\le e^{-x^2}\le1$ et en déduire un encadrement de $\displaystyle\int_0^1e^{-x^2}dx$.
+2. Calculer la valeur moyenne de $x\mapsto\sin x$ sur $[0;\pi]$.
+:::
+
+:::exercice Série d’entraînement — aire entre deux courbes
+Calculer l’aire du domaine compris entre les courbes de $f(x)=x^2$ et $g(x)=2x$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -196,4 +213,23 @@ $u=x^2$, $v'=e^x$ : $K=\big[x^2e^x\big]_0^1-2\displaystyle\int_0^1xe^x\,dx=e-2\t
 
 :::corrige
 Sur $[0;\ln2]$, $e^x\ge e^{-x}$ : $\mathcal A=\displaystyle\int_0^{\ln2}\left(e^x-e^{-x}\right)dx=\big[e^x+e^{-x}\big]_0^{\ln2}=\left(2+\dfrac12\right)-2=\dfrac12$ u.a. $=\dfrac12\times4=2\ \text{cm}^2$.
+:::
+
+:::corrige
+$\dfrac83-2=\dfrac23$ ; $\Big[2\sqrt x\Big]_1^4=2$ ; $2$ ; $\dfrac12\ln2$ ; $1-\dfrac1e$.
+:::
+
+:::corrige
+- $\Big[-(x+1)e^{-x}\Big]_0^1=1-\dfrac2e$.
+- $\left[\dfrac{x^3}3\ln x\right]_1^e-\displaystyle\int_1^e\frac{x^2}3dx=\dfrac{e^3}3-\dfrac{e^3-1}9=\dfrac{2e^3+1}9$.
+- $\Big[-x\cos x\Big]_0^{\frac\pi2}+\displaystyle\int_0^{\frac\pi2}\cos x\,dx=0+1=1$.
+:::
+
+:::corrige
+1. Sur $[0;1]$, $0\le x^2\le1$, donc $-1\le-x^2\le0$ et $e^{-1}\le e^{-x^2}\le1$. Par intégration : $\dfrac1e\le\displaystyle\int_0^1e^{-x^2}dx\le1$.
+2. $\mu=\dfrac1\pi\displaystyle\int_0^\pi\sin x\,dx=\dfrac2\pi$.
+:::
+
+:::corrige
+Les courbes se coupent pour $x^2=2x$, soit $x=0$ ou $x=2$, et $2x\ge x^2$ sur $[0;2]$ : $\mathcal A=\displaystyle\int_0^2\left(2x-x^2\right)dx=4-\dfrac83=\dfrac43$ u.a.
 :::

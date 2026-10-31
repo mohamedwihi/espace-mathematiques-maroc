@@ -442,7 +442,7 @@ export const fr: Dictionary = {
     officialFirst: "Les sujets officiels d'abord, puis des sujets d'entraînement rédigés par le professeur.",
     titleBac: 'Examens nationaux du baccalauréat',
     textBac: "Sujets de l'examen national unifié du baccalauréat en mathématiques, filière Sciences expérimentales, classés par année et par session.",
-    bacNote: "Les sujets sont publiés tels qu'ils ont été fournis (certains sont numérisés ou ressaisis). Les corrigés rédigés par d'autres professeurs ou sites ne sont pas publiés, par respect des droits de leurs auteurs.",
+    bacNote: "Les sujets sont publiés tels qu'ils ont été fournis (certains sont numérisés ou ressaisis). Les sujets de 2003 à 2013 sont accompagnés d'un corrigé rédigé par Prof Wihi Mohamed ; les corrigés rédigés par d'autres professeurs ou sites ne sont pas publiés, par respect des droits de leurs auteurs.",
     years: '{n} années',
     subjects: '{n} sujets',
     open: 'Ouvrir',

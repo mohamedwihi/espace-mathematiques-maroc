@@ -173,6 +173,24 @@ Soit $f(x)=x-1-\dfrac{\ln x}{x}$ sur $]0;+\infty[$.
 2. En déduire que pour tout entier $n\ge1$ : $\ln\left(1+\dfrac1n\right)\le\dfrac1n$, puis que $\left(1+\dfrac1n\right)^n\le e$.
 :::
 
+:::exercice Série d’entraînement — simplifications
+Simplifier : $A=\ln8-3\ln2$ ; $B=\ln\left(\sqrt e\right)+\ln\dfrac1{e^2}$ ; $C=\ln\left(2+\sqrt3\right)+\ln\left(2-\sqrt3\right)$ ; $D=\log_{10}(1000)$ ; $E=\log_2(32)$.
+:::
+
+:::exercice Série d’entraînement — domaines et équations
+1. Déterminer le domaine de définition de : $f(x)=\ln(3-x)$ ; $g(x)=\ln\left(x^2-4\right)$ ; $h(x)=\ln\dfrac{x+1}{x-2}$.
+2. Résoudre : $\ln(2x-1)=\ln(x+3)$ ; $\ln x+\ln(x-3)=\ln4$ ; $\ln(x+2)<0$.
+:::
+
+:::exercice Série d’entraînement — limites
+Calculer : $\lim\limits_{x\to+\infty}\dfrac{\ln x}{x^2}$ ; $\lim\limits_{x\to0^+}x^2\ln x$ ; $\lim\limits_{x\to+\infty}\left(x-\ln x\right)$ ; $\lim\limits_{x\to1}\dfrac{\ln x}{x-1}$ ; $\lim\limits_{x\to0}\dfrac{\ln(1+3x)}{x}$.
+:::
+
+:::exercice Série d’entraînement — dérivées et primitives
+1. Dériver : $f(x)=\ln\left(x^2+1\right)$ ; $g(x)=x\ln x-x$ ; $h(x)=\left(\ln x\right)^3$.
+2. Déterminer une primitive de : $\dfrac{1}{x+2}$ sur $]-2;+\infty[$ ; $\dfrac{\ln x}x$ ; $\dfrac{1}{x\ln x}$ sur $]1;+\infty[$.
+:::
+
 # Corrigés
 
 :::corrige
@@ -222,4 +240,22 @@ $A=\ln\dfrac{12}{4\times3}=0$ ; $B=2+\dfrac12=\dfrac52$ ; $C=-3\ln2+3\ln2=0$.
 :::corrige
 1. $h(x)=\ln x-x+1$ : $h'(x)=\dfrac1x-1$, maximum $h(1)=0$.
 2. Avec $x=1+\dfrac1n$ : $\ln\left(1+\dfrac1n\right)\le\dfrac1n$ ; en multipliant par $n$ : $n\ln\left(1+\dfrac1n\right)\le1$, puis par croissance de $\exp$ : $\left(1+\dfrac1n\right)^n\le e$.
+:::
+
+:::corrige
+$A=0$ ; $B=\dfrac12-2=-\dfrac32$ ; $C=\ln(4-3)=0$ ; $D=3$ ; $E=5$.
+:::
+
+:::corrige
+1. $]-\infty;3[$ ; $]-\infty;-2[\cup]2;+\infty[$ ; $]-\infty;-1[\cup]2;+\infty[$.
+2. Domaine $x>\dfrac12$ : $2x-1=x+3$, $x=4$. Domaine $x>3$ : $x^2-3x-4=0$, $x=4$ ($x=-1$ rejeté). $0<x+2<1$ : $x\in]-2;-1[$.
+:::
+
+:::corrige
+$0$ ; $0$ ; $x\left(1-\dfrac{\ln x}x\right)\to+\infty$ ; $1$ ; $3\times\dfrac{\ln(1+3x)}{3x}\to3$.
+:::
+
+:::corrige
+1. $\dfrac{2x}{x^2+1}$ ; $\ln x$ ; $\dfrac{3(\ln x)^2}x$.
+2. $\ln(x+2)$ ; $\dfrac{(\ln x)^2}2$ ; $\ln\left(\ln x\right)$ (forme $\dfrac{u'}u$ avec $u=\ln x>0$).
 :::
