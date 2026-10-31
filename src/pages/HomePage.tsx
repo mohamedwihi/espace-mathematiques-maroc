@@ -22,20 +22,37 @@ function HeroIllustration() {
             </pattern>
           </defs>
           <rect width="320" height="200" fill="url(#grid)" rx="12" />
-          <line x1="0" y1="140" x2="320" y2="140" stroke="#28355d" strokeWidth="1.5" />
-          <line x1="120" y1="0" x2="120" y2="200" stroke="#28355d" strokeWidth="1.5" />
-          <path d="M 40 10 Q 140 330 240 10" fill="none" stroke="#178166" strokeWidth="3" strokeLinecap="round" />
-          <path d="M 20 175 L 300 35" fill="none" stroke="#f57c0b" strokeWidth="2.5" strokeDasharray="6 5" strokeLinecap="round" />
-          <circle cx="80" cy="140" r="4.5" fill="#1a223d" />
-          <circle cx="200" cy="140" r="4.5" fill="#1a223d" />
+          {/* Théorème d’Al-Kashi : triangle ABC, côtés a = BC, b = CA, c = AB et angle Â */}
+          <polygon points="60,160 270,160 140,45" fill="#178166" fillOpacity="0.08" stroke="#28355d" strokeWidth="2" strokeLinejoin="round" />
+          <line x1="140" y1="45" x2="270" y2="160" stroke="#178166" strokeWidth="3.5" strokeLinecap="round" />
+          <line x1="140" y1="45" x2="140" y2="160" stroke="#28355d" strokeWidth="1.3" strokeDasharray="5 4" />
+          <path d="M 140 150 L 150 150 L 150 160" fill="none" stroke="#28355d" strokeWidth="1.2" />
+          <path d="M 92 160 A 32 32 0 0 0 78.3 133.7" fill="none" stroke="#f57c0b" strokeWidth="2.5" strokeLinecap="round" />
+          <g fill="#1a223d">
+            <circle cx="60" cy="160" r="3.5" />
+            <circle cx="270" cy="160" r="3.5" />
+            <circle cx="140" cy="45" r="3.5" />
+          </g>
+          <g fontFamily="'Times New Roman', Georgia, serif" fontStyle="italic" fontSize="17" fill="#1a223d">
+            <text x="44" y="178">A</text>
+            <text x="274" y="178">B</text>
+            <text x="134" y="34">C</text>
+            <text x="143" y="181" fill="#28355d">H</text>
+          </g>
+          <g fontFamily="'Times New Roman', Georgia, serif" fontStyle="italic" fontWeight="700" fontSize="18">
+            <text x="204" y="186" fill="#28355d">c</text>
+            <text x="82" y="100" fill="#28355d">b</text>
+            <text x="214" y="96" fill="#178166">a</text>
+            <text x="104" y="149" fill="#f57c0b" fontSize="15">Â</text>
+          </g>
         </svg>
         <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
-          <div className="rounded-xl bg-ink-50 px-3 py-2"><Tex tex="\Delta=b^2-4ac" /></div>
-          <div className="rounded-xl bg-brand-50 px-3 py-2"><Tex tex="f'(a)=\lim_{h\to0}\tfrac{f(a+h)-f(a)}{h}" /></div>
+          <div className="rounded-xl bg-brand-50 px-3 py-2"><Tex tex="a^2=b^2+c^2-2bc\cos\hat A" /></div>
+          <div className="rounded-xl bg-ink-50 px-3 py-2"><Tex tex="\cos\hat A=\tfrac{b^2+c^2-a^2}{2bc}" /></div>
         </div>
       </div>
       <div className="absolute -bottom-5 -start-4 hidden rounded-2xl border border-ink-100 bg-white px-4 py-2.5 shadow-card sm:block">
-        <Tex tex="\int_0^1 x^2\,dx=\tfrac13" />
+        <Tex tex="\hat A=90^\circ\Rightarrow a^2=b^2+c^2" />
       </div>
     </div>
   );
