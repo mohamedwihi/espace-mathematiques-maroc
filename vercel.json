@@ -14,6 +14,10 @@
       "headers": [{ "key": "Content-Security-Policy", "value": "frame-ancestors 'self'" }]
     },
     {
+      "source": "/exams/(.*)",
+      "headers": [{ "key": "Content-Security-Policy", "value": "frame-ancestors 'self'" }]
+    },
+    {
       "source": "/(.*)",
       "headers": [
         { "key": "X-Content-Type-Options", "value": "nosniff" },

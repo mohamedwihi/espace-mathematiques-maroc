@@ -16,10 +16,15 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Cours complets en PDF : affichage autorisé uniquement dans les pages du site lui-même
+# Cours complets et sujets d’examens en PDF : affichage autorisé uniquement dans les pages du site lui-même
 # (frame-ancestors remplace X-Frame-Options pour ces fichiers).
 [[headers]]
   for = "/cours/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self'"
+
+[[headers]]
+  for = "/exams/*"
   [headers.values]
     Content-Security-Policy = "frame-ancestors 'self'"
 
