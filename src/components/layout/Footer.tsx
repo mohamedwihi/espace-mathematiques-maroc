@@ -37,6 +37,9 @@ export function Footer() {
     { to: '/lessons', label: t.nav.lessons },
     { to: '/exercises', label: t.nav.exercises },
     { to: '/exams', label: t.nav.exams },
+    { to: '/exams-3ac', label: t.nav.exams3ac },
+    { to: '/exams-bac', label: t.nav.examsBac },
+    { to: '/game', label: t.nav.game },
     { to: '/tools', label: t.nav.tools },
     { to: '/search', label: t.nav.search },
   ];

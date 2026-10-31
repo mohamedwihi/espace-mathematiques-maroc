@@ -8,6 +8,7 @@ export const STORAGE_KEYS = {
   lang: 'lang',
   progress: 'progress',
   calcHistory: 'calc-history',
+  gameBests: 'game-bests',
 } as const;
 
 export function isStorageAvailable(): boolean {

@@ -7,13 +7,17 @@ import { useI18n } from '@/hooks/useI18n';
 export function useNavItems() {
   const { t } = useI18n();
   return [
-    { to: '/', label: t.nav.home, end: true },
+    // secondary : visible dans le menu mobile mais pas dans la barre (place limitée)
+    { to: '/', label: t.nav.home, end: true, secondary: true },
     { to: '/levels', label: t.nav.levels },
     { to: '/lessons', label: t.nav.lessons },
     { to: '/exercises', label: t.nav.exercises },
-    { to: '/exams', label: t.nav.exams },
+    { to: '/exams', label: t.nav.exams, secondary: true },
+    { to: '/exams-3ac', label: t.nav.exams3ac },
+    { to: '/exams-bac', label: t.nav.examsBac },
+    { to: '/game', label: t.nav.game },
     { to: '/tools', label: t.nav.tools },
-    { to: '/progress', label: t.nav.progress },
+    { to: '/progress', label: t.nav.progress, secondary: true },
   ];
 }
 
@@ -64,7 +68,7 @@ export function Header() {
 
         <nav aria-label={t.nav.mainNav} className="hidden xl:block">
           <ul className="flex items-center gap-0.5">
-            {items.map((item) => (
+            {items.filter((item) => !item.secondary).map((item) => (
               <li key={item.to}>
                 <NavLink to={item.to} end={item.end} className={linkClass}>
                   {item.label}

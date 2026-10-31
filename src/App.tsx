@@ -12,6 +12,9 @@ const ExercisesPage = lazy(() => import('@/pages/ExercisesPage'));
 const QuizPage = lazy(() => import('@/pages/QuizPage'));
 const ExamsPage = lazy(() => import('@/pages/ExamsPage'));
 const ExamPage = lazy(() => import('@/pages/ExamPage'));
+const Exams3acPage = lazy(() => import('@/pages/ExamHubPage').then((m) => ({ default: m.Exams3acPage })));
+const ExamsBacPage = lazy(() => import('@/pages/ExamHubPage').then((m) => ({ default: m.ExamsBacPage })));
+const GamePage = lazy(() => import('@/pages/GamePage'));
 const ToolsPage = lazy(() => import('@/pages/ToolsPage'));
 const ToolPage = lazy(() => import('@/pages/ToolPage'));
 const SearchPage = lazy(() => import('@/pages/SearchPage'));
@@ -31,6 +34,9 @@ const router = createBrowserRouter([
       { path: '/exercises', element: <ExercisesPage /> },
       { path: '/exercises/quiz/:lessonId', element: <QuizPage /> },
       { path: '/exams', element: <ExamsPage /> },
+      { path: '/exams-3ac', element: <Exams3acPage /> },
+      { path: '/exams-bac', element: <ExamsBacPage /> },
+      { path: '/game', element: <GamePage /> },
       { path: '/exams/:examId', element: <ExamPage /> },
       { path: '/tools', element: <ToolsPage /> },
       { path: '/tools/:toolId', element: <ToolPage /> },

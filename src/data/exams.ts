@@ -3,6 +3,8 @@ import { devoirs3ac } from './devoirs/3ac';
 import { devoirsTc } from './devoirs/tc';
 import { devoirs1bac } from './devoirs/1bac';
 import { devoirs2bac } from './devoirs/2bac';
+import { exams3ac } from './officialExams/3ac';
+import { bacExams } from './officialExams/bac.generated';
 
 /**
  * Bibliothèque des devoirs et examens.
@@ -37,6 +39,10 @@ export const exams: Exam[] = [
   ...devoirsTc,
   ...devoirs1bac,
   ...devoirs2bac,
+
+  // Examens régionaux / locaux de 3AC et examens nationaux du bac
+  ...exams3ac,
+  ...bacExams,
 
   {
     id: 'practice-3ac-s2-systems',
